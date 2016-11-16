@@ -1,0 +1,471 @@
+body.colorSchemeCyan a {
+  color: #52cebe;
+}
+body.colorSchemeCyan a:hover {
+  color: #52beae;
+}
+body.colorSchemeCyan .top-bar-section li.active:not(.has-form) a:not(.button) {
+  color: #52cebe;
+}
+body.colorSchemeCyan .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  color: #52cebe;
+  background: #f2f2f2;
+}
+body.colorSchemeCyan .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+  color: #eeeeee;
+}
+body.colorSchemeCyan .top-bar-section .dropdown li:not(.has-form):hover a:not(.button) {
+  color: #eeeeee;
+  background: #444444;
+}
+body.colorSchemeCyan .cyan {
+  background: #52cebe;
+}
+body.colorSchemeCyan .form-bg {
+  background: #52cebe;
+}
+body.colorSchemeCyan .call-to-action-bg {
+  background: #333333;
+}
+body.colorSchemeCyan .call-to-action-bg-alt {
+  background: #52cebe;
+}
+body.colorSchemeCyan .members-bg {
+  background: #e5f2f3;
+}
+body.colorSchemeCyan .button {
+  color: white;
+  background: #52cebe;
+  border: 1px solid #52cebe;
+}
+body.colorSchemeCyan .button:hover {
+  color: white;
+  background-color: rgba(82, 206, 190, 0.8);
+}
+body.colorSchemeCyan .special-title i {
+  color: #52cebe;
+}
+body.colorSchemeCyan .special-title p.shortline {
+  border-bottom: 1px solid #52cebe;
+}
+body.colorSchemeCyan .icon-text i {
+  background: #52cebe;
+}
+body.colorSchemeCyan .icon-text-boxed i {
+  color: #52cebe;
+  border: 1px solid #52cebe;
+}
+body.colorSchemeCyan .icon-text-boxed:hover i {
+  background: #52cebe;
+  color: white;
+}
+body.colorSchemeCyan .icon-text-circle i {
+  background: #52cebe;
+}
+body.colorSchemeCyan .icon-text-circle:hover i {
+  background: none;
+  color: #52cebe;
+}
+body.colorSchemeCyan .bars p.highlighted {
+  background: #52cebe;
+}
+body.colorSchemeCyan .member.active p.active-line {
+  background: #52cebe;
+}
+body.colorSchemeCyan .socials i {
+  background: #52cebe;
+}
+body.colorSchemeCyan .socials i:hover {
+  background-color: rgba(82, 206, 190, 0.8);
+}
+body.colorSchemeCyan ul.gallery li a h3 {
+  color: #52cebe;
+}
+body.colorSchemeCyan ul#filter li.current {
+  border: 1px solid #52cebe;
+}
+body.colorSchemeCyan ul#filter li.current a {
+  color: #52cebe;
+}
+body.colorSchemeCyan ul.info i {
+  border: 1px solid #52cebe;
+}
+body.colorSchemeCyan ul.info i:hover {
+  background: #52cebe;
+}
+body.colorSchemeCyan .post .info p a:hover {
+  color: #52cebe;
+}
+body.colorSchemeCyan .post .other-info li a:hover {
+  color: #52cebe;
+}
+body.colorSchemeCyan .pages ul a {
+  color: #333333;
+}
+body.colorSchemeCyan .pages ul a:hover {
+  color: #52cebe;
+}
+body.colorSchemeCyan .timestamp {
+  border: 1px solid #52cebe;
+}
+body.colorSchemeCyan .timestamp .month {
+  background: #52cebe;
+  border-bottom: 1px solid #52cebe;
+}
+body.colorSchemeCyan .timestamp .date {
+  color: #52cebe;
+}
+
+body.colorSchemeBlue a {
+  color: #41affc;
+}
+body.colorSchemeBlue a:hover {
+  color: #419eeb;
+}
+body.colorSchemeBlue .top-bar-section li.active:not(.has-form) a:not(.button) {
+  color: #41affc;
+}
+body.colorSchemeBlue .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  color: #41affc;
+  background: #f2f2f2;
+}
+body.colorSchemeBlue .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+  color: #eeeeee;
+}
+body.colorSchemeBlue .top-bar-section .dropdown li:not(.has-form):hover a:not(.button) {
+  color: #eeeeee;
+  background: #444444;
+}
+body.colorSchemeBlue .blue {
+  background: #41affc;
+}
+body.colorSchemeBlue .form-bg {
+  background: #41affc;
+}
+body.colorSchemeBlue .call-to-action-bg {
+  background: #3d5766;
+}
+body.colorSchemeBlue .call-to-action-bg-alt {
+  background: #41affc;
+}
+body.colorSchemeBlue .members-bg {
+  background: #e5f2f3;
+}
+body.colorSchemeBlue .button {
+  color: white;
+  background: #41affc;
+  border: 1px solid #41affc;
+}
+body.colorSchemeBlue .button:hover {
+  color: white;
+  background-color: rgba(65, 175, 252, 0.8);
+}
+body.colorSchemeBlue .special-title i {
+  color: #41affc;
+}
+body.colorSchemeBlue .special-title p.shortline {
+  border-bottom: 1px solid #41affc;
+}
+body.colorSchemeBlue .icon-text i {
+  background: #41affc;
+}
+body.colorSchemeBlue .icon-text-boxed i {
+  color: #41affc;
+  border: 1px solid #41affc;
+}
+body.colorSchemeBlue .icon-text-boxed:hover i {
+  background: #41affc;
+  color: white;
+}
+body.colorSchemeBlue .icon-text-circle i {
+  background: #41affc;
+}
+body.colorSchemeBlue .icon-text-circle:hover i {
+  background: none;
+  color: #41affc;
+}
+body.colorSchemeBlue .bars p.highlighted {
+  background: #41affc;
+}
+body.colorSchemeBlue .member.active p.active-line {
+  background: #41affc;
+}
+body.colorSchemeBlue .socials i {
+  background: #01538F;
+}
+body.colorSchemeBlue .socials i:hover {
+  background-color: rgba(65, 175, 252, 0.8);
+}
+body.colorSchemeBlue ul.gallery li a h3 {
+  color: #41affc;
+}
+body.colorSchemeBlue ul#filter li.current {
+  border: 1px solid #41affc;
+}
+body.colorSchemeBlue ul#filter li.current a {
+  color: #41affc;
+}
+body.colorSchemeBlue ul.info i {
+  border: 1px solid #41affc;
+}
+body.colorSchemeBlue ul.info i:hover {
+  background: #41affc;
+}
+body.colorSchemeBlue .post .info p a:hover {
+  color: #41affc;
+}
+body.colorSchemeBlue .post .other-info li a:hover {
+  color: #41affc;
+}
+body.colorSchemeBlue .pages ul a {
+  color: #333333;
+}
+body.colorSchemeBlue .pages ul a:hover {
+  color: #41affc;
+}
+body.colorSchemeBlue .timestamp {
+  border: 1px solid #41affc;
+}
+body.colorSchemeBlue .timestamp .month {
+  background: #41affc;
+  border-bottom: 1px solid #41affc;
+}
+body.colorSchemeBlue .timestamp .date {
+  color: #41affc;
+}
+
+body.colorSchemeGreen a {
+  color: #6ced8c;
+}
+body.colorSchemeGreen a:hover {
+  color: #6cdc7b;
+}
+body.colorSchemeGreen .top-bar-section li.active:not(.has-form) a:not(.button) {
+  color: #6ced8c;
+}
+body.colorSchemeGreen .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  color: #6ced8c;
+  background: #f2f2f2;
+}
+body.colorSchemeGreen .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+  color: #eeeeee;
+}
+body.colorSchemeGreen .top-bar-section .dropdown li:not(.has-form):hover a:not(.button) {
+  color: #eeeeee;
+  background: #444444;
+}
+body.colorSchemeGreen .green {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .form-bg {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .call-to-action-bg {
+  background: #333333;
+}
+body.colorSchemeGreen .call-to-action-bg-alt {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .members-bg {
+  background: #e7f6ea;
+}
+body.colorSchemeGreen .button {
+  color: white;
+  background: #6ced8c;
+  border: 1px solid #6ced8c;
+}
+body.colorSchemeGreen .button:hover {
+  color: white;
+  background-color: rgba(108, 237, 140, 0.8);
+}
+body.colorSchemeGreen .special-title i {
+  color: #6ced8c;
+}
+body.colorSchemeGreen .special-title p.shortline {
+  border-bottom: 1px solid #6ced8c;
+}
+body.colorSchemeGreen .icon-text i {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .icon-text-boxed i {
+  color: #6ced8c;
+  border: 1px solid #6ced8c;
+}
+body.colorSchemeGreen .icon-text-boxed:hover i {
+  background: #6ced8c;
+  color: white;
+}
+body.colorSchemeGreen .icon-text-circle i {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .icon-text-circle:hover i {
+  background: none;
+  color: #6ced8c;
+}
+body.colorSchemeGreen .bars p.highlighted {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .member.active p.active-line {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .socials i {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .socials i:hover {
+  background-color: rgba(108, 237, 140, 0.8);
+}
+body.colorSchemeGreen ul.gallery li a h3 {
+  color: #6ced8c;
+}
+body.colorSchemeGreen ul#filter li.current {
+  border: 1px solid #6ced8c;
+}
+body.colorSchemeGreen ul#filter li.current a {
+  color: #6ced8c;
+}
+body.colorSchemeGreen ul.info i {
+  border: 1px solid #6ced8c;
+}
+body.colorSchemeGreen ul.info i:hover {
+  background: #6ced8c;
+}
+body.colorSchemeGreen .post .info p a:hover {
+  color: #6ced8c;
+}
+body.colorSchemeGreen .post .other-info li a:hover {
+  color: #6ced8c;
+}
+body.colorSchemeGreen .pages ul a {
+  color: #333333;
+}
+body.colorSchemeGreen .pages ul a:hover {
+  color: #6ced8c;
+}
+body.colorSchemeGreen .timestamp {
+  border: 1px solid #6ced8c;
+}
+body.colorSchemeGreen .timestamp .month {
+  background: #6ced8c;
+  border-bottom: 1px solid #6ced8c;
+}
+body.colorSchemeGreen .timestamp .date {
+  color: #6ced8c;
+}
+
+body.colorSchemeOrange a {
+  color: #01538F;
+}
+body.colorSchemeOrange a:hover {
+  color: #01538F;
+}
+body.colorSchemeOrange .top-bar-section li.active:not(.has-form) a:not(.button) {
+  color: #01538F;
+}
+body.colorSchemeOrange .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  color: #f7921e;
+  background: #f2f2f2;
+}
+body.colorSchemeOrange .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+  color: #eeeeee;
+}
+body.colorSchemeOrange .top-bar-section .dropdown li:not(.has-form):hover a:not(.button) {
+  color: #eeeeee;
+  background: #444444;
+}
+body.colorSchemeOrange .green {
+  background: #01538F;
+}
+body.colorSchemeOrange .form-bg {
+  background: #01538F;
+}
+body.colorSchemeOrange .call-to-action-bg {
+  background: #3d5766;
+}
+body.colorSchemeOrange .call-to-action-bg-alt {
+  background: #01538F;
+}
+body.colorSchemeOrange .members-bg {
+  background: #fef6df;
+}
+body.colorSchemeOrange .button {
+  color: white;
+  background: #01538F;
+  border: 1px solid #01538F;
+}
+body.colorSchemeOrange .button:hover {
+  color: white;
+  background-color: rgba(97,137,167,1.00);
+}
+body.colorSchemeOrange .special-title i {
+  color: #01538F;
+}
+body.colorSchemeOrange .special-title p.shortline {
+  border-bottom: 1px solid #01538F;
+}
+body.colorSchemeOrange .icon-text i {
+  background: #01538F;
+}
+body.colorSchemeOrange .icon-text-boxed i {
+  color: #01538F;
+  border: 1px solid #01538F;
+}
+body.colorSchemeOrange .icon-text-boxed:hover i {
+  background: #01538F;
+  color: white;
+}
+body.colorSchemeOrange .icon-text-circle i {
+  background: #01538F;
+}
+body.colorSchemeOrange .icon-text-circle:hover i {
+  background: none;
+  color: #01538F;
+}
+body.colorSchemeOrange .bars p.highlighted {
+  background: #01538F;
+}
+body.colorSchemeOrange .member.active p.active-line {
+  background: #01538F;
+}
+body.colorSchemeOrange .socials i {
+  background: #01538F;
+}
+body.colorSchemeOrange .socials i:hover {
+  background-color: rgba(97,137,167,1.00);
+}
+body.colorSchemeOrange ul.gallery li a h3 {
+  color: #01538F;
+}
+body.colorSchemeOrange ul#filter li.current {
+  border: 1px solid #01538F;
+}
+body.colorSchemeOrange ul#filter li.current a {
+  color: #01538F;
+}
+body.colorSchemeOrange ul.info i {
+  border: 1px solid #01538F;
+}
+body.colorSchemeOrange ul.info i:hover {
+  background: #01538F;
+}
+body.colorSchemeOrange .post .info p a:hover {
+  color: #01538F;
+}
+body.colorSchemeOrange .post .other-info li a:hover {
+  color: #01538F;
+}
+body.colorSchemeOrange .pages ul a {
+  color: #333333;
+}
+body.colorSchemeOrange .pages ul a:hover {
+  color: #01538F;
+}
+body.colorSchemeOrange .timestamp {
+  border: 1px solid #01538F;
+}
+body.colorSchemeOrange .timestamp .month {
+  background: #01538F;
+  border-bottom: 1px solid #01538F;
+}
+body.colorSchemeOrange .timestamp .date {
+  color: #01538F;
+}
