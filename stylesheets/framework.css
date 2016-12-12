@@ -1419,9 +1419,9 @@ select {
   color: #4f4f4f;
 }
 .alert-box.warning {
-  background-color: #f08a24;
-  border-color: #de770f;
-  color: white;
+	background-color: #f08a24;
+	border-color: #2E3CCC;
+	color: white;
 }
 .alert-box.info {
   background-color: #a0d3e8;
@@ -1875,7 +1875,7 @@ select {
   text-decoration: underline;
 }
 .breadcrumbs > * a {
-  color: #fcbf31;
+	color: #01538F;
 }
 .breadcrumbs > *.current {
   cursor: default;
@@ -1937,7 +1937,7 @@ button, .button {
 	transition: background-color 300ms ease-out;
 }
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: #eda703;
+	background-color: #6189A7;
 }
 button:hover, button:focus, .button:hover, .button:focus {
   color: #333333;
@@ -2016,21 +2016,22 @@ button.round, .button.round {
   border-radius: 1000px;
 }
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #fcbf31;
-  border-color: #eda703;
+	background-color: #6189A7;
+	border-color: #01538F;
+	color: #333333;
+	cursor: default;
+	opacity: 0.7;
+	box-shadow: none 0px #6189A7;
+	-webkit-box-shadow: none 0px #6189A7;
+}
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+	background-color: #6189A7;
+}
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
   color: #333333;
-  cursor: default;
-  opacity: 0.7;
-  box-shadow: none;
 }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #eda703;
-}
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  color: #333333;
-}
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #fcbf31;
+	background-color: #6189A7;
 }
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #e7e7e7;
@@ -3902,7 +3903,7 @@ ul.pagination li {
   line-height: 1.4;
 }
 .panel.callout a:not(.button) {
-  color: #fcbf31;
+	color: #6189A7;
 }
 .panel.radius {
   border-radius: 3px;
@@ -4232,16 +4233,16 @@ dialog[open] {
   font-size: 0.875rem;
 }
 .side-nav li a:not(.button) {
-  display: block;
-  color: #fcbf31;
+	display: block;
+	color: #6189A7;
 }
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
-  color: #fdd26f;
+	color: #01538F;
 }
 .side-nav li.active > a:first-child:not(.button) {
-  color: #fdd26f;
-  font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	color: #01538F;
+	font-weight: normal;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .side-nav li.divider {
   border-top: 1px solid;
@@ -4721,7 +4722,8 @@ table tfoot tr td {
   transition: all 200ms ease-out;
 }
 .th:hover, .th:focus {
-  box-shadow: 0 0 6px 1px rgba(252, 191, 49, 0.5);
+	box-shadow: 0 0 6px 1px rgba(97,137,167,1.00);
+	-webkit-box-shadow: 0 0 6px 1px rgba(97,137,167,1.00);
 }
 .th.radius {
   border-radius: 3px;
@@ -4735,8 +4737,8 @@ table tfoot tr td {
   color: #333333;
 }
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #865e02;
-  color: #fcbf31;
+	border-bottom: dotted 1px #865e02;
+	color: #01538F;
 }
 .has-tip.tip-left, .has-tip.tip-right {
   float: none !important;
@@ -4780,8 +4782,8 @@ table tfoot tr td {
   left: 2rem;
 }
 .tooltip.opened {
-  color: #fcbf31 !important;
-  border-bottom: dotted 1px #865e02 !important;
+	color: #6189A7 !important;
+	border-bottom: dotted 1px #865e02 !important;
 }
 
 .tap-to-close {
@@ -5004,7 +5006,7 @@ meta.foundation-mq-topbar {
   color: #333333;
 }
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-  background-color: #eda703;
+	background-color: #01538F;
 }
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
   color: #333333;
@@ -5051,7 +5053,7 @@ meta.foundation-mq-topbar {
   color: #333333;
 }
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-  background-color: #eda703;
+	background-color: #6189A7;
 }
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
   color: #333333;
@@ -5094,8 +5096,8 @@ meta.foundation-mq-topbar {
   color: #666666;
 }
 .top-bar-section ul li.active > a {
-  background: white;
-  color: #fcbf31;
+	background: white;
+	color: #6189A7;
 }
 .top-bar-section ul li.active > a:hover {
   background: #f2f2f2;
@@ -5251,16 +5253,16 @@ meta.foundation-mq-topbar {
     background: white;
   }
   .top-bar-section li:not(.has-form) a:not(.button):hover {
-	color: #01538F;
+	color: #006699;
 	background-color: #EFEFEF;
 	font-style: normal;
 	font-weight: bolder;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    padding: 0 20px;
-    line-height: 100px;
-    color: #fcbf31;
-    background: white;
+	padding: 0 20px;
+	line-height: 100px;
+	color: #6189A7;
+	background: white;
   }
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
 	background: #f2f2f2;
@@ -5370,8 +5372,8 @@ meta.foundation-mq-topbar {
     color: #666666;
   }
   .no-js .top-bar-section ul li:active > a {
-    background: white;
-    color: #fcbf31;
+	background: white;
+	color: #6189A7;
   }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -5595,12 +5597,12 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #fcbf31;
-  text-decoration: none;
-  line-height: inherit;
+	color: #006699;
+	text-decoration: none;
+	line-height: inherit;
 }
 a:hover, a:focus {
-  color: #fbb207;
+	color: #42A9F5;
 }
 a img {
   border: none;
@@ -5687,7 +5689,7 @@ em,
 i {
 	font-style: italic;
 	line-height: inherit;
-	color: #01538F;
+	color: #006699;
 }
 
 strong,

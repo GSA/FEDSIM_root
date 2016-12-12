@@ -653,15 +653,15 @@ h8 {
 }
 
 .form-bg {
-  background: #112e51;
+	background: #aeb0b5;
 }
 
 .call-to-action-bg {
-  background: #323a45;
+	background: EBEDEF;
 }
 
 .call-to-action-bg-alt {
-  background: #5b616b;
+	background: #006699;
 }
 
 .members-bg {
@@ -716,7 +716,7 @@ body .icon-text .orange, body[class^=colorScheme] .icon-text .orange {
   background: #FBCB03;
 }
 body .icon-text .blue, body[class^=colorScheme] .icon-text .blue {
-  background: #01538F;
+	background: #006699;
 }
 body .icon-text .green, body[class^=colorScheme] .icon-text .green {
   background: #6ced8c;
@@ -813,8 +813,8 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 }
 
 .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
-  background: #112e51;
-  color: #f1f1f1
+	background: #006699;
+	color: #f1f1f1
 }
 
 /*special title */
@@ -867,23 +867,23 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 }
 
 .icon-text-boxed i {
-  font-size: 88px;
-  color: #112e51;
-  border: 1px solid #112e51;
-  padding: 35px 0;
-  display: block;
-  width: 88%;
-  margin: 0 auto 35px;
-  -webkit-transition: color 0.2s linear;
-  -moz-transition: color 0.2s linear;
-  -o-transition: color 0.2s linear;
-  transition: color 0.2s linear;
+	font-size: 88px;
+	color: #006699;
+	border: 1px solid #112e51;
+	padding: 35px 0;
+	display: block;
+	width: 88%;
+	margin: 0 auto 35px;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
+	transition: color 0.2s linear;
 }
 
 .icon-text-boxed:hover i {
 	color: white;
-	background-color: #112e51;
-	border-color: #112e51;
+	background-color: rgba(0,102,153,1.00);
+	border-color: rgba(0,102,153,1.00);
 }
 
 .icon-text-circle {
@@ -955,9 +955,9 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   letter-spacing: 1px;
 }
 .bars p.highlighted {
-  width: 0;
-  background: #9bdaf1;
-  height: 14px;
+	width: 0;
+	background: #ffffff;
+	height: 14px;
 }
 
 /*member */
@@ -999,24 +999,24 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   display: inline-block;
 }
 .socials i {
-  display: inline-block;
-  height: 36px;
-  width: 36px;
-  -webkit-border-radius: 18px;
-  -moz-border-radius: 18px;
-  -ms-border-radius: 18px;
-  -o-border-radius: 18px;
-  border-radius: 18px;
-  line-height: 2.25rem;
-  text-align: center;
-  float: left;
-  margin-right: 5px;
-  color: white;
-  background: #112e51;
+	display: inline-block;
+	height: 36px;
+	width: 36px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	-o-border-radius: 18px;
+	border-radius: 18px;
+	line-height: 2.25rem;
+	text-align: center;
+	float: left;
+	margin-right: 5px;
+	color: white;
+	background: #006699;
 }
 .socials i:hover {
 	background-color: #D6D7D9;
-	color: #112e51;
+	color: #006699;
 	-webkit-transition: all;
 	-o-transition: all;
 	transition: all;

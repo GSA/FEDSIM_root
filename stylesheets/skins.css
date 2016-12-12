@@ -417,8 +417,8 @@ body.colorSchemeOrange .icon-text-circle i {
   background: #01538F;
 }
 body.colorSchemeOrange .icon-text-circle:hover i {
-  background: none;
-  color: #01538F;
+	background: none;
+	color: rgba(0,102,153,1.00);
 }
 body.colorSchemeOrange .bars p.highlighted {
   background: #01538F;
