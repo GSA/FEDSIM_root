@@ -653,7 +653,7 @@ h8 {
 }
 
 .form-bg {
-	background: #aeb0b5;
+	background: #666666;
 }
 
 .call-to-action-bg {
@@ -779,9 +779,12 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 }
 
 .bg-2 {
-  background: url(../images/@stock/bg-2.jpg) center center no-repeat;
-  background-size: cover;
+	background-size: cover;
+	background-color: #666666;
 }
+.no-js body .testimonials.full.bg-2.light.centered-text {
+}
+
 
 .bg-3 {
   background: url(../images/@stock/who-we-are-bg.jpg) center center no-repeat;
