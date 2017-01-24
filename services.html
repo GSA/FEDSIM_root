@@ -219,6 +219,63 @@ We support you, as our customer, in the following arenas: </p>
 </div>
       </div>
     </div>
+        <div class='full white centered-text'>
+      <div class='row'>
+        <div class='special-title centered-text'>
+          <h2>Look No Further</h2>
+          <p>FEDSIM services the entire federal government: <br>
+A full service government-wide assisted acquisition program.</p>
+        </div>
+    <script>
+      jQuery(document).ready(function() {
+        var options = {
+          nextButton: true,
+          prevButton: true,
+          // autoPlay: true,
+          autoPlayDelay: 5000,
+          pauseButton: true,
+          // preloader: true,
+          animateStartingFrameIn: true,
+          pagination: true,
+          reverseAnimationsWhenNavigatingBackwards: true,
+          preventDelayWhenReversingAnimations: true,
+          fadeFrameWhenSkipped: false,
+          swipeEvents: {
+            left: "next",
+            right: "prev"
+          }
+        }
+        var sequence = jQuery("#sequence").sequence(options).data("sequence");
+        sequence.beforeCurrentFrameAnimatesOut = function() {
+          setTimeout(function() {
+            jQuery(".frame.static").removeClass('static');
+          }, 1000);
+        }
+      
+      });
+    </script>
+<ul class='gallery small-block-grid-2 large-block-grid-2'>
+  <li>
+        <a href="civilian.html">
+          <img alt='' src='images/@stock/civ-1.jpg'>
+          <div class='overlay'>
+            <div class='thumb-info'> </div>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="defense.html">
+          <img alt='' src='images/@stock/def-1.jpg'>
+          <div class='overlay'>
+            <div class='thumb-info'> </div>
+          </div>
+        </a>
+      </li>
+      <li>
+          </div>
+        </a>
+      </li>
+    </ul>
         <script>
       jQuery(document).ready(function() {
         var options = {
