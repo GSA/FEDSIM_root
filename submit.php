@@ -1,6 +1,6 @@
-<?php $name = $_GET['name'];
-$email = $_GET['email'];
-$message = $_GET['message'];
+<?php $name = $_REQUEST['name'];
+$email = $_REQUEST['email'];
+$message = $_REQUEST['message'];
 $formcontent="From: $name \n Message: $message";
 $recipient = "caitjenstewart@gmail.com";
 $subject= "Contact Form";
