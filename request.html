@@ -142,23 +142,20 @@
     <div class='full form-bg'>
       <div class='form'>
         <div class='row'>
-          <form id='contact' method='POST'>
+          <form class="Form" method="post" action="mailto:fedsim@gsa.gov" enctype="text/plain">
             <div class='large-12 columns'>
-              <p id='thanks' style='display: none;'>
-                Thanks for contacting us, we'll be in touch soon!
-              </p>
             </div>
-            <div class='medium-6 large-6 columns'>
-              <input class='required' name='name' placeholder='NAME' type='text'>
-              <input class='required email' name='email' placeholder='EMAIL' type='text'>
-              <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-              <input class='required' name='subject' placeholder='DEPT/AGENCY' type='text'>
+            <div align="left" class='medium-6 large-6 columns'>
+<input id="name" type="text" name="First Name" placeholder="First Name" required>
+<input id="name" type="text" name="Last Name" placeholder="Last Name" required>
+<input id="email" type="text" name="Email" placeholder="Email" required>
+			  </div>
+			<div align="left" class='medium-6 large-6 columns'>
+<input id="phone" type="text" name="Phone" placeholder="Phone (Optional)">
+<textarea id="message" type="text" name="Message" placeholder="Message"required></textarea>                     
+				<br>
+ <input id="submit" class='button white' type='submit' value='SEND'>
             </div>
-            <div class='medium-6 large-6 columns'>
-                          <input class='required' name='subject' placeholder='PHONE' type='text'>
-              <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-              <a href='caitjenstewart@gmail.com'>
-              <input class='button white' type='submit'>
               </a>
             </div>
           </form>
