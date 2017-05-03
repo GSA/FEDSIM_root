@@ -661,7 +661,7 @@ h8 {
 }
 
 .call-to-action-bg-alt {
-	background: #006699;
+	background: #f1f1f1;
 }
 
 .members-bg {
@@ -1746,3 +1746,15 @@ ul.info i:hover {
     font-size: 1.5rem;
   }
 }
+.mainTitle{
+	color:#00649e;
+}
+
+/* 508 Compliance Code DO NOT REMOVE */
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
