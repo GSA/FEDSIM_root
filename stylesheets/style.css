@@ -1746,6 +1746,9 @@ ul.info i:hover {
     font-size: 1.5rem;
   }
 }
+body{
+	background-color: #ffffff;
+}
 .mainTitle{
 	color:#00649e;
 }
