@@ -697,17 +697,23 @@ h8 {
 }
 
 .button {
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
-  background: #112e51;
-  border: 1px solid #112e51;
+  background: #004d8b;
+  border: 1px solid #004d8b;
+	color:#ffffff;
+	font-weight:bold;
 }
-
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #004d8b;
+}
+/*
 .button:hover {
 	background-color: rgba(1,83,143,1);
 }
+*/
 
 body .icon-text .yellow, body[class^=colorScheme] .icon-text .yellow {
   background: #F7F603;
@@ -1752,7 +1758,21 @@ body{
 .mainTitle{
 	color:#00649e;
 }
-
+.joinImage{
+	background-image: url(../images/@stock/joinusarrow.png);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+}
+.joinImage em{
+	color: #ffffff;
+}
+.joinColor{
+	background-color:#61003a;
+	padding-top:20px;
+	color: #ffffff;
+	font:italic; 
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
