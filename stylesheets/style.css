@@ -1758,8 +1758,17 @@ body{
 button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF;
 }
+.members{
+	margin-bottom:20px;
+}
 .mainTitle{
 	color:#00649e;
+}
+.highlights{
+	color:#464646;
+}
+.highlightsDes{
+	color:#838384 !important;
 }
 .join{
 	background-color:#58173b;
@@ -1779,6 +1788,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: right;
 	background-repeat:no-repeat;
 }
+.serviceImage{
+/*	background-image: url(../images/@stock/servicesarrow.png);*/
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+}
 .joinImage em{
 	color: #ffffff;
 }
@@ -1786,7 +1802,22 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-color:#58173b;
 	padding-top:20px;
 	color: #ffffff;
-	font:italic; 
+	font-style:italic; 
+}
+.servicesColor{
+	background-color:#58173b;
+	padding-top:20px;
+	color: #ffffff;
+	font-style:italic; 
+}
+.servicesColor p{
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 19%;
+    margin-left: 60px;
+}
+.servicesCivDef{
+/*	margin-top:20px;*/
 }
 .joinColor p{
 	font-size: 20px;
@@ -1801,10 +1832,29 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic;
     color: #838384;
 	font-size: 18px;
-	
 }
 .button{
 	font-size:20px;
+}
+.sectionTop{
+	background-color:#2490d4;
+	color:#ffffff;
+	font-weight: bold;
+	padding:15px;
+	margin-top:25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.sectionBottom{
+	background-color:#e7e8e8;
+	padding:15px;
+	min-height:142px;
+}
+.servicesButton{
+	padding-left: 1.1rem;
+    padding-right: 1.1rem;
+	margin-top:40px;
+	margin-bottom:50px;
 }
 
 /* 508 Compliance Code DO NOT REMOVE */
