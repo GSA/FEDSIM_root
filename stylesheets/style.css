@@ -1105,7 +1105,7 @@ form input.error, form textarea.error {
 }
 .footer p.copyright {
   padding: 40px 0 0;
-  color: ##323a45;
+  color: #323a45;
   font-size: 14px;
 }
 
@@ -1755,24 +1755,58 @@ ul.info i:hover {
 body{
 	background-color: #ffffff;
 }
+button:hover, button:focus, .button:hover, .button:focus {
+    color: #FFFFFF;
+}
 .mainTitle{
 	color:#00649e;
+}
+.join{
+	background-color:#58173b;
+	max-width: none;
+}
+.join h4{
+    color: #ffffff;
+    font-style: italic;
+	padding-right: 15%;
+	margin-top: 60px;
+	font-size: 24px;
 }
 .joinImage{
 	background-image: url(../images/@stock/joinusarrow.png);
 	min-height:435px;
 	color:#ffffff;
 	text-align: right;
+	background-repeat:no-repeat;
 }
 .joinImage em{
 	color: #ffffff;
 }
 .joinColor{
-	background-color:#61003a;
+	background-color:#58173b;
 	padding-top:20px;
 	color: #ffffff;
 	font:italic; 
 }
+.joinColor p{
+	font-size: 20px;
+	font-style: italic;
+	padding-top:16%;
+}
+.joinBlurb{
+	margin-left: 82px;
+}
+.joinBlurb h4 {
+    text-transform: none;
+    font-style: italic;
+    color: #838384;
+	font-size: 18px;
+	
+}
+.button{
+	font-size:20px;
+}
+
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
