@@ -1818,6 +1818,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .servicesCivDef{
 /*	margin-top:20px;*/
+	margin-top: -3px;
 }
 .joinColor p{
 	font-size: 20px;
@@ -1856,7 +1857,29 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-top:40px;
 	margin-bottom:50px;
 }
-
+.civSection{
+	background-image:url(../images/@stock/servicesCiv.png);
+	min-height: 366px;    
+	background-size: cover;
+}
+.defSection{
+	background-image:url(../images/@stock/servicesDef.png);
+	min-height: 366px;
+	background-size: cover;
+}
+.highlightsTitle{
+	font-size:42px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 18%;
+}
+.highlightsBox{
+	color:#ffffff;
+	background-image: url(../images/@stock/projectTransparent.png);
+	border: 4px solid #ffffff;
+	padding:10px;
+    text-align: center;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
