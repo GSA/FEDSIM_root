@@ -3,7 +3,7 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class='no-js'>
+<html lang="en" class='no-js'>
   <!--<![endif]-->
   <head>
     <meta charset='utf-8'>
@@ -13,13 +13,16 @@
     <!--
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
-    <title>FAQs</title>
+    <title>Frequently Asked Questions</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="javascripts/libs.js" type="text/javascript"></script>
     <script src="javascripts/app.js" type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
       // terrificjs bootstrap
       (function($) {
@@ -36,19 +39,20 @@
           });
       })(Tc.$);
     </script>
+    
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif:400,400italic%7CPT+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
   <script>var __adobewebfontsappname__="dreamweaver"</script>
   <script src="http://use.edgefonts.net/droid-sans:n4:default.js" type="text/javascript"></script>
   </head>
-<body class="">
+<body role="document">
 <header><img alt=''src='images/@stock/flag.png'>  An official website of the United States Government | <a href="mailto:fedsim@gsa.gov">Contact GSA FEDSIM</a> </header>
     <div class="contain-to-grid sticky">
       <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
         <ul class='title-area'>
           <li class='name'>
-            <h1>
-              <a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="" width="250"></a>
+            <h1><span class="hidden">GSA FEDSIM</span>
+              <a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="GSA FEDSIM Logo" width="250"></a>
             </h1>
           </li>
           <li class='toggle-topbar menu-icon'>
@@ -128,91 +132,107 @@
     </div>
 <div class='members'>
   <div class='full call-to-action-bg-alt no-padding'>
-<div class='special-title centered-text'>
-    <h9> </h9>
-</div>        
-  </div>
-<div class='members'>
-  <div class='full call-to-action-bg-alt no-padding'>
     <div class='two spacing'></div>
         <div class='special-title centered-text'>
           <h9>
-            <h2><span style="color: #FFFFFF">Frequently Asked Questions</span></h2>
+            <h2 class="mainTitle">Frequently Asked Questions</h2>
           </h9>
               <div class='two spacing'></div>
     </div>        
   </div>
-  <div class='large-6 columns'> </div>
+  <div class="container">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">WHAT ARE THE TYPICAL PROJECTS FEDSIM SUPPORTS?</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">FEDSIM focuses on complex acquisitions, requiring highly-trained acquisition and program management staff with a deep understanding of conducting IT and Professional Services FAR based evaluations.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">WILL YOU PROVIDE/ASSIGN A CONTRACTING OFFICER’S REPRESENTATIVE (COR) IF ONE IS NOT AVAILABLE BY THE REQUESTING AGENCY?</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">Yes. FEDSIM will provide/assign a COR as part of our service.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">WILL YOU WRITE THE SOW/SOO/PWS FOR THE REQUESTING AGENCY?</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">FEDSIM’s Acquisition Project Manager and Project Manager will work with the requesting agency to write the SOW/SOO/PWS as part of our service.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">IS THE REQUESTING AGENCY RESPONSIBLE FOR PROVIDING TECHNICAL EVALUATION TEAM?</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">Yes. The requesting agency is responsible for designating the Technical Evaluation Team.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">IS THERE A FEE ASSOCIATED WITH THE ASSISTED ACQUISITION SERVICES?</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">Yes. The assisted acquisition fee is based on each individual acquisition.</div>
+      </div>
+    </div>
+  </div> 
+</div>
+	
   <div class='large-12 columns'><br>
   <br>
-<div class='medium-8 large-8 columns'>
-            <h3>WHAT ARE THE TYPICAL PROJECTS FEDSIM SUPPORTS?</h3>
-  <p>FEDSIM focuses on complex acquisitions, requiring highly-trained acquisition and program management staff with a deep understanding of conducting IT and Professional Services FAR based evaluations.</p></div>
-  <div class='medium-8 large-8 columns'>
-  <h3>WILL YOU PROVIDE/ASSIGN A CONTRACTING OFFICER’S REPRESENTATIVE (COR) IF ONE IS NOT AVAILABLE BY THE REQUESTING AGENCY?</h3>
-      <p>Yes. FEDSIM will provide/assign a COR as part of our service.</p></div>
-<div class='medium-8 large-8 columns'>
-<h3>WILL YOU WRITE THE SOW/SOO/PWS FOR THE REQUESTING AGENCY?</h3>
-      <p>FEDSIM’s Acquisition Project Manager and Project Manager will work with the requesting agency to write the SOW/SOO/PWS as part of our service.</p></div>
-      <div class='medium-8 large-8 columns'>
-      <h3>IS THE REQUESTING AGENCY RESPONSIBLE FOR PROVIDING TECHNICAL EVALUATION TEAM?</h3>
-      <p>Yes. The requesting agency is responsible for designating the Technical Evaluation Team.</p></div>
-           <div class='medium-8 large-8 columns'>
-            <h3>IS THERE A FEE ASSOCIATED WITH THE ASSISTED ACQUISITION SERVICES?</h3>
-      <p>Yes. The assisted acquisition fee is based on each individual acquisition.</p></div>
-      <div class='row'> </div>
-  <div class='row'>
-    <div class='large-6 columns'> </div>
-    <div class='large-12 columns'>
-<div class='spacing'></div>
-    <div class='special-title centered-text'>
-          
-      <div class='special-title centered-text'>          
-  </ul>
-  <div class='spacing'></div>
-<ul class='gallery large-block-grid-3'>
-  <li>
-        <span class="large-block-grid-3"><a>
-           <a href="defproj1.html">
-          
-           <div class='thumb-info'> </div>
-        </a>
-  </span></li>
-      <li>
-        <span class="large-block-grid-3"><a>
-          <a href="defproj2.html">
-          
-          <div class='thumb-info'> </div>
-        </a>
-      </span></li>
-      <li>
-        <span class="large-block-grid-3"><a>
-           <a href="defproj3.html">
-          
-           <div class='thumb-info'> </div>
-        </a>
-      </span></li>
-  </ul>
-<div class='row'>
-  <div class='large-6 columns'> </div>
-</div>
+     
+	  <div class='row'> </div>
+ 
+
+
 <div class='xlarge-text-left'> </div>
 <script src='javascripts/jquery.countTo.js'></script>
     <script src='javascripts/jquery.appear.js'></script>
     <script src='javascripts/jquery.sequence-min.js'></script>
     <script src='javascripts/jquery.validate.js'></script>
     <script src="javascripts/app.js" type="text/javascript"></script>
-    <div class='footer left-text'>
+<div class='footer left-text'>
 <div class='row'>
         <div class='columns pagination-centered'>
-<h1 class='light pagination-centered'>
-              <a href="index.html"><img src="images/Logo_Fedsim.png" alt="" width="150"></a>
+         <p class="centered-text">For more information regarding Defense Procurement and Acquisition Policy, please go to <a href="http://www.acq.osd.mil/dpap/">http://www.acq.osd.mil/dpap/</a>.</p>
+ <br>
+<h1 class='light pagination-centered'><span class="hidden">GSA FEDSIM</span>
+              <a href="index.html"><img src="images/Logo_Fedsim.png" alt="GSA FEDSIM Logo" width="150"></a>
                <div class='one spacing'></div>
              <h6 class="pagination-centered">Copyright 2017 FEDSIM.</h6>
 <a href="mailto:fedsim@gsa.gov">Contact GSA FEDSIM</a>
         </h1> 
       </div>
+    </div>
   </div>
-</div>
+
+<!--Google Analytics Tracking Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87539202-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </body>
 </html>
