@@ -1905,6 +1905,41 @@ button:hover, button:focus, .button:hover, .button:focus {
 .civProj1 h3, .civProj2 h3{
 	color:#ffffff;
 }
+.contractDes{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.contractDesSub{
+	font-style: italic;
+	font-weight: bold;
+	font-family: "droid serif", georgia;
+    font-size: 1.125rem;
+    color: #5b616b;
+    letter-spacing: 1px;
+	line-height: 20px;
+	text-align: center
+}
+.contractDesSub p{
+	font-size: 14px;
+	margin-top:10px;
+}
+.contractLink{
+	padding:15px;
+	background-color:#2490d4;
+	margin-bottom: 20px;
+}
+a.contractLink{
+	color: #ffffff;
+	font-weight: bold;
+}
+.contractLink:hover{
+	padding:15px;
+	background-color:#f1f1f1;
+}
+a.contractLink:hover{
+	color: #2490d4;
+	font-weight: bold;
+}
 
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
