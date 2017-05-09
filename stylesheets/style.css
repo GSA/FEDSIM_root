@@ -1905,6 +1905,33 @@ button:hover, button:focus, .button:hover, .button:focus {
 .civProj1 h3, .civProj2 h3{
 	color:#ffffff;
 }
+
+/* ACCORDION CODE DO NOT REMOVE */
+.panel {
+    border-width: 0px;
+    margin-bottom: 1.25rem;
+    padding: .5rem 1.25rem 0 1.25rem;
+    background: #ffffff; 
+}
+.panel-group{
+	margin-top:40px;
+}
+.panel-body{
+	margin-left: 40px;
+    background-color: #f1f1f1;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+}
+.panel-default>.panel-heading {
+    background-color: #2490d4;
+    border: 0px solid;
+}
+.panel-title>a {
+    color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
