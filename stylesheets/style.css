@@ -1810,15 +1810,25 @@ button:hover, button:focus, .button:hover, .button:focus {
 	color: #ffffff;
 	font-style:italic; 
 }
-.servicesColor p{
+.servicesColor p, .servicesCivColor p{
     font-size: 20px;
     font-style: italic;
     padding-top: 19%;
     margin-left: 60px;
 }
+.servicesCivColor{
+	background-color: #424143;
+	padding-top:20px;
+	color: #ffffff;
+	font-style:italic; 
+}
 .servicesCivDef{
 /*	margin-top:20px;*/
 	margin-top: -3px;
+}
+.civ{
+	background-color:#424143;
+	max-width: none;
 }
 .joinColor p{
 	font-size: 20px;
@@ -1879,6 +1889,21 @@ button:hover, button:focus, .button:hover, .button:focus {
 	border: 4px solid #ffffff;
 	padding:10px;
     text-align: center;
+}
+.civBox{
+	color:#ffffff;
+	
+	border: 4px solid #ffffff;
+	padding:10px;
+    text-align: center;
+}
+.civProj1, .civProj2{
+	background-color: #2490d4;
+	color: #ffffff;
+	padding: 25px;
+}
+.civProj1 h3, .civProj2 h3{
+	color:#ffffff;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
