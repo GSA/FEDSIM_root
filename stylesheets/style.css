@@ -653,7 +653,7 @@ h8 {
 }
 
 .form-bg {
-	background: #666666;
+	background: #2490d4;
 }
 
 .call-to-action-bg {
@@ -1909,12 +1909,12 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-top:30px;
 	margin-bottom:30px;
 }
-.contractDesSub{
+.contractDesSub, .paragraph{
 	font-style: italic;
 	font-weight: bold;
 	font-family: "droid serif", georgia;
     font-size: 1.125rem;
-    color: #5b616b;
+    color: #838384;
     letter-spacing: 1px;
 	line-height: 20px;
 	text-align: center
@@ -1940,7 +1940,14 @@ a.contractLink:hover{
 	color: #2490d4;
 	font-weight: bold;
 }
-
+input#name, input#email, input#phone, textarea#message {
+    background-color: #ffffff;
+	color: #004d8c;
+}
+input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder {
+    color: #004d8c;
+}
+.briefForm{padding-left:20px;}
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
