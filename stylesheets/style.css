@@ -1908,10 +1908,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
-    border-width: 0px;
+	border: 0px solid;
     margin-bottom: 1.25rem;
     padding: .5rem 1.25rem 0 1.25rem;
     background: #ffffff; 
+}
+.panel-default{
+	border: 0px solid;
 }
 .panel-group{
 	margin-top:40px;
@@ -1926,6 +1929,14 @@ button:hover, button:focus, .button:hover, .button:focus {
 .panel-default>.panel-heading {
     background-color: #2490d4;
     border: 0px solid;
+}
+.panel-titlearrow{
+	background-image:url(../images/@stock/faqarrow.png);
+	background-repeat: no-repeat;
+	min-height: 30px;
+	margin-left:20px;
+	float:left;
+    min-width: 42px;
 }
 .panel-title>a {
     color: #FFFFFF;
