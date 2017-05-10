@@ -640,7 +640,7 @@ h8 {
 }
 
 .full {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
   background-size: cover;
 }
 
@@ -666,6 +666,15 @@ h8 {
 
 .members-bg {
 	background: #cccccc;
+}
+
+.home-bg {
+	background: #58173b;
+	color:#ffffff;
+}
+
+.home-bg .special-title p, .home-bg h2, .home-bg h4{
+	color:#ffffff;
 }
 
 .light-grey {
@@ -786,7 +795,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 
 .bg-2 {
 	background-size: cover;
-	background-color: #666666;
+	background-color: #2490d4;
 }
 .no-js body .testimonials.full.bg-2.light.centered-text {
 }
@@ -1766,6 +1775,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 .mainTitle{
 	color:#00649e;
 }
+.mainTitleNorm{
+	color:#00649e;
+	font-weight: normal;
+}
 .highlights{
 	color:#464646;
 }
@@ -1963,6 +1976,11 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
+}
+.fiacButton .button{
+	min-height:102px;
+    margin-right: 10px;
+    max-width: 24%;
 }
 
 /* ACCORDION CODE DO NOT REMOVE */
