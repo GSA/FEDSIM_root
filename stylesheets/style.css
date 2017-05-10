@@ -1162,10 +1162,11 @@ form input.error, form textarea.error {
   margin-right: 15px;
   width: 16px;
   height: 16px;
-  background: none;
+  background: #ffffff;
 }
 .testimonials .orbit-container .orbit-bullets li.active {
-  background: white;
+  background: #205285;
+	border: 1px solid #205285;
 }
 
 /* gallery */
@@ -1981,6 +1982,14 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	min-height:102px;
     margin-right: 10px;
     max-width: 24%;
+}
+.homeNum{
+	background-color: #f1f1f1;
+	max-width: 22%;
+	margin-right: 33px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color:#0a5286;
 }
 
 /* ACCORDION CODE DO NOT REMOVE */
