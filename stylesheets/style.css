@@ -1758,9 +1758,11 @@ body{
 button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF;
 }
+/*
 .members{
 	margin-bottom:20px;
 }
+*/
 .mainTitle{
 	color:#00649e;
 }
@@ -1798,7 +1800,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .joinImage em{
 	color: #ffffff;
 }
-.joinColor{
+.joinColor, .generalColor{
 	background-color:#58173b;
 	padding-top:20px;
 	color: #ffffff;
@@ -1831,6 +1833,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 	max-width: none;
 }
 .joinColor p{
+	font-size: 20px;
+	font-style: italic;
+	padding-top:16%;
+}
+.generalColor p{
 	font-size: 20px;
 	font-style: italic;
 	padding-top:16%;
@@ -1948,6 +1955,16 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     color: #004d8c;
 }
 .briefForm{padding-left:20px;}
+
+
+.generalImage{
+	background-image: url(../images/@stock/generalarrow.png);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+}
+
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
