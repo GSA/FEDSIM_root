@@ -2037,6 +2037,10 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .mngsrv h3{
 	margin-left:80px;
 }
+.ipmt h3{
+	color: #ffffff;
+}
+
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
