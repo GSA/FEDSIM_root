@@ -2040,6 +2040,13 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .ipmt h3{
 	color: #ffffff;
 }
+.ipmt li{
+	list-style: none;
+	padding-bottom:10px;
+}
+.ipmt li img{
+	padding-right:10px;
+}
 
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
