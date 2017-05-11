@@ -1841,6 +1841,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .servicesCivDef{
 /*	margin-top:20px;*/
 	margin-top: -3px;
+    margin-bottom: 40px;
 }
 .civ{
 	background-color:#424143;
@@ -1991,7 +1992,51 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	margin-bottom: 40px;
 	color:#0a5286;
 }
+.homeSlider h3{
+	Font-size:56px;
+	color:#ffffff;
+}
+.homeSlider h4{
+	font-size:36px;
+	color:#ffffff;
+	font-style: normal;
+	font-weight: normal;
+}
+.homeSlider .button.boxed{    
+	border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: #2490d4;
+    color: #ffffff;
+}
 
+.homeSlider .button.boxed:hover{    
+	border: 1px solid rgba(255, 255, 255, 0.8);
+    background-color: #ffffff;
+    color: #0a5286;
+}
+.acqmgmt img{
+	padding-left:37%;
+}
+.finmgmt img{
+	padding-left:32%;
+}
+.projmgmt img{
+	padding-left:31%;
+}
+.itserv img{
+	padding-left:37%;
+}
+.itserv h3{
+	margin-left:115px;
+}
+.profserv img{
+	padding-left:32%;
+}
+.mngsrv img{
+	padding-left:31%;
+}
+.mngsrv h3{
+	margin-left:80px;
+}
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
