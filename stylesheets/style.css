@@ -887,7 +887,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 .icon-text-boxed i {
 	font-size: 88px;
 	color: #006699;
-	border: 1px solid #112e51;
+/*	border: 1px solid #112e51;*/
 	padding: 35px 0;
 	display: block;
 	width: 88%;
@@ -899,9 +899,9 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 }
 
 .icon-text-boxed:hover i {
-	color: white;
-	background-color: rgba(0,102,153,1.00);
-	border-color: rgba(0,102,153,1.00);
+	color: #006699;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 .icon-text-circle {
@@ -1962,11 +1962,11 @@ a.contractLink:hover{
 	color: #2490d4;
 	font-weight: bold;
 }
-input#name, input#email, input#phone, textarea#message {
+input#name, input#email, input#phone, textarea#message, input#company, input#agency {
     background-color: #ffffff;
 	color: #004d8c;
 }
-input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder {
+input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder, input#company::placeholder, input#agency::placeholder {
     color: #004d8c;
 }
 .briefForm{padding-left:20px;}
