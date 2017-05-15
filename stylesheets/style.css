@@ -1984,6 +1984,9 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     margin-right: 10px;
     max-width: 24%;
 }
+.fiacButton .button:hover{
+	cursor: inherit;
+}
 .homeNum{
 	background-color: #f1f1f1;
 	max-width: 22%;
@@ -2046,6 +2049,8 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }
 .ipmt li img{
 	padding-right:10px;
+}.getStarted{
+	padding-left:80px;
 }
 
 /* ACCORDION CODE DO NOT REMOVE */
