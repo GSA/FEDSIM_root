@@ -947,16 +947,19 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   text-align: center;
   width: 88%;
   margin: 0 auto 20px;
+	background-color: #f1f1f1;
 }
-.milestone strong {
-  font-size: 72px;
+.milestone strong, .milestone h3 {
+  font-size: 64px;
   font-family: "PT sans";
   display: block;
+  color: #0a5286;
 }
 
 .milestone.boxed {
-  padding: 25px 0 35px;
+  padding: 25px 0 10px;
   border: 1px solid rgba(255, 255, 255, 0.5);
+	min-height:162px;
 }
 
 /*bar graph */
@@ -1988,15 +1991,23 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	cursor: inherit;
 }
 .homeNum{
-	background-color: #f1f1f1;
+/*	background-color: #f1f1f1;*/
 	max-width: 22%;
 	margin-right: 33px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	color:#0a5286;
 }
+.homeNum span{
+	color:#58173b;
+	font-weight: bold;
+	text-align: center;
+}
+.botText{
+	margin: 0 15px;
+}
 .homeSlider h3{
-	Font-size:56px;
+	font-size:56px;
 	color:#ffffff;
 }
 .homeSlider h4{
