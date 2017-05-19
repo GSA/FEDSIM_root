@@ -653,7 +653,7 @@ h8 {
 }
 
 .form-bg {
-	background: #2490d4;
+	background: #4B92CE;
 }
 
 .call-to-action-bg {
@@ -710,13 +710,13 @@ h8 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
-  background: #004d8b;
-  border: 1px solid #004d8b;
+  background: #1D5187;
+  border: 1px solid #1D5187;
 	color:#ffffff;
 	font-weight:bold;
 }
 button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #004d8b;
+    background-color: #1D5187;
 }
 /*
 .button:hover {
@@ -795,7 +795,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 
 .bg-2 {
 	background-size: cover;
-	background-color: #2490d4;
+	background-color: #4B92CE;
 }
 .no-js body .testimonials.full.bg-2.light.centered-text {
 }
@@ -951,7 +951,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 }
 .milestone strong, .milestone h3 {
   font-size: 64px;
-  font-family: "PT sans";
+  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
   display: block;
   color: #0a5286;
 }
@@ -1051,6 +1051,7 @@ p.quote {
 	font-style: italic;
 	font-size: 18px;
 	margin-bottom: 30px;
+	text-align:left;
 }
 
 p.nav-control {
@@ -1102,7 +1103,7 @@ form input.error, form textarea.error {
 }
 #comments-form label {
   font-size: 1rem;
-  font-family: "PT sans";
+  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
   margin-bottom: 5px;
 }
 
@@ -1714,7 +1715,7 @@ ul.info i:hover {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "PT sans", arial, sans-serif;
+  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif", arial, sans-serif;
   margin: 0 0 5px;
 }
 .modPriceBox p.desc {
@@ -1735,13 +1736,13 @@ ul.info i:hover {
   font-style: normal;
   position: relative;
   top: -30px;
-  font-family: "PT sans", arial, sans-serif;
+  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif", arial, sans-serif;
 }
 .modPriceBox p.price .number {
   font-size: 70px;
   color: #333333;
   font-style: normal;
-  font-family: "PT sans", arial, sans-serif;
+  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif", arial, sans-serif;
 }
 .modPriceBox .features {
   margin: 0 0 30px;
@@ -1776,6 +1777,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-bottom:20px;
 }
 */
+.bodyText{
+	font-family:"droid serif", georgia;
+	text-align: left;
+}
 .mainTitle{
 	color:#00649e;
 }
@@ -1788,6 +1793,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .highlightsDes{
 	color:#838384 !important;
+    text-align: left;
+    padding-left: 6%;
 }
 .join{
 	background-color:#58173b;
@@ -1799,6 +1806,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	padding-right: 15%;
 	margin-top: 60px;
 	font-size: 24px;
+	font-family:"droid serif", georgia;
 }
 .joinImage{
 	background-image: url(../images/@stock/joinusarrow.png);
@@ -1820,6 +1828,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .joinColor, .generalColor{
 	background-color:#58173b;
 	padding-top:20px;
+	padding-right:22px;
 	color: #ffffff;
 	font-style:italic; 
 }
@@ -1859,6 +1868,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-size: 20px;
 	font-style: italic;
 	padding-top:16%;
+    padding-right: 10%;
 }
 .joinBlurb{
 	margin-left: 82px;
@@ -1868,12 +1878,14 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic;
     color: #838384;
 	font-size: 18px;
+	font-family: "droid serif", georgia;
+	text-align: left;
 }
 .button{
 	font-size:20px;
 }
 .sectionTop{
-	background-color:#2490d4;
+	background-color:#4B92CE;
 	color:#ffffff;
 	font-weight: bold;
 	padding:15px;
@@ -1884,7 +1896,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 .sectionBottom{
 	background-color:#e7e8e8;
 	padding:15px;
-	min-height:142px;
+    min-height: 154px;
+    line-height: 18px;
 }
 .servicesButton{
 	padding-left: 1.1rem;
@@ -1923,7 +1936,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-align: center;
 }
 .civProj1, .civProj2{
-	background-color: #2490d4;
+	background-color: #4B92CE;
 	color: #ffffff;
 	padding: 25px;
 }
@@ -1942,7 +1955,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     color: #838384;
     letter-spacing: 1px;
 	line-height: 20px;
-	text-align: center
+	text-align: left;
 }
 .contractDesSub p{
 	font-size: 14px;
@@ -1950,7 +1963,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .contractLink{
 	padding:15px;
-	background-color:#2490d4;
+	background-color:#4B92CE;
 	margin-bottom: 20px;
 }
 a.contractLink{
@@ -1962,7 +1975,7 @@ a.contractLink{
 	background-color:#f1f1f1;
 }
 a.contractLink:hover{
-	color: #2490d4;
+	color: #4B92CE;
 	font-weight: bold;
 }
 input#name, input#email, input#phone, textarea#message, input#company, input#agency {
@@ -2018,7 +2031,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }
 .homeSlider .button.boxed{    
 	border: 1px solid rgba(255, 255, 255, 0.8);
-    background-color: #2490d4;
+    background-color: #4B92CE;
     color: #ffffff;
 }
 
@@ -2085,7 +2098,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     line-height: 30px;
 }
 .panel-default>.panel-heading {
-    background-color: #2490d4;
+    background-color: #4B92CE;
     border: 0px solid;
 }
 .panel-titlearrow{
