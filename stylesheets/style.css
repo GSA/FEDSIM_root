@@ -2050,7 +2050,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	padding-left:31%;
 }
 .itserv img{
-	padding-left:37%;
+	padding-left:34%;
 }
 .itserv h3{
 	margin-left:115px;
@@ -2076,7 +2076,12 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }.getStarted{
 	padding-left:80px;
 }
-
+.aboutFEDSIM {
+    background-color: #4B92CE;
+    color: #ffffff;
+    padding: 20px 60px;
+    font-size: 18px;
+}
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
