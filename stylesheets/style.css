@@ -2080,7 +2080,9 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     background-color: #4B92CE;
     color: #ffffff;
     padding: 20px 60px;
-    font-size: 18px;
+    font-family: "droid serif", georgia;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
 }
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
