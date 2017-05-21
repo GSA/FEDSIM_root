@@ -1928,6 +1928,9 @@ button:hover, button:focus, .button:hover, .button:focus {
 	padding:10px;
     text-align: center;
 }
+.civProjects img{
+    width:100%;
+}
 .civBox{
 	color:#ffffff;
 	
@@ -1942,6 +1945,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .civProj1 h3, .civProj2 h3{
 	color:#ffffff;
+    font-size: 1.5rem;
+}
+.civProj1 p, .civProj2 p{
+    font-size: 1.125rem;
 }
 .contractDes{
 	margin-top:30px;
@@ -2120,6 +2127,12 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     color: #FFFFFF;
 	font-weight: bold;
 	font-size: 20px;
+}
+.aboutAccord{
+    min-height: 485px;
+}
+.aboutFEDSIM p{
+    font-size: 1.125rem;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
