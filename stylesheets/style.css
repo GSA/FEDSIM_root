@@ -891,7 +891,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 	padding: 35px 0;
 	display: block;
 	width: 88%;
-	margin: 0 auto 35px;
+	margin: 0 auto;
 	-webkit-transition: color 0.2s linear;
 	-moz-transition: color 0.2s linear;
 	-o-transition: color 0.2s linear;
@@ -1437,10 +1437,12 @@ ul.info i:hover {
 
 /* layered slider with animated blocks */
 #sequence {
-  height: 600px;
+  height: 465px;
+/*height: 600px;*/
   position: relative;
-  width: 100%;
+  width: 95%;
   color: white;
+  margin-left:40px;
 }
 #sequence p {
   font-size: 1.15rem;
@@ -1786,7 +1788,9 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .mainTitleNorm{
 	color:#00649e;
-	font-weight: normal;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2.5rem;
 }
 .highlights{
 	color:#464646;
@@ -2027,7 +2031,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	margin: 0 15px;
 }
 .homeSlider h3{
-	font-size:56px;
+	font-size:36px;
 	color:#ffffff;
 }
 .homeSlider h4{
@@ -2086,10 +2090,24 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .aboutFEDSIM {
     background-color: #4B92CE;
     color: #ffffff;
+	font-family: "PT sans";
+	text-transform: none;
     padding: 20px 60px;
-    font-family: "droid serif", georgia;
+/*    font-family: "droid serif", georgia;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
+	width:95%;
+	margin-left:40px;
+}
+.call-to-action ul{
+	text-align: left;
+	font-size: 16px;
+	font-weight: bold;
+	color:#838384;
+}
+.shaping{
+	width:95%;
+	margin-left:40px;
 }
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
