@@ -947,13 +947,13 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   text-align: center;
   width: 88%;
   margin: 0 auto 20px;
-	background-color: #f1f1f1;
+	background-color: #1D5187;
 }
 .milestone strong, .milestone h3 {
   font-size: 64px;
   font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
   display: block;
-  color: #0a5286;
+  color: #ffffff;
 }
 
 .milestone.boxed {
@@ -2103,6 +2103,9 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	text-align: left;
 	font-size: 16px;
 	font-weight: bold;
+	color:#838384;
+}
+.joinBlurb p {
 	color:#838384;
 }
 .shaping{
