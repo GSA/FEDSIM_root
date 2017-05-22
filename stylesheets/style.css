@@ -2109,6 +2109,9 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	width:95%;
 	margin-left:40px;
 }
+.onePager{
+    background-color: #4B92CE;
+}
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
