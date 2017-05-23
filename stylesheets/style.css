@@ -713,6 +713,7 @@ h8 {
   background: #1D5187;
   border: 1px solid #1D5187;
 	color:#ffffff;
+	font-family: "PT sans";
 	font-weight:bold;
 }
 button:hover, button:focus, .button:hover, .button:focus {
@@ -947,11 +948,12 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   text-align: center;
   width: 88%;
   margin: 0 auto 20px;
-	background-color: #1D5187;
+	background-color: #1D5187;color:#ffffff;
+	font-family: "PT Sans";
 }
 .milestone strong, .milestone h3 {
   font-size: 64px;
-  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
+  font-family: "PT sans";;
   display: block;
   color: #ffffff;
 }
@@ -1803,6 +1805,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .join{
 	background-color:#58173b;
 	max-width: none;
+	width:95%;
 }
 .join h4{
     color: #ffffff;
@@ -1875,7 +1878,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     padding-right: 10%;
 }
 .joinBlurb{
-	margin-left: 82px;
+	margin-left: 83px;
 }
 .joinBlurb h4 {
     text-transform: none;
@@ -1927,6 +1930,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .highlightsBox{
 	color:#ffffff;
+	font-family: "PT sans";
 	background-image: url(../images/@stock/projectTransparent.png);
 	border: 4px solid #ffffff;
 	padding:10px;
@@ -1937,7 +1941,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .civBox{
 	color:#ffffff;
-	
+	font-family: "PT sans";
 	border: 4px solid #ffffff;
 	padding:10px;
     text-align: center;
@@ -1946,6 +1950,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-color: #4B92CE;
 	color: #ffffff;
 	padding: 25px;
+	font-family: "PT sans";
+	min-height:261px;
 }
 .civProj1 h3, .civProj2 h3{
 	color:#ffffff;
@@ -2044,12 +2050,14 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	border: 1px solid rgba(255, 255, 255, 0.8);
     background-color: #4B92CE;
     color: #ffffff;
+	font-family: "PT sans";
 }
 
 .homeSlider .button.boxed:hover{    
 	border: 1px solid rgba(255, 255, 255, 0.8);
     background-color: #ffffff;
     color: #0a5286;
+	font-family: "PT sans";
 }
 .acqmgmt img{
 	padding-left:37%;
@@ -2114,6 +2122,21 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }
 .onePager{
     background-color: #4B92CE;
+}
+.about a{
+	color:#ffffff;
+}
+.cvehicles a{
+	font-family: "PT sans";
+	font-size: 20px;
+	border:0px;
+}
+.cvehicles a:hover, .cvehicles a:focus{
+	border:0px;
+}
+.gutter{
+	width:95%;
+	margin-left:40px;
 }
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
