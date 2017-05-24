@@ -1925,8 +1925,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-align: left;
     font-size: 16px;
     font-weight: bold;
-    color:#ffffff;
 	font-family: "PT Sans";
+}
+.fiacBot{
+	padding: 0 15px;
 }
 .button{
 	font-size:20px;
@@ -2184,7 +2186,6 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     text-align: left;
     font-size: 16px;
     font-weight: bold;
-    color:#ffffff;
 	font-family: "PT Sans";
 	font-style:italic;
 }
