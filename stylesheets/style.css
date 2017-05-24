@@ -2199,5 +2199,5 @@ overflow:hidden;}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)  {
-	  .shaping{width: 100%; margin-left:0;}
+	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 }
