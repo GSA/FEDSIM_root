@@ -2196,8 +2196,8 @@ height:1px;
 overflow:hidden;}
 
 /* Mobile Code DO NOT REMOVE */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px)  {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)  {
 	  .shaping{width: 100%; margin-left:0;}
 }
