@@ -1823,6 +1823,14 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-repeat:no-repeat;
 	width:51%;
 }
+.fiacImage{
+	background-image: url(../images/@stock/fiacarrow.png);
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+	width:51%;
+}
 .serviceImage{
 	background-image: url(../images/@stock/servicesarrow.png);
 	min-height:435px;
@@ -1843,7 +1851,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .joinImage em{
 	color: #ffffff;
 }
-.joinColor, .generalColor{
+.joinColor, .generalColor, .fiacColor{
 	background-color:#58173b;
 	padding-top:20px;
 	padding-right:22px;
@@ -1884,6 +1892,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-style: italic;
 	padding-top:16%;
 }
+.fiacColor p{
+	font-size: 20px;
+	font-style: italic;
+	padding-top:10%;
+}
 .generalColor p{
 	font-size: 20px;
 	font-style: italic;
@@ -1900,6 +1913,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-size: 18px;
 	font-family: "droid serif", georgia;
 	text-align: left;
+}
+.fiacBlurb h4 {
+    text-transform: none;
+    font-style: italic;
+    color: #838384;
+	font-size: 18px;
+	font-family: "droid serif", georgia;
 }
 .button{
 	font-size:20px;
