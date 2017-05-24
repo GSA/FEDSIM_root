@@ -1921,6 +1921,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-size: 18px;
 	font-family: "droid serif", georgia;
 }
+.fiacBot ul {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color:#ffffff;
+	font-family: "PT Sans";
+}
 .button{
 	font-size:20px;
 }
@@ -2172,6 +2179,19 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	width:95%;
 	margin-left:40px;
 }
+
+.fiacBot ul {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    color:#ffffff;
+	font-family: "PT Sans";
+	font-style:italic;
+}
+.fiacBot h4{
+    color:#ffffff;
+	font-family: "PT Sans";
+}
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
@@ -2230,4 +2250,8 @@ overflow:hidden;}
   and (max-device-width: 480px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .homeSlider h3 {font-size: 26px;}
+	  .mainTitleNorm {font-size: 1.5rem;}
+	  .aboutFEDSIM{padding:20px 25px;}
+	  .icon-text h3{margin-left:120px;}
+	  p.quote{padding:20px 0px;}
 }
