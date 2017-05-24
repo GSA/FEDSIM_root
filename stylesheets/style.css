@@ -1830,6 +1830,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: right;
 	background-repeat:no-repeat;
 	width:51%;
+    background-size: cover;
+}
+
+.defImage, .civImage{
+	min-height:435px;
+	color:#ffffff;
+	text-align: right;
+	background-repeat:no-repeat;
+	width:50%;
 }
 .joinImage em{
 	color: #ffffff;
