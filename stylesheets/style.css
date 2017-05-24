@@ -1821,13 +1821,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
+	width:51%;
 }
 .serviceImage{
-/*	background-image: url(../images/@stock/servicesarrow.png);*/
+	background-image: url(../images/@stock/servicesarrow.png);
 	min-height:435px;
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
+	width:51%;
 }
 .joinImage em{
 	color: #ffffff;
@@ -1837,13 +1839,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 	padding-top:20px;
 	padding-right:22px;
 	color: #ffffff;
-	font-style:italic; 
+	font-style:italic;
+	width:49%;
 }
 .servicesColor{
 	background-color:#58173b;
 	padding-top:20px;
 	color: #ffffff;
 	font-style:italic; 
+	width:49%;
 }
 .servicesColor p, .servicesCivColor p{
     font-size: 20px;
@@ -2011,6 +2015,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
+	width:51%;
 }
 .fiacButton .button{
 	min-height:102px;
@@ -2189,3 +2194,10 @@ top:auto;
 width:1px;
 height:1px;
 overflow:hidden;}
+
+/* Mobile Code DO NOT REMOVE */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px)  {
+	  .shaping{width: 100%; margin-left:0;}
+}
