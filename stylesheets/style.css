@@ -1942,6 +1942,16 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-transform: uppercase;
 	text-align: center;
 }
+.sectionTop p{
+	color: #ffffff;
+    font-weight: bold;
+    padding: 0;
+    margin-top: -7px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: -30px;
+}
 .sectionBottom{
 	background-color:#e7e8e8;
 	padding:15px;
