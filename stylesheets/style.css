@@ -1937,7 +1937,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-color:#4B92CE;
 	color:#ffffff;
 	font-weight: bold;
-	padding:15px;
+/*	padding:15px;*/
 	margin-top:25px;
 	text-transform: uppercase;
 	text-align: center;
@@ -2235,6 +2235,17 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }
 .aboutFEDSIM p{
     font-size: 1.125rem;
+}
+.icon{
+	background-color: #114f8e;
+	padding: 10px;
+	min-height:65px;
+}
+.iconPadding{
+	padding-top:10px;
+}
+.servicesTopText{
+	padding-top:14px;
 }
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
