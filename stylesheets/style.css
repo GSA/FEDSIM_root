@@ -1943,7 +1943,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: center;
 }
 .sectionTop p{
-	color: #ffffff;
+	    color: #ffffff;
     font-weight: bold;
     padding: 0;
     margin-top: -7px;
@@ -2269,7 +2269,7 @@ overflow:hidden;}
 /* Mobile Code DO NOT REMOVE */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)  {
+  and (max-device-width: 500px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .homeSlider h3 {font-size: 26px;}
 	  .mainTitleNorm {font-size: 1.5rem;}
@@ -2282,6 +2282,9 @@ overflow:hidden;}
 	  .joinImage{width:100%;}
 	  .joinBlurb{margin-left:0;}
 	  .joinColor p{padding-top:5%;}
-	  .serviceImage{visibility: hidden;}
+	  .servicesColor p, .servicesCivColor p{padding-top:0;}
+	  .serviceImage, .generalImage, .fiacImage{display:none;}
 	  .servicesColor{width:100%;}
+	  .sectionTop p{    margin-left: 0;}
+	  .briefFormTop{padding-left:20px;}
 }
