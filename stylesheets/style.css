@@ -1964,7 +1964,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .sectionBottom{
 	background-color:#e7e8e8;
 	padding:15px;
-    min-height: 154px;
+    min-height: 206px;
     line-height: 18px;
 }
 .servicesButton{
@@ -1972,6 +1972,10 @@ button:hover, button:focus, .button:hover, .button:focus {
     padding-right: 1.1rem;
 	margin-top:40px;
 	margin-bottom:50px;
+}
+.servicesTitle{
+	    padding-top: 30px;
+    margin-bottom: 0;
 }
 .civSection{
 	background-image:url(../images/@stock/servicesCiv.png);
