@@ -2212,6 +2212,9 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
     color:#ffffff;
 	font-family: "PT Sans";
 }
+.ipVideo{
+	margin-bottom:40px;
+}
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
 	border: 0px solid;
