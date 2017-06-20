@@ -2283,6 +2283,10 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .leaderImg{
 	    padding-left: 10px;
 }
+.droid{
+	font-family: "droid serif", georgia;
+}
+
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
