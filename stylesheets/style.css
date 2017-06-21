@@ -2089,7 +2089,8 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .homeNum{
 /*	background-color: #f1f1f1;*/
 	max-width: 22%;
-	margin-right: 33px;
+/*	margin-right: 33px;*/
+	margin-right: 0px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	color:#0a5286;
