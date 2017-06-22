@@ -1809,7 +1809,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .join h4{
     color: #ffffff;
-    font-style: italic;
+/*    font-style: italic;*/
 	padding-right: 15%;
 	margin-top: 60px;
 	font-size: 24px;
@@ -1912,7 +1912,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     color: #838384;
 	font-size: 18px;
 	font-family: "droid serif", georgia;
-	text-align: left;
+	text-align: center;
 }
 .fiacBlurb h4 {
     text-transform: none;
@@ -1972,6 +1972,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     padding-right: 1.1rem;
 	margin-top:40px;
 	margin-bottom:50px;
+/*	margin-left: 160px;*/
 }
 .servicesTitle{
 	    padding-top: 30px;
@@ -2208,14 +2209,16 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 
 .fiacBot ul {
     text-align: left;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
 	font-family: "PT Sans";
-	font-style:italic;
+/*	font-style:italic;*/
 }
 .fiacBot h4{
     color:#ffffff;
 	font-family: "PT Sans";
+	font-style:normal;
+	margin-bottom:0px;
 }
 .ipVideo{
 	margin-bottom:40px;
@@ -2236,7 +2239,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .panel-body{
 	margin-left: 40px;
     background-color: #f1f1f1;
-    font-style: italic;
+/*    font-style: italic;*/
     font-size: 20px;
     line-height: 30px;
 }
@@ -2251,6 +2254,10 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 	margin-left:20px;
 	float:left;
     min-width: 42px;
+}
+.panel-title {
+    text-transform: none;
+	margin-top:8px;
 }
 .panel-title>a {
     color: #FFFFFF;
@@ -2287,7 +2294,24 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .droid{
 	font-family: "droid serif", georgia;
 }
-
+.widthAdj{
+	width:20%;
+}
+.widthAdj2{
+	width:13%;
+}
+.widthAdj3{
+	width:38%;
+}
+.widthAdj4{
+	width:14%;
+}
+.padAdj{
+	padding-left:6%;
+}
+.ddHeader{
+	text-align:left;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
