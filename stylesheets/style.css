@@ -2242,6 +2242,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 /*    font-style: italic;*/
     font-size: 20px;
     line-height: 30px;
+	font-family:  "droid serif", georgia;
 }
 .panel-default>.panel-heading {
     background-color: #4B92CE;
