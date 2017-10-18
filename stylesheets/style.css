@@ -2370,6 +2370,7 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 .civProj2Ind h3, .civProj1Ind h3, .defProj1Ind h3, .defProj2Ind h3{
 	padding-left:190px;
 	color:#4d91cb;
+	margin-bottom:5px;
 }
 .top{
 /*	padding-bottom:8%;*/
