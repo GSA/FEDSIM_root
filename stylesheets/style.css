@@ -2316,27 +2316,68 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }
 .emp{padding:28px 0 0 0 !important;}
 .emp ul{height:226px !important;}
-.successCDC{
-	background-image: url(../images/@stock/successCDC.png);
+.civProj1Ind{
+	background-image: url(../images/@stock/Civilian_Project2.png);
 	background-repeat: no-repeat;
-	max-height:344px;
+	min-height:378px;
 	width:100%;
 	background-size: 100%;
 	margin-bottom: 40px;
 /*	padding-top:14%;*/
+	padding:0px;
+	
 }
-.successCDC h2{
+.civProj2Ind{
+	background-image: url(../images/@stock/Civilian_Project1.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.defProj1Ind{
+	background-image: url(../images/@stock/Defense_Project1.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.defProj2Ind{
+	background-image: url(../images/@stock/Defense_Project2.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.civProj2Ind h2, .civProj1Ind h2, .defProj1Ind h2, .defProj2Ind h2{
 	color:#ffffff;
 	max-width: 70rem;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+	padding-left:190px;
+}
+.civProj2Ind h3, .civProj1Ind h3, .defProj1Ind h3, .defProj2Ind h3{
+	padding-left:190px;
+	color:#4d91cb;
 }
 .top{
-	padding-bottom:8%;
+/*	padding-bottom:8%;*/
+	padding-bottom:20px;
+		padding-top:20px;
+	padding-left:190px;
 }
-.bottom{padding-bottom:10px;}
+.bottom{padding-top:20px;padding-bottom:10px;background-color: rgba(0,0,0,0.5);}
 .grey{
 	background-color:#e6e6e6;
 /*	min-height:500px;*/
