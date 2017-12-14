@@ -14,6 +14,7 @@
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
     <title>Request Information</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
@@ -166,26 +167,45 @@
     <div class='full form-bg gutter'>
       <div class='form'>
         <div class='row'>
-          <form class="Form" method="post" action="contact.html" enctype="text/plain">
+          <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScxbVRFhqhjXJ0zzGl8e_DWaIokLqd2-oEd-4EjhcBm-R8V2A/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
             <div class='large-12 columns'>
             </div>
-            <div align="left" class='medium-6 large-6 columns no-padding'>
-<input id="name" type="text" name="First Name" placeholder="First Name" required>
-<input id="name" type="text" name="Last Name" placeholder="Last Name" required>
-<input id="agency" type="text" name="Agency" placeholder="Agency (Optional)">
-<input id="company" type="text" name="Company Name" placeholder="Company Name (Optional)">
+            <div align="left" class='medium-6 large-6 small-11 columns briefFormTop no-padding'>
+				<label class="hidden" for="entry.1248298072">First Name *</label>
+				<input id="name"  type="text" name="entry.1248298072" maxlength="50" size="30" placeholder="First Name">
+				<label class="hidden" for="entry.2130392404">Last Name *</label>
+				<input id="name"  type="text" name="entry.2130392404" maxlength="50" size="30" placeholder="Last Name">
+				<label class="hidden" for="entry.1398641644">Agency (Optional)</label>
+				<input id="agency"  type="text" name="entry.1398641644" maxlength="50" size="30" placeholder="Agency (Optional)">
+				<label class="hidden" for="entry.1038294161">Company Name (Optional)</label>
+				<input id="company"  type="text" name="entry.1038294161" maxlength="50" size="30" placeholder="Company Name (Optional)">
 			  </div>
-			<div align="left" class='medium-6 large-6 columns briefForm no-padding'>
-			<input id="email" type="text" name="Email" placeholder="Email" required>
-<input id="phone" type="text" name="Phone" placeholder="Phone (Optional)">
-<textarea id="message" type="text" name="Message" placeholder="Message"required></textarea>                     
+			<div align="left" class='medium-6 large-6 small-11 columns briefForm no-padding'>
+				<label class="hidden" for="entry.1766108790">Email</label>
+				<input id="email"  type="text" name="entry.1766108790" maxlength="50" size="30" placeholder="Email">
+				<label class="hidden" for="entry.990130042">Phone (Optional)</label>
+				<input id="phone"  type="text" name="entry.990130042" maxlength="50" size="30" placeholder="Phone (Optional)">
+				<label class="hidden" for="entry.1215864887">Project Overview *</label>
+				<textarea id="message"  name="entry.1215864887" maxlength="1000" cols="25" rows="4" style="padding-bottom: 19px;" placeholder="Project Overview"></textarea>                     
 				<br>
             </div>
+              
              <div class="columns medium-12 large-12 pagination-centered">
               <input id="submit" class='button blue medium-7 large-7 medium-centered large-centered columns submit' type='submit' value='Submit'>
 			  </div>
             </div>
           </form>
+          
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+         <!-- <script src="https://aas.gsa.gov/express/js/jquery-1.11.3.min.js" type="text/javascript"></script>-->
+      <script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
+  });
+</script>
         </div>
       </div>
     </div>
