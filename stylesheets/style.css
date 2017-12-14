@@ -2068,6 +2068,14 @@ input#name, input#email, input#phone, textarea#message, input#company, input#age
 input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder, input#company::placeholder, input#agency::placeholder {
     color: #004d8c;
 }
+
+input#name2, input#email2, input#phone2, textarea#message2, input#company2, input#agency2 {
+    background-color: #ffffff;
+	color: #004d8c;
+}
+input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, textarea#message2::placeholder, input#company2::placeholder, input#agency2::placeholder {
+    color: #004d8c;
+}
 .briefForm{padding-left:20px;}
 
 
