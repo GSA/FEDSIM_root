@@ -2744,6 +2744,7 @@ overflow:hidden;}
 	  .programs{display: none;}
 	  .top{padding-left:0px;}
 	  .top img{width:29%;}
+	  .civProj2Ind img, .defProj1Ind img, .defProj2Ind img{width:20%;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
-	  .civProj1Ind{min-height: 285px;}
+	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
 }
