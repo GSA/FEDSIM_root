@@ -2742,4 +2742,8 @@ overflow:hidden;}
 	  .usa-disclaimer-official img {width: 1.1rem;}
 	  .usa-grid {padding-left: .5rem; padding-right: .5rem;}
 	  .programs{display: none;}
+	  .top{padding-left:0px;}
+	  .top img{width:29%;}
+	  .bottom h2, .bottom h3{padding-left:0px;}
+	  .civProj1Ind{min-height: 285px;}
 }
