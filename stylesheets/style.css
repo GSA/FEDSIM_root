@@ -19,13 +19,13 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /*!
  * jQuery UI CSS Framework 1.10.3
- * https://jqueryui.com
+ * http://jqueryui.com
  *
  * Copyright 2013 jQuery Foundation and other contributors
  * Released under the MIT license.
- * https://jquery.org/license
+ * http://jquery.org/license
  *
- * https://docs.jquery.com/UI/Theming/API
+ * http://docs.jquery.com/UI/Theming/API
  */
 
 /* Layout helpers
@@ -113,13 +113,13 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 /*!
  * jQuery UI Accordion 1.10.3
- * https://jqueryui.com
+ * http://jqueryui.com
  *
  * Copyright 2013 jQuery Foundation and other contributors
  * Released under the MIT license.
- * https://jquery.org/license
+ * http://jquery.org/license
  *
- * https://docs.jquery.com/UI/Accordion#theming
+ * http://docs.jquery.com/UI/Accordion#theming
  */
 
 .ui-accordion .ui-accordion-header {
@@ -152,13 +152,13 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 /*!
  * jQuery UI Tabs 1.10.3
- * https://jqueryui.com
+ * http://jqueryui.com
  *
  * Copyright 2013 jQuery Foundation and other contributors
  * Released under the MIT license.
- * https://jquery.org/license
+ * http://jquery.org/license
  *
- * https://docs.jquery.com/UI/Tabs#theming
+ * http://docs.jquery.com/UI/Tabs#theming
  */
 
 .ui-tabs {
@@ -205,15 +205,15 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 /*!
  * jQuery UI CSS Framework 1.10.3
- * https://jqueryui.com
+ * http://jqueryui.com
  *
  * Copyright 2013 jQuery Foundation and other contributors
  * Released under the MIT license.
- * https://jquery.org/license
+ * http://jquery.org/license
  *
- * https://docs.jquery.com/UI/Theming/API
+ * http://docs.jquery.com/UI/Theming/API
  *
- * To view and modify this theme, visit https://jqueryui.com/themeroller/
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/
  */
 
 
@@ -1781,7 +1781,6 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-bottom:20px;
 }
 */
-
 .bodyText{
 	font-family:"droid serif", georgia;
 	text-align: left;
@@ -2069,6 +2068,14 @@ input#name, input#email, input#phone, textarea#message, input#company, input#age
 input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder, input#company::placeholder, input#agency::placeholder {
     color: #004d8c;
 }
+
+input#name2, input#email2, input#phone2, textarea#message2, input#company2, input#agency2 {
+    background-color: #ffffff;
+	color: #004d8c;
+}
+input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, textarea#message2::placeholder, input#company2::placeholder, input#agency2::placeholder {
+    color: #004d8c;
+}
 .briefForm{padding-left:20px;}
 
 
@@ -2316,88 +2323,15 @@ input#name::placeholder, input#email::placeholder, input#phone::placeholder, tex
 }
 .emp{padding:28px 0 0 0 !important;}
 .emp ul{height:226px !important;}
-.civProj1Ind{
-	background-image: url(../images/@stock/Civilian_Project2.png);
-	background-repeat: no-repeat;
-	min-height:378px;
-	width:100%;
-	background-size: 100%;
-	margin-bottom: 40px;
-/*	padding-top:14%;*/
-	padding:0px;
-	
+.usa-disclaimer {
+  background-color: #01538f;
+  font-size: 1.2rem;
+  height: 2.3rem;
+color:#ffffff;}
+.usa-disclaimer a{
+	color:#7ba8ce;
+	font-weight: bold;
 }
-.civProj2Ind{
-	background-image: url(../images/@stock/Civilian_Project1.png);
-	background-repeat: no-repeat;
-	min-height:378px;
-	width:100%;
-	background-size: 100%;
-	margin-bottom: 40px;
-/*	padding-top:14%;*/
-	padding:0px;
-	
-}
-.defProj1Ind{
-	background-image: url(../images/@stock/Defense_Project1.png);
-	background-repeat: no-repeat;
-	min-height:378px;
-	width:100%;
-	background-size: 100%;
-	margin-bottom: 40px;
-/*	padding-top:14%;*/
-	padding:0px;
-	
-}
-.defProj2Ind{
-	background-image: url(../images/@stock/Defense_Project2.png);
-	background-repeat: no-repeat;
-	min-height:378px;
-	width:100%;
-	background-size: 100%;
-	margin-bottom: 40px;
-/*	padding-top:14%;*/
-	padding:0px;
-	
-}
-.civProj2Ind h2, .civProj1Ind h2, .defProj1Ind h2, .defProj2Ind h2{
-	color:#ffffff;
-	max-width: 70rem;
-    margin-top: 0;
-    margin-bottom: 0;
-	padding-left:190px;
-}
-.civProj2Ind h3, .civProj1Ind h3, .defProj1Ind h3, .defProj2Ind h3{
-	padding-left:190px;
-	color:#4d91cb;
-	margin-bottom:5px;
-}
-.top{
-/*	padding-bottom:8%;*/
-	padding-bottom:20px;
-		padding-top:20px;
-	padding-left:190px;
-}
-.bottom{padding-top:20px;padding-bottom:10px;background-color: rgba(0,0,0,0.5);}
-.grey{
-	background-color:#e6e6e6;
-/*	min-height:500px;*/
-	padding:40px;
-}
-.grey h3{
-	color:#01538f;
-	margin-bottom:0px;
-}
-/* 508 Compliance Code DO NOT REMOVE */
-.hidden 
-{position:absolute;
-left:-10000px;
-top:auto;
-width:1px;
-height:1px;
-overflow:hidden;}
-
-/* Mobile Code DO NOT REMOVE */
 @media screen and (min-width: 481px) {
     .usa-disclaimer {
       font-size: 1.2rem; } }
@@ -2665,35 +2599,22 @@ overflow:hidden;}
     .usa-grid-full .hero-callout,
     .usa-grid-full .hero-callout-full {
       padding-left: 3rem; } }
-@media screen and (max-width: 481px) {
-	.usa-disclaimer-official p {font-size: .6rem;}
-	.programs {display:none;}
-}
-.usa-disclaimer {
-  background-color: #01538f;
-  font-size: 1.2rem;
-  height: 2.3rem;
-color:#ffffff;}
-.usa-disclaimer a{
-	color:#7ba8ce;
-	font-weight: bold;
-}
 .programs{
     background-color: #f1f1f1;
-    height: 66px;
+    height: 60px;
 /*    padding: 20px;*/
 }
 .programs img{
 	width:75%;
-	padding:19px 0;
+	padding:16px 0;
 }
 .prg img:hover{
 	width:100%;
-	padding:16px 0;
+	padding:12px 0;
 }
 .prg2 img:hover{
 	width:100%;
-	padding:21px 0;
+	padding:18px 0;
 }
 .prg:hover, .prg2:hover{
 	background-color:#f9f9f9;
@@ -2706,8 +2627,91 @@ color:#ffffff;}
 }
 .currentSite img{
     width:100%;
-	padding:19px 0;
+	padding:16px 0;
 }
+#gform h2{color:#ffffff;}
+.civProj1Ind{
+	background-image: url(../images/@stock/Civilian_Project2.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.civProj2Ind{
+	background-image: url(../images/@stock/Civilian_Project1.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.defProj1Ind{
+	background-image: url(../images/@stock/Defense_Project1.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.defProj2Ind{
+	background-image: url(../images/@stock/Defense_Project2.png);
+	background-repeat: no-repeat;
+	min-height:378px;
+	width:100%;
+	background-size: 100%;
+	margin-bottom: 40px;
+/*	padding-top:14%;*/
+	padding:0px;
+	
+}
+.civProj2Ind h2, .civProj1Ind h2, .defProj1Ind h2, .defProj2Ind h2{
+	color:#ffffff;
+	max-width: 70rem;
+    margin-top: 0;
+    margin-bottom: 0;
+	padding-left:190px;
+}
+.civProj2Ind h3, .civProj1Ind h3, .defProj1Ind h3, .defProj2Ind h3{
+	padding-left:190px;
+	color:#4d91cb;
+	margin-bottom:5px;
+}
+.top{
+/*	padding-bottom:8%;*/
+	padding-bottom:20px;
+		padding-top:20px;
+	padding-left:190px;
+}
+.bottom{padding-top:20px;padding-bottom:10px;background-color: rgba(0,0,0,0.5);}
+.grey{
+	background-color:#e6e6e6;
+/*	min-height:500px;*/
+	padding:40px;
+}
+.grey h3{
+	color:#01538f;
+	margin-bottom:0px;
+}
+/* 508 Compliance Code DO NOT REMOVE */
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+/* Mobile Code DO NOT REMOVE */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
@@ -2734,4 +2738,13 @@ color:#ffffff;}
 	  .acqmgmt img, .finmgmt img {padding-left: 30%;}
 	  .special-title h2{padding: 0 1px;}
 	  .special-title p{padding:0 2px;}
+	  .usa-disclaimer-official p {font-size: .65rem;}
+	  .usa-disclaimer-official img {width: 1.1rem;}
+	  .usa-grid {padding-left: .5rem; padding-right: .5rem;}
+	  .programs{display: none;}
+	  .top{padding-left:0px;}
+	  .top img{width:29%;}
+	  .civProj2Ind img, .defProj1Ind img, .defProj2Ind img{width:20%;}
+	  .bottom h2, .bottom h3{padding-left:0px;}
+	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
 }
