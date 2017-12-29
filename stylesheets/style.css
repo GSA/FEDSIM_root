@@ -1446,6 +1446,10 @@ ul.info i:hover {
   color: white;
   margin-left:40px;
 }
+.benefitsSlide{
+    width:100% !important;
+    margin-left:0 !important;
+}
 #sequence p {
   font-size: 1.15rem;
   letter-spacing: 2px;
@@ -1816,12 +1820,12 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-family:"droid serif", georgia;
 }
 .joinImage{
-	background-image: url(../images/@stock/joinusarrow.png);
+	background-image: url(../images/@stock/joinUs.png);
 	min-height:435px;
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
-	width:51%;
+/*	width:51%;*/
 }
 .fiacImage{
 	background-image: url(../images/@stock/fiacarrow.png);
@@ -1988,11 +1992,31 @@ button:hover, button:focus, .button:hover, .button:focus {
 	min-height: 366px;
 	background-size: cover;
 }
+.conSection{
+	background-image:url(../images/@stock/joinContracting.png);
+	min-height: 266px;    
+	background-size: cover;
+}
+.pmSection{
+	background-image:url(../images/@stock/joinPM.png);
+	min-height: 266px;
+	background-size: cover;
+}
 .highlightsTitle{
 	font-size:42px;
 	font-weight: bold;
 	color: #ffffff;
 	margin-top: 18%;
+}
+.joinTitle{
+	font-size:28px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 10%;
+}
+.joinCareers p{
+    color:#ffffff;
+    font-style: italic;
 }
 .highlightsBox{
 	color:#ffffff;
@@ -2183,6 +2207,29 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	width:95%;
 	margin-left:40px;
 }
+.joinFEDSIM {
+    background-color: #4B92CE;
+    color: #ffffff;
+	font-family: "PT sans";
+	text-transform: none;
+    padding: 20px 60px;
+/*    font-family: "droid serif", georgia;*/
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+/*
+	width:95%;
+	margin-left:40px;
+*/
+}
+.joinCareers h2{
+    text-align: center;
+    color:#004e8c;
+    text-transform: none;
+    margin-top:40px;
+}
+.joinIcons h3{
+    color:#2490d4;
+}
 .call-to-action ul{
 	text-align: left;
 	font-size: 16px;
@@ -2230,6 +2277,98 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .ipVideo{
 	margin-bottom:40px;
+}/* Tooltip hidden by default */
+.simpletooltip[aria-hidden="true"],
+.minimalist-simpletooltip[aria-hidden="true"],
+.minimalist-left-simpletooltip[aria-hidden="true"] {
+  display: none;
+}
+/* position relative for containers */
+.simpletooltip_container,
+.minimalist-simpletooltip_container,
+.minimalist-left-simpletooltip_container {
+  position: relative;
+}
+
+/* tooltip styles */
+.simpletooltip,
+.minimalist-simpletooltip,
+.minimalist-left-simpletooltip {
+  position: absolute;
+  z-index: 666;
+  width: 10em;
+  border-radius: .5em;
+  background: rgba( 0, 0, 0, .9 );
+  color: #eee;
+  padding: .5em;
+  text-align: left;
+  line-height: 1.3;
+}
+.simpletooltip,
+.minimalist-simpletooltip {
+  right: auto;
+  left: 100%;
+  margin-left: .5em;
+}
+.minimalist-left-simpletooltip {
+  right: 100%;
+  left: auto;
+  margin-right: .5em;
+}
+/* used pseudo-element to make arrows */
+.simpletooltip::before,
+.minimalist-simpletooltip::before,
+.minimalist-left-simpletooltip::before {
+  content: '';
+  speak: none;
+  position: absolute;
+  z-index: 666;
+  width: 10px;
+  height: 10px;
+}
+.simpletooltip::before,
+.minimalist-simpletooltip::before {
+  top: .5em;
+  left: -10px;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-right: 10px solid rgba( 0, 0, 0, .9 );
+}
+.minimalist-left-simpletooltip::before {
+  top: .5em;
+  right: -10px;
+  margin-right: -10px;
+  border: 10px solid transparent;
+  border-left: 10px solid rgba( 0, 0, 0, .9 )
+}
+
+/* it can be easily adapted in media-queries for tablets/mobile */
+
+/* for this example: mobile */
+@media (max-width: 44.375em) {
+
+  .simpletooltip,
+  .minimalist-simpletooltip,
+  .minimalist-left-simpletooltip  {
+    top: 100%;
+    left: 50%;
+  right: 0;
+    margin: 0;
+  margin-top: .7em;
+  margin-left: -5em;
+  }
+  .simpletooltip::before,
+  .minimalist-simpletooltip::before,
+  .minimalist-left-simpletooltip::before  {
+    top: -10px;
+  right: auto;
+  left: 50%;
+  margin-left: -5px;
+    margin-top: -10px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid rgba( 0, 0, 0, .9 );
+  }
+
 }
 /* ACCORDION CODE DO NOT REMOVE */
 .panel {
