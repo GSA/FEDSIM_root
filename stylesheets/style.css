@@ -1060,7 +1060,7 @@ p.quote {
 	color:#014e8c;
 	margin-bottom:15px;
 }
-.employee p.quote::after {
+/*.employee p.quote::after {
   content: "";
   background: url(../images/@stock/testimonialsarrow.png);
   opacity: 0.8;
@@ -1071,7 +1071,7 @@ p.quote {
   position: absolute;
   z-index: -1; 
 	background-repeat: no-repeat;
-}
+}*/
 
 p.nav-control {
   margin: 80px 0 20px;
