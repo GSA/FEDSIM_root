@@ -1055,6 +1055,23 @@ p.quote {
 	margin-bottom: 30px;
 	text-align:left;
 }
+.employee p.quote{
+	background: rgba(255,255,255,0.8);
+	color:#014e8c;
+	margin-bottom:15px;
+}
+.employee p.quote::after {
+  content: "";
+  background: url(../images/@stock/testimonialsarrow.png);
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+	background-repeat: no-repeat;
+}
 
 p.nav-control {
   margin: 80px 0 20px;
@@ -1160,6 +1177,10 @@ form input.error, form textarea.error {
 .testimonials .orbit-container .orbit-bullets-container {
   position: static;
 }
+.employee .orbit-container .orbit-bullets-container {
+  position: static;
+	margin-top:45px;
+}
 .testimonials .orbit-container .orbit-prev, .testimonials .orbit-container .orbit-next {
   display: none;
 }
@@ -1173,6 +1194,27 @@ form input.error, form textarea.error {
 .testimonials .orbit-container .orbit-bullets li.active {
   background: #205285;
 	border: 1px solid #205285;
+}
+
+.employee .orbit-container .orbit-bullets li {
+  border: 2px solid white;
+  margin-right: 15px;
+  width: 16px;
+  height: 16px;
+  background: transparent;
+}
+.employee .orbit-container .orbit-bullets li.active {
+  background: #57093b;
+	border: 2px solid #ffffff;
+}
+.employee{
+	background-image: url(../images/@stock/testimonials.png);
+}
+.employee .special-title p{
+	font-style: italic;
+	color:#ffffff;
+	font-family: "droid serif", georgia;
+	margin-top:20px;
 }
 
 /* gallery */
@@ -1648,6 +1690,15 @@ ul.info i:hover {
   z-index: 100;
   top: 45%;
 }
+#sequence.benefitsSlide .sequence-prev, #sequence.benefitsSlide .sequence-next {
+  display: inline-block;
+  background-color: white;
+  padding: 30px 18px;
+  color: white;
+  position: absolute;
+  z-index: 98;
+  top: 45%;
+}
 #sequence .sequence-prev span, #sequence .sequence-next span {
   position: absolute;
   top: 50%;
@@ -1694,6 +1745,18 @@ ul.info i:hover {
 }
 #sequence .sequence-pagination li.current {
   background-color: rgba(255, 255, 255, 0.4);
+}
+.joinSequence li {
+  color: rgba(131, 131, 132, 1) !important;    
+	font-weight: bold;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.joinSequence li.current {
+  color: rgba(1, 83, 143, 1) !important;    
+	font-weight: bold;
+    font-size: 18px;
+    padding: 0 15px;
 }
 
 /*Responsive */
@@ -1826,6 +1889,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: right;
 	background-repeat:no-repeat;
 /*	width:51%;*/
+	background-size: cover;
 }
 .fiacImage{
 	background-image: url(../images/@stock/fiacarrow.png);
@@ -1910,7 +1974,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .joinBlurb{
 	margin-left: 83px;
 }
-.joinBlurb h4 {
+.joinBlurb h4, .joinBenefits h3 {
     text-transform: none;
     font-style: italic;
     color: #838384;
@@ -2001,6 +2065,22 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-image:url(../images/@stock/joinPM.png);
 	min-height: 266px;
 	background-size: cover;
+}
+.conSection p, .pmSection p{
+	padding:0 60px;
+}
+.joinSlide img{
+	height:150px;
+}
+.joinSlide h3{
+	color:#57093b !important;
+	font-size:36px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-family: "PT sans";
+}
+.joinSlide p{
+	color:#838384 !important;
 }
 .highlightsTitle{
 	font-size:42px;
@@ -2221,7 +2301,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-left:40px;
 */
 }
-.joinCareers h2{
+.joinCareers h2, .joinBenefits h2{
     text-align: center;
     color:#004e8c;
     text-transform: none;
@@ -2432,6 +2512,14 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .author{
 	font-family: "droid serif", georgia;
 	font-size: 1.125rem;
+}
+.employee .author{
+	font-family: "droid serif", georgia;
+	font-size: 1.125rem;
+	background: rgba(30,120,178,0.8);
+	width: 50%;
+	float:right;
+	padding:20px 0;
 }
 .leaderTitle{
 	margin-top:-5px;
