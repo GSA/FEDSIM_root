@@ -1877,10 +1877,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 .join h4{
     color: #ffffff;
 /*    font-style: italic;*/
-	padding-right: 30%;
+/*	padding-right: 30%;*/
 	margin-top: 60px;
 	font-size: 24px;
 	font-family:"droid serif", georgia;
+	text-align: center;
 }
 .joinImage{
 	background-image: url(../images/@stock/joinUs.png);
