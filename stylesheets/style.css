@@ -1068,12 +1068,14 @@ p.quote {
 .employee p.test2{
 	background-image: url(../images/@stock/test2.png);
 	background-repeat: no-repeat;
-	padding-bottom: 7px !important;
+	padding-bottom: 12px !important;
+	padding-top:15px;
 }
 .employee p.test3{
 	background-image: url(../images/@stock/test3.png);
 	background-repeat: no-repeat;
-	padding-bottom: 16px !important;
+	padding-bottom: 21px !important;
+	padding-top:15px;
 }
 .employee p.test4{
 	background-image: url(../images/@stock/test1.png);
