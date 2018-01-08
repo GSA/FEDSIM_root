@@ -1059,7 +1059,7 @@ p.quote {
 /*	background: rgba(255,255,255,0.8);*/
 	color:#014e8c;
 	margin-bottom:0px;
-	padding-bottom: 25px;
+	padding-bottom: 23px;
 }
 .employee p.test1{
 	background-image: url(../images/@stock/test1.png);
@@ -1068,7 +1068,7 @@ p.quote {
 .employee p.test2{
 	background-image: url(../images/@stock/test2.png);
 	background-repeat: no-repeat;
-	padding-bottom: 11px !important;
+	padding-bottom: 7px !important;
 }
 .employee p.test3{
 	background-image: url(../images/@stock/test3.png);
