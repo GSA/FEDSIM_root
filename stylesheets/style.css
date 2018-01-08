@@ -1068,8 +1068,8 @@ p.quote {
 .employee p.test2{
 	background-image: url(../images/@stock/test2.png);
 	background-repeat: no-repeat;
-	padding-bottom: 12px !important;
-	padding-top:15px;
+	padding-bottom: 17px !important;
+	padding-top:10px;
 }
 .employee p.test3{
 	background-image: url(../images/@stock/test3.png);
@@ -2114,7 +2114,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-size:28px;
 	font-weight: bold;
 	color: #ffffff;
-	margin-top: 8%;
+	margin-top: 6%;
 }
 .joinCareers p{
     color:#ffffff;
