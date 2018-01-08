@@ -1056,9 +1056,28 @@ p.quote {
 	text-align:left;
 }
 .employee p.quote{
-	background: rgba(255,255,255,0.8);
+/*	background: rgba(255,255,255,0.8);*/
 	color:#014e8c;
-	margin-bottom:15px;
+	margin-bottom:0px;
+	padding-bottom: 25px;
+}
+.employee p.test1{
+	background-image: url(../images/@stock/test1.png);
+	background-repeat: no-repeat;
+}
+.employee p.test2{
+	background-image: url(../images/@stock/test2.png);
+	background-repeat: no-repeat;
+	padding-bottom: 11px !important;
+}
+.employee p.test3{
+	background-image: url(../images/@stock/test3.png);
+	background-repeat: no-repeat;
+	padding-bottom: 16px !important;
+}
+.employee p.test4{
+	background-image: url(../images/@stock/test1.png);
+	background-repeat: no-repeat;
 }
 /*.employee p.quote::after {
   content: "";
@@ -2517,7 +2536,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .employee .author{
 	font-family: "droid serif", georgia;
 	font-size: 1.125rem;
-	background: rgba(30,120,178,0.8);
+	background: rgba(71,146,206,0.8);
 	width: 50%;
 	float:right;
 	padding:20px 0;
@@ -3052,4 +3071,11 @@ overflow:hidden;}
 	  .civProj2Ind img, .defProj1Ind img, .defProj2Ind img{width:20%;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
+	  .employee p.quote{background: rgba(255,255,255,0.8);padding-bottom: 25px;}
+	  .employee p.test1, .employee p.test2, .employee p.test3, .employee p.test4{background-image: none;}
+	  .employee p.author{width:100%;}
+	  .employee{height:700px;}
+	  .employee .orbit-container{height:445px;}
+	  .joinFEDSIM p {margin: 0;}
+	  .joinIcons p {padding: 0 20px;}
 }
