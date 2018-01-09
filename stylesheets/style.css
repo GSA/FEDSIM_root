@@ -1068,7 +1068,7 @@ p.quote {
 .employee p.test2{
 	background-image: url(../images/@stock/test2.png);
 	background-repeat: no-repeat;
-	padding-bottom: 17px !important;
+	padding-bottom: 20px !important;
 	padding-top:10px;
 }
 .employee p.test3{
