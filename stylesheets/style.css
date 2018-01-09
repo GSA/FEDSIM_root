@@ -2335,8 +2335,9 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 */
 }
 .joinFEDSIM p{
-	    margin: 0 100px 1.25rem 100px;
+	    margin: 0 200px 1.25rem 200px;
 	font-size:1.25rem;
+	text-align: center;
 }
 .joinCareers h2, .joinBenefits h2{
     text-align: center;
