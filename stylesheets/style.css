@@ -848,7 +848,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   margin-bottom: 0;
 }
 .special-title p {
-  font-family: "droid serif", georgia;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.125rem;
   font-style: italic;
   color: #5b616b;
@@ -938,7 +938,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 /*call-to-action */
 .call-to-action p {
 	font-size: 1.375rem;
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	text-align: center;
 }
@@ -970,7 +970,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   list-style: none;
 }
 .bars h4 {
-  font-family: "droid serif", georgia;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: normal;
   text-transform: capitalize;
@@ -995,7 +995,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   margin-bottom: 0;
 }
 .member p.position {
-  font-family: "droid serif", georgia;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-size: 14px;
   color: #666666;
@@ -1049,7 +1049,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 p.quote {
 	border: 1px none rgba(255, 255, 255, 0.4);
 	padding: 20px 50px;
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	font-size: 18px;
 	margin-bottom: 30px;
@@ -1081,7 +1081,8 @@ p.quote {
 	background-image: url(../images/@stock/test1.png);
 	background-repeat: no-repeat;
 }
-/*.employee p.quote::after {
+/*
+.employee p.quote::after {
   content: "";
   background: url(../images/@stock/testimonialsarrow.png);
   opacity: 0.8;
@@ -1092,8 +1093,16 @@ p.quote {
   position: absolute;
   z-index: -1; 
 	background-repeat: no-repeat;
-}*/
-
+}
+*/
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+}
+	
 p.nav-control {
   margin: 80px 0 20px;
 }
@@ -1234,7 +1243,7 @@ form input.error, form textarea.error {
 .employee .special-title p{
 	font-style: italic;
 	color:#ffffff;
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 	margin-top:20px;
 }
 
@@ -1272,7 +1281,7 @@ ul.gallery li a h3 {
 }
 ul.gallery li a p {
   color: #dddddd;
-  font-family: "droid serif", georgia;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.875rem;
   font-style: italic;
 }
@@ -1870,7 +1879,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 */
 .bodyText{
-	font-family:"droid serif", georgia;
+	font-family:'Roboto', sans-serif;
 	text-align: left;
 }
 .mainTitle{
@@ -1901,7 +1910,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 /*	padding-right: 30%;*/
 	margin-top: 50px;
 	font-size: 32px;
-	font-family:"droid serif", georgia;
+	font-family:"PT sans";
 	text-align: center;
 }
 .joinImage{
@@ -2001,7 +2010,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic;
     color: #838384;
 	font-size: 18px;
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
 .fiacBlurb h4 {
@@ -2009,7 +2018,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic;
     color: #838384;
 	font-size: 18px;
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 }
 .fiacBot ul {
     text-align: left;
@@ -2090,6 +2099,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .conSection p, .pmSection p{
 	padding:0 60px;
+	font-family: 'Roboto', sans-serif;
 }
 .joinSlide img{
 	height:150px;
@@ -2119,6 +2129,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .joinCareers p{
     color:#ffffff;
     font-style: italic;
+	font-size: 1.125rem;
 }
 .highlightsBox{
 	color:#ffffff;
@@ -2159,7 +2170,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .contractDesSub, .paragraph{
 	font-style: italic;
 	font-weight: bold;
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     color: #838384;
     letter-spacing: 1px;
@@ -2303,7 +2314,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-family: "PT sans";
 	text-transform: none;
     padding: 20px 60px;
-/*    font-family: "droid serif", georgia;*/
+/*    font-family: 'Roboto', sans-serif;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
 	width:95%;
@@ -2315,7 +2326,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-family: "PT sans";
 	text-transform: none;
     padding: 20px 60px;
-/*    font-family: "droid serif", georgia;*/
+/*    font-family: 'Roboto', sans-serif;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
 /*
@@ -2323,7 +2334,6 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-left:40px;
 */
 }
-
 .joinFEDSIM p{
 	    margin: 0 100px 1.25rem 100px;
 	font-size:1.25rem;
@@ -2336,6 +2346,9 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .joinIcons h3{
     color:#2490d4;
+}
+.joinIcons p{
+	font-family: 'Roboto', sans-serif;
 }
 .call-to-action ul{
 	text-align: left;
@@ -2496,7 +2509,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 /*    font-style: italic;*/
     font-size: 20px;
     line-height: 30px;
-	font-family:  "droid serif", georgia;
+	font-family:  'Roboto', sans-serif;
 }
 .panel-default>.panel-heading {
     background-color: #4B92CE;
@@ -2537,11 +2550,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	padding-top:14px;
 }
 .author{
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.125rem;
 }
 .employee .author{
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.125rem;
 	background: rgba(71,146,206,0.8);
 	width: 50%;
@@ -2555,7 +2568,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	    padding-left: 10px;
 }
 .droid{
-	font-family: "droid serif", georgia;
+	font-family: 'Roboto', sans-serif;
 }
 .widthAdj{
 	width:20%;
