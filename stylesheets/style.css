@@ -2612,6 +2612,10 @@ color:#ffffff;}
 	width:75%;
 	padding:16px 0;
 }
+.prg1 img{
+    width: 85%;
+    padding: 22px 0;
+}
 .prg img:hover{
 	width:100%;
 	padding:12px 0;
@@ -2620,7 +2624,16 @@ color:#ffffff;}
 	width:100%;
 	padding:18px 0;
 }
+.prg1 img:hover{
+	width:100%;
+	padding:21px 0;
+}
 .prg:hover, .prg2:hover{
+	background-color:#f9f9f9;
+    border-left: 4px solid #f1f1f1;
+    padding-bottom: 1px;
+}
+.prg1:hover{
 	background-color:#f9f9f9;
     border-left: 4px solid #f1f1f1;
     padding-bottom: 1px;
