@@ -653,7 +653,7 @@ h8 {
 }
 
 .form-bg {
-	background: #4B92CE;
+	background: #2f73ab;
 }
 
 .call-to-action-bg {
@@ -796,7 +796,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 
 .bg-2 {
 	background-size: cover;
-	background-color: #4B92CE;
+	background-color: #2f73ab;
 }
 .no-js body .testimonials.full.bg-2.light.centered-text {
 }
@@ -1798,7 +1798,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	color:#464646;
 }
 .highlightsDes{
-	color:#838384 !important;
+	color:#767676 !important;
     text-align: left;
     padding-left: 6%;
 }
@@ -1909,7 +1909,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .joinBlurb h4 {
     text-transform: none;
     font-style: italic;
-    color: #838384;
+    color: #767676;
 	font-size: 18px;
 	font-family: "droid serif", georgia;
 	text-align: center;
@@ -1934,7 +1934,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-size:20px;
 }
 .sectionTop{
-	background-color:#4B92CE;
+	background-color:#2f73ab;
 	color:#ffffff;
 	font-weight: bold;
 /*	padding:15px;*/
@@ -1943,7 +1943,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: center;
 }
 .sectionTopFIAC{
-	background-color:#4B92CE;
+	background-color:#2f73ab;
 	color:#ffffff;
 	font-weight: bold;
 	padding:15px;
@@ -2013,7 +2013,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-align: center;
 }
 .civProj1, .civProj2{
-	background-color: #4B92CE;
+	background-color: #2f73ab;
 	color: #ffffff;
 	padding: 25px;
 	font-family: "PT sans";
@@ -2035,7 +2035,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-weight: bold;
 	font-family: "droid serif", georgia;
     font-size: 1.125rem;
-    color: #838384;
+    color: #767676;
     letter-spacing: 1px;
 	line-height: 20px;
 	text-align: left;
@@ -2046,7 +2046,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .contractLink{
 	padding:15px;
-	background-color:#4B92CE;
+	background-color:#2f73ab;
 	margin-bottom: 20px;
 }
 a.contractLink{
@@ -2058,7 +2058,7 @@ a.contractLink{
 	background-color:#f1f1f1;
 }
 a.contractLink:hover{
-	color: #4B92CE;
+	color: #2f73ab;
 	font-weight: bold;
 }
 input#name, input#email, input#phone, textarea#message, input#company, input#agency {
@@ -2124,7 +2124,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .homeSlider .button.boxed{    
 	border: 1px solid rgba(255, 255, 255, 0.8);
-    background-color: #4B92CE;
+    background-color: #2f73ab;
     color: #ffffff;
 	font-family: "PT sans";
 }
@@ -2172,7 +2172,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	padding-left:80px;
 }
 .aboutFEDSIM {
-    background-color: #4B92CE;
+    background-color: #2f73ab;
     color: #ffffff;
 	font-family: "PT sans";
 	text-transform: none;
@@ -2197,7 +2197,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-left:40px;
 }
 .onePager{
-    background-color: #4B92CE;
+    background-color: #2f73ab;
 }
 .about a{
 	color:#ffffff;
@@ -2220,6 +2220,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     font-size: 17px;
     font-weight: bold;
 	font-family: "PT Sans";
+	color: #656565 !important;
 /*	font-style:italic;*/
 }
 .fiacBot h4{
@@ -2237,6 +2238,9 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     margin-bottom: 1.25rem;
     padding: .5rem 1.25rem 0 1.25rem;
     background: #ffffff; 
+}
+.panel-group .panel+.panel {
+    margin-top: 0px; 
 }
 .panel-default{
 	border: 0px solid;
@@ -2329,7 +2333,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
   height: 2.3rem;
 color:#ffffff;}
 .usa-disclaimer a{
-	color:#7ba8ce;
+	color:#98d0ff;
 	font-weight: bold;
 }
 @media screen and (min-width: 481px) {
