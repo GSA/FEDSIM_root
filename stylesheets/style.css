@@ -664,6 +664,11 @@ h8 {
 	background: #f1f1f1;
 }
 
+.call-to-action-bg-alt2 {
+    background: #2f73ab;
+	padding:20px 10px 10px 10px;
+}
+
 .members-bg {
 	background: #cccccc;
 }
@@ -1788,6 +1793,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 .mainTitle{
 	color:#00649e;
 }
+.mainTitle2{
+	color:#ffffff;
+	font-size: 18pt;
+}
 .mainTitleNorm{
 	color:#00649e;
 	font-weight: bold;
@@ -2719,6 +2728,35 @@ color:#ffffff;}
 	color:#01538f;
 	margin-bottom:0px;
 }
+.careerBox{
+	background-color:#f1f1f1;
+	margin: 20px 10px 10px 10px;
+	border: 1px solid #2f73ab;
+	font-family: 'Roboto', sans-serif;
+	padding-top:20px;
+	height:100%;
+	
+}
+.careerBox h4{
+	font-size: 19pt;
+	color: #308fd4;
+	margin-bottom:10px;
+}
+.careerTitle{
+	font-size: 17pt;
+	color: #1D5187;
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.careerLoc{
+	color:#908f8f;
+	margin-bottom:5px;
+	font-size: 13pt;
+}
+.careerMeet{
+	color:#58173b;
+	font-size: 13pt;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
@@ -2729,6 +2767,11 @@ height:1px;
 overflow:hidden;}
 
 /* Mobile Code DO NOT REMOVE */
+@media only screen
+	and (min-device-width: 791px)
+	and (max-device-width: 1053px) {
+		.careerBox{min-height:369px;height:100%;}
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
