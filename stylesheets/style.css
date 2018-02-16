@@ -3089,7 +3089,8 @@ color:#ffffff;}
 	margin-bottom:5px;
 }
 .careerLoc{
-	color:#908f8f;
+/*	color:#908f8f;*/
+    color:#606060;
 	margin-bottom:5px;
 	font-size: 13pt;
 }
