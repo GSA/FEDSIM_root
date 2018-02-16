@@ -664,6 +664,11 @@ h8 {
 	background: #f1f1f1;
 }
 
+.call-to-action-bg-alt2 {
+    color: #ffffff;
+	padding:20px 10px 10px 10px;
+}
+
 .members-bg {
 	background: #cccccc;
 }
@@ -1885,6 +1890,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 .mainTitle{
 	color:#00649e;
 }
+.mainTitle2{
+	color:#ffffff;
+	font-size: 18pt;
+}
 .mainTitleNorm{
 	color:#00649e;
 	font-weight: bold;
@@ -3059,7 +3068,35 @@ color:#ffffff;}
         opacity: 1;
     }
 }
-
+.careerBox{
+	background-color:#f1f1f1;
+	margin: 20px 10px 10px 10px;
+	border: 1px solid #2f73ab;
+	font-family: 'Roboto', sans-serif;
+	padding-top:20px;
+	height:100%;
+	
+}
+.careerBox h4{
+	font-size: 19pt;
+	color: #308fd4;
+	margin-bottom:10px;
+}
+.careerTitle{
+	font-size: 17pt;
+	color: #1D5187;
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.careerLoc{
+	color:#908f8f;
+	margin-bottom:5px;
+	font-size: 13pt;
+}
+.careerMeet{
+	color:#58173b;
+	font-size: 13pt;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
