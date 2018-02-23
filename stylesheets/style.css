@@ -2757,6 +2757,7 @@ color:#ffffff;}
 	color:#58173b;
 	font-size: 13pt;
 }
+#viz-client-container {height: 640px !important;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
