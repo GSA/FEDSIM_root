@@ -2809,3 +2809,14 @@ overflow:hidden;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
 }
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px)  {
+	  ul.nav, ul.title-area{width:16%;}
+	  .top-bar .name h1 a{padding-right:0px;}
+	  #gform{margin: 0 20px;}
+	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
+	  .mngsrv img {padding-left: 35%;}
+	  .acqmgmt h3{text-align: center !important;}
+		  
+}
