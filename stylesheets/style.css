@@ -2370,6 +2370,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .joinBlurb p {
 	color:#838384;
 }
+
+.joinButton, .joinButton:hover, .joinButton:focus{
+	background:#58173b; 
+	border:#58173b;
+}
 .shaping{
 	width:95%;
 	margin-left:40px;
