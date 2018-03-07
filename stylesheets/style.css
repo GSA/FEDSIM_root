@@ -3213,7 +3213,10 @@ overflow:hidden;}
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)  {
 	  ul.nav, ul.title-area{width:12%;}
-	  .top-bar .name h1 a{padding-right:0px;}
+ 	  .top-bar .name h1 a{padding-right:0px;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
 	  #gform{margin: 0 20px;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
