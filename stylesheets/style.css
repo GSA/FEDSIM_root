@@ -3182,7 +3182,7 @@ overflow:hidden;}
 }
 @media only screen 
    and (min-device-width: 501px) 
-   and (max-device-width: 768px)  {
+   and (max-device-width: 767px)  {
  	  ul.nav, ul.title-area{width:10%;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
@@ -3210,7 +3210,7 @@ overflow:hidden;}
  		  
  }
 @media only screen 
-  and (min-device-width: 769px) 
+  and (min-device-width: 768px) 
   and (max-device-width: 1024px)  {
 	  ul.nav, ul.title-area{width:14%;}
 	  .top-bar .name h1 a{padding-right:0px;}
