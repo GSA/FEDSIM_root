@@ -3202,6 +3202,9 @@ overflow:hidden;}
 	   .services p, .servicesCivColor p{padding-top:0px;margin-left:10px;font-size:18px;}
 	   .defImage, .civImage{min-height:232px;}
 	   .joinFEDSIM p{margin: 0px 10px 1.25rem 10px;}
+	   .joinIcons {margin-left:0px; margin-right:0px;}
+	   .conSection p, .pmSection p{margin: 0 10px;}
+	   .joinSlide {padding:10px;}
  		  
  }
 @media only screen 
