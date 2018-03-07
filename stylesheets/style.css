@@ -3192,7 +3192,7 @@ overflow:hidden;}
  	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
  	  .mngsrv img {padding-left: 35%;}
  	  .acqmgmt h3{text-align: center !important;}
- 	  .milestone strong, .milestone h3{font-size: 40px;}
+ 	  .milestone strong, .milestone h3{font-size: 34px;}
  	  .careerBox{min-height:432px;}
  	  .sectionTop p{font-size:.8rem !important;padding-left:24px;}
  	  .sectionBottom{min-height:264px !important;}
@@ -3201,6 +3201,7 @@ overflow:hidden;}
  	  .programs img, .prg1 img{width:100%;}
 	   .services p, .servicesCivColor p{padding-top:0px;margin-left:10px;font-size:18px;}
 	   .defImage, .civImage{min-height:232px;}
+	   .joinFEDSIM p{margin: 0px 10px 1.25rem 10px;}
  		  
  }
 @media only screen 
