@@ -3205,6 +3205,7 @@ overflow:hidden;}
 	   .joinIcons {margin-left:0px !important; margin-right:0px !important;}
 	   .conSection p, .pmSection p{margin: 0 10px;}
 	   .joinSlide {padding:10px;}
+	   #sequence .sequence-pagination {bottom:0p !important;}
  		  
  }
 @media only screen 
