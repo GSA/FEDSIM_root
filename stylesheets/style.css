@@ -3212,7 +3212,7 @@ overflow:hidden;}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)  {
-	  ul.nav, ul.title-area{width:14%;}
+	  ul.nav, ul.title-area{width:12%;}
 	  .top-bar .name h1 a{padding-right:0px;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
 	  #gform{margin: 0 20px;}
