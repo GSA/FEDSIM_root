@@ -3199,6 +3199,8 @@ overflow:hidden;}
  	  #video{height:400px !important; width:600px !important;}
  	  .currentSite img{padding:21px 0;}
  	  .programs img, .prg1 img{width:100%;}
+	   .servicesp, servicesCivColor p{padding-top:0px;margin-left:10px;font-size:18px;}
+	   .defImage, .civImage{min-height:252px;}
  		  
  }
 @media only screen 
