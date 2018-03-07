@@ -3209,7 +3209,7 @@ overflow:hidden;}
 	   #sequence .sequence-pagination {bottom:0p !important;}
  		  
  }
-@media only screen 
+/*@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
@@ -3238,7 +3238,7 @@ overflow:hidden;}
 	   .conSection p, .pmSection p{margin: 0 10px;}
 	   .joinSlide {padding:10px;}
 	   #sequence .sequence-pagination {bottom:0p !important;}
-}
+}*/
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)
