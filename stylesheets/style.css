@@ -3209,36 +3209,22 @@ overflow:hidden;}
 	   #sequence .sequence-pagination {bottom:0p !important;}
  		  
  }
-/*@media only screen 
+@media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
-	ul.nav, ul.title-area{width:10%;}
+	ul.nav, ul.title-area{width:14%;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
- 	  #gform{margin: 0 20px;}
- 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
- 	  .mngsrv img {padding-left: 35%;}
- 	  .acqmgmt h3{text-align: center !important;}
- 	  .milestone strong, .milestone h3{font-size: 34px;}
- 	  .careerBox{min-height:432px;}
- 	  .sectionTop p{font-size:.8rem !important;padding-left:24px;}
- 	  .sectionBottom{min-height:264px !important;}
- 	  #video{height:400px !important; width:600px !important;}
- 	  .currentSite img{padding:21px 0;}
- 	  .programs img, .prg1 img{width:100%;}
-	   .services p, .servicesCivColor p{padding-top:0px;margin-left:10px;font-size:18px;}
-	   .defImage, .civImage{min-height:232px;}
-	   .joinFEDSIM p{margin: 0px 10px 1.25rem 10px;}
-	   .joinIcons {margin-left:0px !important; margin-right:0px !important;}
-	   .conSection p, .pmSection p{margin: 0 10px;}
-	   .joinSlide {padding:10px;}
-	   #sequence .sequence-pagination {bottom:0p !important;}
-}*/
+	  #gform{margin: 0 20px;}
+	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
+	  .mngsrv img {padding-left: 35%;}
+	  .acqmgmt h3{text-align: center !important;}
+}
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)
