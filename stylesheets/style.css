@@ -3215,6 +3215,8 @@ overflow:hidden;}
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
 	ul.nav, ul.title-area{width:14%;}
+      ul.right{float: center !important;}
+      .mobile{display: none;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
@@ -3230,7 +3232,8 @@ overflow:hidden;}
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1)  {
 	  ul.nav, ul.title-area{width:14%;}
-      ul.right{float: center!important;}
+      ul.right{float: center !important;}
+      .mobile{display: none;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
