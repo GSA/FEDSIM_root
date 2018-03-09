@@ -3217,7 +3217,7 @@ overflow:hidden;}
   and (-webkit-min-device-pixel-ratio: 1) {
       
 	ul.nav, ul.title-area{width:14%;}
-      section.top-bar-section img {width: 170px;}
+      section.top-bar-section img {width: 170px !important;}
       ul.right{float: center !important;}
       .mobile{display: none;}
  	  .top-bar .name h1 a{padding-right:0px;}
@@ -3235,7 +3235,7 @@ overflow:hidden;}
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1)  {
 	  ul.nav, ul.title-area{width:14%;}
-      section.top-bar-section img {width: 170px;}
+      section.top-bar-section img {width: 170px !important;}
       ul.right{float: center !important;}
       .mobile{display: none;}
  	  .top-bar .name h1 a{padding-right:0px;}
