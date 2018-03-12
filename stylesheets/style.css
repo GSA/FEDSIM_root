@@ -3129,6 +3129,9 @@ color:#ffffff;}
 	font-weight: bold;
 	text-decoration: underline;
 }
+.tablet:hover, .tablet a:hover{
+    background-color:#ffffff !important;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
