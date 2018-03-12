@@ -3150,6 +3150,7 @@ overflow:hidden;}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
+      .tablet {display: none;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .homeSlider h3 {font-size: 26px;}
 	  .mainTitleNorm {font-size: 1.5rem;}
