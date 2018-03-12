@@ -3132,6 +3132,7 @@ color:#ffffff;}
 .tablet:hover, .tablet a:hover{
     background-color:#ffffff !important;
 }
+.right{background-color:#ffffff;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
@@ -3195,7 +3196,7 @@ overflow:hidden;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
  	  #gform{margin: 0 20px;}
-       .tablet {width:15%;}
+       .tablet {width:15%; background-color:#ffffff;}
  	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
  	  .mngsrv img {padding-left: 35%;}
  	  .acqmgmt h3{text-align: center !important;}
@@ -3230,6 +3231,7 @@ overflow:hidden;}
       section.top-bar-section img {width: 170px !important;}
       ul.right{float: left !important;}
       .mobile{display: none;}
+      .tablet{background-color:#ffffff;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
@@ -3247,6 +3249,7 @@ overflow:hidden;}
 	  ul.nav, ul.title-area{width:14%;}
       section.top-bar-section img {width: 170px !important;}
       ul.right{float: center !important;}
+      .tablet{background-color:#ffffff;}
       .mobile{display: none;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
@@ -3262,4 +3265,5 @@ overflow:hidden;}
 @media only screen 
     and (min-device-width: 1024px){
       .mobile{display: none;}
+      .tablet{background-color:#ffffff;}
 }
