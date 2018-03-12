@@ -3215,6 +3215,11 @@ overflow:hidden;}
 	   #sequence .sequence-pagination {bottom:0p !important;}
  		  
  }
+@media only screen
+    and (min-device-width: 500px)
+    and (max-device-width: 740px) {
+        .tablet{width:10%;}
+}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
