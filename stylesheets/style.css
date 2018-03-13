@@ -3190,7 +3190,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : landscape) { 
-    ul.nav, ul.title-area{width:10%;}
+    .tablet{width:10%;}
       section.top-bar-section img {width: 170px !important;}
       .mobile{display: none;}
        ul.right{background-color:#ffffff;}
