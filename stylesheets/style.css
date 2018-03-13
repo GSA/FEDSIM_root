@@ -3185,9 +3185,8 @@ overflow:hidden;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
 }
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
+@media only screen  
+and (max-device-width : 667px) 
 and (orientation : landscape) { 
     .tablet{width:10%;}
       .mobile{display: none;}
