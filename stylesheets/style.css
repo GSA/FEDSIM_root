@@ -3189,6 +3189,7 @@ overflow:hidden;}
    and (min-device-width: 501px) 
    and (max-device-width: 768px)  {
  	  ul.nav, ul.title-area{width:10%;}
+      section.top-bar-section img {width: 170px !important;}
       .mobile{display: none;}
        ul.right{background-color:#ffffff;}
  	  .top-bar .name h1 a{padding-right:0px;}
