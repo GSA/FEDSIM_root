@@ -3188,9 +3188,10 @@ overflow:hidden;}
 @media only screen  
 and (max-device-width : 667px) 
 and (orientation : landscape) { 
-    .tablet{width:10%;}
+/*    .tablet{width:10%;}*/
+      section.top-bar-section img {width: 170px !important;}
       .mobile{display: none;}
-       ul.right{background-color:#ffffff;}
+       ul.right{background-color:#bbbbbb;}
 }
 
 @media only screen 
