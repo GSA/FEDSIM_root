@@ -3231,7 +3231,7 @@ overflow:hidden;}
       section.top-bar-section img {width: 170px !important;}
       ul.right{float: left !important;}
       .mobile{display: none;}
-      .tablet{background-color:#ffffff;}
+      .tablet{background-color:#ffffff; padding-right:60px;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
