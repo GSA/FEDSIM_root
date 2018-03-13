@@ -3263,7 +3263,7 @@ overflow:hidden;}
 		  
 }
 @media only screen 
-    and (min-device-width: 1024px){
+    and (min-device-width: 1025px){
       .mobile{display: none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
 }
