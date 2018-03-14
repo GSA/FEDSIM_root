@@ -3185,13 +3185,7 @@ overflow:hidden;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
 }
-@media only screen  
-and (max-device-width : 667px) 
-and (orientation : landscape) { 
-/*    .tablet{width:10%;}*/
-      .mobile{display: none;}
-       ul.right{background-color:#bbbbbb;}
-}
+
 
 @media only screen 
    and (min-device-width: 501px) 
@@ -3231,7 +3225,7 @@ and (orientation : landscape) {
     and (max-device-width: 740px) {
         
       ul.right{background-color:#ffffff;}
-        .tablet{width:10%; margin-right:40px;}
+        .tablet{width:10%; margin-right:10px;}
 }
 @media only screen 
   and (min-device-width: 768px) 
@@ -3273,6 +3267,13 @@ and (orientation : landscape) {
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
 		  
+}
+@media only screen  
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+/*    .tablet{width:10%;}*/
+      .mobile{display: none;}
+       ul.right{background-color:#bbbbbb;}
 }
 @media only screen 
     and (min-device-width: 1025px){
