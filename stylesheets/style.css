@@ -2630,7 +2630,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
   height: 2.3rem;
 color:#ffffff;}
 .usa-disclaimer a{
-	color:#7ba8ce;
+	color:#edf4f8;
 	font-weight: bold;
 }
 @media screen and (min-width: 481px) {
