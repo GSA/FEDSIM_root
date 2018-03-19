@@ -3159,6 +3159,7 @@ overflow:hidden;}
 	  .joinImage{width:100%;}
 	  .joinBlurb{margin-left:0;}
 	  .joinColor p{padding-top:5%;}
+      .joinFEDSIM p{margin: 0 0px 0 0px;}
 	  .servicesColor p, .servicesCivColor p{padding-top:0; margin-left:10px;}
 	  .serviceImage, .generalImage, .fiacImage, .civImage, .defImage{display:none;}
 	  .servicesColor{width:100%;}
