@@ -3148,6 +3148,7 @@ overflow:hidden;}
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
+      #sequence p{font-size:.95rem}
 	  .homeSlider h3 {font-size: 26px;}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
@@ -3160,6 +3161,7 @@ overflow:hidden;}
 	  .joinBlurb{margin-left:0;}
 	  .joinColor p{padding-top:5%;}
       .joinFEDSIM p{margin: 0 0px 0 0px;}
+      .joinSlide img{ height:60px;}
       .employee p.quote{background: rgba(255,255,255,0.8);}
       .employee p.test1{background-image: none;}
       .employee p.test2{background-image: none;}
