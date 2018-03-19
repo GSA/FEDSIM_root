@@ -3153,7 +3153,7 @@ overflow:hidden;}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
 	  .icon-text h3{margin-left:0px;text-align: center !important;}
-	  p.quote{padding:20px 0px;}
+	  p.quote{padding:20px 0px; font-size:15px;}
 	  .homeNum{max-width: 100%; margin-right: 0;}
 	  .join{width:100%;}
 	  .joinColor, .generalColor, .fiacColor{padding-top:0; width:100%;}
