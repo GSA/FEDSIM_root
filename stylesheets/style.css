@@ -3148,7 +3148,7 @@ overflow:hidden;}
   and (min-device-width: 320px) 
   and (max-device-width: 500px)  {
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
-      #sequence p{font-size:.95rem}
+      #sequence p{font-size:.95rem;}
 	  .homeSlider h3 {font-size: 26px;}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
