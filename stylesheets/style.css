@@ -3133,6 +3133,28 @@ color:#ffffff;}
     background-color:#ffffff !important;
 }
 .right{background-color:#ffffff;}
+.dodAF .medium-2 h3, .civilian .medium-2 h3, .armyNavy .medium-2 h3, .homeland .medium-2 h3{
+    font-size: 14px;
+}
+.dodAF .medium-2, .civilian .medium-2, .armyNavy .medium-2, .homeland .medium-2{
+    padding: 0px;
+    width: 14%;
+    margin-bottom: 10px;
+}
+.dodAF .large-2, .civilian .large-2, .armyNavy .large-2, .homeland .large-2{
+    padding: 0px;
+    width: 14%;
+    margin-bottom: 10px;
+}
+.dodAF img, .civilian img, .armyNavy img, .homeland img{
+    width: 65%;
+}
+.sectorTitle h2{
+    font-size: 24px;
+    margin-top:52px;
+}
+.SD{background-color:  #a1a1a1; color:#000000; margin-right:10px}
+.SD p{color:#000000 !important;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
