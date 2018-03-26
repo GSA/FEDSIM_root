@@ -3202,7 +3202,7 @@ overflow:hidden;}
 	  .usa-disclaimer-official p {font-size: .65rem;}
 	  .usa-disclaimer-official img {width: 1.1rem;}
 	  .usa-grid {padding-left: .5rem; padding-right: .5rem;}
-	  .programs{display: none;}
+	  .programs{display: none !important;}
 	  .top{padding-left:0px;}
 	  .top img{width:29%;}
 	  .civProj2Ind img, .defProj1Ind img, .defProj2Ind img{width:20%;}
