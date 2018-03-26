@@ -3154,6 +3154,7 @@ color:#ffffff;}
     margin-top:52px;
 }
 .SD{background-color:  #a1a1a1; color:#000000; margin-right:10px}
+
 .SD p{color:#333333 !important;}
 .civilian, .homeland{margin-top: 25px !important;}
 /* 508 Compliance Code DO NOT REMOVE */
@@ -3207,6 +3208,8 @@ overflow:hidden;}
 	  .civProj2Ind img, .defProj1Ind img, .defProj2Ind img{width:20%;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
+      .SD{width:100%;}
+      .SD img{width:100%;padding:0 15px;}
 }
 
 
