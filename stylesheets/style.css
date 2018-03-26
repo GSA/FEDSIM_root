@@ -3155,7 +3155,7 @@ color:#ffffff;}
 }
 .SD{background-color:  #a1a1a1; color:#000000; margin-right:10px}
 .SD p{color:#333333 !important;}
-.armyNavy{margin-top: -25px;}
+.civilian, homeland{margin-top: 25px !important;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
