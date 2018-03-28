@@ -3157,6 +3157,21 @@ color:#ffffff;}
 
 .SD p{color:#333333 !important;}
 .civilian, .homeland{margin-top: 25px !important;}
+.panel-title > a:before {
+    float: left !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: left !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
