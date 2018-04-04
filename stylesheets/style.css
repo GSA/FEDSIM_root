@@ -2075,6 +2075,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	padding:15px;
     min-height: 206px;
     line-height: 18px;
+    text-align: left;
 }
 .servicesButton{
 	padding-left: 1.1rem;
@@ -2428,6 +2429,19 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-family: "PT Sans";
 	font-style:normal;
 	margin-bottom:0px;
+}
+.fiacBot h3{
+    color: #848485;
+    margin-bottom:5px;
+}
+.fiacBot p{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "PT Sans";
+    font-style: normal;
+    text-align:left;
+    color:#848485;
+    margin-bottom:5px;
 }
 .ipVideo{
 	margin-bottom:40px;
