@@ -3154,8 +3154,11 @@ color:#ffffff;}
     margin-top:52px;
 }
 .SD{background-color:  #a1a1a1; color:#000000; margin-right:10px}
-
 .SD p{color:#333333 !important;}
+.alt{background-color:  #eee; color:#000000; margin-bottom:40px;}
+/*.alt p{color:#333333 !important;}*/
+.altheight{padding-bottom:3px;}
+.mingHeight{min-height:280px;}
 .civilian, .homeland{margin-top: 25px !important;}
 .panel-title > a:before {
     float: left !important;
@@ -3259,6 +3262,10 @@ overflow:hidden;}
 	   .conSection p, .pmSection p{margin: 0 10px;}
 	   .joinSlide {padding:10px;}
 	   #sequence .sequence-pagination {bottom:0p !important;}
+       .member img{margin-bottom:0px;}
+/*       .imgPad{margin-top:20px;}*/
+       .mingHeight{min-height:244px;}
+       
  		  
  }
 @media only screen
@@ -3288,6 +3295,9 @@ overflow:hidden;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
+       .member img{margin-bottom:5px;}
+/*       .imgPad{margin-top:20px;}*/
+.mingHeight{min-height:216px;}
 }
 @media only screen 
   and (min-device-width: 769px) 
@@ -3307,6 +3317,7 @@ overflow:hidden;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
+      .mingHeight{min-height:216px;}
 		  
 }
 @media only screen  
@@ -3321,7 +3332,13 @@ and (orientation : landscape) {
 	  .contain-to-grid .top-bar {max-width: 80rem;}
 }
 @media only screen 
+    and (min-device-width: 1024px)
+  and (max-device-width: 1325px) {
+        .mingHeight{min-height:244px;}
+}
+@media only screen 
     and (min-device-width: 1025px){
       .mobile{display: none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
+        
 }
