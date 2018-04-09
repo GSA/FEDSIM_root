@@ -3291,13 +3291,7 @@ overflow:hidden;}
       ul.right{background-color:#ffffff;}
         .tablet{width:10%; margin-right:10px;}
 }
-@media only screen  
-  and (max-device-width: 667px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-      ul.nav, ul.title-area{width:10%;}
-      .top-bar-section ul li > a{background-color:#000000;}
-}
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -3345,7 +3339,8 @@ overflow:hidden;}
 }
 @media only screen  
 and (max-device-width : 667px) 
-and (orientation : landscape) { 
+and (orientation : landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
       .tablet{width:10%;}
       .mobile{display: none;}
        ul.right{background-color:#bbbbbb;}
