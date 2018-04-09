@@ -3353,7 +3353,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (max-device-width : 480px) 
 and (orientation : landscape) 
 and (-webkit-min-device-pixel-ratio: 2) { 
-      .tablet{width:8%;}
+      .tablet{width:5%;}
       .mobile{display: none;}
        ul.right{background-color:#bbbbbb;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
