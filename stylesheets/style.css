@@ -3340,7 +3340,7 @@ overflow:hidden;}
 @media only screen  
 and (max-device-width : 667px) 
 and (orientation : landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+and (-webkit-min-device-pixel-ratio: 2) { 
       .tablet{width:10%;}
       .mobile{display: none;}
        ul.right{background-color:#bbbbbb;}
