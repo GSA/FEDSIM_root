@@ -3189,6 +3189,8 @@ color:#ffffff;}
 .panel-title > a:focus  {
     text-decoration:none;
 }
+.projLead p{font-family:'Roboto', sans-serif; color:#424143;}
+.projLeft{margin-right:40px;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
@@ -3288,6 +3290,12 @@ overflow:hidden;}
         
       ul.right{background-color:#ffffff;}
         .tablet{width:10%; margin-right:10px;}
+}
+@media only screen  
+  and (max-device-width: 667px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      ul.nav, ul.title-area{width:10%;}
 }
 @media only screen 
   and (min-device-width: 768px) 
