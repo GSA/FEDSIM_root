@@ -3195,127 +3195,36 @@ color:#ffffff;}
 .projLeft{margin-right:40px;}
 /* Multi Item Carousel */
 
-img { max-width:100%; }
-
-a {
-    -webkit-transition: all 150ms ease;
-	-moz-transition: all 150ms ease;
-	-ms-transition: all 150ms ease;
-	-o-transition: all 150ms ease;
-	transition: all 150ms ease; 
-	}
-    
-a:hover {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
-    filter: alpha(opacity=50); /* IE7 */
-    opacity: 0.6;
-    text-decoration: none;
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
 }
-
-
-
-
-.btn-mini{
-    border-top: 1px solid #e8e8e8;
-    border-radius: 0px;
-    width: 100%;
-    color: #b2adad;
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 160px;
 }
-.casing{
-    border:1px solid #e8e8e8;
-    float:left;
-    width:100%;
+.carousel-control.right {
+	right: -12px;
 }
-.thumbnail {
-    padding: 0px !important;
-    border-radius: 0px !important;
-    border: none !important;
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
 }
-
-.thumbnails li> .fff .caption { 
-    background:#fff !important; 
-    padding:10px
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
 }
-
-.page-header {
-    background: #ffffff7a;
-    margin: 0px 0px 22px;
-    padding: 1px 40px;
-    border-top: 4px solid #ccc;
-    color: #999;
-    text-transform: uppercase;
-}
-.page-header p{
-    text-align:center;
-}
-
-.page-header h3 {
-    line-height: 0.88rem;
-    color: #000;
-    text-align:center;
-    font-size:20px;
-    font-weight:bold;
-}
-
-ul.thumbnails { 
-    margin-bottom: 0px;
-}
-.caption h4 {
-    color: #444;
-    text-indent: 10px;
-}
-.caption p {  
-    color: #999;
-    padding: 0px 10px;
-}
-.control-box {
-    text-align: right;
-    width: 100%;
-    margin-top: -152px;
-}
-.carousel-control{
-    background: #666;
-    border: 0px;
-    border-radius: 0px;
-    display: inline-block;
-    font-size: 34px;
-    font-weight: 200;
-    line-height: 18px;
-    opacity: 0.5;
-    padding: 4px 10px 0px;
-    position: static;
-    height: 30px;
-    width: 15px;
-}
-
-@media (max-width: 767px) {
-    .page-header, .control-box {
-        text-align: center;
-    } 
-}
-@media (max-width: 479px) {
-    .caption {
-        word-break: break-all;
-    }
-}
-
-
-li { list-style-type:none;}
-
-::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
-::-moz-selection { background: #ff5e99; color: #FFFFFF; }
-
-.left{
-    float:left;
-}
-.right{
-    float:right;
-    margin-right:-15px;
-}
-
-.arrowStil{
-    border-radius: 23px !important;
-    padding: 11px 14px !important;  
+.carousel-indicators .active {
+background: #428bca;
 }
 
 /* 508 Compliance Code DO NOT REMOVE */
