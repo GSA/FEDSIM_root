@@ -3414,7 +3414,7 @@ overflow:hidden;}
 	       background-image: url(../images/@stock/test2.png);
 	       background-repeat: no-repeat;}
         .employee p.test2 {background-repeat: repeat-x;}
-        .fiacColor p{padding-top:5%;}
+        .fiacColor p{padding-top:0;}
 }
 @media only screen
   and (max-device-width: 1280px) 
