@@ -3355,7 +3355,7 @@ overflow:hidden;}
         .tablet{width:10%; margin-right:10px;}
 }
 @media only screen
-    and (min-device-width: 715px)
+    and (min-device-width: 667px)
     and (max-device-width: 720px) {
         
       .currentSite img{padding:23px 0;}
