@@ -3354,7 +3354,12 @@ overflow:hidden;}
       ul.right{background-color:#ffffff;}
         .tablet{width:10%; margin-right:10px;}
 }
-
+@media only screen
+    and (min-device-width: 715px)
+    and (max-device-width: 720px) {
+        
+      .currentSite img{padding:23px 0;}
+}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
