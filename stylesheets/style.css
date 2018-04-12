@@ -3403,8 +3403,12 @@ overflow:hidden;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
       .mingHeight{min-height:216px;}
-      .pmSection{min-height:378px;}
 		  
+}
+@media only screen
+    and (min-device-width: 769px)
+    and (max-device-width: 900px) {
+      .pmSection{min-height:378px !important;}
 }
 @media only screen  
 and (max-device-width : 667px) 
