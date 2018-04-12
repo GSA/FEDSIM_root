@@ -3418,7 +3418,7 @@ overflow:hidden;}
 @media only screen
   and (max-device-width: 1280px) 
   and (orientation: landscape) { 
-      .pmSection, .conSection{min-height:370px !important;}
+      .pmSection, .conSection{min-height:470px !important;}
 /*        .conSection p, .pmSection p{ padding: 0 20px;}*/
 }
 @media only screen  
