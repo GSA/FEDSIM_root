@@ -3406,8 +3406,8 @@ overflow:hidden;}
 		  
 }
 @media only screen
-    and (min-device-width: 769px)
-    and (max-device-width: 900px) {
+    (max-device-width: 800px) 
+    and (orientation: portrait) {
       .pmSection{min-height:378px !important;}
 }
 @media only screen  
