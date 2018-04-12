@@ -3207,7 +3207,7 @@ color:#ffffff;}
     background: none repeat scroll 0 0 #222222;
     border: 4px solid #FFFFFF;
     border-radius: 23px 23px 23px 23px;
-    margin-top: 280px;
+    margin-top: 325px;
     padding-top: 5px;
 }
 .carousel-control.right {
@@ -3229,7 +3229,7 @@ background: #428bca;
 }
 #Carousel .thumbnail{
     padding:0px;
-    min-height:152px;
+    min-height:200px;
     border: 0px;
     border-radius: 0px;
 }
@@ -3248,7 +3248,7 @@ background: #428bca;
     padding-left:60px;
     padding-right:90px;
     position:absolute;
-    margin-top:100px;
+    margin-top:167px;
     margin-bottom:-70px;
     z-index:100;
 }
