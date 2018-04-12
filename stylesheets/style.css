@@ -3409,6 +3409,9 @@ overflow:hidden;}
     (max-device-width: 800px) 
     and (orientation: portrait) {
       .pmSection{min-height:378px !important;}
+        .employee p.test1, .employee p.test3, .employee p.test4{
+	       background-image: url(../images/@stock/test2.png);
+	       background-repeat: no-repeat;}
 }
 @media only screen  
 and (max-device-width : 667px) 
