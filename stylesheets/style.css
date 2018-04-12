@@ -3415,6 +3415,12 @@ overflow:hidden;}
 	       background-repeat: no-repeat;}
         .employee p.test2 {background-repeat: repeat-x;}
 }
+@media 
+  and (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+      .pmSection, .conSection{min-height:310px !important;}
+/*        .conSection p, .pmSection p{ padding: 0 20px;}*/
+}
 @media only screen  
 and (max-device-width : 667px) 
 and (orientation : landscape)  { 
