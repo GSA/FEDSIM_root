@@ -3467,6 +3467,7 @@ and (orientation : landscape)  {
       .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
       .pmSection, .conSection {min-height: 350px !important;}
       .row .row {margin-left: 0;margin-right: 0;}
+      .tablet {padding-right: 60px;}
 }
 @media only screen 
     and (min-device-width: 1024px)
