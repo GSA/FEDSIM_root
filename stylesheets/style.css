@@ -3447,6 +3447,7 @@ and (orientation : landscape)  {
       .mngsrv h3 {margin-left: 68px;}
       .tablet {padding-right: 0px;}
       .value .medium-5 {width:38%;}
+      .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
 }
 @media only screen 
     and (min-device-width: 1024px)
