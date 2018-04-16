@@ -3453,7 +3453,7 @@ and (orientation : landscape)  {
       .currentSite img {padding: 20px 0;}
       .joinFEDSIM p {margin: 0 50px 1.25rem 50px;}
       .row .row {margin-left: 0;margin-right: 0;}
-      .pmSection, .conSection {min-height: 470px !important;}
+      .pmSection, .conSection {min-height: 430px !important;}
       .employee p.test1, .employee p.test3, .employee p.test4{
 	       background-image: url(../images/@stock/test2.png);
 	       background-repeat: no-repeat;}
