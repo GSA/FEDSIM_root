@@ -3445,6 +3445,8 @@ and (orientation : landscape)  {
       .profserv img {padding-left: 21%;}
       .mngsrv img {padding-left: 22%;}
       .mngsrv h3 {margin-left: 68px;}
+      .tablet {padding-right: 0px;}
+      .value .medium-5 {width:38%;}
 }
 @media only screen 
     and (min-device-width: 1024px)
