@@ -3458,6 +3458,7 @@ and (orientation : landscape)  {
 	       background-image: url(../images/@stock/test2.png);
 	       background-repeat: no-repeat;}
         .employee p.test2 {background-repeat: repeat-x;}
+      .fiacColor p{font-size: 19px;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
