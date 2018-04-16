@@ -3434,6 +3434,19 @@ and (orientation : landscape)  {
 	  .contain-to-grid .top-bar {max-width: 80rem;}
 }
 @media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .acqmgmt img {padding-left: 35%;}
+      .finmgmt img {padding-left: 18%;}
+      .projmgmt img {padding-left: 22%;}
+      .itserv h3 {margin-left: 86px;}
+      .profserv img {padding-left: 21%;}
+      .mngsrv img {padding-left: 22%;}
+      .mngsrv h3 {margin-left: 68px;}
+}
+@media only screen 
     and (min-device-width: 1024px)
   and (max-device-width: 1325px) {
         .mingHeight{min-height:244px;}
