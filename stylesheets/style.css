@@ -3450,6 +3450,14 @@ and (orientation : landscape)  {
       .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
       .homeNum{max-width: 26%;}
       .milestone strong, .milestone h3 {font-size: 60px;}
+      .currentSite img {padding: 20px 0;}
+      .joinFEDSIM p {margin: 0 50px 1.25rem 50px;}
+      .row .row {margin-left: 0;margin-right: 0;}
+      .pmSection, .conSection {min-height: 470px !important;}
+      .employee p.test1, .employee p.test3, .employee p.test4{
+	       background-image: url(../images/@stock/test2.png);
+	       background-repeat: no-repeat;}
+        .employee p.test2 {background-repeat: repeat-x;}
 }
 @media only screen 
   and (min-device-width: 1112px) 
