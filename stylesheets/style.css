@@ -3448,6 +3448,15 @@ and (orientation : landscape)  {
       .tablet {padding-right: 0px;}
       .value .medium-5 {width:38%;}
       .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
+      .homeNum{max-width: 26%;}
+      .milestone strong, .milestone h3 {font-size: 60px;}
+}
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
 }
 @media only screen 
     and (min-device-width: 1024px)
