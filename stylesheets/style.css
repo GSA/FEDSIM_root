@@ -3175,7 +3175,7 @@ color:#ffffff;}
 /*.alt p{color:#333333 !important;}*/
 .altheight{padding-bottom:3px;}
 .altHR hr{border: solid #cacaca; border-width: 1px 0 0; height: 0;}
-.altHR {margin-bottom:20px;}
+.altHR {margin-bottom:20px !important;}
 .mingHeight{min-height:280px;}
 .civilian, .homeland{margin-top: 25px !important;}
 .panel-title > a:before {
