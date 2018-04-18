@@ -3287,6 +3287,7 @@ overflow:hidden;}
        .member img{margin-bottom:5px;}
 /*       .imgPad{margin-top:20px;}*/
 .mingHeight{min-height:216px;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 }
 @media only screen 
   and (min-device-width: 769px) 
@@ -3307,6 +3308,7 @@ overflow:hidden;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
       .mingHeight{min-height:216px;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 		  
 }
 @media only screen
@@ -3331,24 +3333,24 @@ overflow:hidden;}
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-      .tablet{width:8%;}
-      .mobile{display: none;}
+      .tablet{width:14%;}
+      .mobile{width:16%;}
        ul.right{background-color:#bbbbbb;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.8rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
-	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
-	  .contain-to-grid .top-bar {max-width: 80rem;}
+	   .top-bar-section .has-dropdown > a{padding-right: 12px !important;}
+/*	  .contain-to-grid .top-bar {max-width: 80rem;}*/
 }
 @media only screen  
 and (max-device-width : 667px) 
 and (orientation : landscape)  { 
-      .tablet{width:8%;}
-      .mobile{display: none;}
+      .tablet{width:14%;}
+      .mobile{width:16%;}
        ul.right{background-color:#bbbbbb;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.8rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
-	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
-	  .contain-to-grid .top-bar {max-width: 80rem;}
+	   .top-bar-section .has-dropdown > a{padding-right: 12px !important;}
+/*	  .contain-to-grid .top-bar {max-width: 80rem;}*/
 }
 @media only screen 
   and (min-device-width: 834px) 
@@ -3391,10 +3393,16 @@ and (orientation : landscape)  {
     and (min-device-width: 1024px)
   and (max-device-width: 1325px) {
         .mingHeight{min-height:244px;}
+        .top-bar-section ul{background-color:#ffffff;}
+      .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 }
 @media only screen 
     and (min-device-width: 1025px){
       .mobile{display: none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
+        .top-bar-section ul{background-color:#ffffff;}
+      .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
         
 }
