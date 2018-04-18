@@ -3494,11 +3494,13 @@ and (orientation : landscape)  {
   and (max-device-width: 1325px) {
         .mingHeight{min-height:244px;}
         .top-bar-section ul{background-color:#ffffff;}
+      .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
 }
 @media only screen 
     and (min-device-width: 1025px){
       .mobile{display: none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
         .top-bar-section ul{background-color:#ffffff;}
+      .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
         
 }
