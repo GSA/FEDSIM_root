@@ -3493,10 +3493,12 @@ and (orientation : landscape)  {
     and (min-device-width: 1024px)
   and (max-device-width: 1325px) {
         .mingHeight{min-height:244px;}
+        .top-bar-section ul{background-color:#ffffff;}
 }
 @media only screen 
     and (min-device-width: 1025px){
       .mobile{display: none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
+        .top-bar-section ul{background-color:#ffffff;}
         
 }
