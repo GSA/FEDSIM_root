@@ -3351,6 +3351,7 @@ and (orientation : landscape)  {
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 12px !important;}
 /*	  .contain-to-grid .top-bar {max-width: 80rem;}*/
+    .medium-3.finmngmt{width: 52%;margin-left: -85px;}
 }
 @media only screen 
   and (min-device-width: 834px) 
