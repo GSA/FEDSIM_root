@@ -3175,27 +3175,20 @@ overflow:hidden;}
 }
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 500px)  {
+  and (max-device-width: 450px)  {
+      .tablet {display: none;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
-      #sequence p{font-size:.95rem;}
 	  .homeSlider h3 {font-size: 26px;}
 	  .mainTitleNorm {font-size: 1.5rem;}
 	  .aboutFEDSIM{padding:20px 25px;}
 	  .icon-text h3{margin-left:0px;text-align: center !important;}
-	  p.quote{padding:20px 0px; font-size:15px;}
+	  p.quote{padding:20px 0px;}
 	  .homeNum{max-width: 100%; margin-right: 0;}
 	  .join{width:100%;}
 	  .joinColor, .generalColor, .fiacColor{padding-top:0; width:100%;}
 	  .joinImage{width:100%;}
 	  .joinBlurb{margin-left:0;}
 	  .joinColor p{padding-top:5%;}
-      .joinFEDSIM p{margin: 0 0px 0 0px;}
-      .joinSlide img{ height:60px;}
-      .employee p.quote{background: rgba(255,255,255,0.8);}
-      .employee p.test1{background-image: none;}
-      .employee p.test2{background-image: none; padding-bottom:15px !important;}
-      .employee p.test3{background-image: none;}
-      .employee p.test4{background-image: none;}
 	  .servicesColor p, .servicesCivColor p{padding-top:0; margin-left:10px;}
 	  .serviceImage, .generalImage, .fiacImage, .civImage, .defImage{display:none;}
 	  .servicesColor{width:100%;}
@@ -3210,23 +3203,31 @@ overflow:hidden;}
 	  .usa-disclaimer-official p {font-size: .65rem;}
 	  .usa-disclaimer-official img {width: 1.1rem;}
 	  .usa-grid {padding-left: .5rem; padding-right: .5rem;}
-	  .programs{display: none;}
+	  .programs{display: none !important;}
 	  .top{padding-left:0px;}
 	  .top img{width:29%;}
 	  .civProj2Ind img, .defProj1Ind img, .defProj2Ind img{width:20%;}
 	  .bottom h2, .bottom h3{padding-left:0px;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
+      .SD, .dodAF .large-2, .civilian .large-2, .armyNavy .large-2, .homeland .large-2{width:100% !important;}
+      .SD img{width:100% !important;padding:0 15px !important;}
 }
+
+
 @media only screen 
    and (min-device-width: 501px) 
    and (max-device-width: 768px)  {
  	  ul.nav, ul.title-area{width:10%;}
+      section.top-bar-section img {width: 170px !important;}
+      .mobile{display: none;}
+       ul.right{background-color:#ffffff;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
  	  #gform{margin: 0 20px;}
+       .tablet {width:15%; background-color:#ffffff;}
  	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
  	  .mngsrv img {padding-left: 35%;}
  	  .acqmgmt h3{text-align: center !important;}
@@ -3244,14 +3245,36 @@ overflow:hidden;}
 	   .conSection p, .pmSection p{margin: 0 10px;}
 	   .joinSlide {padding:10px;}
 	   #sequence .sequence-pagination {bottom:0p !important;}
+       .member img{margin-bottom:0px;}
+/*       .imgPad{margin-top:20px;}*/
+       .mingHeight{min-height:244px;}
+       
  		  
  }
+@media only screen
+    and (min-device-width: 500px)
+    and (max-device-width: 740px) {
+        
+      ul.right{background-color:#ffffff;}
+        .tablet{width:10%; margin-right:10px;}
+}
+@media only screen
+    and (min-device-width: 667px)
+    and (max-device-width: 720px) {
+        
+      .currentSite img{padding:23px 0;}
+}
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
+      
 	ul.nav, ul.title-area{width:14%;}
+      section.top-bar-section img {width: 170px !important;}
+      ul.right{float: left !important; background-color:#ffffff;}
+      .mobile{display: none;}
+      .tablet{background-color:#ffffff; margin-right:60px;}
  	  .top-bar .name h1 a{padding-right:0px;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
@@ -3261,14 +3284,21 @@ overflow:hidden;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
+       .member img{margin-bottom:5px;}
+/*       .imgPad{margin-top:20px;}*/
+.mingHeight{min-height:216px;}
 }
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1)  {
 	  ul.nav, ul.title-area{width:14%;}
+      section.top-bar-section img {width: 170px !important;}
+      ul.right{float: center !important; background-color:#ffffff;}
+      .tablet{background-color:#ffffff; padding-right:60px;}
+      .mobile{display: none;}
  	  .top-bar .name h1 a{padding-right:0px;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 7px 0 7px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
@@ -3276,5 +3306,95 @@ overflow:hidden;}
 	  .shaping, #sequence, .aboutFEDSIM, .gutter{width: 100%; margin-left:0;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
+      .mingHeight{min-height:216px;}
 		  
+}
+@media only screen
+    and (max-device-width: 800px) 
+    and (orientation: portrait) {
+      .pmSection, .conSection{min-height:310px !important;}
+        .conSection p, .pmSection p{ padding: 0 20px;}
+        .employee p.test1, .employee p.test3, .employee p.test4{
+	       background-image: url(../images/@stock/test2.png);
+	       background-repeat: no-repeat;}
+        .employee p.test2 {background-repeat: repeat-x;}
+        .fiacColor p, .fiacColor{padding-top:0;}
+}
+@media only screen
+  and (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+      .pmSection, .conSection{min-height:470px !important;}
+/*        .conSection p, .pmSection p{ padding: 0 20px;}*/
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+      .tablet{width:8%;}
+      .mobile{display: none;}
+       ul.right{background-color:#bbbbbb;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
+	  .contain-to-grid .top-bar {max-width: 80rem;}
+}
+@media only screen  
+and (max-device-width : 667px) 
+and (orientation : landscape)  { 
+      .tablet{width:8%;}
+      .mobile{display: none;}
+       ul.right{background-color:#bbbbbb;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
+	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
+	  .contain-to-grid .top-bar {max-width: 80rem;}
+}
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .acqmgmt img {padding-left: 35%;}
+      .finmgmt img {padding-left: 18%;}
+      .projmgmt img {padding-left: 22%;}
+      .itserv h3 {margin-left: 86px;}
+      .profserv img {padding-left: 21%;}
+      .mngsrv img {padding-left: 22%;}
+      .mngsrv h3 {margin-left: 68px;}
+      .tablet {padding-right: 0px;}
+      .value .medium-5 {width:38%;}
+      .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
+      .homeNum{max-width: 26%;}
+      .milestone strong, .milestone h3 {font-size: 60px;}
+      .currentSite img {padding: 20px 0;}
+      .joinFEDSIM p {margin: 0 50px 1.25rem 50px;}
+      .row .row {margin-left: 0;margin-right: 0;}
+      .pmSection, .conSection {min-height: 430px !important;}
+      .employee p.test1, .employee p.test3, .employee p.test4{
+	       background-image: url(../images/@stock/test2.png);
+	       background-repeat: no-repeat;}
+        .employee p.test2 {background-repeat: repeat-x;}
+      .fiacColor p{font-size: 19px;}
+}
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
+      .pmSection, .conSection {min-height: 350px !important;}
+      .row .row {margin-left: 0 !important;margin-right: 0 !important;}
+      .tablet {padding-right: 60px !important;}
+}
+@media only screen 
+    and (min-device-width: 1024px)
+  and (max-device-width: 1325px) {
+        .mingHeight{min-height:244px;}
+}
+@media only screen 
+    and (min-device-width: 1025px){
+      .mobile{display: none;}
+      .tablet{background-color:#ffffff; padding-right:40px;}
+        
 }
