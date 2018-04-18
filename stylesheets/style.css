@@ -3432,7 +3432,7 @@ overflow:hidden;}
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
       .tablet{width:14%;}
-/*      .mobile{display: none;}*/
+      .mobile{width:14%;}
        ul.right{background-color:#bbbbbb;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.8rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
@@ -3443,7 +3443,7 @@ overflow:hidden;}
 and (max-device-width : 667px) 
 and (orientation : landscape)  { 
       .tablet{width:14%;}
-/*      .mobile{display: none;}*/
+      .mobile{width:14%;}
        ul.right{background-color:#bbbbbb;}
  	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.8rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
