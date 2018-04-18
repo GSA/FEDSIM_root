@@ -3385,6 +3385,7 @@ overflow:hidden;}
        .member img{margin-bottom:5px;}
 /*       .imgPad{margin-top:20px;}*/
 .mingHeight{min-height:216px;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 }
 @media only screen 
   and (min-device-width: 769px) 
@@ -3405,6 +3406,7 @@ overflow:hidden;}
 	  .mngsrv img {padding-left: 35%;}
 	  .acqmgmt h3{text-align: center !important;}
       .mingHeight{min-height:216px;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 		  
 }
 @media only screen
@@ -3491,6 +3493,7 @@ and (orientation : landscape)  {
         .mingHeight{min-height:244px;}
         .top-bar-section ul{background-color:#ffffff;}
       .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 }
 @media only screen 
     and (min-device-width: 1025px){
@@ -3498,5 +3501,6 @@ and (orientation : landscape)  {
       .tablet{background-color:#ffffff; padding-right:40px;}
         .top-bar-section ul{background-color:#ffffff;}
       .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
+        .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
         
 }
