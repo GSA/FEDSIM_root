@@ -3432,7 +3432,7 @@ overflow:hidden;}
       .tablet{width:8%;}
       .mobile{display: none;}
        ul.right{background-color:#bbbbbb;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.8rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
@@ -3443,9 +3443,11 @@ and (orientation : landscape)  {
       .tablet{width:8%;}
       .mobile{display: none;}
        ul.right{background-color:#bbbbbb;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.8rem !important;}
+/*
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
+*/
 	  .contain-to-grid .top-bar {max-width: 80rem;}
 }
 @media only screen 
