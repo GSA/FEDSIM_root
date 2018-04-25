@@ -3092,9 +3092,11 @@ color:#ffffff;}
         opacity: 1;
     }
 }
+.careers{background:#ffffff;}
+.careerBox.large-4, .careerBox.medium-4{width:32%;}
 .careerBox{
 	background-color:#f1f1f1;
-	margin: 20px 10px 10px 10px;
+	margin: 20px 10px 10px 7px;
 	border: 1px solid #2f73ab;
 	font-family: 'Roboto', sans-serif;
 	padding-top:20px;
