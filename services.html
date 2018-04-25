@@ -49,11 +49,13 @@
 });
       </script>
       <script type="text/javascript">
+          $(document).ready(function() {
         $("#div1").mouseenter(function() {
               $("#div2").show();
         }).mouseleave(function() {
               $("#div2").hide();
         });
+              });
       </script>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif:400,400italic%7CPT+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
@@ -222,6 +224,7 @@
                     <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#Carousel" data-slide-to="1"></li>
                     <li data-target="#Carousel" data-slide-to="2"></li>
+                    <li data-target="#Carousel" data-slide-to="3"></li>
                 </ol>
                  
                 <!-- Carousel items -->
@@ -229,23 +232,23 @@
                     
                 <div class="item active">
                 	<div class="row">
-                        <div class="medium-3 large-3 columns">
-                            <div class="columns medium-12 large-12 stepGraphic stepRibbon1"><img src="images/@stock/dhs.png" alt="Department of Homeland Security Logo"></div>
+                        <div class="medium-3 large-3 columns" id="div1">
                             <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
                             <div class="medium-12 large-12 columns sectionBottom">U.S. Department of Homeland Security (DHS)</div>
                         </div>
+                        <div class="medium-3 large-3 columns" id="div2" style="display:none;">
+                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3> <p>Project: Continuous Diagnostics and Mitigation (CDM) $6 Billion Ceiling</p></div>
+                        </div>
                         <div class="medium-3 large-3 columns">
-                            <div class="columns medium-12 large-12 stepGraphic stepRibbon1"><img src="images/@stock/usda_seal.png" alt="USDA Logo"></div>
                             <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
                             <div class="medium-12 large-12 columns sectionBottom">USDA Risk Management Agency (RMA) IT Services</div>
                         </div>
                 	  <div class="medium-3 large-3 columns">
-                            <div class="columns medium-12 large-12 stepGraphic stepRibbon1"><img src="images/@stock/cyber.png" alt="U.S. Cyber Command Logo"></div>
                             <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
                             <div class="medium-12 large-12 columns sectionBottom">U.S. Cyber Command</div>
                         </div>
                         <div class="medium-3 large-3 columns">
-                            <div class="columns medium-12 large-12 stepGraphic stepRibbon1"><img src="images/@stock/proj_1_defense.png" alt="U.S. Central Command Logo"></div>
                             <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj2New.png" alt="Image" style="max-width:100%;"></a></div>
                             <div class="medium-12 large-12 columns sectionBottom">U.S. Central Command (USCENTCOM)</div>
                         </div>
