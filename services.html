@@ -14,6 +14,8 @@
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
     <title>Our Services</title>
+      <link hre="stylesheets/owl.carousel.min.css" media="screen" rel="stylesheet" type="text/css">
+      <link hre="stylesheets/owl.theme.default.min.css" media="screen" rel="stylesheet" type="text/css">
       <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -24,6 +26,8 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans" rel="stylesheet">
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="javascript/owl.carousel.min.js"></script>
+<!--
     <script>
       // terrificjs bootstrap
       (function($) {
@@ -48,14 +52,30 @@
     })
 });
       </script>
+-->
       <script type="text/javascript">
-          $(document).ready(function() {
-        $("#div1").mouseenter(function() {
-              $("#div2").show();
-        }).mouseleave(function() {
-              $("#div2").hide();
-        });
-              });
+          $(document).ready(function(){
+              $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+})
+            });
       </script>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif:400,400italic%7CPT+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
@@ -214,72 +234,41 @@
 		<div class="medium-6 large-6 columns "><p class="highlightsDes">FEDSIM services the entire federal government:<br>A full service government-wide assisted acquisition program.</p></div>
 			<div class="medium-3 large-3 columns"></div>
 	</div>
-
-<div class="container">
-    <div class="row">
-		<div class="col-md-12">
-                <div id="Carousel" class="carousel slide">
-                 
-                <ol class="carousel-indicators">
-                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#Carousel" data-slide-to="1"></li>
-                    <li data-target="#Carousel" data-slide-to="2"></li>
-                </ol>
-                 
-                <!-- Carousel items -->
-                <div class="carousel-inner">
-                    
-                <div class="item active">
-                	<div class="row">
-                        <div class="medium-3 large-3 columns" id="div1">
-                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                        </div>
-                        <div class="medium-3 large-3 columns" id="div2" style="display:none;">
-                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3> <p>Project: Continuous Diagnostics and Mitigation (CDM) $6 Billion Ceiling</p></div>
-                        </div>
-                        <div class="medium-3 large-3 columns">
-                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
-                        </div>
-                	  <div class="medium-3 large-3 columns">
-                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Cyber Command</h3></div>
-                        </div>
-                        <div class="medium-3 large-3 columns">
-                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj2New.png" alt="Image" style="max-width:100%;"></a></div>
-                            <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Central Command (USCENTCOM)</h3></div>
-                        </div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
-                <div class="item">
-                	<div class="row">
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj1.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj2.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj1.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj2.png" alt="Image" style="max-width:100%;"></a></div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
-                <div class="item">
-                	<div class="row">
-                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj1.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj2.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj1.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj2.png" alt="Image" style="max-width:100%;"></a></div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
-                </div><!--.carousel-inner-->
-                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
-                </div><!--.Carousel-->
-                 
-		</div>
-	</div>
-</div><!--.container-->         
+<div class="owl-carousel">
+    <div class="medium-3 large-3 columns" id="div1">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Cyber Command</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj2New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Central Command (USCENTCOM)</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns" id="div1">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Cyber Command</h3></div>
+    </div>
+    <div class="medium-3 large-3 columns">
+        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
+        <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
+    </div>
+</div>
+       
 
 
 <!--
