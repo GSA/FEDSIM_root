@@ -3266,6 +3266,13 @@ background: #428bca;
     z-index:100;
 }
 
+/* ATLAS CSS */
+.atlasBG{background-image:url(../images/@stock/atlasBG.jpg);}
+.atlasBG .atlasColor img{height:120px; text-align: center;}
+.atlasColor{background-color: #ffffff;}
+.atlasBot h2{color:#01538f; margin-top:40px;}
+.atlasBot a, .atlasBot a:hover, .atlasBot a:visited, .atlasBot a:focus{color:#01538f;}
+.atlasBot ul{margin-left:50px;}
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
