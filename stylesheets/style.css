@@ -2437,7 +2437,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     margin-bottom:5px;
 }
 .fiacBot .fiacEvents h3{
-    font-size:1.1rem;
+    font-size:1.1rem !important;
 }
 .fiacBot p{
     font-size: 17px;
@@ -2450,8 +2450,8 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 
 .fiacBot .fiacEvents p{
-    font-size:15px;
-    font-weight:normal;
+    font-size:15px !important;
+    font-weight:normal !important;
 }
 .ipVideo{
 	margin-bottom:40px;
