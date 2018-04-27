@@ -3267,7 +3267,7 @@ background: #428bca;
 }
 
 /* ATLAS CSS */
-.atlasBG{background-image:url(../images/@stock/atlasBG.jpg);}
+.atlasBG{background-image:url(../images/@stock/atlasBG.jpg); background-size: 120%;}
 .atlasBG .atlasColor img{height:120px; text-align: center;}
 .atlasColor{background-color: #ffffff;}
 .atlasBot h2{color:#01538f; margin-top:40px;}
