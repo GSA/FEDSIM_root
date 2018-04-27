@@ -2035,6 +2035,33 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-weight: bold;
 	font-family: "PT Sans";
 }
+.fiacBot h4{
+    color:#ffffff;
+	font-family: "PT Sans";
+	font-style:normal;
+	margin-bottom:0px;
+}
+.fiacBot h3{
+    color: #848485;
+    margin-bottom:5px;
+}
+.fiacBot .fiacEvents h3{
+    font-size:1.1rem !important;
+}
+.fiacBot p{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "PT Sans";
+    font-style: normal;
+    text-align:left;
+    color:#848485;
+    margin-bottom:5px;
+}
+
+.fiacBot .fiacEvents p{
+    font-size:15px !important;
+    font-weight:normal !important;
+}
 .fiacBot{
 	padding: 0 15px;
 }
@@ -2073,7 +2100,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .sectionBottom{
 	background-color:#e7e8e8;
 	padding:15px;
-    min-height: 206px;
+    min-height: 303px;
     line-height: 18px;
 }
 .servicesButton{
@@ -3236,7 +3263,7 @@ overflow:hidden;}
  	  .milestone strong, .milestone h3{font-size: 34px;}
  	  .careerBox{min-height:432px;}
  	  .sectionTop p{font-size:.8rem !important;padding-left:24px;}
- 	  .sectionBottom{min-height:264px !important;}
+ 	  .sectionBottom{min-height:303px !important;}
  	  #video{height:400px !important; width:600px !important;}
  	  .currentSite img{padding:21px 0;}
  	  .programs img, .prg1 img{width:100%;}
