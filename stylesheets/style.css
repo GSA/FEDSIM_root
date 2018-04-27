@@ -2047,6 +2047,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .fiacBot .fiacEvents h3{
     font-size:1.1rem !important;
+	text-align: left !important;
 }
 .fiacBot p{
     font-size: 17px;
