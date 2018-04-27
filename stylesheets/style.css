@@ -2075,7 +2075,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .sectionBottom{
 	background-color:#e7e8e8;
 	padding:15px;
-    min-height: 298px;
+    min-height: 303px;
     line-height: 18px;
     text-align: left;
 }
@@ -3350,7 +3350,7 @@ overflow:hidden;}
  	  .milestone strong, .milestone h3{font-size: 34px;}
  	  .careerBox{min-height:432px;}
  	  .sectionTop p{font-size:.8rem !important;padding-left:24px;}
- 	  .sectionBottom{min-height:298px !important;}
+ 	  .sectionBottom{min-height:303px !important;}
  	  #video{height:400px !important; width:600px !important;}
  	  .currentSite img{padding:21px 0;}
  	  .programs img, .prg1 img{width:100%;}
