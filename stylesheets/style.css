@@ -3257,6 +3257,10 @@ background: #428bca;
     margin-bottom:20px;
 }
 #Carousel .sectionBottom h3{color:#ffffff;}
+.hoverP{display: none;}
+.hoverH{display: block;}
+.hoverBG{background-color:#252525 !important;}
+
 .stepRibbon1{
     padding-left:60px;
     padding-right:90px;

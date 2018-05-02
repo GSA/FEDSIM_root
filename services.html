@@ -55,27 +55,7 @@
 -->
       <script type="text/javascript">
           $(document).ready(function(){
-              $('.owl-carousel').owlCarousel({
-                    loop:true,
-                    margin:10,
-                    nav:true;
-                    responsiveClass:true,
-                    responsive:{
-                        0:{
-                            items:1,
-                            nav:true
-                        },
-                        600:{
-                            items:3,
-                            nav:false
-                        },
-                        1000:{
-                            items:4,
-                            nav:true,
-                            loop:false
-                        }
-                    }
-                })
+              $(".hoverTrig").hover( function() { $(".hoverP").toggle(); $(".hoverH").toggle(); } );
             });
       </script>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif:400,400italic%7CPT+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
@@ -235,40 +215,81 @@
 		<div class="medium-6 large-6 columns "><p class="highlightsDes">FEDSIM services the entire federal government:<br>A full service government-wide assisted acquisition program.</p></div>
 			<div class="medium-3 large-3 columns"></div>
 	</div>
-<div class="owl-carousel owl-theme">
-    <div class="medium-3 large-3 columns item" id="div1">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Cyber Command</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj2New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Central Command (USCENTCOM)</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item" id="div1">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Cyber Command</h3></div>
-    </div>
-    <div class="medium-3 large-3 columns item">
-        <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
-        <div class="medium-12 large-12 columns sectionBottom"><h3>USDA Risk Management Agency (RMA) IT Services</h3></div>
-    </div>
-</div>
+<div class="container">
+    <div class="row">
+		<div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                    <li data-target="#Carousel" data-slide-to="2"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                        <div class="medium-3 large-3 columns" id="div1">
+                            <a href="#" class="thumbnail hoverTrig">
+                                <div class="hoverH">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/civProj1New.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/civProj1NewHover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Continuous Diagnostics and Mitigation (CDM)</p>
+                                        <p>$6 Billion Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-3 large-3 columns">
+                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/civProj2New.png" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="medium-12 large-12 columns sectionBottom">USDA Risk Management Agency (RMA) IT Services</div>
+                        </div>
+                	  <div class="medium-3 large-3 columns">
+                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj1New.png" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="medium-12 large-12 columns sectionBottom">U.S. Cyber Command</div>
+                        </div>
+                        <div class="medium-3 large-3 columns">
+                            <div class="medium-12 large-12 columns sectionTop no-padding"><a href="#" class="thumbnail"><img src="images/@stock/defProj2New.png" alt="Image" style="max-width:100%;"></a></div>
+                            <div class="medium-12 large-12 columns sectionBottom">U.S. Central Command (USCENTCOM)</div>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj1.png" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj2.png" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj1.png" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj2.png" alt="Image" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj1.png" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/civProj2.png" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj1.png" alt="Image" style="max-width:100%;"></a></div>
+                	  <div class="col-md-3"><a href="#" class="thumbnail"><img src="images/@stock/defProj2.png" alt="Image" style="max-width:100%;"></a></div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+                 
+		</div>
+	</div>
+</div><!--.container-->   
        
 
 
