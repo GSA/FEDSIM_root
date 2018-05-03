@@ -3258,8 +3258,8 @@ background: #428bca;
 }
 #Carousel .sectionBottom h3{color:#ffffff; font-size:16px;}
 .hoverH .sectionBottom, .hoverP .sectionBottom, .hoverH2 .sectionBottom, .hoverP2 .sectionBottom{min-height:270px !important;}
-.hoverP, .hoverP2{display: none;}
-.hoverH, .hoverH2{display: block;}
+.hoverP, .hoverP2, .hoverP3, .hoverP4{display: none;}
+.hoverH, .hoverH2, .hoverH3, .hoverH4{display: block;}
 .hoverBG{background-color:#252525 !important;}
 .projHR{margin-right:75%; border: solid #4B91CD; border-width: 4px 0 0; height: 4px;}
 .proj{color:#4B91CD;}
