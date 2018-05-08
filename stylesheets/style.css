@@ -2445,7 +2445,8 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     font-family: "PT Sans";
     font-style: normal;
     text-align:left;
-    color:#848485;
+/*    color:#848485;*/
+    color:#656565;
     margin-bottom:5px;
 }
 
