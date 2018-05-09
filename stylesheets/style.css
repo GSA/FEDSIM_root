@@ -3374,7 +3374,7 @@ overflow:hidden;}
 /*       .imgPad{margin-top:20px;}*/
        .mingHeight{min-height:244px;}
        .row .row{margin-left: auto !important; margin-right: auto !important;}
-       .employee p.test2 {background-image: url(../images/@stock/testmobile.png);}
+       .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
        
  		  
  }
