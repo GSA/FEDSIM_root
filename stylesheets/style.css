@@ -3436,6 +3436,8 @@ overflow:hidden;}
 	  .acqmgmt h3{text-align: center !important;}
       .mingHeight{min-height:216px;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
+       .row .row{margin-left: auto !important; margin-right: auto !important;}
+       .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
 		  
 }
 @media only screen
