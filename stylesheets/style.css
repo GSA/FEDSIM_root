@@ -3373,6 +3373,7 @@ overflow:hidden;}
        .member img{margin-bottom:0px;}
 /*       .imgPad{margin-top:20px;}*/
        .mingHeight{min-height:244px;}
+       .row .row{margin-left: auto !important; margin-right: auto !important;}
        
  		  
  }
