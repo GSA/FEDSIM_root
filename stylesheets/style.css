@@ -3416,6 +3416,7 @@ overflow:hidden;}
 .mingHeight{min-height:216px;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 }
+/* iPad Pro */
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)
