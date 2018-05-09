@@ -3252,7 +3252,7 @@ overflow:hidden;}
       .mobile{display: none;}
        ul.right{background-color:#ffffff;}
  	  .top-bar .name h1 a{padding-right:0px;}
- 	  .top-bar-section ul li > a{padding: 0 0 0 10px !important; font-size:.95rem !important;}
+ 	  .top-bar-section ul li > a{padding: 0 5px 0 7px !important; font-size:.95rem !important;}
  	  .top-bar-section .has-dropdown > a:after{margin-right:6px !important;}
 	   .top-bar-section .has-dropdown > a{padding-right: 18px !important;}
 	  .contain-to-grid .top-bar {max-width: 80rem;}
@@ -3278,6 +3278,8 @@ overflow:hidden;}
        .member img{margin-bottom:0px;}
 /*       .imgPad{margin-top:20px;}*/
        .mingHeight{min-height:244px;}
+       .row .row{margin-left: auto !important; margin-right: auto !important;}
+       .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
        
  		  
  }
