@@ -3250,7 +3250,8 @@ background: #428bca;
    margin-top:0px;
 }
 #Carousel .sectionBottom{
-    background-color:#767676;
+/*    background-color:#767676;*/
+    background-image: url(../images/@stock/phBot.png);
     color:#fff;
     font-weight:bold;
     text-transform: capitalize;
@@ -3259,9 +3260,9 @@ background: #428bca;
 }
 #Carousel .sectionBottom h3{color:#ffffff; font-size:16px;}
 .hoverH .sectionBottom, .hoverP .sectionBottom, .hoverH2 .sectionBottom, .hoverP2 .sectionBottom, .hoverH3 .sectionBottom, .hoverP3 .sectionBottom, .hoverH4 .sectionBottom, .hoverP4 .sectionBottom{min-height:270px !important;}
-.hoverP, .hoverP2, .hoverP3, .hoverP4{display: none;}
-.hoverH, .hoverH2, .hoverH3, .hoverH4{display: block;}
-.hoverBG{background-color:#252525 !important;}
+.hoverP, .hoverP2, .hoverP3, .hoverP4, .hoverP5, .hoverP6, .hoverP7, .hoverP8{display: none;}
+.hoverH, .hoverH2, .hoverH3, .hoverH4, .hoverH5, .hoverH6, .hoverH7, .hoverH8{display: block;}
+.hoverBG{background-color:#252525 !important; background-image: none !important;}
 .projHR{margin-right:75%; border: solid #4B91CD; border-width: 4px 0 0; height: 4px;}
 .proj{color:#4B91CD;}
 .hoverBG p{text-transform: uppercase;}
