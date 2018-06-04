@@ -2266,6 +2266,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-size:36px;
 	color:#ffffff;
 }
+.homeSlider .aasSlide h3{color:#00649e !important;}
 .homeSlider h4{
 	font-size:36px;
 	color:#ffffff;
