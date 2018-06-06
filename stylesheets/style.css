@@ -3277,7 +3277,7 @@ background: #428bca;
     margin-bottom:-70px;
     z-index:100;
 }
-
+.carousel-inner a:hover {cursor:default;}
 /* ATLAS CSS */
 .atlasBG{background-image:url(../images/@stock/atlasBG.jpg); background-size: 120%;}
 .atlasBG .atlasColor img{height:120px; text-align: center;}
