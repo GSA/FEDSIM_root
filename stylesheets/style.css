@@ -3351,6 +3351,13 @@ background: #428bca;
 .blog .horiz .hoverP4 .sectionBottom {background-image: url(../images/@stock/blue_hover.png);}
 .blog .horiz .hoverH4 .sectionTop{background-color:#24578a;}
 .blog .horiz .hoverP4 .sectionTop{background-color:#163555;}
+.blogTop{}
+.blogBy{background-color:#2f8fd5;}
+.blogBy h3{color:#fff; padding-top:5px; padding-bottom:0px;}
+.blogTitle{background-color:#464646;}
+.blogTitle h3{color:#ffffff; margin-bottom:5px;}
+.blogTitle h4{color:#ffffff; margin-bottom:5px; font-weight:normal; font-size:14px;}
+.blogBody{margin-bottom:40px;}
 /*.blog .horiz img{overflow-y:hidden;}*/
 
 /* ATLAS CSS */
