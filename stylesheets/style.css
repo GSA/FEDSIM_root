@@ -3358,7 +3358,9 @@ background: #428bca;
 .blogTitle{background-color:#464646;}
 .blogTitle h3{color:#ffffff; margin-bottom:5px;}
 .blogTitle h4{color:#ffffff; margin-bottom:5px; font-weight:normal; font-size:14px;}
-.blogBody{margin-bottom:40px;}
+.blogBody{margin-bottom:40px; padding-top:30px;}
+.blogBody .descrip {color:#60003b; font-weight:bold; font-size: 22px;}
+.blogBody .callOut {border-left: 6px solid #2f8fd5; padding-left:15px; color: #2f8fd5; font-weight:bold;}
 /*.blog .horiz img{overflow-y:hidden;}*/
 
 /* ATLAS CSS */
