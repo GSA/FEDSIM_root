@@ -3334,6 +3334,7 @@ background: #428bca;
 .blog .sectionBottom h3{color:#ffffff; font-size:16px; margin-bottom:5px;}
 .blog .sectionBottom h4{color:#ffffff; font-size:14px; font-weight: normal;}
 .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom {min-height:355px !important;}
+.blog .horiz .sectionBottom {min-height:250px !important;}
 .blog .hoverP, .blog .hoverP2, .blog .hoverP3, .blog .hoverP4, .blog .hoverP5, .blog .hoverP6, .hoverP7, .blog .hoverP8{display: none;}
 .blog .hoverH, .blog .hoverH2, .blog .hoverH3, .blog .hoverH4, .blog .hoverH5, .blog .hoverH6, .blog .hoverH7, .blog .hoverH8{display: block;}
 .blog .hoverBG{background-color:#252525 !important; background-image: none !important;}
