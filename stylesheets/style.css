@@ -3360,7 +3360,7 @@ background: #428bca;
 .blogTitle h4{color:#ffffff; margin-bottom:5px; font-weight:normal; font-size:14px;}
 .blogBody{margin-bottom:40px; padding-top:30px;}
 .blogBody .descrip {color:#60003b; font-weight:bold; font-size: 22px;}
-.blogBody .callOut {border-left: 6px solid #2f8fd5; padding-left:15px; color: #2f8fd5; font-weight:bold;}
+.blogBody .callOut {border-left: 6px solid #2f8fd5; padding-left:15px; color: #2f8fd5; font-weight:lighter; font-style:italic; font-size:20px;}
 /*.blog .horiz img{overflow-y:hidden;}*/
 
 /* ATLAS CSS */
