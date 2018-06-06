@@ -3278,6 +3278,72 @@ background: #428bca;
     z-index:100;
 }
 .carousel-inner a:hover {cursor:default;}
+
+/* Blog */
+.blog {margin-top:40px;}
+.blog .carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.blog .carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 325px;
+    padding-top: 5px;
+}
+.blog .carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.blog .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+	background: #cecece;
+}
+.blog .carousel-indicators .active {
+background: #428bca;
+}
+.blog .thumbnail{
+    padding:0px;
+    min-height:200px;
+    border: 0px;
+    border-radius: 0px;
+}
+.blog .sectionTop{
+   margin-top:0px;
+}
+.blog .sectionBottom{
+/*    background-color:#767676;*/
+    background-image: url(../images/@stock/phBot.png);
+    color:#fff;
+    font-weight:bold;
+    text-transform: capitalize;
+    padding-top:15px;
+    margin-bottom:20px;
+}
+.blog .sectionBottom h3{color:#ffffff; font-size:16px; margin-bottom:5px;}
+.blog .sectionBottom h4{color:#ffffff; font-size:14px; font-weight: normal;}
+.blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom {min-height:355px !important;}
+.blog .hoverP, .blog .hoverP2, .blog .hoverP3, .blog .hoverP4, .blog .hoverP5, .blog .hoverP6, .hoverP7, .blog .hoverP8{display: none;}
+.blog .hoverH, .blog .hoverH2, .blog .hoverH3, .blog .hoverH4, .blog .hoverH5, .blog .hoverH6, .blog .hoverH7, .blog .hoverH8{display: block;}
+.blog .hoverBG{background-color:#252525 !important; background-image: none !important;}
+.blog .projHR{margin-right:75%; border: solid #4B91CD; border-width: 4px 0 0; height: 4px; margin-top: 5px; margin-bottom: 10px;}
+.blog .proj{color:#4B91CD; font-size:14px; font-weight: bold; margin-bottom:0px;}
+.blog .excerpt{text-transform: none; font-size:13px;}
+.blog .hoverBG .dollar{margin-bottom:0px;}
+.blog .horiz img{max-height:250px !important; max-width:250px; overflow: hidden;}
+/*.blog .horiz img{overflow-y:hidden;}*/
+
 /* ATLAS CSS */
 .atlasBG{background-image:url(../images/@stock/atlasBG.jpg); background-size: 120%;}
 .atlasBG .atlasColor img{height:120px; text-align: center;}
