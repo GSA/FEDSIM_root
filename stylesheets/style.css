@@ -1971,16 +1971,24 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .servicesColor{
 	background-color:#58173b;
-	padding-top:20px;
+/*	padding-top:20px;*/
 	color: #ffffff;
 	font-style:italic; 
-	width:49%;
+/*	width:49%;*/
 }
-.servicesColor p, .servicesCivColor p{
+.servicesCivColor p{
     font-size: 20px;
     font-style: italic;
     padding-top: 19%;
     margin-left: 60px;
+}
+.servicesColor p{
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 3%;
+    /*  margin-left: 60px; */
+    padding-left: 22%;
+    padding-right: 22%;
 }
 .servicesCivColor{
 	background-color: #424143;
