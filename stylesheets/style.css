@@ -3472,6 +3472,7 @@ overflow:hidden;}
        .row .row{margin-left: auto !important; margin-right: auto !important;}
        .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
        .desk {display:none;}
+       .tabSP .sectionBottom {min-height:425px;}
  		  
  }
 @media only screen
@@ -3487,6 +3488,8 @@ overflow:hidden;}
         
       .currentSite img{padding:23px 0;}
 }
+
+/* Android */
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
