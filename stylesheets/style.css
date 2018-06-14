@@ -3511,6 +3511,8 @@ overflow:hidden;}
 /*       .imgPad{margin-top:20px;}*/
 .mingHeight{min-height:216px;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
+      
+        .desk{display:none;}
 }
 /* iPad Pro */
 @media only screen 
