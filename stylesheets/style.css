@@ -3626,7 +3626,7 @@ and (orientation : landscape)  {
 @media only screen 
     and (min-device-width: 1025px){
       .mobile{display: none;}
-        .tabletSP{display:none;}
+        .tabSP{display:none;}
       .tablet{background-color:#ffffff; padding-right:40px;}
         .top-bar-section ul{background-color:#ffffff;}
       .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
