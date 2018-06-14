@@ -3514,7 +3514,7 @@ overflow:hidden;}
 /*       .imgPad{margin-top:20px;}*/
 .mingHeight{min-height:216px;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
-.blog .horiz img{max-height:300px !important; max-width:300px; overflow: hidden;}
+.blog .horiz img{min-height:300px !important; max-width:300px; overflow: hidden;}
         .desk{display:none;}
 }
 /* iPad Pro */
