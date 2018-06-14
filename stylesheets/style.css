@@ -3471,7 +3471,7 @@ overflow:hidden;}
        .mingHeight{min-height:244px;}
        .row .row{margin-left: auto !important; margin-right: auto !important;}
        .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
-       
+       .desk {display:none;}
  		  
  }
 @media only screen
