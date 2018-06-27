@@ -3390,7 +3390,7 @@ overflow:hidden;}
 
 /* Mobile Code DO NOT REMOVE */
 @media only screen
-    and (max-device-width: 320px){
+    and (max-device-width: 360px){
       .desk {display: none;}
       .tabSP{display: none;}
 }
