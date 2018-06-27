@@ -3525,7 +3525,7 @@ overflow:hidden;}
 .mingHeight{min-height:216px;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
 .blog .horiz img{min-height:300px !important; max-width:300px; overflow: hidden;}
-      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:415px !important;}
+      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:415px !important;}
         .desk{display:none;}
        .phoneSP {display: none;}
 }
