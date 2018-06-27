@@ -3544,7 +3544,7 @@ overflow:hidden;}
        .tabSP .sectionBottom {min-height:475px !important;}
 .blog .horiz img{min-height:250px !important; /*max-width:300px;*/ overflow: hidden;}
       .blog .sectionBottom{min-height:350px;}
-      .blog .horiz .sectionBottom {min-height: 375px;}
+      .blog .horiz .sectionBottom {min-height: 400px;}
 		  
 }
 @media only screen
