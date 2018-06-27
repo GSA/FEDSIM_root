@@ -3626,7 +3626,7 @@ and (orientation : landscape)  {
       .pmSection, .conSection {min-height: 350px !important;}
       .row .row {margin-left: 0 !important;margin-right: 0 !important;}
       .tablet {padding-right: 60px !important;}
-      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:300px !important;}
+      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:200px !important;}
       .blog .horiz img{object-fit: cover;}
 }
 @media only screen 
