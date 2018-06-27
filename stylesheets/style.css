@@ -3390,6 +3390,11 @@ overflow:hidden;}
 
 /* Mobile Code DO NOT REMOVE */
 @media only screen
+    and (max-device-width: 320px){
+      .desk {display: none;}
+      .tabSP{display: none;}
+}
+@media only screen
 	and (min-device-width: 791px)
 	and (max-device-width: 1053px) {
 		.careerBox{min-height:369px;height:100%;}
@@ -3432,8 +3437,6 @@ overflow:hidden;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
       .SD, .dodAF .large-2, .civilian .large-2, .armyNavy .large-2, .homeland .large-2{width:100% !important;}
       .SD img{width:100% !important;padding:0 15px !important;}
-      .desk {display: none;}
-      .tabSP{display: none;}
 }
 
 /* Android Tablet*/
