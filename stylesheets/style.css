@@ -3542,7 +3542,7 @@ overflow:hidden;}
        .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
         .desk{display:none;}
        .tabSP .sectionBottom {min-height:475px !important;}
-.blog .horiz img{min-height:300px !important; /*max-width:300px;*/ overflow: hidden;}
+.blog .horiz img{min-height:300px !important; /*max-width:300px;*/ object-fit: cover;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:442px !important;}
       .blog .horiz .sectionBottom {min-height: 300px !important;}
 		  
@@ -3627,6 +3627,7 @@ and (orientation : landscape)  {
       .row .row {margin-left: 0 !important;margin-right: 0 !important;}
       .tablet {padding-right: 60px !important;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:300px !important;}
+      .blog .horiz img{object-fit: cover;}
 }
 @media only screen 
     and (min-device-width: 1024px)
