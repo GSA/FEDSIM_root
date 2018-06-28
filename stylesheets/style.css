@@ -3577,11 +3577,21 @@ overflow:hidden;}
       .pmSection, .conSection{min-height:470px !important;}
 /*        .conSection p, .pmSection p{ padding: 0 20px;}*/
 }
+/* Surface Pro Landscape */
 @media only screen
     and (max-device-width: 1368px)
     and (orientation: landscape)
     and (-webkit-min-device-pixel-ratio: 2){
         
+       .phoneSP {display: none;}
+}
+/* Surface Pro Portrait */
+@media only screen
+    and (max-device-width: 912px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2){
+        
+       .tabSP .sectionBottom {min-height:500px !important;}
        .phoneSP {display: none;}
 }
 @media only screen 
