@@ -3591,7 +3591,7 @@ overflow:hidden;}
     and (orientation: portrait)
     and (-webkit-min-device-pixel-ratio: 2){
         
-       .tabSP .sectionBottom {min-height:500px !important;}
+       .tabSP .sectionBottom {min-height:520px !important;}
        .phoneSP {display: none;}
 }
 @media only screen 
