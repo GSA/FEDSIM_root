@@ -3577,6 +3577,13 @@ overflow:hidden;}
       .pmSection, .conSection{min-height:470px !important;}
 /*        .conSection p, .pmSection p{ padding: 0 20px;}*/
 }
+@media only screen
+    and (max-device-width: 1368px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2){
+        
+       .phoneSP {display: none;}
+}
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
