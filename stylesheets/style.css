@@ -3603,7 +3603,7 @@ background: #428bca;
     z-index:100;
 }
 .stepRibbon4{
-    padding-left:220px;
+    padding-left:150px;
     position:absolute;
     margin-top:329px;
     margin-bottom:-70px;
@@ -3791,6 +3791,27 @@ overflow:hidden;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
       .SD, .dodAF .large-2, .civilian .large-2, .armyNavy .large-2, .homeland .large-2{width:100% !important;}
       .SD img{width:100% !important;padding:0 15px !important;}
+      .aaBlue{display:none;}
+      .stepRibbon1{margin-left:-126px;padding-left:0;}
+      .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
+      .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 374px)  {
+      .stepRibbon1{margin-left:-100px;padding-left:0;}
+      .stepRibbon2{margin-left:-100px;padding-left:0;margin-top:150px;}
+      .stepRibbon3{margin-left:-100px;padding-left:0;margin-top:369px;}
+      .stepRibbon4{margin-left:-100px;padding-left:0;margin-top:369px;}
+}
+@media only screen 
+  and (min-device-width: 425px) 
+  and (max-device-width: 495px)  {
+      .stepRibbon1{margin-left:-148px;padding-left:0;}
+      .stepRibbon2{margin-left:-148px;padding-left:0;margin-top:104px;}
+      .stepRibbon3{margin-left:-148px;padding-left:0;margin-top:270px;}
 }
 
 /* Android Tablet*/
@@ -3836,6 +3857,11 @@ overflow:hidden;}
 .blog .horiz img{min-height:300px !important; /*max-width:300px;*/ object-fit: cover;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:455px !important;}
       .blog .horiz .sectionBottom {min-height: 300px !important;}
+      .aaBlue{min-height: 115px;}
+      .stepRibbon1{padding-left:157px;}
+      .stepRibbon2{padding-left:157px;margin-top:104px;}
+      .stepRibbon3{padding-left:157px;margin-top:245px;}
+      .aaStep2 p{padding: 20px 0px 20px 120px;}
        
  		  
  }
@@ -3882,6 +3908,9 @@ overflow:hidden;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:375px !important;}
         .desk{display:none;}
        .phoneSP {display: none;}
+      .aaBlue{min-height: 90px;}
+      .solutionCompanies ol{padding:0px;}
+      .feature img, .featureLast img {margin-left:-50px;}
 }
 /* iPad Pro Portrait */
 @media only screen 
