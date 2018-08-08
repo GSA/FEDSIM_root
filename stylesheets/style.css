@@ -3586,28 +3586,29 @@ background: #428bca;
     position:absolute;
     margin-top:-32px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:1;
 }
 .stepRibbon2{
     padding-left:150px;
     position:absolute;
     margin-top:82px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:1;
 }
 .stepRibbon3{
-    padding-left:150px;
+    padding-left:246px;
+    padding-right:0px;
     position:absolute;
     margin-top:194px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:1;
 }
 .stepRibbon4{
     padding-left:150px;
     position:absolute;
     margin-top:329px;
     margin-bottom:-70px;
-    z-index:100;
+    z-index:1;
 }
 .step1, .step2, .step3{
     margin-bottom: 60px;
