@@ -3679,6 +3679,7 @@ background: #428bca;
 .solutionCompanies{
     background: #1f5183;
 	text-align: center;
+    margin-bottom:40px;
 }
 .solutionCompanies h3{
 	color: #ffffff;
