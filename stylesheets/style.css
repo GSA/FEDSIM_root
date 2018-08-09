@@ -3872,7 +3872,7 @@ overflow:hidden;}
       .blog .horiz .sectionBottom {min-height: 300px !important;}
       .aaBlue{min-height: 115px;}
       .aaBlue4{min-height:140px;}
-      .stepRibbon1{padding-left:157px;}
+      .stepRibbon1{padding-left:135px; margin-top:-32px;padding-right:0px;}
       .stepRibbon2{padding-left:157px;margin-top:104px;}
       .stepRibbon3{padding-left:157px;margin-top:245px;}
       .stepRibbon4{padding-left:157px;margin-top:445px;}
