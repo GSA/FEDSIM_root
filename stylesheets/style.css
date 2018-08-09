@@ -3620,7 +3620,7 @@ background: #428bca;
     color:#ffffff !important;
     font-weight: bold;
 }
-.step4 {margin-bottom:60px;}
+.step4 {margin-bottom:60px; padding:0px;}
 .aaCopy h3, .aaFAQ h3{
     color: #0a548e;
     font-size: 34px;
@@ -4104,10 +4104,10 @@ and (orientation : landscape)  {
       .expressFront h3 {font-size: 35pt !important; margin-top: -30px;}
       .aaBlue{min-height: 120px;}
       .aaBlue4{min-height:170px;}
-      .stepRibbon1{padding-left:137px;}
+      .stepRibbon1{padding-left:137px;padding-right:0px !important;}
       .stepRibbon2{padding-left:137px;margin-top:104px;}
       .stepRibbon3{padding-left:137px;margin-top:245px;}
-      .stepRibbon4{padding-left:137px;margin-top:445px;}
+      .stepRibbon4{padding-left:147px;margin-top:445px;}
 }
 
 @media only screen 
