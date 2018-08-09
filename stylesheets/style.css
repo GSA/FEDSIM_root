@@ -4109,6 +4109,14 @@ and (orientation : landscape)  {
       .stepRibbon3{padding-left:137px;margin-top:245px;}
       .stepRibbon4{padding-left:147px;margin-top:445px;}
 }
+@media screen 
+  and (min-device-width: 912px) 
+  and (max-device-width: 1368px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .stepRibbon3{padding-left:235px;margin-top:245px;}
+}
 
 @media only screen 
     and (min-device-width: 1920px){
