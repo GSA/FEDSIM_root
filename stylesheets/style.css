@@ -4059,7 +4059,7 @@ and (orientation : landscape)  {
       .stepRibbon1{padding-left:137px;padding-right:0px;}
       .stepRibbon2{padding-left:137px;margin-top:104px;}
       .stepRibbon3{padding-left:137px;margin-top:245px;}
-      .stepRibbon4{padding-left:137px;margin-top:445px;}
+      .stepRibbon4{padding-left:137px;margin-top:405px;}
 }
 
 /* iPad Pro Landscape */
@@ -4074,6 +4074,7 @@ and (orientation : landscape)  {
       .tablet {padding-right: 60px !important;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:200px !important;}
       .blog .horiz img{object-fit: cover;}
+      .stepRibbon3{padding-left:127px;padding-right:0px;}
 }
 @media only screen 
     and (min-device-width: 1024px)
