@@ -4071,7 +4071,8 @@ and (orientation : landscape)  {
   and (min-device-width: 1112px) 
   and (max-device-width: 1112px) 
   and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (min-resolution: 192dpi) { 
       .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
       .pmSection, .conSection {min-height: 350px !important;}
       .row .row {margin-left: 0 !important;margin-right: 0 !important;}
