@@ -3800,6 +3800,17 @@ overflow:hidden;}
       .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:307px;}
       .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
 }
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 500px) {
+        
+      .aaBlue, .aaBlue4{display:none;}
+      .stepRibbon1{margin-left:-126px;padding-left:0;}
+      .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
+      .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:427px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+}
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 374px)  {
@@ -3860,10 +3871,13 @@ overflow:hidden;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:455px !important;}
       .blog .horiz .sectionBottom {min-height: 300px !important;}
       .aaBlue{min-height: 115px;}
+      .aaBlue4{min-height:140px;}
       .stepRibbon1{padding-left:157px;}
       .stepRibbon2{padding-left:157px;margin-top:104px;}
       .stepRibbon3{padding-left:157px;margin-top:245px;}
-      .aaStep2 p{padding: 20px 0px 20px 120px;}
+      .stepRibbon4{padding-left:157px;margin-top:445px;}
+      .aaStep p{padding: 20px 0px 20px 120px;}
+      .aaStep2 p{padding: 8px 0px 7px 120px;}
        
  		  
  }
@@ -3911,8 +3925,16 @@ overflow:hidden;}
         .desk{display:none;}
        .phoneSP {display: none;}
       .aaBlue{min-height: 90px;}
+      .aaStep p{padding: 20px 0px 20px 140px;}
+      .aaStep2 p{padding: 8px 0px 7px 140px;}
       .solutionCompanies ol{padding:0px;}
       .feature img, .featureLast img {margin-left:-50px;}
+}
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px)  {
+      .aaBlue{min-height: 90px;}
+      .aaBlue4{min-height:115px;}
 }
 /* iPad Pro Portrait */
 @media only screen 
@@ -4031,6 +4053,13 @@ and (orientation : landscape)  {
 	       background-repeat: no-repeat;}
         .employee p.test2 {background-repeat: repeat-x;}
       .fiacColor p{font-size: 19px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+      .aaBlue{min-height: 115px;}
+      .aaBlue4{min-height:140px;}
+      .stepRibbon1{padding-left:137px;}
+      .stepRibbon2{padding-left:137px;margin-top:104px;}
+      .stepRibbon3{padding-left:137px;margin-top:245px;}
+      .stepRibbon4{padding-left:137px;margin-top:445px;}
 }
 
 /* iPad Pro Landscape */
@@ -4065,6 +4094,20 @@ and (orientation : landscape)  {
       .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
         
+}
+/* Surface Pro 12.5" */
+@media screen 
+  and (min-device-width: 912px) 
+  and (max-device-width: 1368px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .expressFront h3 {font-size: 35pt !important; margin-top: -30px;}
+      .aaBlue{min-height: 120px;}
+      .aaBlue4{min-height:170px;}
+      .stepRibbon1{padding-left:137px;}
+      .stepRibbon2{padding-left:137px;margin-top:104px;}
+      .stepRibbon3{padding-left:137px;margin-top:245px;}
+      .stepRibbon4{padding-left:137px;margin-top:445px;}
 }
 
 @media only screen 
