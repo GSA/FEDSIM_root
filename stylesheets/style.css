@@ -4116,6 +4116,7 @@ and (orientation : landscape)  {
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
       .stepRibbon3{padding-left:235px;margin-top:245px;}
+      .stepRibbon4{padding-left:147px;margin-top:400px;}
 }
 
 @media only screen 
