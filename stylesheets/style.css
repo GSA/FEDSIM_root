@@ -3929,7 +3929,7 @@ overflow:hidden;}
       .aaStep2 p{padding: 8px 0px 7px 140px;}
       .solutionCompanies ol{padding:0px;}
       .feature img, .featureLast img {margin-left:-50px;}
-      .stepRibbon1{padding-left:105px; margin-top:-32px;padding-right:0px;}
+      .stepRibbon1{padding-left:137px !important; margin-top:-32px;padding-right:0px;}
       .stepRibbon2{padding-left:157px;margin-top:104px;}
       .stepRibbon3{padding-left:157px;margin-top:245px;}
       .stepRibbon4{padding-left:157px;margin-top:445px;}
@@ -4078,8 +4078,8 @@ and (orientation : landscape)  {
       .tablet {padding-right: 60px !important;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:200px !important;}
       .blog .horiz img{object-fit: cover;}
-      .stepRibbon1{padding-left:127px;padding-right:0px;}
-      .stepRibbon3{padding-left:127px;padding-right:0px;}
+      .stepRibbon1{padding-left:127px !important;padding-right:0px;}
+      .stepRibbon3{padding-left:127px !important;padding-right:0px;}
 }
 @media only screen 
     and (min-device-width: 1024px)
