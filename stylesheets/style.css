@@ -3924,7 +3924,7 @@ overflow:hidden;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:375px !important;}
         .desk{display:none;}
        .phoneSP {display: none;}
-      .aaBlue{min-height: 90px;}
+      .aaBlue{min-height: 115px;}
       .aaStep p{padding: 20px 0px 20px 140px;}
       .aaStep2 p{padding: 8px 0px 7px 140px;}
       .solutionCompanies ol{padding:0px;}
@@ -3933,7 +3933,7 @@ overflow:hidden;}
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)  {
-      .aaBlue{min-height: 115px;}
+      .aaBlue{min-height: 90px;}
       .aaBlue4{min-height:115px;}
 }
 /* iPad Pro Portrait */
