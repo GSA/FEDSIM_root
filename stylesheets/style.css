@@ -3930,8 +3930,8 @@ overflow:hidden;}
       .solutionCompanies ol{padding:0px;}
       .feature img, .featureLast img {margin-left:-50px;}
       .stepRibbon1{padding-left:157px !important; margin-top:-32px;padding-right:0px;}
-      .stepRibbon2{padding-left:157px;margin-top:95px;}
-      .stepRibbon3{padding-left:147px;margin-top:215px;}
+      .stepRibbon2{padding-left:157px;margin-top:95px !important;}
+      .stepRibbon3{padding-left:147px;margin-top:215px !important;}
       .stepRibbon4{padding-left:157px;margin-top:445px;}
 }
 @media only screen 
