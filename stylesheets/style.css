@@ -4056,7 +4056,7 @@ and (orientation : landscape)  {
       .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
       .aaBlue{min-height: 115px;}
       .aaBlue4{min-height:140px;}
-      .stepRibbon1{padding-left:137px;}
+      .stepRibbon1{padding-left:137px;padding-right:0px;}
       .stepRibbon2{padding-left:137px;margin-top:104px;}
       .stepRibbon3{padding-left:137px;margin-top:245px;}
       .stepRibbon4{padding-left:137px;margin-top:445px;}
