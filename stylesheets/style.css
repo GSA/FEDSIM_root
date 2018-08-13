@@ -3190,6 +3190,9 @@ color:#ffffff;}
 .altHR {margin-bottom:20px !important;}
 .mingHeight{min-height:280px;}
 .civilian, .homeland{margin-top: 25px !important;}
+span.tabFlipboardNavScroller {
+    display: none;
+}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
