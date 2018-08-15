@@ -3710,6 +3710,7 @@ background: #428bca;
     margin-bottom: -10px;
     text-transform: none;
 }
+.sbir h3{font-size:34px;font-weight:100;}
 ol.sub{list-style-type: lower-roman;}
 .contBot{background-color:#307ca2;margin: 0 auto;max-width: 65.8rem;margin-top: -76px;}
 .expressProg{background-color:#EBEBEB;}
