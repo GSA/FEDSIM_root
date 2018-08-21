@@ -3918,7 +3918,11 @@ and (orientation : landscape)  {
       .stepRibbon3{padding-left:235px;margin-top:245px;}
       .stepRibbon4{padding-left:147px;margin-top:400px;}
 }
-
+@media only screen 
+  and (min-device-width: 1680px) 
+  and (max-device-width: 1680px){
+      .stepRibbon3{padding-left:266px;}
+}
 @media only screen 
     and (min-device-width: 1920px){
         .stepRibbon3{/*padding-left:311px;*/ padding-left:290px;margin-top:194px;}
