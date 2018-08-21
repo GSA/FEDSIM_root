@@ -2115,6 +2115,18 @@ button:hover, button:focus, .button:hover, .button:focus {
 	    padding-top: 30px;
     margin-bottom: 0;
 }
+
+.titleHeaderText2{
+	color: #ffffff;
+	font-weight:lighter;
+	font-size: 40pt;
+	max-width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 0;
+	padding-top:40px;
+    text-align: center;
+    text-transform: none;
+}
 .civSection{
 	background-image:url(../images/@stock/servicesCiv.png);
 	min-height: 366px;    
