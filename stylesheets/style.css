@@ -3351,7 +3351,8 @@ span.tabFlipboardNavScroller {
     width: 84px;
 }
 .stepRibbon1{
-    padding-left:220px;
+/*    padding-left:220px;*/
+    padding-left:155px;
     position:absolute;
     margin-top:-32px;
     margin-bottom:-70px;
