@@ -3366,7 +3366,8 @@ span.tabFlipboardNavScroller {
     z-index:1;
 }
 .stepRibbon3{
-    padding-left:246px;
+/*    padding-left:246px;*/
+    padding-left:268px;
     padding-right:0px;
     position:absolute;
     margin-top:194px;
@@ -3376,7 +3377,8 @@ span.tabFlipboardNavScroller {
 .stepRibbon4{
     padding-left:150px;
     position:absolute;
-    margin-top:329px;
+/*    margin-top:329px;*/
+    margin-top:303px;
     margin-bottom:-70px;
     z-index:1;
 }
