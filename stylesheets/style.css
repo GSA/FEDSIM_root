@@ -2116,6 +2116,11 @@ button:hover, button:focus, .button:hover, .button:focus {
     margin-bottom: 0;
 }
 
+.titleHeader2{
+	background-image: url(../images/@stock/innovHeader.png);
+	min-height:170px;
+    background-size: cover;
+}
 .titleHeaderText2{
 	color: #ffffff;
 	font-weight:lighter;
