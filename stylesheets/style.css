@@ -3204,6 +3204,11 @@ overflow:hidden;}
 
 /* Mobile Code DO NOT REMOVE */
 @media only screen
+    and (max-device-width: 360px){
+      .desk {display: none;}
+      .tabSP{display: none;}
+}
+@media only screen
 	and (min-device-width: 791px)
 	and (max-device-width: 1053px) {
 		.careerBox{min-height:369px;height:100%;}
@@ -3246,9 +3251,43 @@ overflow:hidden;}
 	  .civProj1Ind, .civProj2Ind, .defProj1Ind, .defProj2Ind{min-height: 285px;}
       .SD, .dodAF .large-2, .civilian .large-2, .armyNavy .large-2, .homeland .large-2{width:100% !important;}
       .SD img{width:100% !important;padding:0 15px !important;}
+      .aaBlue{display:none;}
+      .stepRibbon1{margin-left:-126px;padding-left:0;}
+      .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
+      .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
 }
 
 
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 500px) {
+        
+      .aaBlue, .aaBlue4{display:none;}
+      .stepRibbon1{margin-left:-126px;padding-left:0;}
+      .stepRibbon2{margin-left:-126px;padding-left:0;margin-top:127px;}
+      .stepRibbon3{margin-left:-126px;padding-left:0;margin-top:307px;}
+      .stepRibbon4{margin-left:-126px;padding-left:0;margin-top:427px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 374px)  {
+      .stepRibbon1{margin-left:-100px;padding-left:0;}
+      .stepRibbon2{margin-left:-100px;padding-left:0;margin-top:150px;}
+      .stepRibbon3{margin-left:-100px;padding-left:0;margin-top:369px;}
+      .stepRibbon4{margin-left:-100px;padding-left:0;margin-top:369px;}
+}
+@media only screen 
+  and (min-device-width: 425px) 
+  and (max-device-width: 495px)  {
+      .stepRibbon1{margin-left:-148px;padding-left:0;}
+      .stepRibbon2{margin-left:-148px;padding-left:0;margin-top:104px;}
+      .stepRibbon3{margin-left:-148px;padding-left:0;margin-top:270px;}
+}
+
+/* Android Tablet*/
 @media only screen 
    and (min-device-width: 501px) 
    and (max-device-width: 768px)  {
@@ -3285,6 +3324,20 @@ overflow:hidden;}
        .mingHeight{min-height:244px;}
        .row .row{margin-left: auto !important; margin-right: auto !important;}
        .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
+       .desk {display:none;}
+       .phoneSP {display: none;}
+       .tabSP .sectionBottom {min-height:455px !important;}
+.blog .horiz img{min-height:300px !important; /*max-width:300px;*/ object-fit: cover;}
+      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:455px !important;}
+      .blog .horiz .sectionBottom {min-height: 300px !important;}
+      .aaBlue{min-height: 115px;}
+      .aaBlue4{min-height:140px;}
+      .stepRibbon1{padding-left:135px; margin-top:-32px;padding-right:0px;}
+      .stepRibbon2{padding-left:157px;margin-top:104px;}
+      .stepRibbon3{padding-left:157px;margin-top:245px;}
+      .stepRibbon4{padding-left:157px;margin-top:445px;}
+      .aaStep p{padding: 20px 0px 20px 120px;}
+      .aaStep2 p{padding: 8px 0px 7px 120px;}
        
  		  
  }
@@ -3325,7 +3378,27 @@ overflow:hidden;}
 /*       .imgPad{margin-top:20px;}*/
 .mingHeight{min-height:216px;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
+.blog .horiz img{min-height:300px !important; max-width:300px; overflow: hidden;}
+      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:375px !important;}
+        .desk{display:none;}
+       .phoneSP {display: none;}
+      .aaBlue{min-height: 140px;}
+      .aaStep p{padding: 20px 0px 20px 140px;}
+      .aaStep2 p{padding: 8px 0px 7px 140px;}
+      .solutionCompanies ol{padding:0px;}
+      .feature img, .featureLast img {margin-left:-50px;}
+      .stepRibbon1{padding-left:157px !important; margin-top:-32px;padding-right:0px;}
+      .stepRibbon2{padding-left:157px;margin-top:95px !important;}
+      .stepRibbon3{padding-left:147px;margin-top:215px !important;}
+      .stepRibbon4{padding-left:157px;margin-top:345px;}
 }
+@media only screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1024px)  {
+      .aaBlue{min-height: 90px;}
+      .aaBlue4{min-height:115px;}
+}
+/* iPad Pro Portrait */
 @media only screen 
   and (min-device-width: 769px) 
   and (max-device-width: 1024px)
@@ -3348,6 +3421,12 @@ overflow:hidden;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
        .row .row{margin-left: auto !important; margin-right: auto !important;}
        .employee p.test2 {background-image: url(../images/@stock/testmobile.png); padding-bottom:8px !important}
+        .desk{display:none;}
+       .tabSP .sectionBottom {min-height:475px !important;}
+      .phoneSP {display:none;}
+.blog .horiz img{min-height:300px !important; /*max-width:300px;*/ object-fit: cover;}
+      .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:442px !important;}
+      .blog .horiz .sectionBottom {min-height: 300px !important;}
 		  
 }
 @media only screen
@@ -3366,6 +3445,23 @@ overflow:hidden;}
   and (orientation: landscape) { 
       .pmSection, .conSection{min-height:470px !important;}
 /*        .conSection p, .pmSection p{ padding: 0 20px;}*/
+}
+/* Surface Pro Landscape */
+@media only screen
+    and (max-device-width: 1368px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2){
+        
+       .phoneSP {display: none;}
+}
+/* Surface Pro Portrait */
+@media only screen
+    and (max-device-width: 912px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2){
+        
+       .tabSP .sectionBottom {min-height:520px !important;}
+       .phoneSP {display: none;}
 }
 @media only screen 
   and (min-device-width: 375px) 
@@ -3420,6 +3516,41 @@ and (orientation : landscape)  {
       .fiacColor p{font-size: 19px;}
 }
 @media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .acqmgmt img {padding-left: 35%;}
+      .finmgmt img {padding-left: 18%;}
+      .projmgmt img {padding-left: 22%;}
+      .itserv h3 {margin-left: 86px;}
+      .profserv img {padding-left: 21%;}
+      .mngsrv img {padding-left: 22%;}
+      .mngsrv h3 {margin-left: 68px;}
+      .tablet {padding-right: 0px;}
+      .value .medium-5 {width:38%;}
+      .top-bar-section ul li > a {padding: 0px 7px 0 7px !important;}
+      .homeNum{max-width: 26%;}
+      .milestone strong, .milestone h3 {font-size: 60px;}
+      .currentSite img {padding: 20px 0;}
+      .joinFEDSIM p {margin: 0 50px 1.25rem 50px;}
+      .row .row {margin-left: 0;margin-right: 0;}
+      .pmSection, .conSection {min-height: 430px !important;}
+      .employee p.test1, .employee p.test3, .employee p.test4{
+	       background-image: url(../images/@stock/test2.png);
+	       background-repeat: no-repeat;}
+        .employee p.test2 {background-repeat: repeat-x;}
+      .fiacColor p{font-size: 19px;}
+      .aaStep p, .aaStep2 p{padding: 20px 0px 20px 102px;}
+      .aaBlue{min-height: 115px;}
+      .aaBlue4{min-height:140px;}
+      .stepRibbon1{padding-left:137px;padding-right:0px;}
+      .stepRibbon2{padding-left:137px;margin-top:104px;}
+      .stepRibbon3{padding-left:137px;margin-top:245px;}
+      .stepRibbon4{padding-left:137px;margin-top:405px;}
+}
+/* iPad Pro Landscape */
+@media only screen 
   and (min-device-width: 1112px) 
   and (max-device-width: 1112px) 
   and (orientation: landscape) 
@@ -3428,6 +3559,8 @@ and (orientation : landscape)  {
       .pmSection, .conSection {min-height: 350px !important;}
       .row .row {margin-left: 0 !important;margin-right: 0 !important;}
       .tablet {padding-right: 60px !important;}
+      .stepRibbon1{padding-left:147px !important;padding-right:0px;}
+      .stepRibbon3{padding-left:200px !important;padding-right:0px !important;}
 }
 @media only screen 
     and (min-device-width: 1024px)
@@ -3445,4 +3578,33 @@ and (orientation : landscape)  {
       .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
         
+}
+
+/* Surface Pro 12.5" */
+@media screen 
+  and (min-device-width: 912px) 
+  and (max-device-width: 1368px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .expressFront h3 {font-size: 35pt !important; margin-top: -30px;}
+      .aaBlue{min-height: 120px;}
+      .aaBlue4{min-height:170px;}
+      .stepRibbon1{padding-left:137px;padding-right:0px !important;}
+      .stepRibbon2{padding-left:137px;margin-top:104px;}
+      .stepRibbon3{padding-left:137px;margin-top:245px;}
+      .stepRibbon4{padding-left:147px;margin-top:445px;}
+}
+@media screen 
+  and (min-device-width: 912px) 
+  and (max-device-width: 1368px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .stepRibbon3{padding-left:235px;margin-top:245px;}
+      .stepRibbon4{padding-left:147px;margin-top:400px;}
+}
+
+@media only screen 
+    and (min-device-width: 1920px){
+        .stepRibbon3{padding-left:311px;}
 }
