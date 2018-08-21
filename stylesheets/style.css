@@ -3352,14 +3352,14 @@ span.tabFlipboardNavScroller {
 }
 .stepRibbon1{
 /*    padding-left:220px;*/
-    padding-left:155px;
+    padding-left:147px;
     position:absolute;
     margin-top:-32px;
     margin-bottom:-70px;
     z-index:1;
 }
 .stepRibbon2{
-    padding-left:150px;
+    padding-left:142px;
     position:absolute;
     margin-top:82px;
     margin-bottom:-70px;
@@ -3367,7 +3367,7 @@ span.tabFlipboardNavScroller {
 }
 .stepRibbon3{
 /*    padding-left:246px;*/
-    padding-left:238px;
+    padding-left:232px;
     padding-right:0px;
     position:absolute;
     margin-top:203px;
@@ -3375,7 +3375,7 @@ span.tabFlipboardNavScroller {
     z-index:1;
 }
 .stepRibbon4{
-    padding-left:150px;
+    padding-left:142px;
     position:absolute;
 /*    margin-top:329px;*/
     margin-top:303px;
