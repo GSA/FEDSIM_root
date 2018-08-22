@@ -785,7 +785,7 @@ body .socials i.grey, body[class^=colorScheme] .socials i.grey {
 body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   background-color: rgba(54, 54, 54, 0.6);
 }
-
+p {font-family: 'Open Sans' , sans-serif;}
 .drop-letters {
   float: left;
   font-weight: bold;
@@ -853,7 +853,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   margin-bottom: 0;
 }
 .special-title p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.125rem;
   font-style: italic;
   color: #5b616b;
@@ -943,7 +943,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 /*call-to-action */
 .call-to-action p {
 	font-size: 1.375rem;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	text-align: center;
 }
@@ -975,7 +975,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   list-style: none;
 }
 .bars h4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weight: normal;
   text-transform: capitalize;
@@ -1000,7 +1000,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   margin-bottom: 0;
 }
 .member p.position {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-size: 14px;
   color: #666666;
@@ -1054,7 +1054,7 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
 p.quote {
 	border: 1px none rgba(255, 255, 255, 0.4);
 	padding: 20px 50px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-size: 18px;
 	margin-bottom: 30px;
@@ -1157,7 +1157,7 @@ form input.error, form textarea.error {
 }
 #comments-form label {
   font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 /*  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";*/
   margin-bottom: 5px;
 }
@@ -1249,7 +1249,7 @@ form input.error, form textarea.error {
 .employee .special-title p{
 	font-style: italic;
 	color:#ffffff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top:20px;
 }
 
@@ -1287,7 +1287,7 @@ ul.gallery li a h3 {
 }
 ul.gallery li a p {
   color: #dddddd;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.875rem;
   font-style: italic;
 }
@@ -1887,7 +1887,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 */
 .bodyText{
-	font-family:'Roboto', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	text-align: left;
 }
 .mainTitle{
@@ -2031,7 +2031,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic;
     color: #838384;
 	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
 .fiacBlurb h4 {
@@ -2039,7 +2039,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic;
     color: #838384;
 	font-size: 18px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .fiacBot ul {
     text-align: left;
@@ -2097,8 +2097,10 @@ button:hover, button:focus, .button:hover, .button:focus {
 /*	margin-left: 160px;*/
 }
 .servicesTitle{
-	    padding-top: 30px;
+	padding-top: 30px;
     margin-bottom: 0;
+    font-size: 22px;
+    color:#00649e;
 }
 .titleHeader2{
 	background-image: url(../images/@stock/innovHeader.png);
@@ -2138,7 +2140,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .conSection p, .pmSection p{
 	padding:0 60px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .joinSlide img{
 	height:150px;
@@ -2209,7 +2211,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .contractDesSub, .paragraph{
 	font-style: italic;
 	font-weight: bold;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-size: 1.125rem;
     color: #838384;
     letter-spacing: 1px;
@@ -2355,7 +2357,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
     padding: 20px 60px;
-/*    font-family: 'Roboto', sans-serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
 	width:95%;
@@ -2367,7 +2369,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
     padding: 20px 60px;
-/*    font-family: 'Roboto', sans-serif;*/
+/*    font-family: 'Open Sans', sans-serif;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
 /*
@@ -2390,7 +2392,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     color:#2490d4;
 }
 .joinIcons p{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .call-to-action ul{
 	text-align: left;
@@ -2596,7 +2598,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 /*    font-style: italic;*/
     font-size: 20px;
     line-height: 30px;
-	font-family:  'Roboto', sans-serif;
+	font-family:  'Open Sans', sans-serif;
 }
 .panel-default>.panel-heading {
     background-color: #4B92CE;
@@ -2637,11 +2639,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	padding-top:14px;
 }
 .author{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.125rem;
 }
 .employee .author{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.125rem;
 	background: rgba(71,146,206,0.8);
 	width: 50%;
@@ -2655,7 +2657,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	    padding-left: 10px;
 }
 .droid{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .widthAdj{
 	width:20%;
@@ -2696,7 +2698,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 /*    font-style: italic;*/
     font-size: 11pt;
     line-height: 30px;
-	font-family:  'Roboto', sans-serif;
+	font-family:  'Open Sans', sans-serif;
 }
 .inno .panel-default>.panel-heading {
     background: #1f5183;
@@ -3176,7 +3178,7 @@ color:#ffffff;}
 	background-color:#f1f1f1;
 	margin: 20px 10px 10px 7px;
 	border: 1px solid #2f73ab;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	padding-top:20px;
 	height:100%;
 	min-height:304px;
@@ -3257,7 +3259,7 @@ color:#ffffff;}
 .panel-title > a:focus  {
     text-decoration:none;
 }
-/*.projLead p{font-family:'Roboto', sans-serif; color:#424143;}*/
+/*.projLead p{font-family:'Open Sans', sans-serif; color:#424143;}*/
 .projLeft{margin-right:40px;}
 /* Multi Item Carousel */
 
@@ -3515,7 +3517,7 @@ background: #428bca;
     text-align: left;
 }
 .OtherBot, .CSOBot, .SBIRBot{min-height: 262px;}
-.path span span{width:20em; background-color:#f1f1f1; color:#000; border:1px solid #000000; font-family: "Roboto", sans-serif;}
+.path span span{width:20em; background-color:#f1f1f1; color:#000; border:1px solid #000000; font-family: "Open Sans", sans-serif;}
 .carousel {
     margin-bottom: 0;
     padding: 0 40px 0px 40px;
@@ -3554,12 +3556,12 @@ background: #428bca;
 .aaStep p, .aaStep2 p{
     padding: 20px 0px 20px 160px;
     margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /*
 .aaStep2 p{
     padding: 10px 80px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 */
 .stepGraphic img{
