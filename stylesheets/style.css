@@ -718,7 +718,7 @@ h8 {
   background: #1D5187;
   border: 1px solid #1D5187;
 	color:#ffffff;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	font-weight:bold;
 }
 button:hover, button:focus, .button:hover, .button:focus {
@@ -954,11 +954,11 @@ body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   width: 88%;
   margin: 0 auto 20px;
 	background-color: #1D5187;color:#ffffff;
-	font-family: "PT Sans";
+	font-family: 'Open Sans' , sans-serif; 
 }
 .milestone strong, .milestone h3 {
   font-size: 64px;
-  font-family: "PT sans";;
+  font-family: 'Open Sans' , sans-serif; ;
   display: block;
   color: #ffffff;
 }
@@ -1157,7 +1157,8 @@ form input.error, form textarea.error {
 }
 #comments-form label {
   font-size: 1rem;
-  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
+    font-family: 'Roboto', sans-serif;
+/*  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";*/
   margin-bottom: 5px;
 }
 
@@ -1911,7 +1912,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     padding-left: 5%;
 }
 .join{
-	background-color:#58173b;
+/*	background-color:#58173b;*/
 	max-width: none;
 	width:95%;
 }
@@ -1921,7 +1922,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 /*	padding-right: 30%;*/
 	margin-top: 50px;
 	font-size: 32px;
-	font-family:"PT sans";
+	font-family:'Open Sans' , sans-serif; 
 	text-align: center;
 }
 .joinImage{
@@ -1962,7 +1963,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	color: #ffffff;
 }
 .joinColor, .generalColor, .fiacColor{
-	background-color:#58173b;
+/*	background-color:#58173b;*/
 	padding-top:20px;
 	padding-right:22px;
 	color: #ffffff;
@@ -1970,25 +1971,26 @@ button:hover, button:focus, .button:hover, .button:focus {
 	width:49%;
 }
 .servicesColor{
-	background-color:#58173b;
+/*	background-color:#58173b;*/
 /*	padding-top:20px;*/
-	color: #ffffff;
-	font-style:italic; 
+/*	color: #ffffff;*/
+/*	font-style:italic; */
 /*	width:49%;*/
 }
 .servicesCivColor p{
     font-size: 20px;
-    font-style: italic;
+/*    font-style: italic;*/
     padding-top: 19%;
     margin-left: 60px;
 }
 .servicesColor p{
     font-size: 20px;
-    font-style: italic;
+    text-align: center;
+/*    font-style: italic;*/
     padding-top: 3%;
     /*  margin-left: 60px; */
-    padding-left: 22%;
-    padding-right: 22%;
+    padding-left: 18%;
+    padding-right: 18%;
 }
 .servicesCivColor{
 	background-color: #424143;
@@ -2043,7 +2045,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-align: left;
     font-size: 16px;
     font-weight: bold;
-	font-family: "PT Sans";
+	font-family: 'Open Sans' , sans-serif; 
 }
 .fiacBot{
 	padding: 0 15px;
@@ -2146,7 +2148,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-size:36px;
 	text-transform: uppercase;
 	font-style: normal;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 }
 .joinSlide p{
 	color:#838384 !important;
@@ -2170,7 +2172,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .highlightsBox{
 	color:#ffffff;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	background-image: url(../images/@stock/projectTransparent.png);
 	border: 4px solid #ffffff;
 	padding:10px;
@@ -2181,7 +2183,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .civBox{
 	color:#ffffff;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	border: 4px solid #ffffff;
 	padding:10px;
     text-align: center;
@@ -2190,7 +2192,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	background-color: #4B92CE;
 	color: #ffffff;
 	padding: 25px;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	min-height:261px;
 }
 .civProj1 h3, .civProj2 h3, .ph h3{
@@ -2302,14 +2304,14 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	border: 1px solid rgba(255, 255, 255, 0.8);
     background-color: #4B92CE;
     color: #ffffff;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 }
 
 .homeSlider .button.boxed:hover{    
 	border: 1px solid rgba(255, 255, 255, 0.8);
     background-color: #ffffff;
     color: #0a5286;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 }
 .acqmgmt img{
 	padding-left:37%;
@@ -2350,7 +2352,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .aboutFEDSIM {
     background-color: #4B92CE;
     color: #ffffff;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
     padding: 20px 60px;
 /*    font-family: 'Roboto', sans-serif;*/
@@ -2362,7 +2364,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .joinFEDSIM {
     background-color: #4B92CE;
     color: #ffffff;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
     padding: 20px 60px;
 /*    font-family: 'Roboto', sans-serif;*/
@@ -2402,7 +2404,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .joinButton, .joinButton:hover, .joinButton:focus{background:#58173b; border:#58173b;border-style: solid;
 	border-width: 0px;
 	cursor: pointer;
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	font-weight: bold;
 	line-height: normal;
 	margin: 0 0 1.25rem;
@@ -2419,7 +2421,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-size: 1rem;
 	color: #ffffff;}
 .joinButton a, .joinButton a:hover, .joinButton a:focus, .joinButton a:visited{font-size: 1rem;
-	color: #ffffff;font-family: "PT sans";
+	color: #ffffff;font-family: 'Open Sans' , sans-serif; 
 	font-weight: bold;
 	line-height: normal;}
 .shaping{
@@ -2433,7 +2435,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	color:#ffffff;
 }
 .cvehicles a{
-	font-family: "PT sans";
+	font-family: 'Open Sans' , sans-serif; 
 	font-size: 20px;
 	border:0px;
 }
@@ -2449,12 +2451,12 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     text-align: left;
     font-size: 17px;
     font-weight: bold;
-	font-family: "PT Sans";
+	font-family: 'Open Sans' , sans-serif; 
 /*	font-style:italic;*/
 }
 .fiacBot h4{
     color:#ffffff;
-	font-family: "PT Sans";
+	font-family: 'Open Sans' , sans-serif; 
 	font-style:normal;
 	margin-bottom:0px;
 }
@@ -2468,7 +2470,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .fiacBot p{
     font-size: 17px;
     font-weight: bold;
-    font-family: "PT Sans";
+    font-family: 'Open Sans' , sans-serif; 
     font-style: normal;
     text-align:left;
 /*    color:#848485;*/
@@ -2694,7 +2696,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 /*    font-style: italic;*/
     font-size: 11pt;
     line-height: 30px;
-	font-family:  "Roboto", sans-serif;
+	font-family:  'Roboto', sans-serif;
 }
 .inno .panel-default>.panel-heading {
     background: #1f5183;
