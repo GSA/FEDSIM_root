@@ -3269,20 +3269,23 @@ color:#ffffff;}
 }
 /* The controlsy */
 .carousel-control {
-	left: -12px;
-    height: 40px;
-	width: 40px;
+	left: -40px;
+    height: 115px;
+	width: 60px;
 /*    background: none repeat scroll 0 0 #222222;*/
-    background:transparent;
-    background-image: url(../images/@stock/faqarrow.png);
     border: 4px solid #FFFFFF;
 /*    border-radius: 23px 23px 23px 23px;*/
     margin-top: 325px;
     padding-top: 5px;
 }
 .carousel-control.right {
-	right: -12px;
+	right: -40px;
+    background-image: url(../images/@stock/rightarrow.png);
+    background-size: contain;
 }
+.carousel-control.left{
+    background-image: url(../images/@stock/leftarrow.png);
+    background-size: contain;}
 /* The indicators */
 .carousel-indicators {
 	right: 50%;
