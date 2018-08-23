@@ -3001,46 +3001,23 @@ color:#ffffff;}
 .programs{
     background-color: #f1f1f1;
     height: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-size:19px;
 /*    padding: 20px;*/
+    padding: 18px;
 }
-.programs img{
-	width:75%;
-	padding:16px 0;
+.programs a{
+    color:#252525 !important;
 }
-.prg1 img{
-    width: 85%;
-    padding: 22px 0;
-}
-.prg img:hover{
-	width:100%;
-	padding:12px 0;
-}
-.prg2 img:hover{
-	width:100%;
-	padding:18px 0;
-}
-.prg1 img:hover{
-	width:100%;
-	padding:21px 0;
-}
-.prg:hover, .prg2:hover{
-	background-color:#f9f9f9;
-    border-left: 4px solid #f1f1f1;
-    padding-bottom: 1px;
-}
-.prg1:hover{
-	background-color:#f9f9f9;
-    border-left: 4px solid #f1f1f1;
-    padding-bottom: 1px;
-}
+.programs .medium-1, .programs .large-1{margin-left:-18px;}
 .currentSite{
-	background-color:#ffffff;
-/*	padding:21px;*/
+/*	background-color:#ffffff;
+    padding:21px;*/
 }
-.currentSite img{
-    width:100%;
-	padding:16px 0;
+.currentSite a{
+    color:#01538f !important;
 }
+
 #gform h2{color:#ffffff;}
 .ph{
 	background-repeat: no-repeat;
@@ -3290,7 +3267,7 @@ color:#ffffff;}
 .carousel-indicators {
 	right: 50%;
 	top: auto;
-	bottom: -10px;
+	bottom: -35px;
 	margin-right: -19px;
 }
 /* The colour of the indicators */
@@ -3734,6 +3711,22 @@ table tr.odd{background:#E6E6E6;}
 .sens3 {background-image: url(../images/@stock/projHigh/32_HS00800_DHS.jpg);}
 .dts {background-image: url(../images/@stock/projHigh/31_DE00637_DOD.jpg);}
 .rcas {background-image: url(../images/@stock/projHigh/34_AR00595_RCAS.jpg);}
+
+
+.d2, .d3, .d4, .d5, .d6, .d6 {display: none;}
+.service{padding:20px; background-color:#f1f1f1;min-height:103px;}
+.service:hover {background-color:#57093b;}
+.service:hover + h4{color:#ffffff !important;}
+.service h4{text-align:center; color:#5b8fc8;}
+.service:hover h4{color:#ffffff;}
+.s1 {background-color:#57093b;}
+.s1 h4{color:#ffffff;}
+.sOff {background-color:#f1f1f1 !important;}
+.sOff h4{color:#5b8fc8 !important;}
+/*
+.s2:hover + .d2 {display: block;}*/
+/*.s2:hover + .d1 {display:none;}
+*/
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
