@@ -4092,7 +4092,7 @@ and (orientation : landscape)  {
       .mobile{display: none;}
         .tabSP{display:none;}
        .phoneSP {display: none;}
-      .tablet{background-color:#ffffff; padding-right:40px;}
+      .tablet{background-color:#ffffff; /*padding-right:40px;*/}
         .top-bar-section ul{background-color:#ffffff;}
       .tablet:hover, .tablet a:hover {background-color: #ffffff !important;}
         .top-bar-section ul li:hover:not(.has-form) > a {background: #ffffff;}
