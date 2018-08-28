@@ -25,7 +25,33 @@
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700"  media="screen" rel="stylesheet" type="text/css">
-  
+     
+    <!--
+        <script>
+          // terrificjs bootstrap
+          (function($) {
+              $(document).ready(function() {
+                  var $page = $('body');
+                  var config = {
+                    dependencyPath: {
+                      plugin: 'javascripts/'
+                    }
+                  }
+                  var application = new Tc.Application($page, config);
+                  application.registerModules();
+                  application.start();
+              });
+          })(Tc.$);
+        </script>
+
+          <script>
+              $(document).ready(function() {
+        $('#Carousel').carousel({
+            interval: 5000
+        })
+    });
+          </script>
+    -->
     <script type="text/javascript">
       $(document).ready(function(){
           $(".hoverTrig").hover( function() { $(".hoverP").toggle(); $(".hoverH").toggle(); } );
@@ -45,744 +71,747 @@
     </script>
     <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
     <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <!--  <script src="https://use.edgefonts.net/droid-sans:n4:default.js" type="text/javascript"></script>-->
   </head>
-  <body class="">
-    <header role="banner">
-      <div class="usa-disclaimer">
-        <div class="usa-disclaimer-official usa-grid">
-          <img src="images/@stock/flag.png" alt="U.S. flag">
-          <p>An official website of the United States Government | <a href="contact.html">Contact AAS FEDSIM</a></p>
-        </div>
-      </div>
-
-      <div class="usa-disclaimer programs">
-        <div class="usa-disclaimer-official usa-grid">
-          <div class="medium-1 large-1 columns"><a href="https://aas.gsa.gov/">AAS</a></div>
-          <div class="medium-2 large-2 no-padding columns"><a href="https://aas.gsa.gov/contact.html">REGIONAL OFFICES</a></div>
-          <div class="medium-2 large-2 columns currentSite"><a href="https://fedsim.gsa.gov">FEDSIM</a></div>
-          <div class="medium-6 large-6 columns">&nbsp;</div>
-        </div>
-      </div>
-    </header>
-        <div class="contain-to-grid sticky" role="navigation" aria-label="Main menu">
-          <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
-              <ul class='title-area nav mobile'>
-                  <li class='name'><h1><span class="hidden">AAS FEDSIM</span><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="250"></a></h1></li>
-                  <li class='toggle-topbar menu-icon'><a href='#'>Menu</a></li>
-              </ul>
-            <section class='top-bar-section'>
-              <ul class='right'>
-                  <li class="tablet"><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="200"></a></li>
-                  <li><a href='index.html'>Home</a></li>
-                  <li class='has-dropdown'><a aria-haspopup="true">Who We Are</a>
-                    <ul class='dropdown'>
-                        <li><a href='about.html'>About</a></li>
-                        <li><a href='leadership.html'>Our Leadership</a></li>
-                        <li><a href='join.html'>Join Us</a></li>
-                    </ul>
-                  </li>
-                  <li class='has-dropdown'><a>What We Do</a>
-                      <ul class='dropdown'>
-                        <li><a href='services.html'>Services</a></li>
-                        <li class='has-dropdown'><a>CSO</a>
-                            <ul class='dropdown'>
-                                <li><a href='innovativeClient.html'>Client</a></li>
-                                <li><a href='innovativeIP.html'>Industry Partner</a></li>
-                                <li><a href='solutions.html'>Submit a Solution</a></li>
-                            </ul>
-                        </li>
-    <!--                    <li><a href='sbir.html'>SBIR</a></li>-->
-                        <li><a href='faqs.html'>FAQs</a></li>
-                        <li><a href='cvehicles.html'>Contract Vehicles</a></li>
-                      </ul>
-                  <li class='has-dropdown'><a>Getting Started</a>
-                      <ul class='dropdown'>
-                        <li><a href='customer.html'>Customer Toolkit</a></li>
-                        <li><a href='contact.html'>Request Additional Information</a></li>
-                      </ul>
-                  </li>
-                  <li class='has-dropdown'><a>News &amp; Events</a>
-                      <ul class='dropdown'>
-                        <li><a href='calendar.html'>Calendar of Events</a></li>
-                      </ul>
-                  </li>
-                  <li class='has-dropdown'><a>Industry</a>
-                      <ul class='dropdown'>
-                         <li><a href='general.html'>Partner Information</a></li>
-                        <li><a href='fiac.html'>FEDSIM Industry Advisory Council</a></li>
-                        <li><a href='opportunities.html'>Opportunities</a></li>
-                      </ul>
-                  </li>
+<body class="">
+<header role="banner">
+  <div class="usa-disclaimer">
+    <div class="usa-disclaimer-official usa-grid">
+      <img src="images/@stock/flag.png" alt="U.S. flag">
+      <p>An official website of the United States Government | <a href="contact.html">Contact AAS FEDSIM</a></p>
+    </div>
+  </div>
+  
+  <div class="usa-disclaimer programs">
+    <div class="usa-disclaimer-official usa-grid">
+      <div class="medium-1 large-1 columns"><a href="https://aas.gsa.gov/">AAS</a></div>
+      <div class="medium-3 large-3 columns"><a href="https://aas.gsa.gov/contact.html">REGIONAL OFFICES</a></div>
+      <div class="medium-2 large-2 columns currentSite"><a href="https://fedsim.gsa.gov">FEDSIM</a></div>
+      <div class="medium-6 large-6 columns">&nbsp;</div>
+    </div>
+  </div>
+	</header>
+    <div class="contain-to-grid sticky" role="navigation" aria-label="Main menu">
+      <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+          <ul class='title-area nav mobile'>
+              <li class='name'><h1><span class="hidden">AAS FEDSIM</span><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="250"></a></h1></li>
+              <li class='toggle-topbar menu-icon'><a href='#'>Menu</a></li>
+          </ul>
+        <section class='top-bar-section'>
+          <ul class='right'>
+              <li class="tablet"><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="200"></a></li>
+              <li><a href='index.html'>Home</a></li>
+              <li class='has-dropdown'><a aria-haspopup="true">Who We Are</a>
+                <ul class='dropdown'>
+                    <li><a href='about.html'>About</a></li>
+                    <li><a href='leadership.html'>Our Leadership</a></li>
+                    <li><a href='join.html'>Join Us</a></li>
                 </ul>
-              </section>
-            </nav>
-        </div>
-        <div class="bodyText">
-            <div class='members'>
-              <div class='full call-to-action-bg-alt no-padding'>
-                <div class='two spacing'></div>
-                <div class='special-title centered-text'>
-                  <h9>
-                    <h2><span class="mainTitle">Our Services</span></h2>
-                  </h9>
-                  <div class='two spacing'></div>
-                </div>        
-              </div>
-              <div class="row join">
-                  <div class='medium-12 large-12 columns no-padding'>
-                    <div class="medium-12 large-12 columns servicesColor">
-
-                    <p>Our acquisition, financial, and project management experts develop creative solutions to ensure quality and compliance across the life cycle of the acquisition.</p>
-                    </div>
-
-                  </div>
-              </div>
-              <div class='row'>
-                <div class='special-title centered-text'> </div>
-              </div>
-
-            </div>
-        </div>
-    <div class="row">
-        <div class="medium-12 large-12 columns medium-centered large-centered">
-            <div class="medium-5 large-5 columns widthAdj3">&nbsp;</div>
-            <div class="medium-4 large-4 columns"><h3 class="servicesTitle">Projects we Lead</h3></div>
-                <div class="medium-3 large-3 columns"></div>
-        </div>
-        <div class="medium-12 large-12 columns projLead">
-            <div class="medium-12 large-12 columns servicesColor">
-                    <p>FEDSIM serves the entire federal government.<br> We are a full-service, government-wide assisted acquisition program.</p>
-            </div>
-        </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                    <div id="Carousel" class="carousel slide desk">
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#Carousel" data-slide-to="1"></li>
-                    </ol>
-
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-
-                    <div class="item active">
-                        <div class="row">
-                            <div class="medium-3 large-3 columns" id="div1">
-                                <a href="afms3.html" class="thumbnail hoverTrig">
-                                    <div class="hoverH">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
-                                            <p class="dollar">$138 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                           <div class="medium-3 large-3 columns">
-                                <a href="darrts.html" class="thumbnail hoverTrig7">
-                                    <div class="hoverH7">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DARRTS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Food and Drug Administration (FDA)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP7">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DARRTS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Food and Drug Administration (FDA)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Document Archiving, Reporting, and Regulatory Tracking System (DARRTS)</p>
-                                            <p class="dollar">$121 Million Ceiling, Blanket Purchase Agreement (BPA)</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-3 large-3 columns">
-                                <a href="sets.html" class="thumbnail hoverTrig3">
-                                    <div class="hoverH3">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/SETS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP3">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/SETS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Homeland Security (DHS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: St. Elizabeths Technology Services (SETS)</p>
-                                            <p class="dollar">$628 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-3 large-3 columns">
-                                <a href="mccog.html" class="thumbnail hoverTrig4">
-                                    <div class="hoverH4">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/MCCOG.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP4">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/MCCOG_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Marine Corps Enterprise Network Cyber Defense Support Services</p>
-                                            <p class="dollar">$48 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-3 large-3 columns" id="div1">
-                                <a href="usmsmm.html" class="thumbnail hoverTrig5">
-                                    <div class="hoverH5">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/USMS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Marshals Service (USMS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP5">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/USMS_hov.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Marshals Service (USMS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Mission Modernization</p>
-                                            <p class="dollar">$233 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-3 large-3 columns">
-                                <a href="sens3.html" class="thumbnail hoverTrig6">
-                                    <div class="hoverH6">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DHS_SENS3.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP6">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DHS_SENS3_hov.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Homeland Security (DHS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Secure Enterprise Network Systems, Services and Support (SENS3)</p>
-                                            <p class="dollar">$684 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                             <div class="medium-3 large-3 columns">
-                                <a href="dts.html" class="thumbnail hoverTrig2">
-                                    <div class="hoverH2">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DTS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Defense (DoD)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP2">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DTS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Defense (DoD)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Defense Manpower Data Center (DMDC) Defense Travel System (DTS)</p>
-                                            <p class="dollar">$143 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-3 large-3 columns">
-                                <a href="rcas.html" class="thumbnail hoverTrig8">
-                                    <div class="hoverH8">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/RCAS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Army</h3></div>
-                                    </div>
-
-                                    <div class="hoverP8">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/RCAS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Army</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Reserve Component Automation Systems (RCAS)</p>
-                                            <p class="dollar">$493 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div><!--.row-->
-                    </div><!--.item-->
-
-                    </div><!--.carousel-inner-->
-                      <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
-                      <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
-                    </div><!--.Carousel-->
-
-
-            </div>
-        </div>
-    </div><!--.container-->   
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">       
-        <div id="Carousel2" class="carousel slide tabSP">
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#Carousel2" data-slide-to="0" class="active"></li>
-                        <li data-target="#Carousel2" data-slide-to="1"></li>
-                        <li data-target="#Carousel2" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-
-                    <div class="item active">
-                        <div class="row">
-                            <div class="medium-4 large-4 columns" id="div1">
-                                <a class="thumbnail hoverTrig">
-                                    <div class="hoverH">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
-                                            <p class="dollar">$138 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                           <div class="medium-4 large-4 columns">
-                                <a class="thumbnail hoverTrig7">
-                                    <div class="hoverH7">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DARRTS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Food and Drug Administration (FDA)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP7">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DARRTS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Food and Drug Administration (FDA)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Document Archiving, Reporting, and Regulatory Tracking System (DARRTS)</p>
-                                            <p class="dollar">$121 Million Ceiling, Blanket Purchase Agreement (BPA)</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-4 large-4 columns">
-                                <a class="thumbnail hoverTrig3">
-                                    <div class="hoverH3">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/SETS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP3">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/SETS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Homeland Security (DHS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: St. Elizabeths Technology Services (SETS)</p>
-                                            <p class="dollar">$628 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-4 large-4 columns">
-                                <a class="thumbnail hoverTrig4">
-                                    <div class="hoverH4">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/MCCOG.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP4">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/MCCOG_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Marine Corps Enterprise Network Cyber Defense Support Services</p>
-                                            <p class="dollar">$48 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-4 large-4 columns" id="div1">
-                                <a class="thumbnail hoverTrig5">
-                                    <div class="hoverH5">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/USMS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Marshals Service (USMS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP5">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/USMS_hov.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Marshals Service (USMS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Mission Modernization</p>
-                                            <p class="dollar">$233 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-4 large-4 columns">
-                                <a class="thumbnail hoverTrig6">
-                                    <div class="hoverH6">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DHS_SENS3.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP6">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DHS_SENS3_hov.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Homeland Security (DHS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Secure Enterprise Network Systems, Services and Support (SENS3)</p>
-                                            <p class="dollar">$684 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div><!--.row-->
-                    </div><!--.item-->
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-4 large-4 columns">
-                                <a class="thumbnail hoverTrig2">
-                                    <div class="hoverH2">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DTS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Defense (DoD)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP2">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DTS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Defense (DoD)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Defense Manpower Data Center (DMDC) Defense Travel System (DTS)</p>
-                                            <p class="dollar">$143 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-4 large-4 columns">
-                                <a class="thumbnail hoverTrig8">
-                                    <div class="hoverH8">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/RCAS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Army</h3></div>
-                                    </div>
-
-                                    <div class="hoverP8">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/RCAS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Army</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Reserve Component Automation Systems (RCAS)</p>
-                                            <p class="dollar">$493 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="medium-4 large-4 columns">&nbsp;</div>
-
-                        </div><!--.row-->
-                    </div><!--.item-->
-
-                    </div><!--.carousel-inner-->
-                      <a data-slide="prev" href="#Carousel2" class="left carousel-control">‹</a>
-                      <a data-slide="next" href="#Carousel2" class="right carousel-control">›</a>
-                    </div><!--.Carousel-->
+              </li>
+              <li class='has-dropdown'><a>What We Do</a>
+                  <ul class='dropdown'>
+                    <li><a href='services.html'>Services</a></li>
+                    <li class='has-dropdown'><a>CSO</a>
+                        <ul class='dropdown'>
+                            <li><a href='innovativeClient.html'>Client</a></li>
+                            <li><a href='innovativeIP.html'>Industry Partner</a></li>
+                            <li><a href='solutions.html'>Submit a Solution</a></li>
+                        </ul>
+                    </li>
+<!--                    <li><a href='sbir.html'>SBIR</a></li>-->
+                    <li><a href='faqs.html'>FAQs</a></li>
+                    <li><a href='cvehicles.html'>Contract Vehicles</a></li>
+                  </ul>
+              <li class='has-dropdown'><a>Getting Started</a>
+                  <ul class='dropdown'>
+                    <li><a href='customer.html'>Customer Toolkit</a></li>
+                    <li><a href='contact.html'>Request Additional Information</a></li>
+                  </ul>
+              </li>
+              <li class='has-dropdown'><a>News &amp; Events</a>
+                  <ul class='dropdown'>
+                    <li><a href='calendar.html'>Calendar of Events</a></li>
+                  </ul>
+              </li>
+              <li class='has-dropdown'><a>Industry</a>
+                  <ul class='dropdown'>
+                     <li><a href='general.html'>Partner Information</a></li>
+                    <li><a href='fiac.html'>FEDSIM Industry Advisory Council</a></li>
+                    <li><a href='opportunities.html'>Opportunities</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </section>
+        </nav>
     </div>
-        </div>
-    </div><!--.container-->   
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">       
-        <div id="Carousel3" class="carousel slide phoneSP">
-
-                    <ol class="carousel-indicators">
-                        <li data-target="#Carousel3" data-slide-to="0" class="active"></li>
-                        <li data-target="#Carousel3" data-slide-to="1"></li>
-                        <li data-target="#Carousel3" data-slide-to="2"></li>
-                        <li data-target="#Carousel3" data-slide-to="3"></li>
-                        <li data-target="#Carousel3" data-slide-to="4"></li>
-                        <li data-target="#Carousel3" data-slide-to="5"></li>
-                        <li data-target="#Carousel3" data-slide-to="6"></li>
-                        <li data-target="#Carousel3" data-slide-to="7"></li>
-                    </ol>
-
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-
-                    <div class="item active">
-                        <div class="row">
-                            <div class="medium-12 large-12 columns" id="div1">
-                                <a class="thumbnail hoverTrig">
-                                    <div class="hoverH">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
-                                            <p class="dollar">$138 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-                    <div class="item">
-                        <div class="row">
-                           <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig7">
-                                    <div class="hoverH7">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DARRTS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Food and Drug Administration (FDA)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP7">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DARRTS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Food and Drug Administration (FDA)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Document Archiving, Reporting, and Regulatory Tracking System (DARRTS)</p>
-                                            <p class="dollar">$121 Million Ceiling, Blanket Purchase Agreement (BPA)</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> 
-                        </div><!--.row-->
-                    </div><!--.item--> 
-                    <div class="item">
-                        <div class="row">
-                           <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig3">
-                                    <div class="hoverH3">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/SETS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP3">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/SETS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Homeland Security (DHS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: St. Elizabeths Technology Services (SETS)</p>
-                                            <p class="dollar">$628 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> 
-                        </div><!--.row-->
-                    </div><!--.item--> 
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig4">
-                                    <div class="hoverH4">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/MCCOG.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP4">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/MCCOG_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Marine Corps Enterprise Network Cyber Defense Support Services</p>
-                                            <p class="dollar">$48 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item--> 
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig5">
-                                    <div class="hoverH5">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/USMS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Marshals Service (USMS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP5">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/USMS_hov.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Marshals Service (USMS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Mission Modernization</p>
-                                            <p class="dollar">$233 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item--> 
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig6">
-                                    <div class="hoverH6">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DHS_SENS3.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP6">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DHS_SENS3_hov.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Homeland Security (DHS)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Secure Enterprise Network Systems, Services and Support (SENS3)</p>
-                                            <p class="dollar">$684 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item--> 
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig2">
-                                    <div class="hoverH2">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DTS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Defense (DoD)</h3></div>
-                                    </div>
-
-                                    <div class="hoverP2">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DTS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Department of Defense (DoD)</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Defense Manpower Data Center (DMDC) Defense Travel System (DTS)</p>
-                                            <p class="dollar">$143 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div><!--.row-->
-                    </div><!--.item-->
-                    <div class="item">
-                        <div class="row">
-                            <div class="medium-12 large-12 columns">
-                                <a class="thumbnail hoverTrig8">
-                                    <div class="hoverH8">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/RCAS.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Army</h3></div>
-                                    </div>
-
-                                    <div class="hoverP8">
-                                        <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/RCAS_hover.png" alt="Image" style="max-width:100%;"></div>
-                                        <div class="medium-12 large-12 columns sectionBottom hoverBG">
-                                            <h3>U.S. Army</h3>
-                                            <hr class="projHR">
-                                            <p class="proj"><strong>Project</strong>: Reserve Component Automation Systems (RCAS)</p>
-                                            <p class="dollar">$493 Million Ceiling</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                        </div><!--.row-->
-                    </div><!--.item-->
-
-                    </div><!--.carousel-inner-->
-                      <a data-slide="prev" href="#Carousel3" class="left carousel-control">‹</a>
-                      <a data-slide="next" href="#Carousel3" class="right carousel-control">›</a>
-                    </div><!--.Carousel-->
-    </div>
-        </div>
-    </div><!--.container--> 
-
-    </div>
-    <div class="row">
-        <div class="medium-12 large-12 columns medium-centered large-centered">
-            <div class="medium-5 large-5 columns widthAdj3">&nbsp;</div>
-            <div class="medium-4 large-4 columns"><h3 class="servicesTitle">Services &amp; Purchases</h3></div>
-                <div class="medium-3 large-3 columns"></div>
-        </div>
-        <div class="medium-12 large-12 columns projLead">
-            <div class="medium-12 large-12 columns servicesColor">
-                    <p>FEDSIM delivers innovative solutions to the most challenging acquisitions.</p>
-            </div>
-        </div>
-        <div class="medium-12 large-12 columns servPurch">
-            <div class="medium-1 large-1 columns">&nbsp;</div>
-            <div class="medium-3 large-3 columns leftCol">
-                <div class="medium-12 large-12 columns service s1"><h4>Acquisition Management</h4></div>
-                <div class="medium-12 large-12 columns service s2"><h4>Financial Management</h4></div>
-                <div class="medium-12 large-12 columns service s3"><h4>Project Management</h4></div>
-            </div>
-            <div class="medium-4 large-4 columns midCol">
-                <div class="medium-12 large-12 columns descrip d1"><h4>Acquisition <br>Management</h4><p>We offer continuous agile acquisition management, ensuring that our clients can keep up with rapidly changing technologies and operations.</p></div>
-                <div class="medium-12 large-12 columns descrip d2"><h4>Financial <br>Management</h4><p>We track and manage client funding and oversee the invoicing process.</p></div>
-                <div class="medium-12 large-12 columns descrip d3"><h4>Project <br>Management</h4><p>We provide project management services across the life cycle of the contract, from pre-award requirements gathering to post-award administration and contract closeout.</p></div>
-                <div class="medium-12 large-12 columns descrip d4"><h4>IT <br>Services</h4><p>We offer acquisition support to clients purchasing IT services, such as cybersecurity, application development, and IT infrastructure.</p></div>
-                <div class="medium-12 large-12 columns descrip d5"><h4>Professional <br>Services</h4><p>We help acquire professional services from contractor resources, including technical training, language services, and marketing services.</p></div>
-                <div class="medium-12 large-12 columns descrip d6"><h4>Managed <br>Services</h4><p>We provide facilities maintenance acquisition through contractor resources, ensuring seamless integration across our client's enterprise.</p></div>
-            </div>
-            <div class="medium-3 large-3 columns rightCol">
-                <div class="medium-12 large-12 columns service s4"><h4>IT <br>Services</h4></div>
-                <div class="medium-12 large-12 columns service s5"><h4>Professional <br>Services</h4></div>
-                <div class="medium-12 large-12 columns service s6"><h4>Managed <br>Services</h4></div>
-            </div>
-            <div class="medium-1 large-1 columns">&nbsp;</div>
-        </div>
-    </div>
-
-        <div class='two spacing'></div>
-        <script src='javascripts/jquery.countTo.js'></script>
-        <script src='javascripts/jquery.appear.js'></script>
-        <script src='javascripts/jquery.sequence-min.js'></script>
-        <script src='javascripts/jquery.validate.js'></script>
-        <script src="javascripts/app.js" type="text/javascript"></script>
-        <div class='footer left-text'>
-            <div class='row'>
-            <div class='columns pagination-centered'>
-            <p>FEDSIM is a Client Support Center housed in GSA FAS <a href="https://aas.gsa.gov" target="_blank">AAS</a></p>
-    <h1 class='light pagination-centered'><span class="hidden">AAS FEDSIM</span>
-                  <a href="index.html"><img src="images/Logo_Fedsim.png" alt="AAS FEDSIM Logo" width="150"></a>
-                   <div class='one spacing'></div>
-                 <h6 class="pagination-centered">Copyright 2017 Federal Systems Integration and Management Center (FEDSIM).</h6>
-    <a href="contact.html">Contact AAS FEDSIM</a>
-            </h1> 
+    <div class="bodyText">
+        <div class='members'>
+          <div class='full call-to-action-bg-alt no-padding'>
+            <div class='two spacing'></div>
+            <div class='special-title centered-text'>
+              <h9>
+                <h2><span class="mainTitle">Our Services</span></h2>
+              </h9>
+              <div class='two spacing'></div>
+            </div>        
           </div>
+          <div class="row join">
+              <div class='medium-12 large-12 columns no-padding'>
+              	<div class="medium-12 large-12 columns servicesColor">
+<!--              		<p>FEDSIM offers acquisition and program management expertise to deliver the best value and innovative acquisition solutions to support the entire federal government.</p>-->
+             	<p>Our acquisition, financial, and project management experts develop creative solutions to ensure quality and compliance across the life cycle of the acquisition.</p>
+              	</div>
+              	<!--   <div class="medium-6 large-6 columns serviceImage no-padding">
+           		<img src="images/@stock/servicesarrow.png">
+              	</div>-->
+              </div>
+          </div>
+          <div class='row'>
+            <div class='special-title centered-text'> </div>
+          </div>
+
         </div>
+    </div>
+<div class="row">
+	<div class="medium-12 large-12 columns medium-centered large-centered">
+		<div class="medium-5 large-5 columns widthAdj3">&nbsp;</div>
+		<div class="medium-4 large-4 columns"><h3 class="servicesTitle">Projects we Lead</h3></div>
+			<div class="medium-3 large-3 columns"></div>
+	</div>
+	<div class="medium-12 large-12 columns projLead">
+		<div class="medium-12 large-12 columns servicesColor">
+             	<p>FEDSIM serves the entire federal government.<br> We are a full-service, government-wide assisted acquisition program.</p>
+        </div>
+	</div>
+<div class="container">
+    <div class="row">
+		<div class="col-md-12">
+                <div id="Carousel" class="carousel slide desk">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel" data-slide-to="1"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                        <div class="medium-3 large-3 columns" id="div1">
+                            <a href="afms3.html" class="thumbnail hoverTrig">
+                                <div class="hoverH">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
+                                        <p class="dollar">$138 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                       <div class="medium-3 large-3 columns">
+                            <a href="darrts.html" class="thumbnail hoverTrig7">
+                                <div class="hoverH7">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DARRTS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Food and Drug Administration (FDA)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP7">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DARRTS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Food and Drug Administration (FDA)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Document Archiving, Reporting, and Regulatory Tracking System (DARRTS)</p>
+                                        <p class="dollar">$121 Million Ceiling, Blanket Purchase Agreement (BPA)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-3 large-3 columns">
+                            <a href="sets.html" class="thumbnail hoverTrig3">
+                                <div class="hoverH3">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/SETS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                        
+                                <div class="hoverP3">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/SETS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: St. Elizabeths Technology Services (SETS)</p>
+                                        <p class="dollar">$628 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-3 large-3 columns">
+                            <a href="mccog.html" class="thumbnail hoverTrig4">
+                                <div class="hoverH4">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/MCCOG.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP4">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/MCCOG_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Marine Corps Enterprise Network Cyber Defense Support Services</p>
+                                        <p class="dollar">$48 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                		<div class="medium-3 large-3 columns" id="div1">
+                            <a href="usmsmm.html" class="thumbnail hoverTrig5">
+                                <div class="hoverH5">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/USMS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Marshals Service (USMS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP5">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/USMS_hov.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Marshals Service (USMS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Mission Modernization</p>
+                                        <p class="dollar">$233 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-3 large-3 columns">
+                            <a href="sens3.html" class="thumbnail hoverTrig6">
+                                <div class="hoverH6">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DHS_SENS3.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP6">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DHS_SENS3_hov.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Secure Enterprise Network Systems, Services and Support (SENS3)</p>
+                                        <p class="dollar">$684 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                         <div class="medium-3 large-3 columns">
+                            <a href="dts.html" class="thumbnail hoverTrig2">
+                                <div class="hoverH2">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DTS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Defense (DoD)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP2">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DTS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Defense (DoD)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Defense Manpower Data Center (DMDC) Defense Travel System (DTS)</p>
+                                        <p class="dollar">$143 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-3 large-3 columns">
+                            <a href="rcas.html" class="thumbnail hoverTrig8">
+                                <div class="hoverH8">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/RCAS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Army</h3></div>
+                                </div>
+                                
+                                <div class="hoverP8">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/RCAS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Army</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Reserve Component Automation Systems (RCAS)</p>
+                                        <p class="dollar">$493 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                	</div><!--.row-->
+                </div><!--.item-->
+                    
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                  <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+                
+                 
+		</div>
+	</div>
+</div><!--.container-->   
+<div class="container">
+    <div class="row">
+		<div class="col-md-12">       
+    <div id="Carousel2" class="carousel slide tabSP">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel2" data-slide-to="1"></li>
+                    <li data-target="#Carousel2" data-slide-to="2"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                        <div class="medium-4 large-4 columns" id="div1">
+                            <a class="thumbnail hoverTrig">
+                                <div class="hoverH">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
+                                        <p class="dollar">$138 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                       <div class="medium-4 large-4 columns">
+                            <a class="thumbnail hoverTrig7">
+                                <div class="hoverH7">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DARRTS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Food and Drug Administration (FDA)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP7">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DARRTS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Food and Drug Administration (FDA)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Document Archiving, Reporting, and Regulatory Tracking System (DARRTS)</p>
+                                        <p class="dollar">$121 Million Ceiling, Blanket Purchase Agreement (BPA)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-4 large-4 columns">
+                            <a class="thumbnail hoverTrig3">
+                                <div class="hoverH3">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/SETS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                        
+                                <div class="hoverP3">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/SETS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: St. Elizabeths Technology Services (SETS)</p>
+                                        <p class="dollar">$628 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                 
+                <div class="item">
+                	<div class="row">
+                        <div class="medium-4 large-4 columns">
+                            <a class="thumbnail hoverTrig4">
+                                <div class="hoverH4">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/MCCOG.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP4">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/MCCOG_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Marine Corps Enterprise Network Cyber Defense Support Services</p>
+                                        <p class="dollar">$48 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                		<div class="medium-4 large-4 columns" id="div1">
+                            <a class="thumbnail hoverTrig5">
+                                <div class="hoverH5">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/USMS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Marshals Service (USMS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP5">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/USMS_hov.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Marshals Service (USMS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Mission Modernization</p>
+                                        <p class="dollar">$233 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-4 large-4 columns">
+                            <a class="thumbnail hoverTrig6">
+                                <div class="hoverH6">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DHS_SENS3.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP6">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DHS_SENS3_hov.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Secure Enterprise Network Systems, Services and Support (SENS3)</p>
+                                        <p class="dollar">$684 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                	</div><!--.row-->
+                </div><!--.item-->
+                <div class="item">
+                	<div class="row">
+                		<div class="medium-4 large-4 columns">
+                            <a class="thumbnail hoverTrig2">
+                                <div class="hoverH2">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DTS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Defense (DoD)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP2">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DTS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Defense (DoD)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Defense Manpower Data Center (DMDC) Defense Travel System (DTS)</p>
+                                        <p class="dollar">$143 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-4 large-4 columns">
+                            <a class="thumbnail hoverTrig8">
+                                <div class="hoverH8">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/RCAS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Army</h3></div>
+                                </div>
+                                
+                                <div class="hoverP8">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/RCAS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Army</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Reserve Component Automation Systems (RCAS)</p>
+                                        <p class="dollar">$493 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="medium-4 large-4 columns">&nbsp;</div>
+                        
+                	</div><!--.row-->
+                </div><!--.item-->
+                    
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel2" class="left carousel-control">‹</a>
+                  <a data-slide="next" href="#Carousel2" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+</div>
+	</div>
+</div><!--.container-->   
+<div class="container">
+    <div class="row">
+		<div class="col-md-12">       
+    <div id="Carousel3" class="carousel slide phoneSP">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#Carousel3" data-slide-to="0" class="active"></li>
+                    <li data-target="#Carousel3" data-slide-to="1"></li>
+                    <li data-target="#Carousel3" data-slide-to="2"></li>
+                    <li data-target="#Carousel3" data-slide-to="3"></li>
+                    <li data-target="#Carousel3" data-slide-to="4"></li>
+                    <li data-target="#Carousel3" data-slide-to="5"></li>
+                    <li data-target="#Carousel3" data-slide-to="6"></li>
+                    <li data-target="#Carousel3" data-slide-to="7"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row">
+                        <div class="medium-12 large-12 columns" id="div1">
+                            <a class="thumbnail hoverTrig">
+                                <div class="hoverH">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
+                                        <p class="dollar">$138 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                <div class="item">
+                	<div class="row">
+                       <div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig7">
+                                <div class="hoverH7">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DARRTS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Food and Drug Administration (FDA)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP7">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DARRTS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Food and Drug Administration (FDA)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Document Archiving, Reporting, and Regulatory Tracking System (DARRTS)</p>
+                                        <p class="dollar">$121 Million Ceiling, Blanket Purchase Agreement (BPA)</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                	</div><!--.row-->
+                </div><!--.item--> 
+                <div class="item">
+                	<div class="row">
+                       <div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig3">
+                                <div class="hoverH3">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/SETS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                        
+                                <div class="hoverP3">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/SETS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: St. Elizabeths Technology Services (SETS)</p>
+                                        <p class="dollar">$628 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div> 
+                	</div><!--.row-->
+                </div><!--.item--> 
+                <div class="item">
+                	<div class="row">
+                        <div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig4">
+                                <div class="hoverH4">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/MCCOG.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP4">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/MCCOG_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>Marine Corps Cyberspace Operations Group (MCCOG)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Marine Corps Enterprise Network Cyber Defense Support Services</p>
+                                        <p class="dollar">$48 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item--> 
+                <div class="item">
+                	<div class="row">
+                        <div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig5">
+                                <div class="hoverH5">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/USMS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Marshals Service (USMS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP5">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/USMS_hov.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Marshals Service (USMS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Mission Modernization</p>
+                                        <p class="dollar">$233 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item--> 
+                <div class="item">
+                	<div class="row">
+                        <div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig6">
+                                <div class="hoverH6">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DHS_SENS3.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Homeland Security (DHS)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP6">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DHS_SENS3_hov.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Homeland Security (DHS)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Secure Enterprise Network Systems, Services and Support (SENS3)</p>
+                                        <p class="dollar">$684 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item--> 
+                <div class="item">
+                	<div class="row">
+                		<div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig2">
+                                <div class="hoverH2">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/DTS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Department of Defense (DoD)</h3></div>
+                                </div>
+                                
+                                <div class="hoverP2">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/DTS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Department of Defense (DoD)</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Defense Manpower Data Center (DMDC) Defense Travel System (DTS)</p>
+                                        <p class="dollar">$143 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                	</div><!--.row-->
+                </div><!--.item-->
+                <div class="item">
+                	<div class="row">
+                        <div class="medium-12 large-12 columns">
+                            <a class="thumbnail hoverTrig8">
+                                <div class="hoverH8">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/RCAS.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom"><h3>U.S. Army</h3></div>
+                                </div>
+                                
+                                <div class="hoverP8">
+                                    <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/RCAS_hover.png" alt="Image" style="max-width:100%;"></div>
+                                    <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                                        <h3>U.S. Army</h3>
+                                        <hr class="projHR">
+                                        <p class="proj"><strong>Project</strong>: Reserve Component Automation Systems (RCAS)</p>
+                                        <p class="dollar">$493 Million Ceiling</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                	</div><!--.row-->
+                </div><!--.item-->
+                    
+                </div><!--.carousel-inner-->
+                  <a data-slide="prev" href="#Carousel3" class="left carousel-control">‹</a>
+                  <a data-slide="next" href="#Carousel3" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+</div>
+	</div>
+</div><!--.container--> 
+
+</div>
+<div class="row">
+    <div class="medium-12 large-12 columns medium-centered large-centered">
+		<div class="medium-5 large-5 columns widthAdj3">&nbsp;</div>
+		<div class="medium-4 large-4 columns"><h3 class="servicesTitle">Services &amp; Purchases</h3></div>
+			<div class="medium-3 large-3 columns"></div>
+	</div>
+	<div class="medium-12 large-12 columns projLead">
+		<div class="medium-12 large-12 columns servicesColor">
+             	<p>FEDSIM delivers innovative solutions to the most challenging acquisitions.</p>
+        </div>
+	</div>
+    <div class="medium-12 large-12 columns servPurch">
+        <div class="medium-1 large-1 columns">&nbsp;</div>
+        <div class="medium-3 large-3 columns leftCol">
+            <div class="medium-12 large-12 columns service s1"><h4>Acquisition Management</h4></div>
+            <div class="medium-12 large-12 columns service s2"><h4>Financial Management</h4></div>
+            <div class="medium-12 large-12 columns service s3"><h4>Project Management</h4></div>
+        </div>
+        <div class="medium-4 large-4 columns midCol">
+            <div class="medium-12 large-12 columns descrip d1"><p>We offer continuous agile acquisition management, ensuring that our clients can keep up with rapidly changing technologies and operations.</p></div>
+            <div class="medium-12 large-12 columns descrip d2"><p>We track and manage client funding and oversee the invoicing process.</p></div>
+            <div class="medium-12 large-12 columns descrip d3"><p>We provide project management services across the life cycle of the contract, from pre-award requirements gathering to post-award administration and contract closeout.</p></div>
+            <div class="medium-12 large-12 columns descrip d4"><p>We offer acquisition support to clients purchasing IT services, such as cybersecurity, application development, and IT infrastructure.</p></div>
+            <div class="medium-12 large-12 columns descrip d5"><p>We help acquire professional services from contractor resources, including technical training, language services, and marketing services.</p></div>
+            <div class="medium-12 large-12 columns descrip d6"><p>We provide facilities maintenance acquisition through contractor resources, ensuring seamless integration across our client's enterprise.</p></div>
+        </div>
+        <div class="medium-3 large-3 columns rightCol">
+            <div class="medium-12 large-12 columns service s4"><h4>IT Services</h4></div>
+            <div class="medium-12 large-12 columns service s5"><h4>Professional Services</h4></div>
+            <div class="medium-12 large-12 columns service s6"><h4>Managed Services</h4></div>
+        </div>
+        <div class="medium-1 large-1 columns">&nbsp;</div>
+    </div>
+</div>
+
+    <div class='two spacing'></div>
+    <script src='javascripts/jquery.countTo.js'></script>
+    <script src='javascripts/jquery.appear.js'></script>
+    <script src='javascripts/jquery.sequence-min.js'></script>
+    <script src='javascripts/jquery.validate.js'></script>
+    <script src="javascripts/app.js" type="text/javascript"></script>
+    <div class='footer left-text'>
+        <div class='row'>
+        <div class='columns pagination-centered'>
+		<p>FEDSIM is a Client Support Center housed in GSA FAS <a href="https://aas.gsa.gov" target="_blank">AAS</a></p>
+<h1 class='light pagination-centered'><span class="hidden">AAS FEDSIM</span>
+              <a href="index.html"><img src="images/Logo_Fedsim.png" alt="AAS FEDSIM Logo" width="150"></a>
+               <div class='one spacing'></div>
+             <h6 class="pagination-centered">Copyright 2017 Federal Systems Integration and Management Center (FEDSIM).</h6>
+<a href="contact.html">Contact AAS FEDSIM</a>
+        </h1> 
       </div>
-    <!--Google Analytics Tracking Code -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    </div>
+  </div>
+<!--Google Analytics Tracking Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-87539202-2', 'auto');
-      ga('send', 'pageview');
+  ga('create', 'UA-87539202-2', 'auto');
+  ga('send', 'pageview');
 
-    </script>
-      </body>
+</script>
+  </body>
 </html>
