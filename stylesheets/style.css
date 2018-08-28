@@ -1893,6 +1893,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .home p{text-align: center;}
 .home h2{text-align: center;}
+.home .nav-tabs{padding:15px 0 0 8%; background-color:#f1f1f1;}
+.home .nav-tabs a{padding: 10px 40px; color:#3970ab;}
+.home .nav>li>a:hover, .nav>li>a:focus {
+    background-color: #e1e1e1; color: #3970ab;
+}
 .mainTitle{
 	color:#00649e;
 }
