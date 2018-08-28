@@ -3718,10 +3718,10 @@ table tr.odd{background:#E6E6E6;}
 .descrip img{width:80px; margin-bottom:18px;}
 .descrip h4{text-align: center; color:#424143;}
 .service{padding:20px; background-color:#f1f1f1;min-height:103px;border-bottom:4px solid #ffffff;}
-.service:hover {background-color:#57093b;}
-.service:hover + h4{color:#ffffff !important;}
+.service:hover, a div.service:focus {background-color:#57093b;}
+.service:hover + h4, a .service:focus + h4{color:#ffffff !important;}
 .service h4{text-align:center; color:#5b8fc8;}
-.service:hover h4{color:#ffffff;}
+.service:hover h4, a .service:focus h4{color:#ffffff;}
 .s1 {background-color:#57093b;}
 .s1 h4{color:#ffffff;}
 .sOff {background-color:#f1f1f1 !important;}
