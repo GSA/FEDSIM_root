@@ -1158,8 +1158,12 @@ form input.error, form textarea.error {
 #comments-form label {
   font-size: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: 'Open Sans', sans-serif;
 /*  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";*/
+=======
+  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
+>>>>>>> parent of 6f84a83... Font Update
 =======
   font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif";
 >>>>>>> parent of 6f84a83... Font Update
@@ -2702,7 +2706,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     font-size: 11pt;
     line-height: 30px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-family:  'Open Sans', sans-serif;
+=======
+	font-family:  "Roboto", sans-serif;
+>>>>>>> parent of 6f84a83... Font Update
 =======
 	font-family:  "Roboto", sans-serif;
 >>>>>>> parent of 6f84a83... Font Update
