@@ -3715,6 +3715,7 @@ table tr.odd{background:#E6E6E6;}
 
 .d2, .d3, .d4, .d5, .d6, .d6 {display: none;}
 .descrip {text-align: center;}
+.descrip img{width:80px; margin-bottom:18px;}
 .descrip h4{text-align: center; color:#424143;}
 .service{padding:20px; background-color:#f1f1f1;min-height:103px;border-bottom:4px solid #ffffff;}
 .service:hover {background-color:#57093b;}
