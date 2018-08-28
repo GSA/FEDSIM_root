@@ -785,7 +785,7 @@ body .socials i.grey, body[class^=colorScheme] .socials i.grey {
 body .socials i.grey:hover, body[class^=colorScheme] .socials i.grey:hover {
   background-color: rgba(54, 54, 54, 0.6);
 }
-p {font-family: 'Open Sans' , sans-serif;}
+p {font-family: 'Open Sans' , sans-serif; font-size: 18px;}
 .drop-letters {
   float: left;
   font-weight: bold;
@@ -1824,7 +1824,7 @@ ul.info i:hover {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif", arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 0 5px;
 }
 .modPriceBox p.desc {
@@ -1845,13 +1845,13 @@ ul.info i:hover {
   font-style: normal;
   position: relative;
   top: -30px;
-  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif", arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .modPriceBox p.price .number {
   font-size: 70px;
   color: #333333;
   font-style: normal;
-  font-family: ""Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif", arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .modPriceBox .features {
   margin: 0 0 30px;
@@ -1877,6 +1877,7 @@ ul.info i:hover {
 }
 body{
 	background-color: #ffffff;
+    font-family:'Open Sans', sans-serif;
 }
 button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF;
@@ -1890,6 +1891,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-family:'Open Sans', sans-serif;
 	text-align: left;
 }
+.home p{text-align: center;}
+.home h2{text-align: center;}
 .mainTitle{
 	color:#00649e;
 }
@@ -1984,7 +1987,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     margin-left: 60px;
 }
 .servicesColor p{
-    font-size: 20px;
+    
     text-align: center;
 /*    font-style: italic;*/
     padding-top: 3%;
@@ -2101,6 +2104,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     margin-bottom: 0;
     font-size: 22px;
     color:#00649e;
+    text-transform: none;
 }
 .titleHeader2{
 	background-image: url(../images/@stock/innovHeader.png);
