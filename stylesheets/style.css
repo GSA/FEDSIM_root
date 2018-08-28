@@ -1252,6 +1252,55 @@ form input.error, form textarea.error {
 	font-family: 'Open Sans', sans-serif;
 	margin-top:20px;
 }
+.customer{background-image:url(../images/@stock/clientTest.png); height:500px;}
+.customer .orbit-container .orbit-bullets li {
+  border: 2px solid white;
+  margin-right: 15px;
+  width: 16px;
+  height: 16px;
+  background: transparent;
+}
+.customer .orbit-container .orbit-bullets li.active {
+  background: #57093b;
+	border: 2px solid #ffffff;
+}
+.customer .special-title p{
+	font-style: italic;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	margin-top:20px;
+}
+.customer .orbit-container .orbit-bullets-container {
+    position:static;
+    margin-top: 115px;
+}
+.customer p.quote{
+/*	background: rgba(255,255,255,0.8);*/
+	color:#014e8c;
+	margin-bottom:0px;
+	padding-bottom: 23px;
+}
+.customer p.test1{
+	background-image: url(../images/@stock/test2.png);
+	background-repeat: no-repeat;
+}
+.customer p.test2{
+	background-image: url(../images/@stock/test2.png);
+	background-repeat: no-repeat;
+	padding-bottom: 16px !important;
+	padding-top:15px;
+}
+.customer p.test3{
+	background-image: url(../images/@stock/test2.png);
+	background-repeat: no-repeat;
+	padding-bottom: 21px !important;
+	padding-top:15px;
+}
+.customer p.test4{
+	background-image: url(../images/@stock/test2.png);
+	background-repeat: no-repeat;
+	padding-bottom: 10px !important;
+}
 
 /* gallery */
 ul.gallery img {
@@ -2656,6 +2705,14 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-size: 1.125rem;
 }
 .employee .author{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.125rem;
+	background: rgba(71,146,206,0.8);
+	width: 50%;
+	float:right;
+	padding:20px 0;
+}
+.customer .author{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.125rem;
 	background: rgba(71,146,206,0.8);
