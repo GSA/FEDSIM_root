@@ -1281,8 +1281,9 @@ form input.error, form textarea.error {
 	padding-bottom: 23px;
 }
 .customer p.test1{
-	background-image: url(../images/@stock/test2.png);
+	background-image: url(../images/@stock/testLG.png);
 	background-repeat: no-repeat;
+	padding-bottom: 15px !important;
 }
 .customer p.test2{
 	background-image: url(../images/@stock/test2.png);
