@@ -3373,7 +3373,7 @@ background: #428bca;
 .hoverBG{background-color:#252525 !important; background-image: none !important;}
 .projHR{margin-right:75%; border: solid #4B91CD; border-width: 4px 0 0; height: 4px;}
 .proj{color:#4B91CD;}
-.hoverBG p{text-transform: uppercase;}
+.hoverBG p{text-transform: uppercase;  font-size:16px;}
 .hoverBG .dollar{margin-bottom:0px;}
 .stepRibbon1{
     padding-left:60px;
