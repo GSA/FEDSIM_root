@@ -4199,3 +4199,13 @@ and (orientation : landscape)  {
     and (min-device-width: 1920px){
         .stepRibbon3{padding-left:311px;}
 }
+@media only screen
+    and (min-device-width: 1650px)
+    and (max-device-width: 1650px){
+        .customer p.test1 {
+            background-image: url(../images/@stock/testLG.png);
+            background-repeat: no-repeat;
+            padding-bottom: 46px !important;
+            padding-top: 12px;
+        }
+}
