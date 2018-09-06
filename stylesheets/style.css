@@ -1952,7 +1952,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .home .tab-pane {padding-top:20px;}
 .home .tab-pane img{width: 90px; padding: 0 0 15px 0; display:block; margin:auto;}
-.home .tab-pane h3{text-align: center;}
+.home .tab-pane h3{text-align: center; margin-bottom: 5px;}
 .home .tab-pane p{padding:0px 25px;}
 .mainTitle{
 	color:#00649e;
