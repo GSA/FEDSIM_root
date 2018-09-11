@@ -2357,9 +2357,13 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     font-size: 55px;
 }
 .homeNum span{
-	color:#58173b;
+	color:#0a5286;
+    font-size: 14px;
 	font-weight: bold;
 	text-align: center;
+}
+.homeNum p{
+    font-size:45px;
 }
 /*
 .botText{
@@ -3823,6 +3827,7 @@ table tr.odd{background:#E6E6E6;}
     margin: 0 auto;
     box-shadow: none;
     position: relative;
+    border:0px;
 }
 .progress:after{
     content: "";
