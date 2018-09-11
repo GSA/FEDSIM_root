@@ -2343,21 +2343,29 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .homeNum{
 /*	background-color: #f1f1f1;*/
-	max-width: 22%;
+/*	max-width: 22%;*/
 /*	margin-right: 33px;*/
-	margin-right: 0px;
+/*	margin-right: 0px;*/
+    padding:0px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	color:#0a5286;
+    min-height:200px;
+}
+.homeNum h3{
+    color:#0a5286;
+    font-size: 55px;
 }
 .homeNum span{
 	color:#58173b;
 	font-weight: bold;
 	text-align: center;
 }
+/*
 .botText{
 	margin: 0 15px;
 }
+*/
 .homeSlider h3{
 	font-size:36px;
 	color:#ffffff;
@@ -3880,6 +3888,10 @@ table tr.odd{background:#E6E6E6;}
     top: 5%;
     left: 5%;
 }
+.progress .progress-value h3{
+    color: #0a548e;
+    margin-top: 30px;
+}
 .progress.blue .progress-bar{
     border-color: #4B92CE;
 }
@@ -3957,7 +3969,9 @@ table tr.odd{background:#E6E6E6;}
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
 }
-
+.padAdj .milestone{
+    background-color:#f1f1f1;
+}
 
 
 /* 508 Compliance Code DO NOT REMOVE */
