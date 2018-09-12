@@ -2356,6 +2356,10 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .homeNum .milestone.boxed{
     min-height:222px;
 }
+.homeNum .milestone img{
+    width: 38px;
+    margin-top: -12px;
+}
 .homeNum h3{
     color:#0a5286;
     font-size: 55px;
