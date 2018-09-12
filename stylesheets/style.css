@@ -2695,9 +2695,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	font-family:  'Open Sans', sans-serif;
 }
 .panel-default>.panel-heading {
-    background-color: #4B92CE;
+/*    background-color: #4B92CE;*/
+    background-color:#ffffff;
     border: 0px solid;
 }
+/*
 .panel-titlearrow{
 	background-image:url(../images/@stock/faqarrow.png);
 	background-repeat: no-repeat;
@@ -2706,13 +2708,19 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	float:left;
     min-width: 42px;
 }
+*/
 .panel-title {
     text-transform: none;
 	margin-top:8px;
 }
 .panel-title>a {
-    color: #FFFFFF;
+    color: #58173b;
 	font-weight: bold;
+	font-size: 20px;
+}
+.panel-title>a.collapsed {
+    color: #0a548e;
+	font-weight: normal;
 	font-size: 20px;
 }
 .aboutAccord{
