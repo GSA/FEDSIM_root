@@ -2677,8 +2677,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .panel {
 	border: 0px solid;
     margin-bottom: 1.25rem;
-    padding: .5rem 1.25rem 0 1.25rem;
+    padding: .5rem 1.25rem .75rem 1.25rem;
     background: #ffffff; 
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 4px solid #eee !important;
 }
 .panel-default{
 	border: 0px solid;
@@ -2688,11 +2691,15 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .panel-body{
 	margin-left: 40px;
-    background-color: #f1f1f1;
+    margin-top:0px;
+    background-color: #fff;
 /*    font-style: italic;*/
     font-size: 20px;
     line-height: 30px;
 	font-family:  'Open Sans', sans-serif;
+    padding:0 120px 0 0;
+    border-top: 0px solid !important;
+    border: 0px solid;
 }
 .panel-default>.panel-heading {
 /*    background-color: #4B92CE;*/
