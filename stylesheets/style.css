@@ -2278,6 +2278,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-top:30px;
 	margin-bottom:30px;
 }
+.contractDes p{text-align:center;}
 .contractDesSub, .paragraph{
 	font-style: italic;
 	font-weight: bold;
@@ -2294,19 +2295,20 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .contractLink{
 	padding:15px;
-	background-color:#4B92CE;
+/*	background-color:#4B92CE;*/
+    background-color:#f1f1f1;
 	margin-bottom: 20px;
 }
 a.contractLink{
-	color: #ffffff;
+	color: #4B92CE;
 	font-weight: bold;
 }
 .contractLink:hover{
 	padding:15px;
-	background-color:#f1f1f1;
+	background-color:#004d8c;
 }
 a.contractLink:hover{
-	color: #4B92CE;
+	color: #FFFFFF;
 	font-weight: bold;
 }
 input#name, input#email, input#phone, textarea#message, input#company, input#agency {
@@ -4017,6 +4019,7 @@ table tr.odd{background:#E6E6E6;}
 .nopadleft{
     padding-left:0px;
 }
+.exampleText p{padding: 0 15px; font-size: 16px;}
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
