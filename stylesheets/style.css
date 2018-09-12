@@ -1946,7 +1946,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home p, .missionVisionOver p{text-align: center;}
 .home h2, .missionVisionOver h2{text-align: center;}
 .home .nav-tabs {padding:15px 0 0 13%; background-color:#f1f1f1;margin-top:20px;}
-.missionVisionOver .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px;}
+.missionVisionOver .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 48px;}
 .home .nav-tabs a, .missionVisionOver .nav-tabs a{padding: 10px 40px; color:#3970ab;}
 .home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus {
     background-color: #e1e1e1; color: #3970ab;
@@ -1954,7 +1954,9 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home .tab-pane, .missionVisionOver .tab-pane {padding-top:20px;}
 .home .tab-pane img{width: 90px; padding: 0 0 15px 0; display:block; margin:auto;}
 .home .tab-pane h3, .missionVisionOver .tab-pane h3{text-align: center; margin-bottom: 5px;}
-.home .tab-pane p, .missionVisionOver .tab-pane p{padding:0px 25px;}
+.home .tab-pane p{padding:0px 25px;}
+.missionVisionOver .tab-pane p {
+    padding: 0px 65px;}
 .missionVisionOver {min-height:350px;}
 
 .mainTitle{
@@ -2350,26 +2352,34 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-top: 40px;
 	margin-bottom: 40px;
 	color:#0a5286;
-    min-height:200px;
+}
+.homeNum .milestone.boxed{
+    min-height:222px;
 }
 .homeNum h3{
     color:#0a5286;
     font-size: 55px;
+    margin-bottom:0px;
 }
+
 .homeNum span{
 	color:#0a5286;
     font-size: 14px;
 	font-weight: bold;
 	text-align: center;
 }
+.homeNum .palt .botText{
+    margin-bottom:0px;
+}
 .homeNum p{
-    font-size:45px;
+    font-size:30px;
+    margin-top:-20px;
+    color:#4B92CE;
+    font-weight:bold;
 }
-/*
 .botText{
-	margin: 0 15px;
+	margin-bottom:15px;
 }
-*/
 .homeSlider h3{
 	font-size:36px;
 	color:#ffffff;
@@ -3977,7 +3987,14 @@ table tr.odd{background:#E6E6E6;}
 .padAdj .milestone{
     background-color:#f1f1f1;
 }
-
+.purple{
+    background-color:#58173b;
+    border: 1px solid #58173b;
+    margin-bottom:40px;
+}
+.purple:hover{
+    background-color:#58173b;
+}
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
