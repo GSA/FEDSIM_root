@@ -2683,6 +2683,14 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     background: #ffffff; 
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+.faqs .panel {
+	border: 0px solid;
+    margin-bottom: 1.25rem;
+    padding: .5rem 1.25rem .75rem 1.25rem;
+    background: #ffffff; 
+    -webkit-box-shadow: none;
+    box-shadow: none;
     border-bottom: 4px solid #eee !important;
 }
 .panel-default{
