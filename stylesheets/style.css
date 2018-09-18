@@ -3912,7 +3912,7 @@ table tr.odd{background:#E6E6E6;}
     right: 0;
 }
 .progress .progress-right .progress-bar{
-    left: -100%;
+    left: -101%;
     border-top-left-radius: 80px;
     border-bottom-left-radius: 80px;
     border-right: 0;
