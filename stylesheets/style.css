@@ -4095,7 +4095,7 @@ and (orientation : landscape)  {
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:200px !important;}
       .blog .horiz img{object-fit: cover;}
       .stepRibbon1{padding-left:147px !important;padding-right:0px;}
-      .stepRibbon3{padding-left:280px !important;padding-right:0px !important;}
+      .stepRibbon3{padding-left:280px !important;padding-right:0px !important; width: 33.33333%;}
       .aaBlueIP {min-height: 120px;}
 }
 @media only screen 
