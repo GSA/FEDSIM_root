@@ -3443,6 +3443,27 @@ background: #428bca;
 }
 /*.carousel-inner a:hover {cursor:default;}*/
 
+/* Customer Video */
+
+.video .hoverH, .video .hoverP, .video .hoverH2, .video .hoverP2, .video .hoverH3, .video .hoverP3{height:200px;}
+.video .hoverH h3, .video .hoverH2 h3, .video .hoverH3 h3{color:#ffffff;text-transform: uppercase;  font-size:20px; text-align:left; padding:15px 15px 5px 15px;margin-bottom:0px;}
+.video .hoverH p, .video .hoverH2 p, .video .hoverH3 p{color:#ffffff;font-size:15px; text-align:left;padding-left:14px; font-style: normal;}
+.video .hoverH {background-image: url(../images/@stock/customerDD.png); background-size:contain; background-repeat:no-repeat;}
+.video .hoverP {background-image: url(../images/@stock/customerDD_hover.png); background-size:contain; background-repeat:no-repeat;}
+.video .hoverH2 {background-image: url(../images/@stock/clientEx.png); background-size:contain; background-repeat:no-repeat;}
+.video .hoverP2 {background-image: url(../images/@stock/clientEx_hover.png); background-size:contain; background-repeat:no-repeat;}
+.video .hoverH3 {background-image: url(../images/@stock/clientTEB.png); background-size:contain; background-repeat:no-repeat;}
+.video .hoverP3 {background-image: url(../images/@stock/clientTEB_hover.png); background-size:contain; background-repeat:no-repeat;}
+.cdd .ddHeader {color:#1D5187; margin-bottom:0px;}
+.cdd li{font-weight: normal; list-style-type: none; margin-left:-15px;}
+.cdd li a{color:#000;}
+.ce .ddHeader {color:#2f73ab; margin-bottom:0px;}
+.ce li{font-weight: normal; list-style-type: none; margin-left:-15px;}
+.ce li a{color:#000;}
+.teb .ddHeader {color:#570A3B; margin-bottom:0px;}
+.teb li{font-weight: normal; list-style-type: none; margin-left:-15px;}
+.teb li a{color:#000;}
+
 /* Blog */
 .blog {margin-top:40px;}
 .blog .carousel {
