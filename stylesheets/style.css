@@ -4399,7 +4399,7 @@ and (orientation : landscape)  {
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:200px !important;}
       .blog .horiz img{object-fit: cover;}
       .stepRibbon1{padding-left:147px !important;padding-right:0px;}
-      .stepRibbon3{padding-left:200px !important;padding-right:0px !important;}
+      .stepRibbon3{padding-left:250px !important;padding-right:0px !important;}
 }
 @media only screen 
     and (min-device-width: 1024px)
