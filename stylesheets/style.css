@@ -4096,6 +4096,7 @@ and (orientation : landscape)  {
       .blog .horiz img{object-fit: cover;}
       .stepRibbon1{padding-left:147px !important;padding-right:0px;}
       .stepRibbon3{padding-left:280px !important;padding-right:0px !important;}
+      .aaBlueIP {min-height: 120px;}
 }
 @media only screen 
     and (min-device-width: 1024px)
