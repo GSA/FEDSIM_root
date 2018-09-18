@@ -4029,6 +4029,8 @@ table tr.odd{background:#E6E6E6;}
 }
 .exampleText p{padding: 0 15px; font-size: 16px;}
 
+.ipVideo h3{font-size:15px;}
+.ipVideo li{font-size:14px;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;

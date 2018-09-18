@@ -39,7 +39,13 @@
           });
       })(Tc.$);
     </script>
-  
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $(".hoverTrig").hover( function() { $(".hoverP").toggle(); $(".hoverH").toggle(); } );
+          $(".hoverTrig2").hover( function() { $(".hoverP2").toggle(); $(".hoverH2").toggle(); } );
+          $(".hoverTrig3").hover( function() { $(".hoverP3").toggle(); $(".hoverH3").toggle(); } );
+          });
+  </script>
   </head>
 <body class="">
 <header role="banner">
@@ -136,13 +142,28 @@
           <div class='medium-4 large-4 columns pagination-centered ipVideo'>
 			  
           <div class="medium-12 large-12 columns">
-          <a href="customervideo.html"><img src="videos/IP/thumb_small.png" alt="AAS FEDSIM Due Diligence"></a>
+          <a class="hoverTrig" href="customervideo.html"><img src="videos/IP/thumb_small.png" alt="AAS FEDSIM Due Diligence">
+            <div class="hoverH">
+                <div class="medium-12 large-12 columns sectionTop no-padding"><img src="images/@stock/projHigh/AFLCMC.png" alt="Image" style="max-width:100%;"></div>
+                <div class="medium-12 large-12 columns sectionBottom"><h3>Air Force Life Cycle Management Center (AFLCMC)</h3></div>
+            </div>
+
+            <div class="hoverP">
+                <div class="medium-12 large-12 columns sectionTop no-padding hoverImg"><img src="images/@stock/projHigh/AFLCMC_hover.png" alt="Image" style="max-width:100%;"></div>
+                <div class="medium-12 large-12 columns sectionBottom hoverBG">
+                    <h3>Air Force Life Cycle Management Center (AFLCMC)</h3>
+                    <hr class="projHR">
+                    <p class="proj"><strong>Project</strong>: Air Force Modeling and Simulation Support Services (AFMS3)</p>
+                    <p class="dollar">$138 Million Ceiling</p>
+                </div>
+            </div>    
+          </a>
 			  </div>
           <div class="medium-12 large-12 columns">
           <h3 class="ddHeader">Customer Due Diligence</h3>
           <ul>
-          	<li><a href="customervideo.html">Due Diligence Video (MP4)</a></li>
-          	<li><a href="http://fedsim.e3federal.com/IDDD/IDDD_AudioDescribed_Client.mp4">Due Diligence Audio Described (MP4)</a></li>
+          	<li><a href="customervideo.html"><span class="hidden">Due Diligence </span>Video (MP4)</a></li>
+          	<li><a href="http://fedsim.e3federal.com/IDDD/IDDD_AudioDescribed_Client.mp4"><span class="hidden">Due Diligence </span>Audio<span class="hidden"> Described</span> (MP4)</a></li>
           </ul>
 			  </div>
 			  </div>
@@ -155,8 +176,8 @@
           <div class="medium-12 large-12 columns">
           <h3 class="ddHeader">Client Expectations</h3>
           <ul>
-          	<li><a href="customervideo2.html">Client Expectations Video (MP4)</a></li>
-          	<li><a href="http://fedsim.e3federal.com/TEB/ClientExpectations_NewOpener_AD.mp4">Client Expectations Audio Described (MP4)</a></li>
+              <li><a href="customervideo2.html"><span class="hidden">Client Expectations </span>Video (MP4)</a></li>
+              <li><a href="http://fedsim.e3federal.com/TEB/ClientExpectations_NewOpener_AD.mp4"><span class="hidden"></span>Audio<span class="hidden"> Described</span> (MP4)</a></li>
           </ul>
 			  </div>
 			  </div>
@@ -169,8 +190,8 @@
           <div class="medium-12 large-12 columns">
           <h3 class="ddHeader">Introduction to the Technical Evaluation Board</h3>
           <ul>
-          	<li><a href="customervideo3.html">Technical Evaluation Board Video (MP4)</a></li>
-          	<li><a href="http://fedsim.e3federal.com/TEB/TEBIntroduction_NewOpener_AD.mp4">Technical Evaluation Board Audio Described (MP4)</a></li>
+              <li><a href="customervideo3.html"><span class="hidden">Technical Evaluation Board </span>Video (MP4)</a></li>
+              <li><a href="http://fedsim.e3federal.com/TEB/TEBIntroduction_NewOpener_AD.mp4"><span class="hidden">Technical Evaluation Board </span>Audio<span class="hidden"> Described</span> (MP4)</a></li>
           </ul>
 			  </div>
 			  </div>
