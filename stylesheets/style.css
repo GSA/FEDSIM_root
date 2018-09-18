@@ -1209,7 +1209,9 @@ form input.error, form textarea.error {
   font-size: 2.75rem;
   letter-spacing: 3px;
 }
-
+.testimonials h2{
+    text-transform: none !important;
+}
 .testimonials .orbit-container .orbit-bullets-container {
   position: static;
 }
