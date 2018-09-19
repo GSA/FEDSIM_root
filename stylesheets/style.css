@@ -3445,7 +3445,7 @@ background: #428bca;
 
 /* Customer Video */
 
-.video .hoverH, .video .hoverP, .video .hoverH2, .video .hoverP2, .video .hoverH3, .video .hoverP3{height:200px;}
+.video .hoverH, .video .hoverP, .video .hoverH2, .video .hoverP2, .video .hoverH3, .video .hoverP3, .general .hoverH, .general .hoverP, .general .hoverH2, .general .hoverP2{height:200px;}
 .video .hoverH h3, .video .hoverH2 h3, .video .hoverH3 h3{color:#ffffff;text-transform: uppercase;  font-size:20px; text-align:left; padding:15px 15px 5px 15px;margin-bottom:0px;}
 .video .hoverH p, .video .hoverH2 p, .video .hoverH3 p{color:#ffffff;font-size:15px; text-align:left;padding-left:14px; font-style: normal;}
 .video .hoverH {background-image: url(../images/@stock/customerDD.png); background-size:contain; background-repeat:no-repeat;}
@@ -3454,12 +3454,22 @@ background: #428bca;
 .video .hoverP2 {background-image: url(../images/@stock/clientEx_hover.png); background-size:contain; background-repeat:no-repeat;}
 .video .hoverH3 {background-image: url(../images/@stock/clientTEB.png); background-size:contain; background-repeat:no-repeat;}
 .video .hoverP3 {background-image: url(../images/@stock/clientTEB_hover.png); background-size:contain; background-repeat:no-repeat;}
+.general .hoverH {background-image: url(../images/@stock/customerDD.png); background-size:contain; background-repeat:no-repeat;}
+.general .hoverP {background-image: url(../images/@stock/customerDD_hover.png); background-size:contain; background-repeat:no-repeat;}
+.general .hoverH2 {background-image: url(../images/@stock/fedsimOP.png); background-size:contain; background-repeat:no-repeat;}
+.general .hoverP2 {background-image: url(../images/@stock/fedsimOP_hover.png); background-size:contain; background-repeat:no-repeat;}
 .cdd .ddHeader {color:#1D5187; margin-bottom:0px;}
 .cdd li{font-weight: normal; list-style-type: none; margin-left:-16px;}
 .cdd li a{color:#000;}
+.dd .ddHeader {color:#1D5187; margin-bottom:0px;}
+.dd li{font-weight: normal; list-style-type: none; margin-left:-16px;}
+.dd li a{color:#000;}
 .ce .ddHeader {color:#2f73ab; margin-bottom:0px;}
 .ce li{font-weight: normal; list-style-type: none; margin-left:-16px;}
 .ce li a{color:#000;}
+.over .ddHeader {color:#2f73ab; margin-bottom:0px;}
+.over li{font-weight: normal; list-style-type: none; margin-left:-16px;}
+.over li a{color:#000;}
 .teb .ddHeader {color:#570A3B; margin-bottom:0px;}
 .teb li{font-weight: normal; list-style-type: none; margin-left:-16px;}
 .teb li a{color:#000;}
