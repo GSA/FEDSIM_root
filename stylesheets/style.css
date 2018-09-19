@@ -715,8 +715,12 @@ h8 {
   letter-spacing: 3px;
   font-size: 14px;
   padding: 13px 30px 10px;
+  background: #286393;
+  border: 1px solid #286393;
+/*
   background: #1D5187;
   border: 1px solid #1D5187;
+*/
 	color:#ffffff;
 	font-family: 'Open Sans' , sans-serif; 
 	font-weight:bold;
@@ -2316,6 +2320,7 @@ a.contractLink:hover{
 input#name, input#email, input#phone, textarea#message, input#company, input#agency {
     background-color: #ffffff;
 	color: #004d8c;
+    border:1px solid #004d8c;
 }
 input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder, input#company::placeholder, input#agency::placeholder {
     color: #004d8c;
@@ -4064,6 +4069,7 @@ table tr.odd{background:#E6E6E6;}
 
 .ipVideo h3{font-size:15px;}
 .ipVideo li{font-size:14px;}
+.partnerInfo p{font-style: normal; font-size:18px;padding: 10px 25px;}
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
