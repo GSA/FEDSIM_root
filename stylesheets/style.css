@@ -1953,6 +1953,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home h2, .missionVisionOver h2{text-align: center;}
 .home .nav-tabs {padding:15px 0 0 13%; background-color:#f1f1f1;margin-top:20px;}
 .missionVisionOver .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;}
+.contact .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
 .home .nav-tabs a, .missionVisionOver .nav-tabs a{padding: 10px 40px; color:#3970ab;}
 .home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus {
     background-color: #e1e1e1; color: #3970ab;
