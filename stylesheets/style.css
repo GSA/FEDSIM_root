@@ -1960,6 +1960,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus {
     background-color: #e1e1e1; color: #3970ab;
 }
+.contact .nav>li>a, .contact .nav>li>a:hover, .contact .nav>li>a:focus{padding: 10px 65px !important;}
 .home .tab-pane, .missionVisionOver .tab-pane {padding-top:20px;}
 .home .tab-pane img{width: 90px; padding: 0 0 15px 0; display:block; margin:auto;}
 .home .tab-pane h3, .missionVisionOver .tab-pane h3{text-align: center; margin-bottom: 5px;}
@@ -4074,7 +4075,8 @@ table tr.odd{background:#E6E6E6;}
 .ipVideo li{font-size:14px;}
 .partnerInfo p{font-style: normal; font-size:18px;padding: 10px 25px;}
 
-.fiacEvent{margin-top: 25px; padding: 0px 0px 0px 20px;}
+.fiac {min-height:500px;}
+.fiacEvent{margin-top: 25px; padding: 0px 0px 0px 22px;}
 .fiacEvent .title{color:#424143; font-weight:bold;margin-bottom: 0;}
 .fiacEvent .date, .fiacEvent .time, .fiacEvent .location, .fiacEvent .details{color:#1D5187;margin-bottom: 0;}
 /* Circle CSS */
