@@ -1954,6 +1954,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home .nav-tabs {padding:15px 0 0 13%; background-color:#f1f1f1;margin-top:20px;}
 .missionVisionOver .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;}
 .contact .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
+.fiac .nav-tabs{padding:15px 0 0 32%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
 .home .nav-tabs a, .missionVisionOver .nav-tabs a{padding: 10px 40px; color:#3970ab;}
 .home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus {
     background-color: #e1e1e1; color: #3970ab;
@@ -4071,6 +4072,24 @@ table tr.odd{background:#E6E6E6;}
 .ipVideo h3{font-size:15px;}
 .ipVideo li{font-size:14px;}
 .partnerInfo p{font-style: normal; font-size:18px;padding: 10px 25px;}
+
+.fiacEvent{margin-top: 25px; padding: 0px 0px 0px 20px;}
+.fiacEvent .title{color:#424143; font-weight:bold;margin-bottom: 0;}
+.fiacEvent .date, .fiacEvent .time, .fiacEvent .location, .fiacEvent .details{color:#1D5187;margin-bottom: 0;}
+/* Circle CSS */
+#circle {
+	width: 75px;
+	height: 75px;
+	background: #4B92CE;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#circle p.top{margin-bottom: 0;margin-left: 17px;font-size: 34px;color: #ffffff; min-height:44px;}
+#circle p.bot{margin-bottom: 0;margin-left: 23px;font-size: 16px;color: #ffffff; margin-top:-15px;}
+#circle.next{background: #58173b;}
+
+
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
 {position:absolute;
