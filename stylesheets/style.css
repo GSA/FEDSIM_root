@@ -1955,7 +1955,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home .nav-tabs {padding:15px 0 0 13%; background-color:#f1f1f1;margin-top:20px;}
 .missionVisionOver .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;}
 .contact .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
-.fiac .nav-tabs{padding:15px 0 0 32%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
+.fiac .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
+.fiac .nav-tabs>li>a {padding: 10px 60px;}
 .home .nav-tabs a, .missionVisionOver .nav-tabs a{padding: 10px 40px; color:#3970ab;}
 .home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus {
     background-color: #e1e1e1; color: #3970ab;
@@ -2181,6 +2182,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-size: 22px;
     color:#00649e;
     text-transform: none;
+    padding-left: 40px;
 }
 .titleHeader2{
 	background-image: url(../images/@stock/innovHeader.png);
@@ -4094,7 +4096,8 @@ table tr.odd{background:#E6E6E6;}
 
 
 .padBot{margin-bottom:40px;padding-top:}
-.fiacComm a{cursor:pointer;font-size:16px;text-decoration: none;}
+.fiacComm a{cursor:default;font-size:15px;text-decoration: none;}
+.fiacComm { margin-left: -28px; margin-right: -28px;}
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
