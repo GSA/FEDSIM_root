@@ -2545,6 +2545,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .about a{
 	color:#ffffff;
 }
+.cvehicles{margin-bottom:75px;}
 .cvehicles a{
 	font-family: 'Open Sans' , sans-serif; 
 	font-size: 20px;
@@ -2697,10 +2698,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+.faqs {margin-bottom:75px;}
 .faqs .panel {
 	border: 0px solid;
     margin-bottom: 1.25rem;
-    padding: .5rem 1.25rem .75rem 1.25rem;
+    padding: .5rem 1.25rem 1.25rem 1.25rem;
     background: #ffffff; 
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -2717,7 +2719,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     margin-top:0px;
     background-color: #fff;
 /*    font-style: italic;*/
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
 	font-family:  'Open Sans', sans-serif;
     padding:0 120px 0 0;
@@ -2752,6 +2754,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     color: #0a548e;
 	font-weight: normal;
 	font-size: 20px;
+    line-height: 26px;
 }
 .aboutAccord{
     min-height: 485px;
