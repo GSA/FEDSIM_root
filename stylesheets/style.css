@@ -3476,6 +3476,7 @@ background: #428bca;
 .cdd .ddHeader {color:#1D5187; margin-bottom:0px;}
 .cdd li{font-weight: normal; list-style-type: none; margin-left:-16px;}
 .cdd li a{color:#000;}
+.cdd li a:hover, .dd li a:hover, .ce li a:hover, .over li a:hover, .teb li a:hover {text-decoration: underline;}
 .dd .ddHeader {color:#1D5187; margin-bottom:0px;}
 .dd li{font-weight: normal; list-style-type: none; margin-left:-16px;}
 .dd li a{color:#000;}
