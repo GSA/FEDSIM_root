@@ -2185,6 +2185,14 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-transform: none;
     padding-left: 40px;
 }
+.servicesTitleTop{
+	padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 22px;
+    color:#00649e;
+    text-transform: none;
+    padding-left: 40px;
+}
 .titleHeader2{
 	background-image: url(../images/@stock/innovHeader.png);
 	min-height:170px;
@@ -4082,7 +4090,7 @@ table tr.odd{background:#E6E6E6;}
 .ipVideo li{font-size:14px;}
 .partnerInfo p{font-style: normal; font-size:18px;padding: 10px 25px;}
 
-.fiac {min-height:500px;}
+.fiac {min-height:500px; margin-top:-60px;}
 .fiacEvent{margin-top: 25px; padding: 0px 0px 0px 22px;}
 .fiacEvent .title{color:#424143; font-weight:bold;margin-bottom: 0;}
 .fiacEvent .date, .fiacEvent .time, .fiacEvent .location, .fiacEvent .details{color:#1D5187;margin-bottom: 0;}
