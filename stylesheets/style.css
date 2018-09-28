@@ -2596,7 +2596,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
     font-weight:normal !important;
 }
 .ipVideo{
-	margin-bottom:40px;
+	margin-bottom:15px;
 }/* Tooltip hidden by default */
 .simpletooltip[aria-hidden="true"],
 .minimalist-simpletooltip[aria-hidden="true"],
