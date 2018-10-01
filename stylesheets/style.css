@@ -2325,20 +2325,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 .contractLink{
 	padding:15px;
 /*	background-color:#4B92CE;*/
-    background-color:#f1f1f1;
+/*    background-color:#f1f1f1;*/
 	margin-bottom: 20px;
 }
-a.contractLink{
-	color: #286393;
+p.contractLink{
+	color: #2f73ab;
 	font-weight: bold;
-}
-.contractLink:hover{
-	padding:15px;
-	background-color:#004d8c;
-}
-a.contractLink:hover{
-	color: #FFFFFF;
-	font-weight: bold;
+    font-size:20px;
 }
 input#name, input#email, input#phone, textarea#message, input#company, input#agency {
     background-color: #ffffff;
