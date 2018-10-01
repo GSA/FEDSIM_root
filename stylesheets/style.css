@@ -2185,6 +2185,14 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-transform: none;
     padding-left: 40px;
 }
+.servicesTitlenoLeft{
+	padding-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    color:#00649e;
+    text-transform: none;
+    padding-left: 0px;
+}
 .servicesTitleTop{
 	padding-top: 10px;
     margin-bottom: 0;
@@ -2819,6 +2827,9 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .widthAdj3{
 	width:38%;
+}
+.widthAdj32{
+	width:32%;
 }
 .widthAdj4{
 	width:14%;
@@ -4111,6 +4122,7 @@ table tr.odd{background:#E6E6E6;}
 .padBot{margin-bottom:40px;padding-top:}
 .fiacComm a{cursor:default;font-size:15px;text-decoration: none;}
 .fiacComm { margin-left: -28px; margin-right: -28px;}
+.servPerch{margin-bottom:40px;}
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 
