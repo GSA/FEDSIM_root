@@ -4534,3 +4534,8 @@ and (orientation : landscape)  {
             padding-top: 12px;
         }
 }
+@media only screen
+    and (min-device-width: 1680px)
+    and (max-device-width: 1680px){
+        .stepRibbon3{padding-left:294px;}
+}
