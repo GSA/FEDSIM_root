@@ -3452,7 +3452,7 @@ background: #428bca;
     padding-top:15px;
     margin-bottom:20px;
 }
-#Carousel .sectionBottom h3, #Carousel2 .sectionBottom h3, #Carousel3 .sectionBottom h3{color:#ffffff; font-size:16px;}
+#Carousel .sectionBottom h3, #Carousel2 .sectionBottom h3, #Carousel3 .sectionBottom h3{color:#ffffff; font-size:16px;padding-left:0px; padding-top:0px;}
 .hoverH .sectionBottom, .hoverP .sectionBottom, .hoverH2 .sectionBottom, .hoverP2 .sectionBottom, .hoverH3 .sectionBottom, .hoverP3 .sectionBottom, .hoverH4 .sectionBottom, .hoverP4 .sectionBottom, .hoverH5 .sectionBottom, .hoverP5 .sectionBottom, .hoverH6 .sectionBottom, .hoverP6 .sectionBottom, .hoverH7 .sectionBottom, .hoverP7 .sectionBottom, .hoverH8 .sectionBottom, .hoverP8 .sectionBottom {min-height:366px !important;}
 .hoverP, .hoverP2, .hoverP3, .hoverP4, .hoverP5, .hoverP6, .hoverP7, .hoverP8{display: none;}
 .hoverH, .hoverH2, .hoverH3, .hoverH4, .hoverH5, .hoverH6, .hoverH7, .hoverH8{display: block;}
