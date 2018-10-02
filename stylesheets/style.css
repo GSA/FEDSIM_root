@@ -2855,9 +2855,10 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .inno .panel-body{
 	margin-left: 20px;
+    margin-top:20px;
     background-color: #fff;
 /*    font-style: italic;*/
-    font-size: 11pt;
+    font-size: 18px;
     line-height: 30px;
 	font-family:  'Open Sans', sans-serif;
 }
@@ -3719,7 +3720,8 @@ background: #428bca;
 }
 .aaBlue{
     background-color: #1f5183;
-    min-height:90px;
+/*    min-height:90px;*/
+    min-height:96px;
     padding:0;
 }
 .aaStep{
