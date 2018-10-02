@@ -2177,6 +2177,9 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-bottom:50px;
 /*	margin-left: 160px;*/
 }
+.home .fedTitle{
+    padding-bottom:20px;
+}
 .servicesTitle{
 	padding-top: 30px;
     margin-bottom: 0;
