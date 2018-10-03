@@ -4327,6 +4327,9 @@ overflow:hidden;}
       .stepRibbon2{padding-left:157px;margin-top:95px !important;}
       .stepRibbon3{padding-left:147px;margin-top:215px !important;}
       .stepRibbon4{padding-left:157px;margin-top:345px;}
+      .why{width:100%;}
+      .why ul.nav{width:100%;}
+      .home .nav-tabs{padding:15px 0 0 10%;}
 }
 @media only screen 
   and (min-device-width: 769px) 
@@ -4363,6 +4366,9 @@ overflow:hidden;}
 .blog .horiz img{min-height:300px !important; /*max-width:300px;*/ object-fit: cover;}
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom, .blog .hoverH2 .sectionBottom, .blog .hoverP2 .sectionBottom, .blog .hoverH3 .sectionBottom, .blog .hoverP3 .sectionBottom, .blog .hoverH4 .sectionBottom, .blog .hoverP4 .sectionBottom, .blog .hoverH5 .sectionBottom, .blog .hoverP5 .sectionBottom, .blog .hoverH6 .sectionBottom, .blog .hoverP6 .sectionBottom, .blog .hoverH7 .sectionBottom, .blog .hoverP7 .sectionBottom, .blog .hoverH8 .sectionBottom, .blog .hoverP8 .sectionBottom{min-height:442px !important;}
       .blog .horiz .sectionBottom {min-height: 300px !important;}
+      .why{width:100%;}
+      .why ul.nav{width:100%;}
+      .home .nav-tabs{padding:15px 0 0 10%;}
 		  
 }
 @media only screen
@@ -4475,6 +4481,9 @@ and (orientation : landscape)  {
       .blog .horiz img{object-fit: cover;}
       .stepRibbon1{padding-left:147px !important;padding-right:0px;}
       .stepRibbon3{padding-left:250px !important;padding-right:0px !important;}
+      .why{width:100%;}
+      .why ul.nav{width:100%;}
+      .home .nav-tabs{padding:15px 0 0 10%;}
 }
 @media only screen 
     and (min-device-width: 1024px)
