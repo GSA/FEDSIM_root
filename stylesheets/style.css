@@ -4286,7 +4286,7 @@ overflow:hidden;}
       .civProj2Ind h2, .civProj1Ind h2, .defProj1Ind h2, .defProj2Ind h2, .ph h2, .civProj2Ind h3, .civProj1Ind h3, .defProj1Ind h3, .defProj2Ind h3, .ph h3{padding-left:10px;}
       .service{padding-left:15px;}
       .servPurch{min-height:450px;}
-      .ipVideo #video{height:125px !important;}
+      .ipVideo #video{height:125px !important; width:222px !important;}
        
  		  
  }
