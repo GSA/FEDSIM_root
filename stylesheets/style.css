@@ -4373,6 +4373,7 @@ overflow:hidden;}
       .programs{font-size: 15px;}
       .missionVisionOver .nav-tabs{padding:15px 0 0 20%;}
       .missionVisionOver ul.nav{width:100%;}
+      .fiac ul.nav{width:100%;}
       #Carousel2 {margin-top: 65px;}
       .ph h2{font-size:1.5rem;}
       .ph h3{font-size:1rem;}
@@ -4382,6 +4383,7 @@ overflow:hidden;}
       .widthAdj3{width:34%;}
       .partnerInfo .medium-4 {width:46.33333%;}
       .partnerInfo .medium-2 {width:3.66667%;}
+      .fiacEvent{padding:0 0 0 50px;}
 		  
 }
 @media only screen
