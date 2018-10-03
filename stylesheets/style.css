@@ -4289,6 +4289,8 @@ overflow:hidden;}
       .ipVideo #video{height:125px !important; width:222px !important;}
       .fiac ul.nav{width:100%;}
       .fiacEvent{padding:0 0 0 50px;}
+       .eventPad{width:25%;}
+       .eventBox{width:50%;}
        
  		  
  }
