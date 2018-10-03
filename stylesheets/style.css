@@ -4279,6 +4279,13 @@ overflow:hidden;}
       .missionVisionOver .nav-tabs{padding:15px 0 0 20%;}
       .missionVisionOver ul.nav{width:100%;}
        .homeNum .milestone.boxed {min-height: 238px;}
+       .botText{margin-bottom:30px;}
+       .homeNum p{margin-top:-12px;}
+      .ph h2{font-size:1.5rem;}
+      .ph h3{font-size:1rem;}
+      .civProj2Ind h2, .civProj1Ind h2, .defProj1Ind h2, .defProj2Ind h2, .ph h2, .civProj2Ind h3, .civProj1Ind h3, .defProj1Ind h3, .defProj2Ind h3, .ph h3{padding-left:15px;}
+      .service{padding-left:15px;}
+      .servPurch{min-height:450px;}
        
  		  
  }
