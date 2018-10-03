@@ -4246,6 +4246,7 @@ overflow:hidden;}
  	  #video{height:400px !important; width:600px !important;}
  	  .currentSite img{padding:21px 0;}
  	  .programs img, .prg1 img{width:100%;}
+       .programs{font-size: 15px;}
 	   .services p, .servicesCivColor p{padding-top:0px;margin-left:10px;font-size:18px;}
 	   .defImage, .civImage{min-height:232px;}
 	   .joinFEDSIM p{margin: 0px 10px 1.25rem 10px;}
@@ -4275,6 +4276,9 @@ overflow:hidden;}
       .why{width:100%;}
       .why ul.nav{width:100%;}
       .home .nav-tabs{padding:15px 0 0 10%;}
+      .missionVisionOver .nav-tabs{padding:15px 0 0 20%;}
+      .missionVisionOver ul.nav{width:100%;}
+       .homeNum .milestone.boxed {min-height: 238px;}
        
  		  
  }
