@@ -4498,7 +4498,7 @@ and (orientation : landscape)  {
       .blog .hoverH .sectionBottom, .blog .hoverP .sectionBottom{min-height:200px !important;}
       .blog .horiz img{object-fit: cover;}
       .stepRibbon1{padding-left:147px !important;padding-right:0px;}
-      .stepRibbon3{padding-left: 280px !important;margin-left:140px !importrant;}
+      .stepRibbon3{padding-left: 280px !important;margin-left:240px !importrant;}
       .aaBlue{min-height:115px !important;}
       .why{width:100%;}
       .why ul.nav{width:100%;}
