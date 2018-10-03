@@ -4384,9 +4384,10 @@ overflow:hidden;}
       .partnerInfo .medium-4 {width:46.33333%;}
       .partnerInfo .medium-2 {width:3.66667%;}
       .fiacEvent{padding:0 0 0 50px;}
-      .aaBlue{min-height: 130px;}
+      .aaBlue{min-height: 130px !important;}
       .aaBlue_2{min-height:156px !important;}
       .stepRibbon3{margin-top:290px !important; margin-left:0px;}
+      .stepRibbon4{margin-top:475px !important;}
 		  
 }
 @media only screen
@@ -4500,7 +4501,7 @@ and (orientation : landscape)  {
       .stepRibbon1{padding-left:147px !important;padding-right:0px;}
       .stepRibbon2{margin-top:134px !importrant;}
       .stepRibbon3{margin-left:290px !important;}
-      .stepRibbon4{margin-top:234px !importrant;}
+      .stepRibbon4{margin-top:350px !importrant;}
       .aaBlue{min-height:115px !important;}
       .why{width:100%;}
       .why ul.nav{width:100%;}
