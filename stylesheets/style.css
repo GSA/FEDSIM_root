@@ -4287,6 +4287,8 @@ overflow:hidden;}
       .service{padding-left:15px;}
       .servPurch{min-height:450px;}
       .ipVideo #video{height:125px !important; width:222px !important;}
+      .fiac ul.nav{width:100%;}
+      .fiacEvent{padding:0 0 0 50px;}
        
  		  
  }
@@ -4389,6 +4391,7 @@ overflow:hidden;}
       .missionVisionOver .nav-tabs{padding:15px 0 0 20%;}
       .missionVisionOver ul.nav{width:100%;}
       .fiac ul.nav{width:100%;}
+      .fiacEvent{padding:0 0 0 50px;}
       #Carousel2 {margin-top: 65px;}
       .ph h2{font-size:1.5rem;}
       .ph h3{font-size:1rem;}
@@ -4398,7 +4401,6 @@ overflow:hidden;}
       .widthAdj3{width:34%;}
       .partnerInfo .medium-4 {width:46.33333%;}
       .partnerInfo .medium-2 {width:3.66667%;}
-      .fiacEvent{padding:0 0 0 50px;}
       .aaBlue{min-height: 130px !important;}
       .aaBlue_2{min-height:156px !important;}
       .stepRibbon3{margin-top:290px !important; margin-left:0px;}
