@@ -4369,6 +4369,7 @@ overflow:hidden;}
       .why{width:100%;}
       .why ul.nav{width:100%;}
       .home .nav-tabs{padding:15px 0 0 10%;}
+      .home p.quote, .home .customer .author{font-size:14px;}
 		  
 }
 @media only screen
@@ -4484,7 +4485,6 @@ and (orientation : landscape)  {
       .why{width:100%;}
       .why ul.nav{width:100%;}
       .home .nav-tabs{padding:15px 0 0 10%;}
-      .home p.quote, .home .customer .author{font-size:14px;}
 }
 @media only screen 
     and (min-device-width: 1024px)
