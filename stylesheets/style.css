@@ -4128,6 +4128,7 @@ table tr.odd{background:#E6E6E6;}
 .fiacComm a{cursor:default;font-size:15px;text-decoration: none;}
 .fiacComm { margin-left: -28px; margin-right: -28px;}
 .servPerch{margin-bottom:40px;}
+#status{display:none;}
 
 /* 508 Compliance Code DO NOT REMOVE */
 .hidden 

@@ -41,6 +41,20 @@
           });
       })(Tc.$);
     </script>
+      
+<script>
+$(document).ready(function() {
+   $('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'sbyes') {
+            $('#status').show();           
+       }
+
+       else {
+            $('#status').hide();   
+       }
+   });
+});            
+</script>
   </head>
 <body class="">
 <header role="banner">
@@ -137,7 +151,7 @@
 
                     <div class='form'>
         <div class='row'>
-<!--            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/viewform?embedded=true" width="640" height="1303" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+
         <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
  
             <div class='large-10 columns'>
@@ -156,7 +170,7 @@
 				<label class="hidden" for="entry.136536718">Company *</label>
 				<input id="company"  type="text" name="entry.136536718" maxlength="50" size="30" placeholder="Company">
                 
-                https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/viewform?usp=pp_url&entry.1846413580=danielle.hickinbotham@gsa.gov&entry.474384306=Danielle+Hickinbotham&entry.1832181272=Test&entry.136536718=Here&entry.942484799=Yes&entry.2064103323=8A&entry.2064103323=SDVOSB&entry.2064103323=Hub+Zone&entry.2064103323=VOSB&entry.334860165=Streamlined+Acquisition&entry.334860165=Small+Business&entry.334860165=Marketing/Outreach
+                
                 
 				                   
 				<br>
@@ -167,13 +181,16 @@
             <div class="columns medium-1 large-1">&nbsp;</div>
             <div class="columns medium-10 large-10 briefFormTop no-padding">
                 <p>Is your company a small business?</p>
-				<label for="entry.942484799"><input id="email"  type="radio" name="entry.942484799" value="Yes"> Yes</label>
-                <label for="entry.942484799"><input id="email"  type="radio" name="entry.942484799" value="No"> No</label>
+				<label for="entry.942484799"><input id="sbyes"  type="radio" name="entry.942484799" value="Yes"> Yes</label>
+                <label for="entry.942484799"><input id="sbno"  type="radio" name="entry.942484799" value="No"> No</label>
+                
+                <div id="status">
                 <p>Indicate the company's socioeconomic status:</p>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="8a" data-value="8a"> 8A<br>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="sdvosb" data-value="sdvosb"> SDVOSB<br>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="hub zone" data-value="hub zone"> Hub Zone<br>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="vosb" data-value="vosb"> VOSB<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="8A" data-value="8A"> 8A<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB" data-value="SDVOSB"> SDVOSB<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone" data-value="Hub Zone"> Hub Zone<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="VOSB" data-value="VOSB"> VOSB<br>
+                </div>
             </div>
             <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
@@ -206,7 +223,6 @@ $('#gform').on('submit', function(e) {
   $('#gform').prepend('<h2>Thank you for your registration! We will be in touch shortly.</h2>');
   });
 </script>
-
         </div>
       </div>
                 
