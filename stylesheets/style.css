@@ -2337,12 +2337,12 @@ p.contractLink{
 	font-weight: bold;
     font-size:20px;
 }
-input#name, input#email, input#phone, textarea#message, input#company, input#agency {
+input#name, input#email, input#phone, textarea#message, input#company, input#agency, input#jobtitle {
     background-color: #ffffff;
 	color: #004d8c;
     border:1px solid #004d8c;
 }
-input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder, input#company::placeholder, input#agency::placeholder {
+input#name::placeholder, input#email::placeholder, input#phone::placeholder, textarea#message::placeholder, input#company::placeholder, input#agency::placeholder, input#jobtitle::placeholder {
     color: #004d8c;
 }
 
