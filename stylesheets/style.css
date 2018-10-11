@@ -2383,7 +2383,8 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	color:#0a5286;
 }
 .homeNum .milestone.boxed{
-    min-height:222px;
+    min-height: 232px;
+    border-bottom: 4px solid #58173b;
 }
 .homeNum .milestone img{
     width: 38px;
