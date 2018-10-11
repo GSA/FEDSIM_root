@@ -4108,7 +4108,7 @@ table tr.odd{background:#E6E6E6;}
 .partnerInfo p{font-style: normal; font-size:18px;padding: 10px 25px;}
 
 .fiac {min-height:500px; margin-top: -60px;}
-.fiacEvent{margin-top: 25px; padding: 0px 0px 0px 22px;}
+.fiacEvent{margin-top: 25px; padding: 0px 0px 0px 15px;}
 .fiacEvent .title{color:#424143; font-weight:bold;margin-bottom: 0;}
 .fiacEvent .date, .fiacEvent .time, .fiacEvent .location, .fiacEvent .details{color:#1D5187;margin-bottom: 0;}
 /* Circle CSS */
@@ -4122,7 +4122,9 @@ table tr.odd{background:#E6E6E6;}
 }
 #circle p.top{margin-bottom: 0;margin-left: 17px;font-size: 34px;color: #ffffff; min-height:44px;}
 #circle p.bot{margin-bottom: 0;margin-left: 23px;font-size: 16px;color: #ffffff; margin-top:-15px;}
-#circle.next{background: #58173b;}
+#circle.next{background: #58173b; width: 85px; height: 85px;}
+#circle.next p.top{margin-left: 20px; font-size: 37px;}
+#circle.next p.bot{margin-left: 23px; font-size: 19px;}
 
 
 .padBot{margin-bottom:40px;padding-top:}
