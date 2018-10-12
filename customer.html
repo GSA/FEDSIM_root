@@ -14,14 +14,16 @@
     <!--
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
-    <title>Customer Information</title>
+    <title>Client Toolkit</title>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="javascripts/libs.js" type="text/javascript"></script>
     <script src="javascripts/app.js" type="text/javascript"></script>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700"  media="screen" rel="stylesheet" type="text/css">
     <script>
       // terrificjs bootstrap
       (function($) {
@@ -38,10 +40,13 @@
           });
       })(Tc.$);
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans%7CDroid+Serif:400,400italic%7CPT+Sans:400,700" media="screen" rel="stylesheet" type="text/css" />
-  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-  <script>var __adobewebfontsappname__="dreamweaver"</script>
-  <script src="https://use.edgefonts.net/droid-sans:n4:default.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+          $(".hoverTrig").hover( function() { $(".hoverP").toggle(); $(".hoverH").toggle(); } );
+          $(".hoverTrig2").hover( function() { $(".hoverP2").toggle(); $(".hoverH2").toggle(); } );
+          $(".hoverTrig3").hover( function() { $(".hoverP3").toggle(); $(".hoverH3").toggle(); } );
+          });
+  </script>
   </head>
 <body class="">
 <header role="banner">
@@ -53,12 +58,12 @@
   </div>
   
   <div class="usa-disclaimer programs">
-    <div class="usa-disclaimer-official usa-grid">
-      <div class="medium-1 large-1 columns prg"><a href="https://aas.gsa.gov/"><img src="images/AAS_Logo.png" width="60px" alt="AAS Logo"></a></div>
-      <div class="medium-2 large-2 columns prg1"><a href="https://aas.gsa.gov/contact.html"><img src="images/regionaloffices.png" width="60px" alt="Regional Offices"></a></div>
-      <div class="medium-2 large-2 columns currentSite"><a href="https://fedsim.gsa.gov"><img src="images/Logo_Fedsim.png" width="60px" alt="FEDSIM Logo"></a></div>
-      <div class="medium-7 large-7 columns">&nbsp;</div>
-    </div>
+     <div class="usa-disclaimer-official usa-grid">
+          <div class="medium-1 large-1 small-1 columns"><a href="https://aas.gsa.gov/">AAS</a></div>
+          <div class="medium-2 large-2 small-3 no-padding columns"><a href="https://aas.gsa.gov/contact.html">REGIONAL OFFICES</a></div>
+          <div class="medium-2 large-2 small-2 columns currentSite"><a href="https://fedsim.gsa.gov">FEDSIM</a></div>
+          <div class="medium-6 large-6 small-6 columns">&nbsp;</div>
+        </div>
   </div>
 	</header>
     <div class="contain-to-grid sticky" role="navigation" aria-label="Main menu">
@@ -70,7 +75,6 @@
         <section class='top-bar-section'>
           <ul class='right'>
               <li class="tablet"><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="200"></a></li>
-              <li><a href='index.html'>Home</a></li>
               <li class='has-dropdown'><a aria-haspopup="true">Who We Are</a>
                 <ul class='dropdown'>
                     <li><a href='about.html'>About</a></li>
@@ -92,10 +96,10 @@
                     <li><a href='faqs.html'>FAQs</a></li>
                     <li><a href='cvehicles.html'>Contract Vehicles</a></li>
                   </ul>
-              <li class='has-dropdown active'><a>Getting Started</a>
+              <li class='has-dropdown'><a>Getting Started</a>
                   <ul class='dropdown'>
-                    <li><a href='customer.html'>Customer Toolkit</a></li>
-                    <li><a href='contact.html'>Request Additional Information</a></li>
+                    <li><a href='customer.html'>Client Toolkit</a></li>
+<!--                    <li><a href='contact.html'>Request Additional Information</a></li>-->
                   </ul>
               </li>
               <li class='has-dropdown'><a>News &amp; Events</a>
@@ -110,6 +114,7 @@
                     <li><a href='opportunities.html'>Opportunities</a></li>
                   </ul>
               </li>
+                  <li><a href='contact.html'>Contact</a></li>
             </ul>
           </section>
         </nav>
@@ -120,7 +125,7 @@
     <div class='two spacing'></div>
         <div class='special-title centered-text'>
           <h9>
-            <h2 class="mainTitle">Customer Toolkit</h2>
+            <h2 class="mainTitle">Client Toolkit</h2>
           </h9>
               <div class='two spacing'></div>
     </div>        
@@ -132,49 +137,75 @@
       <div class='row'>
         <div class='call-to-action'>
           <div class='medium-12 large-12 columns pagination-centered'>
-          <div class="joinBlurb medium-10 large-10 medium-centered large-centered">
+          <div class="medium-12 large-12 medium-centered large-centered">
           <br><br>
           
-          <div class='medium-12 large-12 columns pagination-centered ipVideo'>
+          <div class='medium-4 large-4 columns pagination-centered ipVideo'>
 			  
-          <div class="medium-6 large-6 columns">
-          <a href="customervideo.html"><img src="videos/IP/thumb_small.png" alt="AAS FEDSIM Due Diligence"></a>
+          <div class="medium-12 large-12 columns">
+                <div class="medium-12 large-12 columns hoverH no-padding">
+                    <div class="vidHead">
+                        <h3>Client Due Diligence</h3>
+                        <p>Video (MP4)</p>
+                    </div>
+                    <video id="video" poster="images/@stock/clientDD.png" height="171" width="" controls preload="metadata">
+			             <source src="http://fedsim.e3federal.com/IDDD/IDDD_AudioDescribed_Client.mp4" type="video/mp4">
+			             <track label="English" kind="subtitles" srclang="en" src="videos/Client/IDDD_Client_CC.vtt" default>
+		             </video>
+                </div>
+ 
 			  </div>
-          <div class="medium-6 large-6 columns">
-          <h3 class="ddHeader">Customer Due Diligence</h3>
+          <div class="medium-12 large-12 columns cdd">
+          <h3 class="ddHeader">Client Due Diligence</h3>
           <ul>
           	<li><a href="customervideo.html">Due Diligence Video (MP4)</a></li>
-          	<li><a href="http://fedsim.e3federal.com/IDDD/AudioDescribed_Client_Revised.mp4">Due Diligence Audio Described (MP4)</a></li>
+          	<li><a href="http://fedsim.e3federal.com/IDDD/IDDD_AudioDescribed_Client.mp4">Due Diligence Audio Described (MP4)</a></li>
           </ul>
 			  </div>
 			  </div>
-         <hr>
 
-          <div class='medium-12 large-12 columns pagination-centered ipVideo'>
+          <div class='medium-4 large-4 columns pagination-centered ipVideo'>
 			  
-          <div class="medium-6 large-6 columns">
-          <a href="customervideo2.html"><img src="videos/Client/thumbce_small.png" alt="AAS FEDSIM Client Expectations"></a>
+          <div class="medium-12 large-12 columns">
+          <div class="medium-12 large-12 columns hoverH no-padding">
+                    <div class="vidHead">
+                        <h3>Client Expectations</h3>
+                        <p>Video (MP4)</p>
+                    </div>
+                    <video id="video" poster="images/@stock/clientEx.png" height="171" width="" controls preload="metadata">
+			             <source src="http://fedsim.e3federal.com/TEB/ClientExpectations_NewOpener_AD.mp4" type="video/mp4">
+			             <track label="English" kind="subtitles" srclang="en" src="videos/Client/ClientExpectations_captions.vtt" default>
+		             </video>
+                </div>
 			  </div>
-          <div class="medium-6 large-6 columns">
+          <div class="medium-12 large-12 columns ce">
           <h3 class="ddHeader">Client Expectations</h3>
           <ul>
-          	<li><a href="customervideo2.html">Client Expectations Video (MP4)</a></li>
-          	<li><a href="http://fedsim.e3federal.com/TEB/ClientExpectations_Revised_01_10_2018_AD.mp4">Client Expectations Audio Described (MP4)</a></li>
+              <li><a href="customervideo2.html">Client Expectations Video (MP4)</a></li>
+              <li><a href="http://fedsim.e3federal.com/TEB/ClientExpectations_NewOpener_AD.mp4">Client Expectations Audio Described (MP4)</a></li>
           </ul>
 			  </div>
 			  </div>
 
-			  <hr>
-          <div class='medium-12 large-12 columns pagination-centered ipVideo'>
+          <div class='medium-4 large-4 columns pagination-centered ipVideo'>
 			  
-          <div class="medium-6 large-6 columns">
-          <a href="customervideo3.html"><img src="videos/Client/thumbteb_small.png" alt="AAS FEDSIM Technical Evaluation Board"></a>
+          <div class="medium-12 large-12 columns">
+           <div class="medium-12 large-12 columns hoverH no-padding">
+                    <div class="vidHead">
+                        <h3>Introduction to the Technical Evaluation Board</h3>
+                        <p>Video (MP4)</p>
+                    </div>
+                    <video id="video" poster="images/@stock/clientTEB.png" height="171" width="" controls preload="metadata">
+			             <source src="http://fedsim.e3federal.com/TEB/TEBIntroduction_NewOpener_AD.mp4" type="video/mp4">
+			             <track label="English" kind="subtitles" srclang="en" src="videos/Client/TEBIntroductionCaptions.vtt" default>
+		             </video>
+                </div>
 			  </div>
-          <div class="medium-6 large-6 columns">
+          <div class="medium-12 large-12 columns teb">
           <h3 class="ddHeader">Introduction to the Technical Evaluation Board</h3>
           <ul>
-          	<li><a href="customervideo3.html">Technical Evaluation Board Video (MP4)</a></li>
-          	<li><a href="http://fedsim.e3federal.com/TEB/TEBVideo_Revised_01_10_2018_AD.mp4">Technical Evaluation Board Audio Described (MP4)</a></li>
+              <li><a href="customervideo3.html">Technical Evaluation Board Video (MP4)</a></li>
+              <li><a href="http://fedsim.e3federal.com/TEB/TEBIntroduction_NewOpener_AD.mp4">Technical Evaluation Board Audio Described (MP4)</a></li>
           </ul>
 			  </div>
 			  </div>
@@ -199,11 +230,11 @@
     <div class='footer left-text'>
 <div class='row'>
         <div class='columns pagination-centered'>
-		<p>FEDSIM is a Client Support Center housed in <a href="https://www.gsa.gov/portal/content/105201" target="_blank">AAS</a> FAS GSA</p>
+		<p>FEDSIM is a Client Support Center housed in GSA FAS <a href="https://aas.gsa.gov" target="_blank">AAS</a></p>
 <h1 class='light pagination-centered'><span class="hidden">AAS FEDSIM</span>
               <a href="index.html"><img src="images/Logo_Fedsim.png" alt="AAS FEDSIM Logo" width="150"></a>
                <div class='one spacing'></div>
-             <h6 class="pagination-centered">Copyright 2017 Federal Systems Integration and Management Center (FEDSIM).</h6>
+             <h6 class="pagination-centered">Copyright 2018 Federal Systems Integration and Management Center (FEDSIM).</h6>
 <a href="contact.html">Contact AAS FEDSIM</a>
         </h1> 
       </div>
