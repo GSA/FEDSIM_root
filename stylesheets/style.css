@@ -3217,6 +3217,7 @@ color:#ffffff;}
     padding-left:140px;
 	color:#4d91cb;
 	margin-bottom:5px;
+    font-size: 1.125rem !important;
 }
 .top{
 /*	padding-bottom:8%;*/
@@ -3225,7 +3226,7 @@ color:#ffffff;}
 		padding-top:20px;
 	padding-left:190px;
 */
-    min-height:170px;
+    min-height:187px;
 }
 .bottom{padding-top:20px;padding-bottom:10px;background-color: rgba(0,0,0,0.8);}
 .grey{
