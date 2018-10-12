@@ -2294,7 +2294,7 @@ button:hover, button:focus, .button:hover, .button:focus {
     text-align: center;
 }
 .civProj1, .civProj2, .ph{
-	background-color: #4B92CE;
+	background-color: #2f73ab;
 	color: #ffffff;
 	padding: 25px;
 	font-family: 'Open Sans' , sans-serif; 
@@ -2429,7 +2429,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 }
 .homeSlider .button.boxed{    
 	border: 1px solid rgba(255, 255, 255, 0.8);
-    background-color: #4B92CE;
+    background-color: #2f73ab;
     color: #ffffff;
 	font-family: 'Open Sans' , sans-serif; 
 }
@@ -2477,7 +2477,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	padding-left:80px;
 }
 .aboutFEDSIM {
-    background-color: #4B92CE;
+    background-color: #2f73ab;
     color: #ffffff;
 	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
@@ -2489,7 +2489,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-left:40px;
 }
 .joinFEDSIM {
-    background-color: #4B92CE;
+    background-color: #2f73ab;
     color: #ffffff;
 	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
@@ -3672,7 +3672,7 @@ background: #428bca;
 .CSOBot .button:hover, .CSOBot .button:focus{background-color: #5E5D5F;border: 1px solid #424143}
 .CSOBot button, .CSOBot button:visited, .CSOBot button:active, .CSOBot button:hover, .CSOBot button:focus {color:#ffffff;}
 .sectionTopOther{
-	background-color:#4B92CE;
+	background-color:#2f73ab;
 	color:#ffffff;
 	font-weight: bold;
 	padding:15px;
