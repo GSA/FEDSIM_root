@@ -2631,7 +2631,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .minimalist-left-simpletooltip {
   position: absolute;
   z-index: 666;
-  width: 30em;
+  width: 20em;
   border-radius: .5em;
   background: rgba( 29, 81, 135, .9 );
   color: #eee;
