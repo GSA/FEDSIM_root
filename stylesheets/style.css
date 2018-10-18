@@ -2631,9 +2631,9 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .minimalist-left-simpletooltip {
   position: absolute;
   z-index: 666;
-  width: 10em;
+  width: 20em;
   border-radius: .5em;
-  background: rgba( 0, 0, 0, .9 );
+  background: rgba( 29, 81, 135, .9 );
   color: #eee;
   padding: .5em;
   text-align: left;
@@ -2654,7 +2654,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 .simpletooltip::before,
 .minimalist-simpletooltip::before,
 .minimalist-left-simpletooltip::before {
-  content: '';
+/*  content: '';*/
   speak: none;
   position: absolute;
   z-index: 666;
@@ -2667,7 +2667,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
   left: -10px;
   margin-left: -10px;
   border: 10px solid transparent;
-  border-right: 10px solid rgba( 0, 0, 0, .9 );
+  border-right: 10px solid rgba( 29, 81, 135, .9 );
 }
 .minimalist-left-simpletooltip::before {
   top: .5em;
