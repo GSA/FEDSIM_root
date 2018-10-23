@@ -2007,13 +2007,14 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: center;
 }
 .joinImage{
-	background-image: url(../images/@stock/joinUs.png);
+	background-image: url(../images/@stock/joinUs.jpg);
 	min-height:435px;
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
 /*	width:51%;*/
 	background-size: cover;
+    background-position-y: -140px;
 }
 .fiacImage{
 	background-image: url(../images/@stock/fiacarrow.png);
@@ -2489,8 +2490,10 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-left:40px;
 }
 .joinFEDSIM {
+/*
     background-color: #2f73ab;
     color: #ffffff;
+*/
 	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
     padding: 20px 60px;
