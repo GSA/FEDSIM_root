@@ -2272,9 +2272,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-top: 6%;
 }
 .joinCareers p{
-    color:#ffffff;
+/*    color:#ffffff;*/
+/*
     font-style: italic;
 	font-size: 1.125rem;
+*/
 }
 .highlightsBox{
 	color:#ffffff;
