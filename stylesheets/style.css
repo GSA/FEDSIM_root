@@ -2059,11 +2059,16 @@ button:hover, button:focus, .button:hover, .button:focus {
 /*	font-style:italic; */
 /*	width:49%;*/
 }
-.servicesCivColor p{
-    font-size: 20px;
+.servicesCivColor p, .joinBlurb p{
+    font-size: 18px;
 /*    font-style: italic;*/
     padding-top: 19%;
-    margin-left: 60px;
+    margin: 0 175px 1.25rem 175px;
+}
+.joinBlurb2 p{
+    font-size: 18px;
+    margin: 0 175px 1.25rem 175px;
+    font-style: normal;
 }
 .servicesColor p{
     
@@ -2508,11 +2513,11 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 */
 }
 .joinFEDSIM p{
-	    margin: 0 200px 1.25rem 200px;
-	font-size:1.25rem;
+	    margin: 0 175px 1.25rem 175px;
+	
 	text-align: center;
 }
-.joinCareers h2, .joinBenefits h2{
+.joinCareers h2, .joinBenefits h2, .joinBlurb h2, .joinBlurb2 h2, .joinFEDSIM h2{
     text-align: center;
     color:#004e8c;
     text-transform: none;
