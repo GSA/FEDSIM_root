@@ -2497,6 +2497,8 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 /*    font-family: 'Open Sans', sans-serif;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
+        height: 190px;
+    margin-top: 791px;
 /*
 	width:95%;
 	margin-left:40px;
