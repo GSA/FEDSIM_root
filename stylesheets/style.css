@@ -3325,7 +3325,8 @@ color:#ffffff;}
 	font-family: 'Open Sans', sans-serif;
 	padding-top:20px;
 	height:100%;
-	min-height:304px;
+/*	min-height:304px;*/
+	min-height:220px;
 	
 }
 .careerBox h4{
