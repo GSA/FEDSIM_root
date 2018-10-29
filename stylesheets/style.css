@@ -3946,6 +3946,9 @@ table tr.odd{background:#E6E6E6;}
 .s2:hover + .d2 {display: block;}*/
 /*.s2:hover + .d1 {display:none;}
 */
+
+.values{background-color:#eee;}
+.perks{background-color:#f1f1f1;}
 /* Progress Circle */
 .progress{
     width: 150px;
