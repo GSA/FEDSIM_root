@@ -3947,8 +3947,13 @@ table tr.odd{background:#E6E6E6;}
 /*.s2:hover + .d1 {display:none;}
 */
 
-.values{background-color:#ebebeb;}
-.perks{background-color:#f1f1f1;}
+.vp{margin:0px;max-width: 100%;}
+.valuesPerks ul li{list-style: none;padding-bottom: 10px;}
+.values{background-color:#ebebeb; min-height: 300px; padding-top:20px;}
+.values img{width: 30px; margin-right: 10px;}
+.values h3{color:#2f73ab; text-transform: none;font-size: 22px;margin-left: 1.1rem;}
+.perks{background-color:#f1f1f1; min-height: 300px; padding-top:20px;padding-left: 25px;}
+.perks h3{color:#58173b; text-transform: none;font-size: 22px;margin-left: 1.1rem;}
 /* Progress Circle */
 .progress{
     width: 150px;
