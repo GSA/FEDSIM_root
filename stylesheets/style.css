@@ -2273,8 +2273,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .joinCareers p{
     /*color:#ffffff;*/
-    font-style: italic;
-	font-size: 1.125rem;
+   /* font-style: italic;
+	font-size: 1.125rem;*/
 }
 .highlightsBox{
 	color:#ffffff;
