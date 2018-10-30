@@ -1950,15 +1950,15 @@ button:hover, button:focus, .button:hover, .button:focus {
 	font-family:'Open Sans', sans-serif;
 	text-align: left;
 }
-.home p, .missionVisionOver p{text-align: center;}
-.home h2, .missionVisionOver h2{text-align: center;}
+.home p, .missionVisionOver p, .joinCareers p{text-align: center;}
+.home h2, .missionVisionOver h2, .joinCareers h2{text-align: center;}
 .home .nav-tabs {padding:15px 0 0 13%; background-color:#f1f1f1;margin-top:20px;}
-.missionVisionOver .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;}
+.missionVisionOver .nav-tabs, .joinCareers .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;}
 .contact .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:50px;}
 .fiac .nav-tabs{padding:15px 0 0 26%; background-color:#f1f1f1;margin-top:20px; margin-left: 0px;margin-bottom:20px;}
 .fiac .nav-tabs>li>a {padding: 10px 60px;}
-.home .nav-tabs a, .missionVisionOver .nav-tabs a{padding: 10px 40px; color:#3970ab;}
-.home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus {
+.home .nav-tabs a, .missionVisionOver .nav-tabs a, .joinCareers .nav-tabs a{padding: 10px 40px; color:#3970ab;}
+.home .nav>li>a:hover, .nav>li>a:focus, .missionVisionOver .nav>li>a:hover, .missionVisionOver .nav>li>a:focus, .joinCareers .nav>li>a:hover, .joinCareers .nav>li>a:focus {
     background-color: #e1e1e1; color: #3970ab;
 }
 .contact .nav>li>a, .contact .nav>li>a:hover, .contact .nav>li>a:focus{padding: 10px 65px !important;}
