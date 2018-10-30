@@ -1967,7 +1967,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .home .tab-pane h3, .missionVisionOver .tab-pane h3{text-align: center; margin-bottom: 5px;}
 .home .tab-pane p{padding:0px 25px;}
 .contactForm{margin-top: 20px; margin-bottom: 40px;}
-.missionVisionOver .tab-pane p {
+.missionVisionOver .tab-pane p, .joinCareers .tab-pane p {
     padding: 20px 65px;}
 .missionVisionOver {min-height:350px;}
 
@@ -2007,13 +2007,14 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align: center;
 }
 .joinImage{
-	background-image: url(../images/@stock/joinUs.png);
+	background-image: url(../images/@stock/joinUs.jpg);
 	min-height:435px;
 	color:#ffffff;
 	text-align: right;
 	background-repeat:no-repeat;
 /*	width:51%;*/
 	background-size: cover;
+    background-position-y: -140px;
 }
 .fiacImage{
 	background-image: url(../images/@stock/fiacarrow.png);
@@ -2489,27 +2490,27 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	margin-left:40px;
 }
 .joinFEDSIM {
+/*
     background-color: #2f73ab;
     color: #ffffff;
+*/
 	font-family: 'Open Sans' , sans-serif; 
 	text-transform: none;
     padding: 20px 60px;
 /*    font-family: 'Open Sans', sans-serif;*/
     font-size: 1.125rem;
     letter-spacing: 1px;
-        height: 190px;
-    margin-top: 791px;
 /*
 	width:95%;
 	margin-left:40px;
 */
 }
 .joinFEDSIM p{
-	    margin: 0 200px 1.25rem 200px;
-	font-size:1.25rem;
+	    margin: 0 175px 1.25rem 175px;
+	
 	text-align: center;
 }
-.joinCareers h2, .joinBenefits h2{
+.joinCareers h2, .joinBenefits h2, .joinBlurb h2, .joinBlurb2 h2, .joinFEDSIM h2, .currentOpenings h2{
     text-align: center;
     color:#004e8c;
     text-transform: none;
