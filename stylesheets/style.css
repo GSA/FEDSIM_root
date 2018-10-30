@@ -2517,7 +2517,7 @@ input#name2::placeholder, input#email2::placeholder, input#phone2::placeholder, 
 	
 	text-align: center;
 }
-.joinCareers h2, .joinBenefits h2, .joinBlurb h2, .joinBlurb2 h2, .joinFEDSIM h2{
+.joinCareers h2, .joinBenefits h2, .joinBlurb h2, .joinBlurb2 h2, .joinFEDSIM h2, .currentOpenings h2{
     text-align: center;
     color:#004e8c;
     text-transform: none;
