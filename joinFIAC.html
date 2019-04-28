@@ -57,6 +57,32 @@ $(document).ready(function() {
    });
 });            
 </script>
+<script>
+	function runValidation(){
+		return false;
+	}
+	$(function(){
+		var requiredCheckboxes = $('#status :checkbox[required]');
+		requiredCheckboxes.change(function(){
+			if(requiredCheckboxes.is(':checked')) {
+				requiredCheckboxes.removeAttr('required');
+			} else {
+				requiredCheckboxes.attr('required', 'required');
+			}
+		});
+	});
+	$(function(){
+		var requiredCheckboxes = $('#interests :checkbox[required]');
+		requiredCheckboxes.change(function(){
+			if(requiredCheckboxes.is(':checked')) {
+				requiredCheckboxes.removeAttr('required');
+			} else {
+				requiredCheckboxes.attr('required', 'required');
+			}
+		});
+	});
+	
+</script>
   </head>
 <body class="">
 <header role="banner">
@@ -154,7 +180,7 @@ $(document).ready(function() {
                     <div class='form formFiac'>
         <div class='row'>
 
-        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?" target="hidden_iframe" onsubmit="runValidation();">
  
             <div class='large-10 columns'>
             </div>
@@ -168,9 +194,9 @@ $(document).ready(function() {
 			  </div>
 			<div align="left" class='medium-5 large-5 small-11 columns briefForm no-padding'>
 				<label class="hidden" for="entry.1832181272">Job Title *</label>
-				<input id="jobtitle"  type="text" name="entry.1832181272" maxlength="50" size="30" placeholder="Job Title">
+				<input id="jobtitle"  type="text" name="entry.1832181272" maxlength="50" size="30" placeholder="Job Title" required>
 				<label class="hidden" for="entry.136536718">Company *</label>
-				<input id="company"  type="text" name="entry.136536718" maxlength="50" size="30" placeholder="Company">
+				<input id="company"  type="text" name="entry.136536718" maxlength="50" size="30" placeholder="Company" required>
                 
                 
                 
@@ -183,26 +209,26 @@ $(document).ready(function() {
             <div class="columns medium-1 large-1">&nbsp;</div>
             <div class="columns medium-10 large-10 briefFormTop no-padding">
                 <p>Is your company a small business?</p>
-				<label for="entry.942484799"><input id="sbyes"  type="radio" name="entry.942484799" value="Yes"> Yes</label>
-                <label for="entry.942484799"><input id="sbno"  type="radio" name="entry.942484799" value="No"> No</label>
+				<label for="entry.942484799"><input id="sbyes"  type="radio" name="entry.942484799" value="Yes" required> Yes</label>
+                <label for="entry.942484799"><input id="sbno"  type="radio" name="entry.942484799" value="No" required> No</label>
                 
                 <div id="status">
                 <p>Indicate the company's socioeconomic status:</p>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="8A" data-value="8A"> 8A<br>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB" data-value="SDVOSB"> SDVOSB<br>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone" data-value="Hub Zone"> Hub Zone<br>
-                    <input type="checkbox" role="listitem" name="entry.2064103323" value="VOSB" data-value="VOSB"> VOSB<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="8A" data-value="8A" required> 8A<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB" data-value="SDVOSB" required> SDVOSB<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone" data-value="Hub Zone" required> Hub Zone<br>
+                    <input type="checkbox" role="listitem" name="entry.2064103323" value="VOSB" data-value="VOSB" required> VOSB<br>
                 </div>
             </div>
             <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
             <div class='columns medium-12 large-12'>
             <div class="columns medium-1 large-1">&nbsp;</div>
-            <div class="columns medium-10 large-10 briefFormTop no-padding">
+            <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
                 <p>Please indicate committees you are interested in joining</p>
-                    <input type="checkbox" role="listitem" name="entry.334860165" value="Streamlined Acquisition" data-value="Streamline Acquisition"> Streamline Acquisition <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
-                    <input type="checkbox" role="listitem" name="entry.334860165" value="Small Business" data-value="Small Business"> Small Business <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
-                    <input type="checkbox" role="listitem" name="entry.334860165" value="Marketing/Outreach" data-value="Marketing and Business Development"> Marketing and Business Development <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
+                    <input required type="checkbox" role="listitem" name="entry.334860165" value="Streamlined Acquisition" data-value="Streamline Acquisition"> Streamline Acquisition <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
+                    <input required type="checkbox" role="listitem" name="entry.334860165" value="Small Business" data-value="Small Business"> Small Business <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
+                    <input required type="checkbox" role="listitem" name="entry.334860165" value="Marketing/Outreach" data-value="Marketing and Business Development"> Marketing and Business Development <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
             </div>
             <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
