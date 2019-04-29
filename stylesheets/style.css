@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Steelfish";
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot');
@@ -17,19 +18,6 @@ font-family: 'Source Sans Pro', sans-serif;
   src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
 }
 
-/*!
- * jQuery UI CSS Framework 1.10.3
- * http://jqueryui.com
- *
- * Copyright 2013 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Theming/API
- */
-
-/* Layout helpers
-----------------------------------*/
 
 .ui-helper-hidden {
 	display: none;
@@ -111,16 +99,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	width: 100%;
 	height: 100%;
 }
-/*!
- * jQuery UI Accordion 1.10.3
- * http://jqueryui.com
- *
- * Copyright 2013 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Accordion#theming
- */
+
 
 .ui-accordion .ui-accordion-header {
 	display: block;
@@ -150,16 +129,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	border-top: 0;
 	overflow: auto;
 }
-/*!
- * jQuery UI Tabs 1.10.3
- * http://jqueryui.com
- *
- * Copyright 2013 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Tabs#theming
- */
+
 
 .ui-tabs {
 	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
@@ -203,22 +173,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	padding: 1em 1.4em;
 	background: none;
 }
-/*!
- * jQuery UI CSS Framework 1.10.3
- * http://jqueryui.com
- *
- * Copyright 2013 jQuery Foundation and other contributors
- * Released under the MIT license.
- * http://jquery.org/license
- *
- * http://docs.jquery.com/UI/Theming/API
- *
- * To view and modify this theme, visit http://jqueryui.com/themeroller/
- */
 
-
-/* Component containers
-----------------------------------*/
 
 .ui-widget {
 	font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
@@ -1088,7 +1043,7 @@ p.quote {
 	padding-top:15px;
 }
 .employee p.test4{
-	background-image: url(../images/@stock/test1.png);
+	/*background-image: url(../images/@stock/test1.png);*/
 	background-repeat: no-repeat;
 }
 /*
@@ -1282,36 +1237,50 @@ form input.error, form textarea.error {
     margin-top: 115px;
 }
 .customer p.quote{
-/*	background: rgba(255,255,255,0.8);*/
+	background: rgba(255,255,255,0.8);
 	color:#014e8c;
 	margin-bottom:0px;
 	padding-bottom: 23px;
 }
 .customer p.test1{
-	background-image: url(../images/@stock/testLG.png);
+	
 	background-repeat: no-repeat;
 	padding-bottom: 23px !important;
     padding-top: 12px;
 }
 .customer p.test2{
-	background-image: url(../images/@stock/test2.png);
+	
 	background-repeat: no-repeat;
 	padding-bottom: 21px !important;
 	padding-top:10px;
 }
 .customer p.test3{
-	background-image: url(../images/@stock/test2.png);
+	
 	background-repeat: no-repeat;
 	padding-bottom: 21px !important;
 	padding-top:15px;
 }
 .customer p.test4{
-	background-image: url(../images/@stock/test2.png);
+	
 	background-repeat: no-repeat;
 	padding-bottom: 20px !important;
     padding-top: 10px;
 }
+.grey-background{
+	background: #ddd;
+}
+.triangle-up{
+	position: absolute;
+	right: 0px;
+	margin-top: -25px;
+	margin-right: 31px;
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
 
+	border-bottom: 25px solid rgba(71,146,206,1);
+}
 /* gallery */
 ul.gallery img {
   width: 100%;
@@ -2059,16 +2028,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 /*	font-style:italic; */
 /*	width:49%;*/
 }
-.servicesCivColor p, .joinBlurb p{
-    font-size: 18px;
+.servicesCivColor p{
+    font-size: 20px;
 /*    font-style: italic;*/
     padding-top: 19%;
-    margin: 0 175px 1.25rem 175px;
-}
-.joinBlurb2 p{
-    font-size: 18px;
-    margin: 0 175px 1.25rem 175px;
-    font-style: normal;
+    margin-left: 60px;
 }
 .servicesColor p{
     
@@ -2277,11 +2241,9 @@ button:hover, button:focus, .button:hover, .button:focus {
 	margin-top: 6%;
 }
 .joinCareers p{
-/*    color:#ffffff;*/
-/*
-    font-style: italic;
-	font-size: 1.125rem;
-*/
+    /*color:#ffffff;*/
+   /* font-style: italic;
+	font-size: 1.125rem;*/
 }
 .highlightsBox{
 	color:#ffffff;
@@ -3333,7 +3295,8 @@ color:#ffffff;}
 	font-family: 'Open Sans', sans-serif;
 	padding-top:20px;
 	height:100%;
-	min-height:304px;
+/*	min-height:304px;*/
+	min-height:220px;
 	
 }
 .careerBox h4{
@@ -4606,7 +4569,7 @@ and (orientation : landscape)  {
     and (min-device-width: 1650px)
     and (max-device-width: 1650px){
         .customer p.test1 {
-            background-image: url(../images/@stock/testLG.png);
+            /*background-image: url(../images/@stock/testLG.png);*/
             background-repeat: no-repeat;
             padding-bottom: 46px !important;
             padding-top: 12px;
