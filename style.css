@@ -1043,7 +1043,7 @@ p.quote {
 	padding-top:15px;
 }
 .employee p.test4{
-	background-image: url(../images/@stock/test1.png);
+	/*background-image: url(../images/@stock/test1.png);*/
 	background-repeat: no-repeat;
 }
 /*
@@ -4569,7 +4569,7 @@ and (orientation : landscape)  {
     and (min-device-width: 1650px)
     and (max-device-width: 1650px){
         .customer p.test1 {
-            background-image: url(../images/@stock/testLG.png);
+            /*background-image: url(../images/@stock/testLG.png);*/
             background-repeat: no-repeat;
             padding-bottom: 46px !important;
             padding-top: 12px;
