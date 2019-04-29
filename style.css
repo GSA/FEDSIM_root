@@ -1237,7 +1237,7 @@ form input.error, form textarea.error {
     margin-top: 115px;
 }
 .customer p.quote{
-/*	background: rgba(255,255,255,0.8);*/
+	background: rgba(255,255,255,0.8);
 	color:#014e8c;
 	margin-bottom:0px;
 	padding-bottom: 23px;
