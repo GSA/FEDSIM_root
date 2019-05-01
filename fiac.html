@@ -13,8 +13,9 @@
     <!--
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
-    <title>Join Us</title>
-    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <title>FEDSIM Industry Advisory Council</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-accessible-simple-tooltip-aria.js"></script>
     <link href="stylesheets/3.0.0bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -22,9 +23,10 @@
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="javascripts/libs.js" type="text/javascript"></script>
     <script src="javascripts/app.js" type="text/javascript"></script>
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> 
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700"  media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <script>
       // terrificjs bootstrap
       (function($) {
@@ -41,12 +43,6 @@
           });
       })(Tc.$);
     </script>
-    
-  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<!--
-  <script>var __adobewebfontsappname__="dreamweaver"</script>
-  <script src="https://use.edgefonts.net/droid-sans:n4:default.js" type="text/javascript"></script>
--->
   </head>
 <body class="">
 <header role="banner">
@@ -58,7 +54,7 @@
   </div>
   
   <div class="usa-disclaimer programs">
-     <div class="usa-disclaimer-official usa-grid">
+    <div class="usa-disclaimer-official usa-grid">
           <div class="medium-1 large-1 small-1 columns"><a href="https://aas.gsa.gov/">AAS</a></div>
           <div class="medium-2 large-2 small-3 no-padding columns"><a href="https://aas.gsa.gov/contact.html">REGIONAL OFFICES</a></div>
           <div class="medium-2 large-2 small-2 columns currentSite"><a href="https://fedsim.gsa.gov">FEDSIM</a></div>
@@ -107,7 +103,7 @@
                     <li><a href='calendar.html'>Calendar of Events</a></li>
                   </ul>
               </li>
-              <li class='has-dropdown'><a>Industry</a>
+              <li class='has-dropdown active'><a>Industry</a>
                   <ul class='dropdown'>
                      <li><a href='general.html'>Partner Information</a></li>
                     <li><a href='fiac.html'>FEDSIM Industry Advisory Council</a></li>
@@ -119,292 +115,213 @@
           </section>
         </nav>
     </div>
-      <div class='members'>
+    <div class="bodyText">
+<div class='members'>
   <div class='full call-to-action-bg-alt no-padding'>
     <div class='two spacing'></div>
         <div class='special-title centered-text'>
           <h9>
-            <h2><span class="mainTitle">JOIN OUR TEAM</span></h2>
+            <h2 class="mainTitle">FEDSIM Industry Advisory Council</h2>
           </h9>
               <div class='two spacing'></div>
     </div>        
       </div>
-</div>  
+</div>
 
-<!--
-        <div class='members'>
-  <div class='full call-to-action-bg-alt2 no-padding'>
-        <div class='special-title centered-text'>
-          <h9>
--->
+<div class='row'>
+       <div class='columns medium-12 large-12 iac no-padding'>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
+      <p class="pagination-centered" style="text-align: center; padding-top:40px;">FEDSIM created the FEDSIM Industry Advisory Council (FIAC) to ensure ongoing communication with industry leaders. The FIAC brings together members of the government contracting community to advise FEDSIM and provide an invaluable forum for open dialogue within the federal acquisition community.</p>
+           </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
 
-<!--            <h3><span class="mainTitle2">Come see us and bring your resume!</span></h3>-->
 
-<!--
-            <h3><span class="mainTitle2">Current Openings</span></h3>
-          </h9>
-    </div>        
-      </div>
-</div>      
--->
-
-      </div>
-    </div>
-<script>
-      jQuery(document).ready(function() {
-        var options = {
-          nextButton: true,
-          prevButton: true,
-          // autoPlay: true,
-          autoPlayDelay: 5000,
-          pauseButton: true,
-          // preloader: true,
-          animateStartingFrameIn: true,
-          pagination: true,
-          reverseAnimationsWhenNavigatingBackwards: true,
-          preventDelayWhenReversingAnimations: true,
-          fadeFrameWhenSkipped: false,
-          swipeEvents: {
-            left: "next",
-            right: "prev"
-          }
-        }
-        var sequence = jQuery("#sequence").sequence(options).data("sequence");
-        sequence.beforeCurrentFrameAnimatesOut = function() {
-          setTimeout(function() {
-            jQuery(".frame.static").removeClass('static');
-          }, 1000);
-        }
-      
-      });
-    </script>
-    <div class="bodyText">
-<!--
-       <div class="row">
-			<div class="columns medium-12 large-12 careers">
-				<div class="columns medium-3 large-3 no-padding" style="margin-right:40px;">&nbsp;</div>
--->
-<!--
-                <div class="columns medium-1 large-1 no-padding">&nbsp;</div>
-				<div class="columns medium-5 large-5 careerBox">
-					<h4><a href="https://www.usajobs.gov/GetJob/ViewDetails/497402400">1102-13 Contract Specialist</a></h4>
-					<p class="careerTitle">Locations: Washington, D.C.</p>
-					<p class="careerLoc">*Posting is open today through May 4th.</p>
-					<p class="careerMeet">Please direct all inquiries to <a href="mailto:join.fedsim@gsa.gov">join.fedsim@gsa.gov</a></p>
-					<p class="careerMeet">This opportunity is open to all of FAS, so please specify if you are applying for FEDSIM by emailing <a href="mailto:join.fedsim@gsa.gov">join.fedsim@gsa.gov</a> once you have applied.</p>
-				</div>
-                <div class="columns medium-5 large-5 careerBox">
-					<h4><a href="https://www.usajobs.gov/GetJob/ViewDetails/497403500">1102-14 Contract Specialist</a></h4>
-					<p class="careerTitle">Locations: Washington, D.C.</p>
-					<p class="careerLoc">*Posting is open today through May 4th.</p>
-					<p class="careerMeet">Please direct all inquiries to <a href="mailto:join.fedsim@gsa.gov">join.fedsim@gsa.gov</a></p>
-					<p class="careerMeet">This opportunity is open to all of FAS, so please specify if you are applying for FEDSIM by emailing <a href="mailto:join.fedsim@gsa.gov">join.fedsim@gsa.gov</a> once you have applied.</p>
-				</div>
-                <div class="columns medium-1 large-1 no-padding">&nbsp;</div>
--->
-<!--				<div class="columns medium-3 large-3">&nbsp;</div>-->
-
-<!--
-				<div class="columns medium-5 large-5 careerBox">
-					<h4>Thur, 29 March 2018</h4>
-					<p class="careerTitle"><a href="https://www.peacecorps.gov/events/18_3glrvs_dc-career-conference_2018326/">DC RPCV Career Fair</a></p>
-					<p class="careerLoc">U.S. Patent and Trademark Office<br>
-					Madison Building<br>
-					600 Dulany St.<br>
-					Alexandria, VA 22314</p>
-					<p class="careerMeet">Meet FEDSIM Team Members at the GSA booth from 4PM-7PM</p>
-				</div>-->
-
-<!--
-                <div class="columns medium-5 large-5 careerBox" style="min-height: 225px !important;">
-					<h4><a href="https://www.usajobs.gov/GetJob/ViewDetails/506508700">FEDSIM Acquisition Services Specialist (GS-301-11/12)</a> -</h4> <h5>Federal Employees, RPCV, Veterans, and Military Spouses Only</h5>
-					<p class="careerTitle">Location: Washington DC</p>
-					<p class="careerLoc">*Posting is open today through August 13th.</p>
-					<p class="careerMeet">Please direct all inquiries to <b>join.fedsim@gsa.gov</b></p>
-				</div>
--->
-                <!--<div class="columns medium-5 large-5 careerBox" style="min-height: 225px !important;">
-					<h4><a href="https://www.usajobs.gov/GetJob/ViewDetails/495194000">Project Manager(301-13 TS)</a></h4>
-					<p class="careerTitle">Locations: Aberdeen &amp; Pax River</p>
-					<p class="careerLoc">*Posting is open today through April 11th.</p>
-					<p class="careerMeet">Please direct all inquiries to <a href="mailto:join.fedsim@gsa.gov">join.fedsim@gsa.gov</a></p>
-				</div>-->
-<!--
-				<div class="columns medium-3 large-3">&nbsp;</div>
-			</div>
-		</div>
--->
-<!--
-    <div id='sequence'>
-      <ul class='sequence-canvas'>
-        <li class='frame static'>
-          <div class='bg'>
---><div class="row join">
-              <div class='medium-12 large-12 columns no-padding'>
-              	<div class="medium-12 large-12 columns joinImage">
-<!--
-              		<h4 id="head1">Collaborators</h4>
-          			<h4 id="head2">Innovators</h4>
-          			<h4 id="head3">Experts</h4>
-          			<h4 id="head4">Client Champions</h4>
--->
-              	</div>
-<!--
-              	<div class="medium-6 large-6 columns joinColor">
-              		<p>These traits form a foundation that enable our teams to enhance the customer experience through innovation, speed, and flexibility. We seek altruistic, highly motivated individuals who will thrive in our mission-enabling environment and contribute to our unique, highly valued culture. FEDSIM's success depends on the quality of our teams and their ability to deliver results to our customers.</p>
-              	</div>
--->
-              </div>
-        
-
-        <div class="joinFEDSIM">
-            <p>&nbsp;</p>
-<!--      	<p>FEDSIM is the leading provider of assisted acquisition services and contract management for federal agencies. We help them complete complex acquisitions of IT systems and services, professional services, and other resources they need to achieve their missions.</p>-->
-		<p>FEDSIM is the leading provider of assisted acquisition services and contract management for federal agencies.</p>
-             <p>We’re looking for creative, detail-oriented people with expertise in acquisition or project management.</p>
-      </div>      
+        </div> 
+        <div class='columns medium-12 large-12 fiac no-padding'>
+        <div class="medium-12 large-12 columns medium-centered large-centered">
+            <div class="medium-5 large-5 columns widthAdj3">&nbsp;</div>
+            <div class="medium-4 large-4 columns"><h3 class="servicesTitleTop">Committees</h3>
+            </div>
+                <div class="medium-3 large-3 columns"></div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
+                
+                <p class="pagination-centered" style="text-align: center;margin-left:180px;">The FIAC has three committees focusing on the following:</p>
+                
+            </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div class="cvehicles fiacComm">
+	<div class="columns medium-12 large-12 no-padding">
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
+        <div class='medium-4 large-4 columns'>
+            <p class="text-center medium-12 large-12 columns medium-centered large-centered contractLink js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes.">Streamlined <br>Acquisition</p>
+        </div>
+        <div class='medium-4 large-4 columns'>
+                <p class="text-center medium-12 large-12 columns medium-centered large-centered contractLink js-simple-tooltip" data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community.">Small <br>Business</p>
+        </div>  
+        <div class='medium-4 large-4 columns'>
+                <p class="text-center medium-12 large-12 columns medium-centered large-centered contractLink js-simple-tooltip" data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities.">Marketing/<br>Outreach</p>
+        </div>    
         </div>
         
-<!--
-          </div>
-          <div class='title left-to-right'>
-            <div class='row'></div>
-          </div>
-</li>
-      </ul>
-</div>
--->
-
-    </div>
-  </div>
-                <div class="joinCareers">
-                    <h2>Career Paths at FEDSIM</h2>
-             <div class='row'>
-              <div class="medium-12 large-12 columns">
-<!--                <div class="medium-1 large-1 columns">&nbsp;</div>-->
-                <div class="medium-12 large-12 columns">
-                    
-                <!-- Nav tabs -->
+            <div class="columns medium-1 large-1">&nbsp;</div>
+        </div>
+                </div>
+			<div class='medium-12 large-12 columns pagination-centered'>
+      		<a class='purple button medium-4 large-4 columns medium-centered large-centered' href="joinFIAC.html">Interested in Joining?</a></div>
+        </div>
+        <div class="medium-12 large-12 columns medium-centered large-centered">
+            <div class="medium-5 large-5 columns widthAdj3">&nbsp;</div>
+            <div class="medium-4 large-4 columns"><h3 class="servicesTitle events">Events</h3></div>
+                <div class="medium-3 large-3 columns"></div>
+        </div>
+        <div class='columns medium-12 large-12 no-padding'>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
+        <!-- Nav tabs -->
               <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#acquisition" aria-controls="acquisition" role="tab" data-toggle="tab">ACQUISITION</a></li>
-                <li role="presentation"><a href="#project" aria-controls="project" role="tab" data-toggle="tab">PROJECT MANAGEMENT</a></li>
+                <li role="presentation" class="active"><a href="#upcoming" aria-controls="upcoming" role="tab" data-toggle="tab">UPCOMING/RECURRING</a></li>
+                <li role="presentation"><a href="#past" aria-controls="past" role="tab" data-toggle="tab">PAST</a></li>
               </ul>
+            </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+        </div>
 
               <!-- Tab panes -->
               <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="acquisition"><p>Acquisition Project Managers, Contract Specialists, and Contracting Officers are solution brokers, leaders, and quality managers. They leverage their knowledge of complex acquisition policy to pinpoint creative, contractually compliant solutions that solve each client’s unique challenges.</p></div>
-                <div role="tabpanel" class="tab-pane" id="project"><p>Project Managers facilitate client projects to ensure that industry partners deliver high-quality solutions on time and on budget. They are client advocates&mdash;they ensure client engagement and satisfaction throughout the project life cycle.</p></div>
-              </div>
-              </div>
-<!--                <div class="medium-1 large-1 columns">&nbsp;</div>-->
-          </div>
-      </div>   
-           
-       </div>
-         
-      <div class='spacing'></div>
-    </div>
-
-</div>
-    </div>
-<div class="row">
-<div class="joinFEDSIM">
-            <h2>Why FEDSIM?</h2>
-          <p>FEDSIM is committed to growing leaders at all levels. We provide a professional home for individuals who value diversity and inclusion and who are passionate about making a difference. We pride ourselves on fostering an innovative, collaborative environment. </p>
-      </div>
-</div>
-<div class='row'>
-        <div class='call-to-action'>
-          <div class='medium-12 large-12 columns pagination-centered'>
-          <div class="joinFEDSIM medium-10 large-10 medium-centered large-centered">
-          
-			  </div>
-			</div>
-     		<div class='medium-12 large-12 columns pagination-centered'>
-      		<div class='joinButton button medium-7 large-7 columns medium-centered large-centered'><a href='mailto:join.fedsim@gsa.gov'>Contact Us at join.fedsim@gsa.gov</a></div>
-          </div>
-        </div>
-  	  </div>
-      <br>
-      <br>
-
-      <div class='row vp'>
-        <div class="valuesPerks columns medium-12 large-12 no-padding">
-        <div class="values columns medium-6 large-6">
-            <div class="columns medium-6 large-6">&nbsp;</div>
-            <div class="valuesIn columns medium-6 large-6">
-                <h3>Our Values</h3>
-                <ul>
-                    <li><img src="images/@stock/quality.png" alt="Quality Icon">Quality</li>
-                    <li><img src="images/@stock/innovation.png" alt="Innovation Icon">Innovation</li>
-                    <li><img src="images/@stock/community.png" alt="Community Icon">Community</li>
-                    <li><img src="images/@stock/integrity.png" alt="Integrity Icon">Integrity</li>
-                    <li><img src="images/@stock/stewardship.png" alt="Stewardship Icon">Stewardship</li>
-                </ul>
-                
-            </div>
-        </div>
-        <div class="perks columns medium-6 large-6">
-            <div class="perksIn columns medium-8 large-8">
-                <h3>Perks of Working with Us</h3>
-                <ul>
-                    <li>Influence acquisition and project delivery in government</li>
-                    <li>Mission-focused work</li>
-                    <li>Dynamic career paths</li>
-                    <li>Collaborative environment</li>
-                    <li>Opportunities for professional development</li>
-                </ul>
-            </div>
-        <div class="columns medium-4 large-4">&nbsp;</div>
-        </div>
-    </div>
-</div>
-<div class='testimonials full emp bg-2 light centered-text employee'>
-      <div class='row'>
-        <div class='special-title'>
-<h2 class='light'>Employee Testimonials</h2>
-       <p>We consistently achieve high scores on our annual<br> Federal Employee Viewpoint Survey. Here are some of the comments from our highly engaged workforce:</p>
-        </div>
-        <div class='spacing'></div>
-</div>
-      <div class='row'>
-        <div class='small-9 small-centered columns'>
-          <ul data-orbit=''>
-            <li>
-              <p class='quote test1'>"FEDSIM is a unique place to work in the government. The employees share experience and knowledge and assist other co-workers without hesitation for the good of FEDSIM and their client agencies."</p>
+                <div role="tabpanel" class="tab-pane active" id="upcoming">
+                    <div class="columns medium-12 large-12 padBot">
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Streamlined Committee</p><p class="date">Recurring</p><p class="time">Fridays 12:30 (Eastern Time)</p></div>
+                            </div>
+			   <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Small Business Committee</p><p class="date">Recurring</p><p class="time">3rd Wednesday every month 2:00 (Eastern Time)</p></div>
+                            </div>
+				                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Marketing Committee</p><p class="date">Recurring</p><p class="time">2nd Wednesday every month 2:00 (Eastern Time)</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
 <!--
-              <div class="medium-11 large-11 columns">&nbsp;&nbsp;&nbsp;&nbsp;</div>
-              <div class="medium-1 large-1 columns" id="triangle-up"></div>
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">08</p><p class="bot">Aug</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Event Name Goes Here</p><p class="date">Fri, October 19, 2018</p><p class="time">10:30am - 12:00pm</p><p class="location">Event Location</p><p class="details">Event details</p></div>
+                            </div>
 -->
-<!--              <p class="testimonialsArrow"><img src="images/@stock/testimonialsarrow.png" alt=""></p>-->
-              <p class='author'>- Dominic Salli, Project Manager</p>
-              <div class='two spacing'></div>
-            </li>
-            <li>
-              <p class='quote test2'>"While the importance of our customer agencies' missions first attracted me to FEDSIM, it has been the collective dedication of the FEDSIM staff that has anchored me here. The results we deliver for the taxpayer should never go unrecognized, and we should always be conscious of how we are making a difference in our daily tasks."</p>
-              <p class='author'> - Mike Skorny, Acquisition Professional</p>
-              <div class='two spacing'></div>
-            </li>
-            <li>
-              <p class='quote test4'>"The best thing about working at FEDSIM is encountering challenging opportunities and having the flexibility to think critically to solve those challenges. As an organization, we truly enjoy what we do and we have fun doing it."</p>
-              <p class='author'>- Brittney Chappell, Acquisition Professional</p>
-              <div class='two spacing'></div>
-            </li>
-            <li>
-              <p class='quote test4'>"I have the flexibility in my schedule to manage the needs of my client, FEDSIM, and my individual development efforts. I am encouraged to use my experience to mentor FEDSIM team members and my customers."</p>
-              <p class='author'>- Tamika Spencer, Project Manager</p>
-              <div class='two spacing'></div>
-            </li>
-          </ul>
-        </div>
-      </div>
+                        </div>
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                    </div>
+<!--
+                    <div class="columns medium-12 large-12 padBot">
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">08</p><p class="bot">Aug</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Event Name Goes Here</p><p class="date">Wed, August 8, 2018</p><p class="time">Event Time</p><p class="location">Event Location</p><p class="details">Event details</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">08</p><p class="bot">Aug</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Event Name Goes Here</p><p class="date">Wed, August 8, 2018</p><p class="time">Event Time</p><p class="location">Event Location</p><p class="details">Event details</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                    </div>
+-->
+                </div>
+                <div role="tabpanel" class="tab-pane" id="past">
+                    <div class="columns medium-12 large-12 padBot">
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">19</p><p class="bot">Oct</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">FIAC Quarterly Council Meeting</p><p class="date">Fri, October 19, 2018</p><p class="time">10:30am - 12:00pm</p><p class="location">CGI Innovation Center 1000 N. Glebe Road, 9th floor, Arlington, VA</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">12</p><p class="bot">Sep</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Marketing and Business Development Committee Meeting</p><p class="date">Tues, September 12, 2018</p><p class="time">2:00pm - 3:00pm</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                    </div>
+                    <div class="columns medium-12 large-12 padBot">
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">19</p><p class="bot">Jun</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Assisted Services Forum – Bringing Best Value to Government Customers</p><p class="date">Tues, June 19, 2018</p><p class="time">7:00am - 12:00pm</p><p class="location">CGI Innovation Center 1000 N Glebe Rd Arlington, VA 22201</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">15</p><p class="bot">May</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">FIAC Meeting (UAx Focus)</p><p class="date">Tues, May 15, 2018</p><p class="time">9:30am - 11:30am</p><p class="location">GSA Headquarters 1800 F ST NW, Washington, DC 20405 (Security screening required)</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                    </div>
+                    <div class="columns medium-12 large-12 padBot">
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">23</p><p class="bot">Feb</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">FIAC Meeting</p><p class="date">Fri, February 23, 2018</p><p class="location">Tyson's Corner</p></div>
+                            </div>
+                        </div>
+                        <div class="columns medium-5 large-5 no-padding eventBox">&nbsp;
+<!--
+                            <div class="columns medium-12 large-12">
+                                <div class="columns medium-3 large-3">
+                                    <div class="" id="circle"><p class="top">19</p><p class="bot">Jan</p></div>
+                                </div>
+                                <div class="columns medium-9 large-9 fiacEvent"><p class="title">Flight-Centric Market Research</p><p class="date">Thur, August 8, 2018</p><p class="location">Tyson's Corner</p></div>
+                            </div>
+-->
+                        </div>
+                        <div class="columns medium-1 large-1 eventPad">&nbsp;</div>
+                    </div>
+                </div>
+              </div>
+      
     </div>
+</div> 
+
+</div>
 <script src='javascripts/jquery.countTo.js'></script>
     <script src='javascripts/jquery.appear.js'></script>
     <script src='javascripts/jquery.sequence-min.js'></script>
     <script src='javascripts/jquery.validate.js'></script>
     <script src="javascripts/app.js" type="text/javascript"></script>
-    <div class='footer left-text'>
+        <div class='footer left-text'>
 <div class='row'>
         <div class='columns pagination-centered'>
 		<p>FEDSIM is a Client Support Center housed within GSA FAS <a href="https://aas.gsa.gov" target="_blank">AAS</a></p>
@@ -417,7 +334,7 @@
       </div>
     </div>
   </div>
-</div>
+	</div>
 <!--Google Analytics Tracking Code -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
