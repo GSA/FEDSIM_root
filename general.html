@@ -154,11 +154,11 @@
             <div class="hoverP">
 -->
                 <div class="medium-12 large-12 columns sectionTop no-padding hoverH general hoverImg">
-                   <div class="vidHead">
-                    <h3>Due Diligence</h3>
-                    <p>Video (MP4)</p>
+                   <div class="vidHead" id="video1-overlay">
+						<h3>Due Diligence</h3>
+						<p>Video (MP4)</p>
                     </div>
-                     <video id="video" poster="images/@stock/clientDD.png" height="171" width="" controls preload="metadata">
+                     <video id="video1" poster="images/@stock/clientDD.png" height="171" width="" controls preload="metadata">
 			             <source src="http://fedsim.e3federal.com/IDDD/IDDDIndustry_Final.mp4" type="video/mp4">
 			             <track label="English" kind="subtitles" srclang="en" src="videos/IP/IDDD_Industry_CC.vtt" default>
 		             </video>
@@ -243,6 +243,16 @@
   ga('create', 'UA-87539202-2', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script type='text/javascript'>
+	var video1 = document.getElementById('video1');
+		
+	video1.onplay = function(e) {
+	  document.getElementById("video1-overlay").hidden = true;
+	};
+	video1.onended = function(e){
+		document.getElementById("video1-overlay").hidden = false;
+	}
 </script>
   </body>
 </html>
