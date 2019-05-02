@@ -217,29 +217,29 @@ $(document).ready(function() {
                 
                 <div id="status">
                 <p>Indicate the company's socioeconomic status:</p>
-                    <input type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" required> 8A<br>
-                    <input type="checkbox" role="listitem" name="checkbox1" value="SDVOSB" data-value="SDVOSB" required> SDVOSB<br>
-                    <input type="checkbox" role="listitem" name="checkbox1" value="Hub Zone" data-value="Hub Zone" required> Hub Zone<br>
-                    <input type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" required> VOSB<br>
+                    <input required type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" > 8A<br>
+                    <input required type="checkbox" role="listitem" name="checkbox1" value="SDVOSB" data-value="SDVOSB" > SDVOSB<br>
+                    <input required type="checkbox" role="listitem" name="checkbox1" value="Hub Zone" data-value="Hub Zone" > Hub Zone<br>
+                    <input required type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" > VOSB<br>
 
                 </div>
             </div>
             <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
-		<!--
+		
             <div class='columns medium-12 large-12'>
             <div class="columns medium-1 large-1">&nbsp;</div>
 
             <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
                 <p>Please indicate committees you are interested in joining</p>
-                    <input class="mycheck" required type="checkbox" role="listitem" name="checkbox1" value="Streamlined Acquisition" data-value="Streamline Acquisition"> Streamline Acquisition <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
-                    <input class="mycheck" required type="checkbox" role="listitem" name="checkbox1" value="Small Business" data-value="Small Business"> Small Business <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
-                    <input class="mycheck" required type="checkbox" role="listitem" name="checkbox1" value="Marketing/Outreach" data-value="Marketing and Business Development"> Marketing and Business Development <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
+                    <input type="checkbox" role="listitem"  value="Streamlined Acquisition" data-value="Streamline Acquisition"> Streamline Acquisition <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
+                    <input type="checkbox" role="listitem"  value="Small Business" data-value="Small Business"> Small Business <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
+                    <input type="checkbox" role="listitem"  value="Marketing/Outreach" data-value="Marketing and Business Development"> Marketing and Business Development <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
 
             </div>
             <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
-		-->
+		
         <div class='columns medium-12 large-12'>
             <div class="columns medium-1 large-1">&nbsp;</div> 
              <div class="columns medium-10 large-10 no-padding">
@@ -298,7 +298,7 @@ $('#gform').on('submit', function(e) {
 <script>
 		
 	$(function(){
-		$("input[name=checkbox1]")[0].oninvalid = function () {
+		$("input[name=checkbox1]").oninvalid = function () {
 			this.setCustomValidity("Please check a box if you want to proceed.");
 		};
 	});
