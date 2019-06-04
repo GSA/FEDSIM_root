@@ -49,23 +49,22 @@
 $(document).ready(function() {
    $('input[type="radio"]').click(function() {
        if($(this).attr('id') == 'sbyes') {
-			console.log(!$('#status'));
-			if($("#status").children().length == 0 ){
-			
-				$('#status').append("<p>Indicate the company's socioeconomic status:</p>"+
-									"<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='8A' data-value='8A' > 8A<br>"+
-									"<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='SDVOSB' data-value='SDVOSB' > SDVOSB<br>"+
-									"<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='Hub Zone' data-value='Hub Zone' > Hub Zone<br>"+
-									"<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='VOSB' data-value='VOSB' > VOSB<br>");
-            }
-			$('#status').show()
-       }
-
-       else {
-			
-			$('#status').empty();
-            
-
+        console.log(!$('#status'));
+        if($("#status").children().length == 0 ){
+        
+          $('#status').append(
+            "<p>Indicate the company's socioeconomic status:</p>"+
+            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='8A' data-value='8A' > 8A<br>"+
+            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='ANC' data-value='ANC' > ANC<br>"+
+            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='SDVOSB' data-value='SDVOSB' > SDVOSB<br>"+
+            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='Hub Zone' data-value='Hub Zone' > Hub Zone<br>"+
+            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='VOSB' data-value='VOSB' > VOSB<br>"+
+            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='WOSB' data-value='WOSB' > WOSB<br>"
+          );
+        }
+			  $('#status').show()
+      }else {
+			  $('#status').empty();
        }
    });
 });            
@@ -222,11 +221,13 @@ $(document).ready(function() {
                 <label for="entry.942484799"><input id="sbno"  type="radio" name="entry.942484799" value="No" required> No</label>
                 
                 <div id="status">
-					<p>Indicate the company's socioeconomic status:</p>
-					<input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" > 8A<br>
+          <p>Indicate the company's socioeconomic status:</p>
+          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" > 8A<br>
+          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="ANC" data-value="ANC" >ANC<br>
 					<input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="SDVOSB" data-value="SDVOSB" > SDVOSB<br>
 					<input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="Hub Zone" data-value="Hub Zone" > Hub Zone<br>
-					<input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" > VOSB<br>
+          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" > VOSB<br>
+          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="WOSB" data-value="WOSB" > WOSB<br>
 
 
                 </div>
