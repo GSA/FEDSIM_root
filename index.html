@@ -15,7 +15,7 @@
     hash is 464e0fb146194482a3ab153fc11e6346175a63f0
   -->
   <title>FEDSIM HomePage</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script> -->
   <link href="stylesheets/3.0.0bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
@@ -26,6 +26,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet"
     type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" media="screen" rel="stylesheet" type="text/css">
+  
   <script>
     // terrificjs bootstrap
     (function ($) {
@@ -149,23 +150,53 @@
 
     });
   </script>
+  <style>
+    #sequence .bg {
+      position: initial !important;
+      /* background: red; */
+    }
+    ul li {
+      list-style: none;
+    }
+    #sequence .info.left-to-right, #sequence .title.left-to-right {
+      top: -400px;
+      left:0px;
+    }
+    .tab-active{
+      display: none;
+    }
+    .tab-inactive{
+      display: block;
+    }
+  </style>
   <script>
+    var currentTab = 'services';
     $('#chooseFEDSIM a').click(function (e) {
       e.preventDefault()
       $(this).tab('show')
     })
+    function showTabPanel(event,  tab) {
+      var allTabs = document.getElementsByClassName('active');
+      for(let tab of allTabs){
+        tab.classList.remove('active');
+      }
+      event.target.parentElement.classList.toggle('active');
+      document.getElementById(currentTab).classList.remove('active');
+      document.getElementById(tab).classList.toggle('active');
+      currentTab = tab;
+    }
   </script>
   <div class="bodyText">
     <div id='sequence'>
       <ul class='sequence-canvas homeSlider'>
-        <!--       <fieldset class="seq-nav" aria-controls="sequence" aria-label="Slider buttons"><button type="button" class="seq-prev" aria-label="Previous">Previous</button> <button type="button" class="seq-next" aria-label="Next">Next</button></fieldset>-->
         <li class='frame'>
           <div class='bg' style='background-image: url(images/@stock/slide-4.jpg);'>
             <div class='info bottom-to-top centered'> </div>
           </div>
+          
           <div class='title left-to-right'>
             <div class='row'><br>
-              <div class='large-12 columns pagination-centered aasSlide'>
+              <div class='large-12 columns pagination-centered'>
                 <div class="medium-6 large-6 columns"></div>
                 <div class="medium-6 large-6 columns">
                   <h3>Assisted Acquisition Services</h3>
@@ -175,25 +206,7 @@
             </div>
           </div>
         </li>
-        <!--
-        <li class='frame'>
-        <div class='bg' style='background-image: url(images/@stock/slide-1.png);'>
-          <div class='info bottom-to-top centered'> </div>
-        </div>
-        <div class='title left-to-right'>
-          <div class='row'><br>
-                        <div class='large-12 columns pagination-centered'>
-                          <div class="medium-6 large-6 columns"></div>
-                            <div class="medium-6 large-6 columns">
-                            <h3>Explore Our Civilian Acquisition Projects</h3>
-                            <a class='button boxed blue' href='civilian.html'>Learn More ></a>
-                            </div>
-            </div>
-          </div>            
-        </div>
-</li>
--->
-        <li class='frame'>
+        <!-- <li class='frame'>
           <div class='bg' style='background-image: url(images/@stock/Slider-5B.jpg);'>
             <div class='info bottom-to-top centered'> </div>
           </div>
@@ -211,28 +224,7 @@
           <div class='info left-to-right'>
             <div class='row'></div>
           </div>
-        </li>
-        <!--
-      <li class='frame'>
-        <div class='bg' style='background-image: url(images/@stock/slide-3.png);'>
-          <div class='info bottom-to-top centered'> </div>
-        </div>
-        <div class='title left-to-right'>
-          <div class='row'><br>
-                        <div class='large-12 columns pagination-centered'>
-                          <div class="medium-6 large-6 columns"></div>
-                            <div class="medium-6 large-6 columns">
-                            <h3>Explore Our Defense Acquisition Projects</h3>
-                            <a class='button boxed blue' href='defense.html'>Learn More ></a>
-                            </div>
-            </div>
-          </div> 
-        </div>
-        <div class='info left-to-right'>
-          <div class='row'></div>
-        </div>
-      </li>
--->
+        </li> -->
       </ul>
       <a class='sequence-prev' href='javascript:void(0);'>
         <span class="hidden">Previous</span>
@@ -243,10 +235,6 @@
       <ul class='sequence-pagination'>
         <li></li>
         <li></li>
-        <!--
-      <li></li>
-<li></li>
--->
       </ul>
     </div>
 
@@ -276,20 +264,40 @@
             <h2 class="servicesTitle">Why Choose FEDSIM?</h2>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#services" aria-controls="services" role="tab"
-                  data-toggle="tab">SERVICES</a></li>
-              <li role="presentation"><a href="#solutions" aria-controls="solutions" role="tab"
-                  data-toggle="tab">SOLUTIONS</a></li>
-              <li role="presentation"><a href="#savings" aria-controls="savings" role="tab"
-                  data-toggle="tab">SAVINGS</a></li>
-              <li role="presentation"><a href="#skills" aria-controls="skills" role="tab" data-toggle="tab">SKILLS</a>
+              <li role="presentation" class="active">
+                <a 
+                  href="#services" aria-controls="services" role="tab"
+                  data-toggle="tab"
+                  onclick="showTabPanel(event, 'services')"
+                >SERVICES</a>
+              </li>
+              <li role="presentation">
+                <a 
+                  href="#solutions" aria-controls="solutions" role="tab"
+                  data-toggle="tab"
+                  onclick="showTabPanel(event, 'solutions')"
+                >SOLUTIONS</a>
+              </li>
+              <li role="presentation">
+                <a 
+                  href="#savings" aria-controls="savings" role="tab"
+                  data-toggle="tab"
+                  onclick="showTabPanel(event, 'savings')"
+                >SAVINGS</a>
+              </li>
+              <li role="presentation">
+                <a 
+                  href="#skills" aria-controls="skills" 
+                  role="tab" data-toggle="tab"
+                  onclick="showTabPanel(event, 'skills')"
+                >SKILLS</a>
               </li>
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="services"><img src="images/@stock/servicesicon.png"
-                  alt="Services Icon">
+              <div role="tabpanel" class="tab-pane active" id="services">
+                <img src="images/@stock/servicesicon.png" alt="Services Icon">
                 <h3>SERVICES</h3>
                 <p>We provide hands-on, mission-focused program, financial, and acquisition management for the full life
                   cycle of each acquisition.</p>
@@ -317,15 +325,7 @@
           <div class="medium-2 large-1 small-0 columns">&nbsp;</div>
         </div>
       </div>
-
-
-
     </div>
-
-
-
-
-
     <div class='full white home'>
       <div class='testimonials full emp bg-2 light centered-text customer'>
         <div class='row'>
