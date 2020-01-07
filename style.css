@@ -1631,11 +1631,11 @@ ul.info i:hover {
   -o-transition-duration: 1s;
   transition-duration: 1s;
 }
-#sequence .animate-in .info, #sequence .animate-in .title {
+.title {
   left: 0;
   opacity: 1;
 }
-#sequence .animate-in .info.left-to-right {
+.info.left-to-right {
   -webkit-transition-delay: 1s;
   -moz-transition-delay: 1s;
   -o-transition-delay: 1s;
@@ -1645,7 +1645,7 @@ ul.info i:hover {
   -o-transition-duration: 2s;
   transition-duration: 2s;
 }
-#sequence .animate-in .title.left-to-right {
+.title.left-to-right {
   top: 100px;
   left: 0;
   -webkit-transition-duration: 1s;

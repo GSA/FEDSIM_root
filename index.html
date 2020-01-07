@@ -26,7 +26,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet"
     type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" media="screen" rel="stylesheet" type="text/css">
-  
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <link src="https://unpkg.com/@glidejs/glide" rel="stylesheet">
   <script>
     // terrificjs bootstrap
     (function ($) {
@@ -43,6 +44,7 @@
       });
     })(Tc.$);
   </script>
+  
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 
@@ -122,7 +124,7 @@
       </section>
     </nav>
   </div>
-  <script>
+  <!-- <script>
     jQuery(document).ready(function () {
       var options = {
         nextButton: true,
@@ -149,7 +151,7 @@
       }
 
     });
-  </script>
+  </script> -->
   <style>
     #sequence .bg {
       position: initial !important;
@@ -186,14 +188,112 @@
       currentTab = tab;
     }
   </script>
+  <style>
+    #slides {
+        position: relative;
+        height: 465px;
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+    .slide {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 1;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        transition: opacity 1s;
+    }
+    .showing {
+        opacity: 1;
+        z-index: 2;
+    }
+    .slideImg {
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <style>
+    .row {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      margin-bottom: 0;
+      max-width: 70rem;
+    }
+    .imgSlideText {
+      color: #01538f;
+      font-size: 36px;
+    }
+    .imgSlideWrapper{
+      position: absolute;
+      top:150px;
+    }
+    .buttonSlide{
+      background: #01538f !important;
+      border: 1px solid #fff !important;
+    }
+    .buttonSlide:hover{
+      background: #fff !important;
+      color: #01538f !important;
+    }
+    .blue-text{
+      color: #01538f !important
+    }
+    .white-text{
+      color: #fff !important;
+    }
+  </style>
   <div class="bodyText">
-    <div id='sequence'>
+    <ul id="slides">
+        <li class="slide showing slideImg">
+          <div class="slideImg" style='background-image: url(images/@stock/slide-4.jpg);'>
+            <div class='info bottom-to-top centered'> </div>
+          </div>
+          <div class='title left-to-right'>
+            <div class='row'><br>
+              <div class='large-12 columns pagination-centered imgSlideWrapper'>
+                <div class="medium-6 large-6 columns"></div>
+                <div class="medium-6 large-6 columns">
+                  <h3 class="imgSlideText">Assisted Acquisition Services</h3>
+                  <a class='button boxed blue buttonSlide' href='https://aas.gsa.gov' target="_blank">Learn More ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class='slideImg' style='background-image: url(images/@stock/Slider-5B.jpg);'>
+            <div class='info bottom-to-top centered'> </div>
+          </div>
+          <div class='title left-to-right'>
+              <div class='row'><br>
+                <div class='large-12 columns pagination-centered imgSlideWrapper'>
+                  <div class="medium-6 large-6 columns"></div>
+                  <div class="medium-6 large-6 columns">
+                    <h3 class="imgSlideText white-text">Explore Our Services and Portfolio</h3>
+                    <a class='button boxed blue buttonSlide' href='services.html' target="_blank">Learn More ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        
+    </ul>
+    <!-- <div id='sequence'>
       <ul class='sequence-canvas homeSlider'>
         <li class='frame'>
           <div class='bg' style='background-image: url(images/@stock/slide-4.jpg);'>
             <div class='info bottom-to-top centered'> </div>
           </div>
-          
           <div class='title left-to-right'>
             <div class='row'><br>
               <div class='large-12 columns pagination-centered'>
@@ -206,7 +306,7 @@
             </div>
           </div>
         </li>
-        <!-- <li class='frame'>
+        <li class='frame hidden'>
           <div class='bg' style='background-image: url(images/@stock/Slider-5B.jpg);'>
             <div class='info bottom-to-top centered'> </div>
           </div>
@@ -224,19 +324,19 @@
           <div class='info left-to-right'>
             <div class='row'></div>
           </div>
-        </li> -->
+        </li>
       </ul>
-      <a class='sequence-prev' href='javascript:void(0);'>
-        <span class="hidden">Previous</span>
+      <a onclick="slideLeft()" class='sequence-prev' href='javascript:void(0);'>
+        <span class=""></span>
       </a>
       <a class='sequence-next' href='javascript:void(0);'>
-        <span class="hidden">Next</span>
+        <span class=""></span>
       </a>
       <ul class='sequence-pagination'>
         <li></li>
         <li></li>
       </ul>
-    </div>
+    </div> -->
 
 
   </div>
@@ -412,6 +512,18 @@
       ga('send', 'pageview');
 
     </script>
+    <script>
+        var slides = document.querySelectorAll('#slides .slide');
+        
+        var currentSlide = 0;
+        var slideInterval = setInterval(nextSlide,8000);
+    
+        function nextSlide() {
+            slides[currentSlide].className = 'slide';
+            currentSlide = (currentSlide+1)%slides.length;
+            slides[currentSlide].className = 'slide showing';
+        }
+      </script>
 </body>
 
 </html>
