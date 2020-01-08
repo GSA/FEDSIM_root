@@ -47,6 +47,21 @@
       });
     })(Tc.$);
   </script>
+  <script>
+    var currentTab = 'acquisition';
+    function showTabPanel(event, tab) {
+      // debugger;
+      var allTabs = document.getElementsByClassName('active');
+      // console.log(allTabs);
+      for (let tab of allTabs) {
+        tab.classList.remove('active');
+      }
+      event.target.parentElement.classList.toggle('active');
+      document.getElementById(currentTab).classList.remove('active');
+      document.getElementById(tab).classList.toggle('active');
+      currentTab = tab;
+    }
+  </script>
 
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
   <!--
@@ -295,10 +310,15 @@
 
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#acquisition" aria-controls="acquisition" role="tab"
-                  data-toggle="tab">ACQUISITION</a></li>
-              <li role="presentation"><a href="#project" aria-controls="project" role="tab" data-toggle="tab">PROJECT
-                  MANAGEMENT</a></li>
+              <li role="presentation" class="active">
+                <a href="#acquisition" aria-controls="acquisition" role="tab"
+                  data-toggle="tab"
+                  onclick="showTabPanel(event, 'acquisition')"
+                >ACQUISITION</a></li>
+              <li role="presentation">
+                <a href="#project" aria-controls="project" role="tab" data-toggle="tab" onclick="showTabPanel(event, 'project')"
+                >
+                  PROJECT MANAGEMENT</a></li>
             </ul>
 
             <!-- Tab panes -->

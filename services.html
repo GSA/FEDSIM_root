@@ -181,7 +181,7 @@
 
                         <!-- Carousel items -->
                         <div id="carousel" class="carousel-inner">
-                            
+
                             <div class="item active">
                                 <div class="row">
                                     <div class="medium-3 large-3 columns" id="div1">
@@ -958,46 +958,56 @@
         <div class="medium-12 large-12 columns servPurch">
             <div class="medium-1 large-1 columns">&nbsp;</div>
             <div class="medium-3 large-3 small-3 columns leftCol">
-                <div class="medium-12 large-12 columns service s1">
+                <div 
+                    class="medium-12 large-12 columns service purple-background"
+                    onclick="showTabPanel(event, 'acquisition')"
+                >
                     <h4>Acquisition Management</h4>
                 </div>
-                <div class="medium-12 large-12 columns service s2">
+                <div 
+                    class="medium-12 large-12 columns service "
+                    onclick="showTabPanel(event, 'financial')"
+                >
                     <h4>Financial Management</h4>
                 </div>
-                <div class="medium-12 large-12 columns service s3">
+                <div 
+                    class="medium-12 large-12 columns service "
+                    onclick="showTabPanel(event, 'project')"
+                >
                     <h4>Project Management</h4>
                 </div>
             </div>
             <div class="medium-4 large-4 small-4 columns midCol">
-                <div class="medium-12 large-12 columns descrip d1"><img src="images/@stock/amicon.png"
+                <div id="acquisition" class="medium-12 large-12 columns descrip hide show">
+                    <img src="images/@stock/amicon.png"
                         alt="Acquisition Management Icon">
                     <h4>Acquisition <br>Management</h4>
                     <p>Our continuous acquisition management enables our clients to focus on their agency's mission.</p>
                 </div>
-                <div class="medium-12 large-12 columns descrip d2"><img src="images/@stock/fmicon.png"
+                <div id="financial" class="medium-12 large-12 columns descrip hide"><img src="images/@stock/fmicon.png"
                         alt="Financial Management Icon">
                     <h4>Financial <br>Management</h4>
                     <p>We track and manage client funding and oversee the invoicing process.</p>
                 </div>
-                <div class="medium-12 large-12 columns descrip d3"><img src="images/@stock/pmicon.png"
+                <div id="project" class="medium-12 large-12 columns descrip hide"><img src="images/@stock/pmicon.png"
                         alt="Project Management Icon">
                     <h4>Project <br>Management</h4>
                     <p>We provide project management services for the full life cycle of the acquisition, from pre-award
                         requirements gathering to post-award administration and contract closeout.</p>
                 </div>
-                <div class="medium-12 large-12 columns descrip d4"><img src="images/@stock/itsicon.png"
+                <div id="service" class="medium-12 large-12 columns descrip hide"><img src="images/@stock/itsicon.png"
                         alt="IT Services Icon">
                     <h4>IT <br>Services</h4>
                     <p>We offer acquisition support to clients purchasing IT services, including cybersecurity,
                         application development, and IT infrastructure.</p>
                 </div>
-                <div class="medium-12 large-12 columns descrip d5"><img src="images/@stock/psicon.png"
+                <div id="professional" class="medium-12 large-12 columns descrip hide"><img src="images/@stock/psicon.png"
                         alt="Professional Services Icon">
                     <h4>Professional <br>Services</h4>
                     <p>We acquire professional services, including technical training, language services, and marketing
                         services, from contractor resources to support our client’s mission.</p>
                 </div>
-                <div class="medium-12 large-12 columns descrip d6"><img src="images/@stock/msicon.png"
+                <div id="manage" class="medium-12 large-12 columns descrip hide"><img src="images/@stock/msicon.png"
                         alt="Managed Services Icon">
                     <h4>Managed <br>Services</h4>
                     <p>We acquire facilities and maintenance services through contractor resources to ensure seamless
@@ -1005,13 +1015,19 @@
                 </div>
             </div>
             <div class="medium-3 large-3 small-3 columns rightCol">
-                <div class="medium-12 large-12 columns service s4">
+                <div class="medium-12 large-12 columns service "
+                    onclick="showTabPanel(event, 'service')"
+                >
                     <h4>IT <br>Services</h4>
                 </div>
-                <div class="medium-12 large-12 columns service s5">
+                <div class="medium-12 large-12 columns service "
+                    onclick="showTabPanel(event, 'professional')"
+                >
                     <h4>Professional <br>Services</h4>
                 </div>
-                <div class="medium-12 large-12 columns service s6">
+                <div class="medium-12 large-12 columns service "
+                    onclick="showTabPanel(event, 'manage')"
+                >
                     <h4>Managed <br>Services</h4>
                 </div>
             </div>
@@ -1053,16 +1069,31 @@
         ga('send', 'pageview');
 
     </script>
+    <style>
+        .show{
+            display: block;
+        }
+        .hide{
+            display: none;
+        }
+        .purple-background{
+            background-color: #57093b;
+            
+        }
+        .purple-background h4 {
+            color: #fff;
+        }
+    </style>
     <!-- services slideshow -->
     <script>
         var flag = true;
-        function slide(){
+        function slide() {
             var rows = document.getElementById('carousel');
-            if(flag){
+            if (flag) {
                 rows.querySelector('.item:not(.active)').classList.add('active');
                 rows.querySelector('.item.active').classList.remove('active');
                 flag = !flag;
-            }else{
+            } else {
                 rows.querySelector('.item.active').classList.remove('active');
                 rows.querySelector('.item:not(.active)').classList.add('active');
                 flag = true;
@@ -1070,12 +1101,27 @@
         }
     </script>
     <style>
-        .hoverH:hover ~.hoverP{
+        .hoverH:hover~.hoverP {
             position: absolute;
-            display:block;
+            display: block;
             pointer-events: none;
         }
     </style>
+    <script>
+        var currentTab = 'acquisition';
+        function showTabPanel(event, tab) {
+            var allTabs = document.getElementsByClassName('purple-background');
+            console.log(allTabs);
+            for (let tab of allTabs) {
+                tab.classList.remove('purple-background');
+            }
+            
+            event.target.classList.toggle('purple-background');
+            document.getElementById(currentTab).classList.remove('show');
+            document.getElementById(tab).classList.toggle('show');
+            currentTab = tab;
+        }
+    </script>
 </body>
 
 </html>
