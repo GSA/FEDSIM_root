@@ -111,7 +111,7 @@
               <li><a href='calendar.html'>Calendar of Events</a></li>
             </ul>
           </li>
-          <li class='has-dropdown active'><a>Industry</a>
+          <li class='has-dropdown actives'><a>Industry</a>
             <ul class='dropdown'>
               <li><a href='general.html'>Partner Information</a></li>
               <li><a href='fiac.html'>FEDSIM Industry Council</a></li>
@@ -206,13 +206,13 @@
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation" class="active">
                 <a 
-                  href="#upcoming" aria-controls="upcoming" role="tab" data-toggle="tab"
+                  href="javascript:void(0)" aria-controls="upcoming" role="tab" data-toggle="tab"
                   onclick="showTabPanel(event, 'upcoming')"
                 >UPCOMING/RECURRING</a>
               </li>
               <li role="presentation">
                 <a 
-                  href="#past" aria-controls="past" role="tab" data-toggle="tab"
+                  href="javascript:void(0)" aria-controls="past" role="tab" data-toggle="tab"
                   onclick="showTabPanel(event, 'past')"
                 >PAST</a>
               </li>
@@ -365,7 +365,7 @@
   <script>
       var currentTab = 'upcoming';
       function showTabPanel(event, tab) {
-        var allTabs = document.getElementsByClassName('tab-pane');
+        var allTabs = document.getElementsByClassName('active');
         for (let tab of allTabs) {
           tab.classList.remove('active');
         }
