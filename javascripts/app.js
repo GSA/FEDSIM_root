@@ -37,7 +37,7 @@ jQuery(document).ready(function() {
 
 // Foundation JavaScript
 // Documentation can be found at: http://foundation.zurb.com/docs
-jQuery(document).foundation();
+// jQuery(document).foundation();
 
 
 (function($) {
