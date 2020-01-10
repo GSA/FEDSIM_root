@@ -1,4 +1,5 @@
 
+
 @font-face {
   font-family: "Steelfish";
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot');
@@ -3890,6 +3891,14 @@ table tr.odd{background:#E6E6E6;}
 .dts {background-image: url(../images/@stock/projHigh/31_DE00637_DOD.jpg);}
 .rcas {background-image: url(../images/@stock/projHigh/34_AR00595_RCAS.jpg);}
 .accisr {background-image: url(../images/@stock/projHigh/ACC_ISR_PP.jpg);}
+.sepsii {background-image: url(../images/@stock/projHigh/SEPS_II_PP.jpg);}
+.dsns-aspr {background-image: url(../images/@stock/projHigh/HHS_DSNS_ASPR_PP.jpg);}
+.usd-modes {background-image: url(../images/@stock/projHigh/MODES_PP.jpg);}
+.southcom-c4isr {background-image: url(../images/@stock/projHigh/USSOUTHCOM_C4ISR_PP.jpg);}
+.tencap {background-image: url(../images/@stock/projHigh/TENCAP_PP.jpg);}
+.jaic {background-image: url(../images/@stock/projHigh/JAIC_PP.jpg);}
+.navair-csm {background-image: url(../images/@stock/projHigh/NAVAIR_PP.jpg);}
+
 
 
 .d2, .d3, .d4, .d5, .d6, .d6 {display: none;}
