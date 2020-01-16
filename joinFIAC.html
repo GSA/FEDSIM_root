@@ -363,21 +363,24 @@
         var rs = "";
         if(which=="first"){
           rs = firstCheckboxes();
-          if(rs === ""){
-            document.getElementById("firstCheck").classList.toggle('show');
-            submitted = true;
+          if(rs === ""){ 
+              document.getElementById("firstCheck").classList.add('hide');
           }else{
-            document.getElementById("firstCheck").classList.toggle('hide');
-            submitted = false;
+            if(document.getElementById("firstCheck").classList.contains('show')){
+              document.getElementById("firstCheck").classList.add('hide');
+              submitted = true;
+            }
+            
           }
         }else if(which=="second"){
           rs = secondCheckboxes();
           if(rs === ""){
-            submitted = true;
-            document.getElementById("secondCheck").classList.toggle('show');
+            document.getElementById("secondCheck").classList.add('hide');
           }else{
-            submitted = false;
-            document.getElementById("secondCheck").classList.toggle('hide');
+            if(document.getElementById("secondCheck").classList.contains('show')){
+              document.getElementById("secondCheck").classList.add('hide');
+              submitted = true;
+            }
           }
         }
       }
@@ -389,14 +392,14 @@
         if(radioYes){
           firstErr += firstCheckboxes();
           if(firstErr !==""){
-            document.getElementById("firstCheck").classList.toggle("show");
+            document.getElementById("firstCheck").classList.remove("hide").add("show");
           }
         }
 
         secondErr += secondCheckboxes();
         if(secondErr !==""){
           if(document.getElementById("secondCheck").classList)
-          document.getElementById("secondCheck").classList.toggle("show");
+          document.getElementById("secondCheck").classList.remove("hide").add("show");
         }
         if(secondErr !== "" || firstErr !== ""){
           submitted = false;
