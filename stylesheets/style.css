@@ -3363,12 +3363,12 @@ color:#ffffff;}
 .panel-title > a:before {
     float: left !important;
     font-family: FontAwesome;
-    content:"\f068";
+    content:"";
     padding-right: 5px;
 }
 .panel-title > a.collapsed:before {
     float: left !important;
-    content:"\f067";
+    content:"";
 }
 .panel-title > a:hover, 
 .panel-title > a:active, 
