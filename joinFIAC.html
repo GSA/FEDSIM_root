@@ -55,12 +55,12 @@
 
             $('#status').append(
               "<p>Indicate the company's socioeconomic status:</p>" +
-              "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='8A' data-value='8A' > 8A<br>" +
-              "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='ANC' data-value='ANC' > ANC<br>" +
-              "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='SDVOSB' data-value='SDVOSB' > SDVOSB<br>" +
-              "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='Hub Zone' data-value='Hub Zone' > Hub Zone<br>" +
-              "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='VOSB' data-value='VOSB' > VOSB<br>" +
-              "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='WOSB' data-value='WOSB' > WOSB<br>"
+              "<input  class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='8A' data-value='8A' > 8A<br>" +
+              "<input  class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='ANC' data-value='ANC' > ANC<br>" +
+              "<input  class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='SDVOSB' data-value='SDVOSB' > SDVOSB<br>" +
+              "<input  class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='Hub Zone' data-value='Hub Zone' > Hub Zone<br>" +
+              "<input  class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='VOSB' data-value='VOSB' > VOSB<br>" +
+              "<input  class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='WOSB' data-value='WOSB' > WOSB<br>"
             );
           }
           $('#status').show()
@@ -69,29 +69,6 @@
         }
       });
     });            
-  </script>
-
-
-  <script>
-
-
-    // function runValidation() {
-    //   debugger;
-    //   submitted = true;
-    //   // return false;
-    // }
-
-    /*$(function(){
-      var requiredCheckboxes = $('#interests :checkbox[required]');
-      requiredCheckboxes.change(function(){
-        if(requiredCheckboxes.is(':checked')) {
-          requiredCheckboxes.removeAttr('required');
-        } else {
-          requiredCheckboxes.attr('required', 'required');
-        }
-      });
-    });*/
-
   </script>
 </head>
 
@@ -238,7 +215,7 @@
                     <label for="entry.942484799"><input id="sbno" type="radio" name="entry.942484799" value="No"
                         required> No</label>
 
-                    <div id="status">
+                    <div id="status" >
                       <p>Indicate the company's socioeconomic status:</p>
                       <input
                         class="checkbox1" 
@@ -271,13 +248,18 @@
                   <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
                     <p>Please indicate committees you are interested in joining</p>
                     <input 
-                    name="entry.334860165" type="checkbox" role="listitem" value="Streamlined Acquisition"
+                      class="checkbox2"
+                      name="entry.334860165" type="checkbox" role="listitem" value="Streamlined Acquisition"
                       data-value="Streamline Acquisition"> Streamline Acquisition 
                       <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
-                    <input name="entry.334860165" type="checkbox" role="listitem" value="Small Business" data-value="Small Business"> Small
+                    <input 
+                      class="checkbox2"
+                      name="entry.334860165" type="checkbox" role="listitem" value="Small Business" data-value="Small Business"> Small
                     Business <i href="#" class="fas fa-info-circle js-simple-tooltip"
                       data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
-                    <input name="entry.334860165" type="checkbox" role="listitem" value="Marketing/Outreach"
+                    <input 
+                      class="checkbox2"
+                      name="entry.334860165" type="checkbox" role="listitem" value="Marketing/Outreach"
                       data-value="Marketing and Business Development"> Marketing and Business Development <i href="#"
                       class="fas fa-info-circle js-simple-tooltip"
                       data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
@@ -300,7 +282,9 @@
 
 
               <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-              <script type="text/javascript">var submitted = false;</script>
+              <script type="text/javascript">
+                var submitted = false;
+              </script>
               <script type="text/javascript">
                 $('#gform').on('submit', function (e) {
                   $('#gform *').fadeOut(2000);
@@ -348,8 +332,21 @@
 
     </script>
     <script>
-      var checkboxesReq = $('input[name=checkbox1]');
-      debugger;
+      // $('#gform').on('submit', function (e) {
+      //   var checkbox2 = document.getElementsByClassName('checkbox2');
+
+      //   var rs2 = Object.entries(checkbox2).filter(function(item){
+      //     return item[1].checked;
+      //   });
+      //   if(rs2.lenght >= 1){
+
+      //   } else {
+
+      //   }
+      // });
+    </script>
+    <script>
+      var checkboxesReq = $('input[class=checkbox1]');
       $('#sbyes').change(function () {
 
         if ($(this).is(':checked')) {
@@ -372,11 +369,11 @@
       });
 
       $(function () {
-        var requiredCheckboxes = $('input[name=checkbox1]');
+        var requiredCheckboxes = $('input[class=checkbox1]');
         requiredCheckboxes.change(function () {
           if (requiredCheckboxes.is(':checked')) {
             requiredCheckboxes.removeAttr('required');
-            var check = document.querySelector('input[name="checkbox1"]');
+            var check = document.querySelector('input[class="checkbox1"]');
 
             check.setCustomValidity('');
           } else {
@@ -386,7 +383,7 @@
         });
       });
 
-      var checkboxes = document.querySelector('input[name="checkbox1"]');
+      var checkboxes = document.querySelector('input[class="checkbox1"]');
       checkboxes.setCustomValidity('Please check a box if you want to proceed');
 
 
