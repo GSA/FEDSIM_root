@@ -247,6 +247,10 @@
 
                     <div id="status" >
                       <p>Indicate the company's socioeconomic status:</p>
+                      <div id="firstCheck" class="hide error-msg">
+                        <span class="exclamation-mark">!</span>
+                        Choose one of the following.
+                      </div>
                       <input
                         class="checkbox1" 
                         type="checkbox" 
@@ -254,16 +258,17 @@
                         name="entry.2064103323" 
                         value="8A"
                         data-value="8A"
+                        onchange="isCheck(this, 'first')"
                       > 8A<br>
-                      <input class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="ANC"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="ANC"
                         data-value="ANC"> ANC<br>
-                      <input class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB"
                         data-value="SDVOSB"> SDVOSB<br>
-                      <input class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone"
                         data-value="Hub Zone"> Hub Zone<br>
-                      <input class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="VOSB"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="VOSB"
                         data-value="VOSB"> VOSB<br>
-                      <input class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="WOSB"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="WOSB"
                         data-value="WOSB"> WOSB<br>
 
 
@@ -277,17 +282,21 @@
 
                   <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
                     <p>Please indicate committees you are interested in joining</p>
+                    <div id="secondCheck" class="hide error-msg"><span class="exclamation-mark">!</span>Choose one of the following.</div>
                     <input 
+                      onchange="isCheck(this, 'second')"
                       class="checkbox2"
                       name="entry.334860165" type="checkbox" role="listitem" value="Streamlined Acquisition"
                       data-value="Streamline Acquisition"> Streamline Acquisition 
                       <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
                     <input 
+                      onchange="isCheck(this, 'second')"
                       class="checkbox2"
                       name="entry.334860165" type="checkbox" role="listitem" value="Small Business" data-value="Small Business"> Small
                     Business <i href="#" class="fas fa-info-circle js-simple-tooltip"
                       data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
                     <input 
+                      onchange="isCheck(this, 'second')"
                       class="checkbox2"
                       name="entry.334860165" type="checkbox" role="listitem" value="Marketing/Outreach"
                       data-value="Marketing and Business Development"> Marketing and Business Development <i href="#"
@@ -309,22 +318,9 @@
                   <div class="columns medium-1 large-1">&nbsp;</div>
                 </div>
               </form>
-
-
               <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-              <script type="text/javascript">
-                var submitted = false;
-              </script>
-              <script type="text/javascript">
-                $('#gform').on('submit', function (e) {
-                  $('#gform *').fadeOut(2000);
-                  $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
-                });
-              </script>
             </div>
           </div>
-
-
         </div>
       </div>
       <script src='javascripts/jquery.countTo.js'></script>
@@ -359,65 +355,116 @@
 
       ga('create', 'UA-87539202-2', 'auto');
       ga('send', 'pageview');
-
     </script>
-    <script>
-      // $('#gform').on('submit', function (e) {
-      //   var checkbox2 = document.getElementsByClassName('checkbox2');
-
-      //   var rs2 = Object.entries(checkbox2).filter(function(item){
-      //     return item[1].checked;
-      //   });
-      //   if(rs2.lenght >= 1){
-
-      //   } else {
-
-      //   }
-      // });
-    </script>
-    <script>
-      var checkboxesReq = $('input[class=checkbox1]');
-      $('#sbyes').change(function () {
-
-        if ($(this).is(':checked')) {
-          checkboxesReq.attr('required', 'required');
-
-        } else {
-          checkboxesReq.removeAttr('required');
-        }
-
-      });
-      $('#sbno').change(function () {
-
-        if ($(this).is(':checked')) {
-
-          checkboxesReq.removeAttr('required');
-        } else {
-          checkboxesReq.attr('required', 'required');
-        }
-
-      });
-
-      $(function () {
-        var requiredCheckboxes = $('input[class=checkbox1]');
-        requiredCheckboxes.change(function () {
-          if (requiredCheckboxes.is(':checked')) {
-            requiredCheckboxes.removeAttr('required');
-            var check = document.querySelector('input[class="checkbox1"]');
-
-            check.setCustomValidity('');
-          } else {
-            requiredCheckboxes.attr('required', 'required');
-
+    
+    <script type="text/javascript">
+    var submitted = false;
+      function isCheck(scope, which) {
+        var rs = "";
+        if(which=="first"){
+          rs = firstCheckboxes();
+          if(rs === ""){
+            document.getElementById("firstCheck").classList.toggle('show');
+            submitted = true;
+          }else{
+            document.getElementById("firstCheck").classList.toggle('hide');
+            submitted = false;
           }
-        });
+        }else if(which=="second"){
+          rs = secondCheckboxes();
+          if(rs === ""){
+            submitted = true;
+            document.getElementById("secondCheck").classList.toggle('show');
+          }else{
+            submitted = false;
+            document.getElementById("secondCheck").classList.toggle('hide');
+          }
+        }
+      }
+      function runValidation() {
+        var radioYes = document.getElementById("sbyes").checked;
+        var radioNo = document.getElementById("sbno").checked;
+        var firstErr = "";
+        var secondErr = "";
+        if(radioYes){
+          firstErr += firstCheckboxes();
+          if(firstErr !==""){
+            document.getElementById("firstCheck").classList.toggle("show");
+          }
+        }
+
+        secondErr += secondCheckboxes();
+        if(secondErr !==""){
+          if(document.getElementById("secondCheck").classList)
+          document.getElementById("secondCheck").classList.toggle("show");
+        }
+        if(secondErr !== "" || firstErr !== ""){
+          submitted = false;
+        } else {
+          submitted = true;
+        }
+        return;
+      }
+      $('#gform').on('submit', function (e) {
+        if(submitted){
+          $('#gform *').fadeOut(2000);
+          $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
+        }
       });
-
-      var checkboxes = document.querySelector('input[class="checkbox1"]');
-      checkboxes.setCustomValidity('Please check a box if you want to proceed');
-
-
+      function firstCheckboxes(){
+        var checkbox1 = document.getElementsByClassName('checkbox1')
+        var rs = Object.entries(checkbox1).filter(function(item){
+          return item[1].checked;
+        }).length;
+        var strErr = "";
+        if(rs){
+          submitted = true;
+          str = "";
+        }else{
+          submitted = false;
+          str = "Choose one of the following."
+        }
+        return str;
+      }
+      function secondCheckboxes() {
+        var checkbox2 = document.getElementsByClassName('checkbox2')
+        var rs = Object.entries(checkbox2).filter(function(item){
+          return item[1].checked;
+        }).length;
+        var strErr = "";
+        if(rs){
+          submitted = true;
+          strErr = "";
+        }else{
+          submitted = false;
+          strErr = "Choose one of the following";
+        }
+        return strErr;
+      }
     </script>
+    <style>
+      .hide {
+        display:none;
+      }
+      .show{
+        display:block;
+      }
+      .error-msg{
+        border: 1px solid #bbb;
+        width: 250px;
+        padding: 7px;
+        margin-bottom: 10px;
+        box-shadow: 2px 4px 5px 1px #ccc;
+      }
+      .exclamation-mark {
+        width: 20px;
+        background: orange;
+        color: #fff;
+        height: 20px;
+        padding: 0px 5px;
+        text-align: center;
+      }
+    </style>
 </body>
 
 </html>
