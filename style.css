@@ -3743,11 +3743,12 @@ background: #428bca;
     z-index:1;
 }
 .stepRibbon3{
-    padding-left:246px;
+    padding-left:150px;
     padding-right:0px;
     position:absolute;
     margin-top:194px;
     margin-bottom:-70px;
+    left: 8px;
     z-index:1;
 }
 .stepRibbon4{
