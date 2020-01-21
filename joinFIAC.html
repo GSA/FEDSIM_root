@@ -88,14 +88,12 @@
                             <li><a href='CSOsolutions.html'>Submit a Solution</a></li>
                         </ul>
                     </li>
-<!--                    <li><a href='sbir.html'>SBIR</a></li>-->
                     <li><a href='faqs.html'>FAQs</a></li>
                     <li><a href='cvehicles.html'>Contract Vehicles</a></li>
                   </ul>
               <li class='has-dropdown'><a>Getting Started</a>
                   <ul class='dropdown'>
                     <li><a href='customer.html'>Client Toolkit</a></li>
-<!--                    <li><a href='contact.html'>Request Additional Information</a></li>-->
                   </ul>
               </li>
               <li class='has-dropdown'><a>News &amp; Events</a>
@@ -126,8 +124,12 @@
               <div class='two spacing'></div>
     </div>        
       </div>
-    <div class="row">
-      <br>
+      <div id="form-message" class="hide form-message">
+        Your information has been submitted successfully.
+      </div>
+      <div class="row" id="form-wrapper"> 
+        <br>
+
         <div class='columns medium-12 large-12 contact no-padding'>
             <div class="columns medium-1 large-1">&nbsp;</div>
             <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
@@ -140,27 +142,54 @@
                     <div class='form formFiac'>
         <div class='row'>
 
-        <form 
-          name="gform" 
-          id="gform" 
-          enctype="text/plain" 
-          action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?" 
-          target="hidden_iframe" 
-          onsubmit="runValidation();"
-        >
-            <div class='large-10 columns'>
-            </div>
-        <div class='columns medium-12 large-12'>
-            <div class="columns medium-1 large-1">&nbsp;</div>
-            <div align="left" class='medium-5 large-5 small-11 columns briefFormTop no-padding'>
-				<label class="hidden" for="entry.474384306">Full Name *</label>
+                    <label for="entry.942484799">
+                      <input 
+                        id="sbyes" 
+                        type="radio" 
+                        name="entry.942484799" 
+                        value="Yes"
+                        onclick="isSmallBusiness(this)"
+                        required
+                      > Yes
+                    </label>
+                    <label for="entry.942484799">
+                      <input 
+                        id="sbno" 
+                        type="radio" 
+                        name="entry.942484799" 
+                        value="No"
+                        required
+                        onclick="isSmallBusiness(this)"
+                      >
+                      No
+                    </label>
 
-				<input id="name"  type="text" name="entry.474384306" maxlength="50" size="30" placeholder="Full Name" required>
-				<label class="hidden" for="entry.1846413580">Email *</label>
-				<input id="company"  type="text" name="entry.1846413580" maxlength="50" size="30" placeholder="Email" required>
-			  </div>
-			<div align="left" class='medium-5 large-5 small-11 columns briefForm no-padding'>
-				<label class="hidden" for="entry.1832181272">Job Title *</label>
+                    <div id="status" class="hide">
+                      <p>Indicate the company's socioeconomic status:</p>
+                      <div id="firstCheck" class="hide error-msg">
+                        <span class="exclamation-mark">!</span>
+                        Choose one of the following.
+                      </div>
+                      <input
+                        class="checkbox1" 
+                        type="checkbox" 
+                        role="listitem" 
+                        name="entry.2064103323" 
+                        value="8A"
+                        data-value="8A"
+                        onchange="isCheck(this, 'first')"
+                      > 8A<br>
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="ANC"
+                        data-value="ANC"> ANC<br>
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB"
+                        data-value="SDVOSB"> SDVOSB<br>
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone"
+                        data-value="Hub Zone"> Hub Zone<br>
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="VOSB"
+                        data-value="VOSB"> VOSB<br>
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="WOSB"
+                        data-value="WOSB"> WOSB<br>
+
 
 				<input id="jobtitle"  type="text" name="entry.1832181272" maxlength="50" size="30" placeholder="Job Title" required>
 				<label class="hidden" for="entry.136536718">Company *</label>
@@ -237,12 +266,6 @@
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>  
       <script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-// $('#gform').on('submit', function(e) {
-//   $('#gform *').fadeOut(2000);
-//   $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
-//   });
-</script>
         </div>
       </div>
                 
@@ -266,42 +289,156 @@
         </h1> 
       </div>
     </div>
-  </div>
-</div>
-<!--Google Analytics Tracking Code -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!--Google Analytics Tracking Code -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-87539202-2', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-87539202-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+    <script type="text/javascript">
+      var submitted = false;
+      function isSmallBusiness(elem) {
+        if(elem.value === "Yes"){
+          document.getElementById("status").classList.remove("hide");
+          document.getElementById("status").classList.add("show");
+        } else {
+          document.getElementById("status").classList.remove("show");
+          document.getElementById("status").classList.add("hide");
+        }
+      }
+      function isCheck(scope, which) {
+        var rs = "";
+        if(which=="first"){
+          rs = firstCheckboxes();
+          if(rs === ""){ 
+              document.getElementById("firstCheck").classList.add('hide');
+          }else{
+            if(document.getElementById("firstCheck").classList.contains('show')){
+              document.getElementById("firstCheck").classList.add('hide');
+              submitted = true;
+            }
+            
+          }
+        }else if(which=="second"){
+          rs = secondCheckboxes();
+          if(rs === ""){
+            document.getElementById("secondCheck").classList.add('hide');
+          }else{
+            if(document.getElementById("secondCheck").classList.contains('show')){
+              document.getElementById("secondCheck").classList.add('hide');
+              submitted = true;
+            }
+          }
+        }
+      }
+      function runValidation() {
+        var radioYes = document.getElementById("sbyes").checked;
+        var radioNo = document.getElementById("sbno").checked;
+        var firstErr = "";
+        var secondErr = "";
+        if(radioYes){
+          firstErr += firstCheckboxes();
+          if(firstErr !==""){
+            document.getElementById("firstCheck").classList.remove("hide").add("show");
+          }
+        }
+
+        secondErr += secondCheckboxes();
+        if(secondErr !==""){
+          if(document.getElementById("secondCheck").classList)
+          document.getElementById("secondCheck").classList.remove("hide").add("show");
+        }
+        if(secondErr !== "" || firstErr !== ""){
+          submitted = false;
+        } else {
+          submitted = true;
+        }
+        if(submitted){
+          document.getElementById("form-wrapper").classList.toggle('hide');
+          document.getElementById("form-message").classList.toggle('hide');
+        }
+        return;
+      }
+      // $('#gform').on('submit', function (e) {
+      //   if(submitted){
+      //     $('#gform *').fadeOut(2000);
+      //     $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
+      //   }
+      // });
+      function firstCheckboxes(){
+        var checkbox1 = document.getElementsByClassName('checkbox1')
+        var rs = Object.entries(checkbox1).filter(function(item){
+          return item[1].checked;
+        }).length;
+        var strErr = "";
+        if(rs){
+          submitted = true;
+          str = "";
+        }else{
+          submitted = false;
+          str = "Choose one of the following."
+        }
+        return str;
+      }
+      function secondCheckboxes() {
+        var checkbox2 = document.getElementsByClassName('checkbox2')
+        var rs = Object.entries(checkbox2).filter(function(item){
+          return item[1].checked;
+        }).length;
+        var strErr = "";
+        if(rs){
+          submitted = true;
+          strErr = "";
+        }else{
+          submitted = false;
+          strErr = "Choose one of the following";
+        }
+        return strErr;
+      }
+    </script>
+    <style>
+      .hide {
+        display:none;
+      }
+      .show{
+        display:block;
+      }
+      .error-msg{
+        border: 1px solid #bbb;
+        width: 250px;
+        padding: 7px;
+        margin-bottom: 10px;
+        box-shadow: 2px 4px 5px 1px #ccc;
+      }
+      .exclamation-mark {
+        width: 20px;
+        background: orange;
+        color: #fff;
+        height: 20px;
+        padding: 0px 5px;
+        text-align: center;
+      }
+      .form-message{
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: #1D5187;
+        font-size: 25px;
+        text-align: center;
+        background: #f1f1f1;
+      }
+    </style>
+</body>
+
 
 </script>
-<script>
-	// var checkboxesReq = $('input[name=checkbox1]');
-	
-	// $('#sbyes').change(function () {
-		
-	// 	if($(this).is(':checked') ) {
-	// 		checkboxesReq.attr('required', 'required');
-			
-	// 	} else {
-	// 		checkboxesReq.removeAttr('required');
-	// 	}
-		
-	// });	
-	// $('#sbno').change(function () {
-		
-	// 	if($(this).is(':checked') ) {
-			
-	// 		checkboxesReq.removeAttr('required');
-	// 	} else {
-	// 		checkboxesReq.attr('required', 'required');
-	// 	}
-		
-	// });	
+<script>	
   function isSmallBusiness(elem) {
     if(elem.value==="Yes"){
       document.getElementById("status").classList.remove("hide");
@@ -311,27 +448,6 @@
       document.getElementById("status").classList.add("hide");
     }
   }
-	
-	// $(function(){
-	// 	var requiredCheckboxes = $('input[name=checkbox1]');
-	// 	requiredCheckboxes.change(function(){
-	// 		if(requiredCheckboxes.is(':checked')) {
-	// 			requiredCheckboxes.removeAttr('required');
-	// 			var check = document.querySelector('input[name="checkbox1"]');
-				
-	// 			check.setCustomValidity('');	
-	// 		} else {
-	// 			requiredCheckboxes.attr('required', 'required');
-				
-	// 		}
-	// 	});
-		
-	// });
-	
-	// var checkboxes = document.querySelector('input[name="checkbox1"]');
-	// checkboxes.setCustomValidity('Please check a box if you want to proceed');	
-	
-	
 </script>
   <style>
     .hide{
