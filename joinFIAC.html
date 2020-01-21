@@ -43,52 +43,6 @@
           });
       })(Tc.$);
     </script>
-      
-<script>
-$(document).ready(function() {
-   $('input[type="radio"]').click(function() {
-       if($(this).attr('id') == 'sbyes') {
-        console.log(!$('#status'));
-        if($("#status").children().length == 0 ){
-        
-          $('#status').append(
-            "<p>Indicate the company's socioeconomic status:</p>"+
-            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='8A' data-value='8A' > 8A<br>"+
-            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='ANC' data-value='ANC' > ANC<br>"+
-            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='SDVOSB' data-value='SDVOSB' > SDVOSB<br>"+
-            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='Hub Zone' data-value='Hub Zone' > Hub Zone<br>"+
-            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='VOSB' data-value='VOSB' > VOSB<br>"+
-            "<input class='checkbox1' type='checkbox' role='listitem' name='checkbox1' value='WOSB' data-value='WOSB' > WOSB<br>"
-          );
-        }
-			  $('#status').show()
-      }else {
-			  $('#status').empty();
-       }
-   });
-});            
-</script>
-
-
-<script>
-	
-
-	function runValidation(){
-		return false;
-	}
-	
-	/*$(function(){
-		var requiredCheckboxes = $('#interests :checkbox[required]');
-		requiredCheckboxes.change(function(){
-			if(requiredCheckboxes.is(':checked')) {
-				requiredCheckboxes.removeAttr('required');
-			} else {
-				requiredCheckboxes.attr('required', 'required');
-			}
-		});
-	});*/
-	
-</script>
   </head>
 <body class="">
 <header role="banner">
@@ -186,7 +140,7 @@ $(document).ready(function() {
                     <div class='form formFiac'>
         <div class='row'>
 
-        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?" target="hidden_iframe" onsubmit="runValidation();">
+        <form novalidate name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?" target="hidden_iframe" onsubmit="runValidation();">
  
             <div class='large-10 columns'>
             </div>
@@ -214,24 +168,41 @@ $(document).ready(function() {
             <div class='columns medium-12 large-12'>
             <div class="columns medium-1 large-1">&nbsp;</div>
             <div class="columns medium-10 large-10 briefFormTop no-padding">
-                <p>Is your company a small business?</p>
+              <p>Is your company a small business?</p>
 
-				<label for="entry.942484799"><input id="sbyes"  type="radio" name="entry.942484799" value="Yes" required> Yes</label>
-                <label for="entry.942484799"><input id="sbno"  type="radio" name="entry.942484799" value="No" required> No</label>
-                
-                <div id="status">
-          <p>Indicate the company's socioeconomic status:</p>
-          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" > 8A<br>
-          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="ANC" data-value="ANC" > ANC<br>
-					<input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="SDVOSB" data-value="SDVOSB" > SDVOSB<br>
-					<input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="Hub Zone" data-value="Hub Zone" > Hub Zone<br>
-          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" > VOSB<br>
-          <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="WOSB" data-value="WOSB" > WOSB<br>
-
-
-                </div>
+				      <label for="entry.942484799">
+                <input 
+                  id="sbyes" 
+                  type="radio" 
+                  name="entry.942484799" 
+                  value="Yes" 
+                  required
+                  onclick="isSmallBusiness(this)"
+                >
+                Yes
+              </label>
+              <label for="entry.942484799">
+                <input
+                  id="sbno" 
+                  type="radio" 
+                  name="entry.942484799" 
+                  value="No" 
+                  required
+                  onclick="isSmallBusiness(this)"
+                >
+                No
+              </label>   
+            <div id="status" class="hide">
+              <p>Indicate the company's socioeconomic status:</p>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" > 8A<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="ANC" data-value="ANC" > ANC<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="SDVOSB" data-value="SDVOSB" > SDVOSB<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="Hub Zone" data-value="Hub Zone" > Hub Zone<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" > VOSB<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="WOSB" data-value="WOSB" > WOSB<br>
             </div>
-            <div class="columns medium-1 large-1">&nbsp;</div>
+          </div>
+          <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
 		
             <div class='columns medium-12 large-12'>
@@ -325,6 +296,15 @@ $('#gform').on('submit', function(e) {
 		}
 		
 	});	
+  function isSmallBusiness(elem) {
+    if(elem.value==="Yes"){
+      document.getElementById("status").classList.remove("hide");
+      document.getElementById("status").classList.add('show');
+    }else{
+      document.getElementById("status").classList.remove('show');
+      document.getElementById("status").classList.add("hide");
+    }
+  }
 	
 	$(function(){
 		var requiredCheckboxes = $('input[name=checkbox1]');
@@ -347,5 +327,13 @@ $('#gform').on('submit', function(e) {
 	
 	
 </script>
+  <style>
+    .hide{
+      display:none;
+    }
+    .show{
+      display: block;
+    }
+  </style>
   </body>
 </html>
