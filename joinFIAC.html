@@ -1,193 +1,146 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html lang="en" class='no-js'>
-<!--<![endif]-->
-
-<head>
-  <meta charset='utf-8'>
-  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-  <meta content='' name='description'>
-  <meta content='' name='author'>
-  <!--
+  <!--<![endif]-->
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='' name='description'>
+    <meta content='' name='author'>
+    <!--
       hash is 464e0fb146194482a3ab153fc11e6346175a63f0
     -->
-  <title>Request Information</title>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" type="text/javascript"></script> -->
-  <link href="stylesheets/3.0.0bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
-
-  <script src="javascripts/app.js" type="text/javascript"></script>
-  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet"
-    type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" media="screen" rel="stylesheet" type="text/css">
-  <script>
-    // terrificjs bootstrap
-    (function ($) {
-      $(document).ready(function () {
-        var $page = $('body');
-        var config = {
-          dependencyPath: {
-            plugin: 'javascripts/'
-          }
-        }
-        var application = new Tc.Application($page, config);
-        application.registerModules();
-        application.start();
-      });
-    })(Tc.$);
-  </script>
-  <!-- validate contact form -->
-  <script>
-
-  </script>
-</head>
-
+    <title>FIAC Registration</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery-accessible-simple-tooltip-aria.js"></script>
+    <link href="stylesheets/3.0.0bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="stylesheets/framework.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/skins.css" media="screen" rel="stylesheet" type="text/css" />
+<!--    <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />-->
+    <script src="javascripts/app.js" type="text/javascript"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" media="screen" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700"  media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script>
+      // terrificjs bootstrap
+      (function($) {
+          $(document).ready(function() {
+              var $page = $('body');
+              var config = {
+                dependencyPath: {
+                  plugin: 'javascripts/'
+                }
+              }
+              var application = new Tc.Application($page, config);
+              application.registerModules();
+              application.start();
+          });
+      })(Tc.$);
+    </script>
+  </head>
 <body class="">
-  <header role="banner">
-    <div class="usa-disclaimer">
-      <div class="usa-disclaimer-official usa-grid">
-        <img src="images/@stock/flag.png" alt="U.S. flag">
-        <p>An official website of the United States Government | <a href="contact.html">Contact AAS FEDSIM</a></p>
-      </div>
+<header role="banner">
+  <div class="usa-disclaimer">
+    <div class="usa-disclaimer-official usa-grid">
+      <img src="images/@stock/flag.png" alt="U.S. flag">
+      <p>An official website of the United States Government | <a href="contact.html">Contact AAS FEDSIM</a></p>
     </div>
-
-    <div class="usa-disclaimer programs">
-      <div class="usa-disclaimer-official usa-grid">
-        <div class="medium-1 large-1 small-1 columns"><a href="https://aas.gsa.gov/">AAS</a></div>
-        <div class="medium-2 large-2 small-3 no-padding columns"><a href="https://aas.gsa.gov/contact.html">REGIONAL
-            OFFICES</a></div>
-        <div class="medium-2 large-2 small-2 columns currentSite"><a href="https://fedsim.gsa.gov">FEDSIM</a></div>
-        <div class="medium-6 large-6 small-6 columns">&nbsp;</div>
-      </div>
-    </div>
-  </header>
-  <div class="contain-to-grid sticky" role="navigation" aria-label="Main menu">
-    <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
-      <ul class='title-area nav mobile'>
-        <li class='name'>
-          <h1><span class="hidden">AAS FEDSIM</span><a href="index.html"><img src="images/Logo_GSAFedsim.png"
-                alt="AAS FEDSIM Logo" width="250"></a></h1>
-        </li>
-        <li class='toggle-topbar menu-icon'><a href='#'>Menu</a></li>
-      </ul>      <section class='top-bar-section'>
-          <ul class='right'>
-            <li class="tablet"><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo"
-                  width="200"></a></li>
-            <li class='has-dropdown'><a aria-haspopup="true">Who We Are</a>
-              <ul class='dropdown'>
-                <li><a href='about.html'>About</a></li>
-                <li><a href='leadership.html'>Our Leadership</a></li>
-                <li><a href='join.html'>Join Us</a></li>
-              </ul>
-            </li>
-            <li class='has-dropdown'><a>What We Do</a>
-              <ul class='dropdown'>
-                <li><a href='services.html'>Services</a></li>
-                <li class='has-dropdown'><a>CSO</a>
-                  <ul class='dropdown'>
-                    <li><a href='CSOClient.html'>Client</a></li>
-                    <li><a href='CSOIP.html'>Industry Partner</a></li>
-                    <li><a href='CSOsolutions.html'>Submit a Solution</a></li>
-                  </ul>
-                </li>
-                <!--                    <li><a href='sbir.html'>SBIR</a></li>-->
-                <li><a href='faqs.html'>FAQs</a></li>
-                <li><a href='cvehicles.html'>Contract Vehicles</a></li>
-              </ul>
-            <li class='has-dropdown'><a>Getting Started</a>
-              <ul class='dropdown'>
-                <li><a href='customer.html'>Client Toolkit</a></li>
-                <!--                    <li><a href='contact.html'>Request Additional Information</a></li>-->
-              </ul>
-            </li>
-            <li class='has-dropdown'><a>News &amp; Events</a>
-              <ul class='dropdown'>
-                <li><a href='calendar.html'>Calendar of Events</a></li>
-              </ul>
-            </li>
-            <li class='has-dropdown'><a>Industry</a>
-              <ul class='dropdown'>
-                <li><a href='general.html'>Partner Information</a></li>
-                <li><a href='fiac.html'>FEDSIM Industry Acquisition Council</a></li>
-                <li><a href='opportunities.html'>Opportunities</a></li>
-              </ul>
-            </li>
-            <li class="active"><a href='contact.html'>Contact</a></li>
-          </ul>
-        </section>
-    </nav>
   </div>
-  <div class="bodyText">
-    <div class='members'>
-      <div class='full call-to-action-bg-alt no-padding'>
-        <div class='two spacing'></div>
+  
+  <div class="usa-disclaimer programs">
+    <div class="usa-disclaimer-official usa-grid">
+          <div class="medium-1 large-1 small-1 columns"><a href="https://aas.gsa.gov/">AAS</a></div>
+          <div class="medium-2 large-2 small-3 no-padding columns"><a href="https://aas.gsa.gov/contact.html">REGIONAL OFFICES</a></div>
+          <div class="medium-2 large-2 small-2 columns currentSite"><a href="https://fedsim.gsa.gov">FEDSIM</a></div>
+          <div class="medium-6 large-6 small-6 columns">&nbsp;</div>
+        </div>
+  </div>
+	</header>
+    <div class="contain-to-grid sticky" role="navigation" aria-label="Main menu">
+      <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+          <ul class='title-area nav mobile'>
+              <li class='name'><h1><span class="hidden">AAS FEDSIM</span><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="250"></a></h1></li>
+              <li class='toggle-topbar menu-icon'><a href='#'>Menu</a></li>
+          </ul>
+        <section class='top-bar-section'>
+          <ul class='right'>
+              <li class="tablet"><a href="index.html"><img src="images/Logo_GSAFedsim.png" alt="AAS FEDSIM Logo" width="200"></a></li>
+              <li class='has-dropdown'><a aria-haspopup="true">Who We Are</a>
+                <ul class='dropdown'>
+                    <li><a href='about.html'>About</a></li>
+                    <li><a href='leadership.html'>Our Leadership</a></li>
+                    <li><a href='join.html'>Join Us</a></li>
+                </ul>
+              </li>
+              <li class='has-dropdown'><a>What We Do</a>
+                  <ul class='dropdown'>
+                    <li><a href='services.html'>Services</a></li>
+                    <li class='has-dropdown'><a>CSO</a>
+                        <ul class='dropdown'>
+                            <li><a href='CSOClient.html'>Client</a></li>
+                            <li><a href='CSOIP.html'>Industry Partner</a></li>
+                            <li><a href='CSOsolutions.html'>Submit a Solution</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='faqs.html'>FAQs</a></li>
+                    <li><a href='cvehicles.html'>Contract Vehicles</a></li>
+                  </ul>
+              <li class='has-dropdown'><a>Getting Started</a>
+                  <ul class='dropdown'>
+                    <li><a href='customer.html'>Client Toolkit</a></li>
+                  </ul>
+              </li>
+              <li class='has-dropdown'><a>News &amp; Events</a>
+                  <ul class='dropdown'>
+                    <li><a href='calendar.html'>Calendar of Events</a></li>
+                  </ul>
+              </li>
+              <li class='has-dropdown active'><a>Industry</a>
+                  <ul class='dropdown'>
+                     <li><a href='general.html'>Partner Information</a></li>
+                    <li><a href='fiac.html'>FEDSIM Industry Acquisition Council</a></li>
+                    <li><a href='opportunities.html'>Opportunities</a></li>
+                  </ul>
+              </li>
+                  <li><a href='contact.html'>Contact</a></li>
+            </ul>
+          </section>
+        </nav>
+    </div>
+    <div class="bodyText">
+<div class='members'>
+  <div class='full call-to-action-bg-alt no-padding'>
+    <div class='two spacing'></div>
         <div class='special-title centered-text'>
           <h9>
             <h2 class="mainTitle">FIAC Registration</h2>
           </h9>
-          <div class='two spacing'></div>
-        </div>
+              <div class='two spacing'></div>
+    </div>        
       </div>
       <div id="form-message" class="hide form-message">
         Your information has been submitted successfully.
       </div>
       <div class="row" id="form-wrapper"> 
         <br>
+
         <div class='columns medium-12 large-12 contact no-padding'>
-          <div class="columns medium-1 large-1">&nbsp;</div>
-          <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
-            <p class="pagination-centered" style="text-align: center;">Please submit your registration below to be
-              included in FIAC communications.</p>
-          </div>
-          <div class="columns medium-1 large-1">&nbsp;</div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div align="left" class='medium-10 large-10 small-10 columns no-padding'>
+                <p class="pagination-centered" style="text-align: center;">Please submit your registration below to be included in FIAC communications.</p>
+            </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
         </div>
-        <div class='columns medium-12 large-12 contact contactForm no-padding'>
+    <div class='columns medium-12 large-12 contact contactForm no-padding'>
 
-          <div class='form formFiac'>
-            <div class='row'>
-
-              <form name="gform" id="gform" enctype="text/plain"
-                action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?"
-                target="hidden_iframe" onsubmit="runValidation();">
-
-                <div class='large-10 columns'>
-                </div>
-                <div class='columns medium-12 large-12'>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                  <div align="left" class='medium-5 large-5 small-11 columns briefFormTop no-padding'>
-                    <label class="hidden" for="entry.474384306">Full Name *</label>
-
-                    <input id="name" type="text" name="entry.474384306" maxlength="50" size="30" placeholder="Full Name"
-                      required>
-                    <label class="hidden" for="entry.1846413580">Email *</label>
-                    <input id="company" type="text" name="entry.1846413580" maxlength="50" size="30" placeholder="Email"
-                      required>
-                  </div>
-                  <div align="left" class='medium-5 large-5 small-11 columns briefForm no-padding'>
-                    <label class="hidden" for="entry.1832181272">Job Title *</label>
-
-                    <input id="jobtitle" type="text" name="entry.1832181272" maxlength="50" size="30"
-                      placeholder="Job Title" required>
-                    <label class="hidden" for="entry.136536718">Company *</label>
-                    <input id="company" type="text" name="entry.136536718" maxlength="50" size="30"
-                      placeholder="Company" required>
-
-
-                    <br>
-                  </div>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                </div>
-                <div class='columns medium-12 large-12'>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                  <div class="columns medium-10 large-10 briefFormTop no-padding">
-                    <p>Is your company a small business?</p>
+                    <div class='form formFiac'>
+        <div class='row'>
 
                     <label for="entry.942484799">
                       <input 
@@ -238,76 +191,102 @@
                         data-value="WOSB"> WOSB<br>
 
 
-                    </div>
-                  </div>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                </div>
+				<input id="jobtitle"  type="text" name="entry.1832181272" maxlength="50" size="30" placeholder="Job Title" required>
+				<label class="hidden" for="entry.136536718">Company *</label>
+				<input id="company"  type="text" name="entry.136536718" maxlength="50" size="30" placeholder="Company" required>                
 
-                <div class='columns medium-12 large-12'>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
+				                   
+				<br>
+            </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            </div>
+            <div class='columns medium-12 large-12'>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+            <div class="columns medium-10 large-10 briefFormTop no-padding">
+              <p>Is your company a small business?</p>
 
-                  <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
-                    <p>Please indicate committees you are interested in joining</p>
-                    <div id="secondCheck" class="hide error-msg"><span class="exclamation-mark">!</span>Choose one of the following.</div>
-                    <input 
-                      onchange="isCheck(this, 'second')"
-                      class="checkbox2"
-                      name="entry.334860165" type="checkbox" role="listitem" value="Streamlined Acquisition"
-                      data-value="Streamline Acquisition"> Streamline Acquisition 
-                      <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
-                    <input 
-                      onchange="isCheck(this, 'second')"
-                      class="checkbox2"
-                      name="entry.334860165" type="checkbox" role="listitem" value="Small Business" data-value="Small Business"> Small
-                    Business <i href="#" class="fas fa-info-circle js-simple-tooltip"
-                      data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
-                    <input 
-                      onchange="isCheck(this, 'second')"
-                      class="checkbox2"
-                      name="entry.334860165" type="checkbox" role="listitem" value="Marketing/Outreach"
-                      data-value="Marketing and Business Development"> Marketing and Business Development <i href="#"
-                      class="fas fa-info-circle js-simple-tooltip"
-                      data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
-
-                  </div>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                </div>
-
-
-                <div class='columns medium-12 large-12'>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                  <div class="columns medium-10 large-10 no-padding">
-                    <input id="submit"
-                      class='button blue medium-12 large-12 medium-centered large-centered columns submit' type='submit'
-                      value='Submit'>
-                  </div>
-                  <div class="columns medium-1 large-1">&nbsp;</div>
-                </div>
-              </form>
-              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+				      <label for="entry.942484799">
+                <input 
+                  id="sbyes" 
+                  type="radio" 
+                  name="entry.942484799" 
+                  value="Yes" 
+                  required
+                  onclick="isSmallBusiness(this)"
+                >
+                Yes
+              </label>
+              <label for="entry.942484799">
+                <input
+                  id="sbno" 
+                  type="radio" 
+                  name="entry.942484799" 
+                  value="No" 
+                  required
+                  onclick="isSmallBusiness(this)"
+                >
+                No
+              </label>   
+            <div id="status" class="hide">
+              <p>Indicate the company's socioeconomic status:</p>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="8A" data-value="8A" > 8A<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="ANC" data-value="ANC" > ANC<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="SDVOSB" data-value="SDVOSB" > SDVOSB<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="Hub Zone" data-value="Hub Zone" > Hub Zone<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="VOSB" data-value="VOSB" > VOSB<br>
+              <input class="checkbox1" type="checkbox" role="listitem" name="checkbox1" value="WOSB" data-value="WOSB" > WOSB<br>
             </div>
           </div>
+          <div class="columns medium-1 large-1">&nbsp;</div>
+        </div>
+		
+            <div class='columns medium-12 large-12'>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+
+            <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
+                <p>Please indicate committees you are interested in joining</p>
+                    <input  type="checkbox" role="listitem"  value="Streamlined Acquisition" data-value="Streamline Acquisition"> Streamline Acquisition <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
+                    <input type="checkbox" role="listitem"  value="Small Business" data-value="Small Business"> Small Business <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
+                    <input type="checkbox" role="listitem"  value="Marketing/Outreach" data-value="Marketing and Business Development"> Marketing and Business Development <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
+
+            </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+        </div>
+		
+
+        <div class='columns medium-12 large-12'>
+            <div class="columns medium-1 large-1">&nbsp;</div> 
+             <div class="columns medium-10 large-10 no-padding">
+              <input id="submit" class='button blue medium-12 large-12 medium-centered large-centered columns submit' type='submit' value='Submit'>
+			  </div>
+            <div class="columns medium-1 large-1">&nbsp;</div>
+        </div>
+          </form>
+          
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>  
+      <script type="text/javascript">var submitted=false;</script>
         </div>
       </div>
-      <script src='javascripts/jquery.countTo.js'></script>
-      <script src='javascripts/jquery.appear.js'></script>
-      <script src='javascripts/jquery.sequence-min.js'></script>
-      <script src='javascripts/jquery.validate.js'></script>
-      <script src="javascripts/app.js" type="text/javascript"></script>
-      <div class='footer left-text'>
-        <div class='row'>
-          <div class='columns pagination-centered'>
-            <p>FEDSIM is a Client Support Center housed within <a href="https://aas.gsa.gov" target="_blank">AAS</a> FAS
-              GSA</p>
-            <h1 class='light pagination-centered'><span class="hidden">AAS FEDSIM</span>
-              <a href="index.html"><img src="images/Logo_Fedsim.png" alt="AAS FEDSIM Logo" width="150"></a>
-              <div class='one spacing'></div>
-              <h6 class="pagination-centered">Copyright 2018 Federal Systems Integration and Management Center (FEDSIM).
-              </h6>
-              <a href="contact.html">Contact AAS FEDSIM</a>
-            </h1>
-          </div>
+                
+      
+    </div>
         </div>
+<script src='javascripts/jquery.countTo.js'></script>
+    <script src='javascripts/jquery.appear.js'></script>
+    <script src='javascripts/jquery.sequence-min.js'></script>
+    <script src='javascripts/jquery.validate.js'></script>
+    <script src="javascripts/app.js" type="text/javascript"></script>
+    <div class='footer left-text'>
+<div class='row'>
+        <div class='columns pagination-centered'>
+		<p>FEDSIM is a Client Support Center housed within <a href="https://aas.gsa.gov" target="_blank">AAS</a> FAS GSA</p>
+<h1 class='light pagination-centered'><span class="hidden">AAS FEDSIM</span>
+              <a href="index.html"><img src="images/Logo_Fedsim.png" alt="AAS FEDSIM Logo" width="150"></a>
+               <div class='one spacing'></div>
+             <h6 class="pagination-centered">Copyright 2018 Federal Systems Integration and Management Center (FEDSIM).</h6>
+<a href="contact.html">Contact AAS FEDSIM</a>
+        </h1> 
       </div>
     </div>
     <!--Google Analytics Tracking Code -->
@@ -457,4 +436,26 @@
     </style>
 </body>
 
+
+</script>
+<script>	
+  function isSmallBusiness(elem) {
+    if(elem.value==="Yes"){
+      document.getElementById("status").classList.remove("hide");
+      document.getElementById("status").classList.add('show');
+    }else{
+      document.getElementById("status").classList.remove('show');
+      document.getElementById("status").classList.add("hide");
+    }
+  }
+</script>
+  <style>
+    .hide{
+      display:none;
+    }
+    .show{
+      display: block;
+    }
+  </style>
+  </body>
 </html>
