@@ -135,7 +135,10 @@
           <div class='two spacing'></div>
         </div>
       </div>
-      <div class="row">
+      <div id="form-message" class="hide form-message">
+        Your information has been submitted successfully.
+      </div>
+      <div class="row" id="form-wrapper"> 
         <br>
         <div class='columns medium-12 large-12 contact no-padding'>
           <div class="columns medium-1 large-1">&nbsp;</div>
@@ -186,12 +189,29 @@
                   <div class="columns medium-10 large-10 briefFormTop no-padding">
                     <p>Is your company a small business?</p>
 
-                    <label for="entry.942484799"><input id="sbyes" type="radio" name="entry.942484799" value="Yes"
-                        required> Yes</label>
-                    <label for="entry.942484799"><input id="sbno" type="radio" name="entry.942484799" value="No"
-                        required> No</label>
+                    <label for="entry.942484799">
+                      <input 
+                        id="sbyes" 
+                        type="radio" 
+                        name="entry.942484799" 
+                        value="Yes"
+                        onclick="isSmallBusiness(this)"
+                        required
+                      > Yes
+                    </label>
+                    <label for="entry.942484799">
+                      <input 
+                        id="sbno" 
+                        type="radio" 
+                        name="entry.942484799" 
+                        value="No"
+                        required
+                        onclick="isSmallBusiness(this)"
+                      >
+                      No
+                    </label>
 
-                    <div id="status" >
+                    <div id="status" class="hide">
                       <p>Indicate the company's socioeconomic status:</p>
                       <div id="firstCheck" class="hide error-msg">
                         <span class="exclamation-mark">!</span>
@@ -304,7 +324,16 @@
     </script>
     
     <script type="text/javascript">
-    var submitted = false;
+      var submitted = false;
+      function isSmallBusiness(elem) {
+        if(elem.value === "Yes"){
+          document.getElementById("status").classList.remove("hide");
+          document.getElementById("status").classList.add("show");
+        } else {
+          document.getElementById("status").classList.remove("show");
+          document.getElementById("status").classList.add("hide");
+        }
+      }
       function isCheck(scope, which) {
         var rs = "";
         if(which=="first"){
@@ -352,14 +381,18 @@
         } else {
           submitted = true;
         }
+        if(submitted){
+          document.getElementById("form-wrapper").classList.toggle('hide');
+          document.getElementById("form-message").classList.toggle('hide');
+        }
         return;
       }
-      $('#gform').on('submit', function (e) {
-        if(submitted){
-          $('#gform *').fadeOut(2000);
-          $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
-        }
-      });
+      // $('#gform').on('submit', function (e) {
+      //   if(submitted){
+      //     $('#gform *').fadeOut(2000);
+      //     $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
+      //   }
+      // });
       function firstCheckboxes(){
         var checkbox1 = document.getElementsByClassName('checkbox1')
         var rs = Object.entries(checkbox1).filter(function(item){
@@ -412,6 +445,14 @@
         height: 20px;
         padding: 0px 5px;
         text-align: center;
+      }
+      .form-message{
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: #1D5187;
+        font-size: 25px;
+        text-align: center;
+        background: #f1f1f1;
       }
     </style>
 </body>
