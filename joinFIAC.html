@@ -222,23 +222,25 @@
                         class="checkbox1" 
                         type="checkbox" 
                         role="listitem" 
-                        name="entry.2064103323" 
+                        name="entry.920024524" 
                         value="8A"
                         data-value="8A"
                         onchange="isCheck(this, 'first')"
                       > 8A<br>
-                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="ANC"
+                      <input 
+                        onchange="isCheck(this, 'first')" 
+                        class="checkbox1" type="checkbox" role="listitem" name="entry.920024524" value="ANC"
                         data-value="ANC"> ANC<br>
-                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="SDVOSB"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.920024524" value="SDVOSB"
                         data-value="SDVOSB"> SDVOSB<br>
-                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="Hub Zone"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.920024524" value="Hub Zone"
                         data-value="Hub Zone"> Hub Zone<br>
-                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="VOSB"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.920024524" value="VOSB"
                         data-value="VOSB"> VOSB<br>
-                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.2064103323" value="WOSB"
+                      <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="listitem" name="entry.920024524" value="WOSB"
                         data-value="WOSB"> WOSB<br>
-
-
+                      <input id="socioeconomics" hidden class="checkbox1" type="checkbox" role="listitem" name="entry.920024524" value="none"
+                        data-value="none"><br>
                     </div>
                   </div>
                   <div class="columns medium-1 large-1">&nbsp;</div>
@@ -253,19 +255,19 @@
                     <input 
                       onchange="isCheck(this, 'second')"
                       class="checkbox2"
-                      name="entry.334860165" type="checkbox" role="listitem" value="Streamlined Acquisition"
+                      name="entry.957511209" type="checkbox" role="listitem" value="Streamline Acquisition"
                       data-value="Streamline Acquisition"> Streamline Acquisition 
                       <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
                     <input 
                       onchange="isCheck(this, 'second')"
                       class="checkbox2"
-                      name="entry.334860165" type="checkbox" role="listitem" value="Small Business" data-value="Small Business"> Small
+                      name="entry.957511209" type="checkbox" role="listitem" value="Small Business" data-value="Small Business"> Small
                     Business <i href="#" class="fas fa-info-circle js-simple-tooltip"
                       data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
                     <input 
                       onchange="isCheck(this, 'second')"
                       class="checkbox2"
-                      name="entry.334860165" type="checkbox" role="listitem" value="Marketing/Outreach"
+                      name="entry.957511209" type="checkbox" role="listitem" value="Marketing and Business Development"
                       data-value="Marketing and Business Development"> Marketing and Business Development <i href="#"
                       class="fas fa-info-circle js-simple-tooltip"
                       data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
@@ -333,6 +335,7 @@
         } else {
           document.getElementById("status").classList.remove("show");
           document.getElementById("status").classList.add("hide");
+          document.getElementById("socioeconomics").checked = true;
         }
       }
       function isCheck(scope, which) {
