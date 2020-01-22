@@ -156,7 +156,7 @@
 
               <form name="gform" id="gform" enctype="text/plain"
                 action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?"
-                target="hidden_iframe" onsubmit="runValidation();">
+                target="hidden_iframe" onsubmit="return(runValidation())">
 
                 <div class='large-10 columns'>
                 </div>
@@ -165,10 +165,17 @@
                   <div align="left" class='medium-5 large-5 small-11 columns briefFormTop no-padding'>
                     <label class="hidden" for="entry.474384306">Full Name *</label>
 
-                    <input id="name" type="text" name="entry.474384306" maxlength="50" size="30" placeholder="Full Name"
-                      required>
+                    <input 
+                      id="name" 
+                      type="text" 
+                      name="entry.474384306" 
+                      maxlength="50" 
+                      size="30" 
+                      placeholder="Full Name"
+                      required
+                    >
                     <label class="hidden" for="entry.1846413580">Email *</label>
-                    <input id="company" type="text" name="entry.1846413580" maxlength="50" size="30" placeholder="Email"
+                    <input id="email" type="text" name="entry.1846413580" maxlength="50" size="30" placeholder="Email"
                       required>
                   </div>
                   <div align="left" class='medium-5 large-5 small-11 columns briefForm no-padding'>
@@ -328,6 +335,14 @@
     
     <script type="text/javascript">
       var submitted = false;
+      // testing inputs, remove this
+      (function() {
+        document.getElementById('name').value = 'mauricio-test';
+        document.getElementById('email').value = 'test@gmail.com';
+        document.getElementById('jobtitle').value = 'tester';
+        document.getElementById('company').value = 'testINC';
+      }());
+      // remove this 
       function isSmallBusiness(elem) {
         if(elem.value === "Yes"){
           document.getElementById("status").classList.remove("hide");
@@ -371,14 +386,17 @@
         if(radioYes){
           firstErr += firstCheckboxes();
           if(firstErr !==""){
-            document.getElementById("firstCheck").classList.remove("hide").add("show");
+            document.getElementById("firstCheck").classList.remove("hide");
+            document.getElementById("firstCheck").classList.add("show");
           }
         }
 
         secondErr += secondCheckboxes();
         if(secondErr !==""){
-          if(document.getElementById("secondCheck").classList)
-          document.getElementById("secondCheck").classList.remove("hide").add("show");
+          if(document.getElementById("secondCheck").classList){
+            document.getElementById("secondCheck").classList.remove("hide");
+            document.getElementById("secondCheck").classList.add("show")
+          }
         }
         if(secondErr !== "" || firstErr !== ""){
           submitted = false;
@@ -389,14 +407,8 @@
           document.getElementById("form-wrapper").classList.toggle('hide');
           document.getElementById("form-message").classList.toggle('hide');
         }
-        return;
+        return submitted;
       }
-      // $('#gform').on('submit', function (e) {
-      //   if(submitted){
-      //     $('#gform *').fadeOut(2000);
-      //     $('#gform').prepend('<h2 id="fiacForm">Thank you for your registration! We will be in touch shortly.</h2>');
-      //   }
-      // });
       function firstCheckboxes(){
         var checkbox1 = document.getElementsByClassName('checkbox1')
         var rs = Object.entries(checkbox1).filter(function(item){
