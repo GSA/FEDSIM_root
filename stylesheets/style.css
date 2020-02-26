@@ -4590,3 +4590,34 @@ and (orientation : landscape)  {
     and (max-device-width: 1680px){
         .stepRibbon3{padding-left:320px;}
 }
+
+/* Calendar Page */
+
+.calendar-month {
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+.calendar-month-h2 {
+  color: #58173b;
+}
+
+.calendar-event {
+  border-bottom: 1px solid #cacaca;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.calendar-event-h3 {
+  font-size: 1.5rem;
+}
+
+.calendar-event-date {
+  font-weight: 800;
+  color: #4B91CD;
+  margin-bottom: 0;
+}
+
+.calendar-event-location {
+  margin-bottom: 1rem;
+}
