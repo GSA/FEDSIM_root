@@ -3443,14 +3443,7 @@ background: #428bca;
 .proj{color:#4B91CD;}
 .hoverBG p{text-transform: uppercase;  font-size:16px;}
 .hoverBG .dollar{margin-bottom:0px;}
-.stepRibbon1{
-    padding-left:60px;
-    padding-right:90px;
-    position:absolute;
-    margin-top:167px;
-    margin-bottom:-70px;
-    z-index:100;
-}
+
 /*.carousel-inner a:hover {cursor:default;}*/
 
 /* Customer Video */
@@ -3731,11 +3724,13 @@ background: #428bca;
 }
 .stepRibbon1{
     padding-left:220px;
+    padding-right:90px;
     position:absolute;
     margin-top:-32px;
     margin-bottom:-70px;
     z-index:1;
 }
+
 .stepRibbon2{
     padding-left:150px;
     position:absolute;
@@ -3743,6 +3738,7 @@ background: #428bca;
     margin-bottom:-70px;
     z-index:1;
 }
+
 .stepRibbon3{
     padding-left:150px;
     padding-right:0px;
@@ -3750,8 +3746,8 @@ background: #428bca;
     margin-top:194px;
     margin-bottom:-70px;
     z-index:1;
-    left: 50px;
 }
+
 .stepRibbon4{
     padding-left:150px;
     position:absolute;
@@ -3759,6 +3755,7 @@ background: #428bca;
     margin-bottom:-70px;
     z-index:1;
 }
+
 .step1, .step2, .step3{
     margin-bottom: 60px;
     min-height:90px;
@@ -4573,7 +4570,7 @@ and (orientation : landscape)  {
 
 @media only screen 
     and (min-device-width: 1920px){
-        .stepRibbon3{padding-left:311px;}
+   /*--     .stepRibbon3{padding-left:311px;}  --*/
 }
 @media only screen
     and (min-device-width: 1650px)
