@@ -3740,12 +3740,12 @@ background: #428bca;
 }
 
 .stepRibbon3{
-    padding-left:150px;
-    padding-right:0px;
-    position:absolute;
-    margin-top:194px;
-    margin-bottom:-70px;
-    z-index:1;
+    padding-left: 140px;
+    padding-right: 0px;
+    position: absolute;
+    margin-top: 200px;
+    margin-bottom: -70px;
+    z-index: 1;
 }
 
 .stepRibbon4{
