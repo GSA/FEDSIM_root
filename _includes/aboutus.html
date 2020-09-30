@@ -1,0 +1,171 @@
+
+<!-- first row -->
+<div class="flex-wrapper-big">
+    <div class="flex-wrapper">
+<!-- left side, first row -->
+      <div class="infoblock one-half">
+        <h4>ABOUT FEDSIM</h4>
+        <p>FEDSIM is the leading provider of assisted acquisition services for federal agencies. Our services include acquisition, financial, and project management for the full acquisition life cycle. Learn more about FEDSIMs history by visiting our <a href="https://en.wikipedia.org/wiki/Federal_Systems_Integration_and_Management_Center" onClick="return confirm('This link will take you to the FEDSIM Wikipedia page, which is not managed by FEDSIM.')" class="external" target="_new">Wikipedia page</a>. 
+            <br>
+            <br>
+            We are organized as a Client Support Center housed within the <a href="https://www.gsa.gov" onClick="return confirm('This link will take you to the GSA website, which is managed by GSA.')" class="external" target="_new">General Services Administration’s (GSAs)</a> Federal Acquisition Service (FAS) - <a href="https://aas.gsa.gov/" onClick="return confirm('This link will take you to the AAS website, which is managed by AAS.')" class="external" target="_new">Office of Assisted Acquisition Services (AAS)</a>. Learn more about GSA’s organization by viewing the <a href="https://www.gsa.gov/about-us/gsa-organization" onClick="return confirm('This link will take you to the GSA Organization Chart, which is managed by GSA.')" class="external" target="_new">chart on their website</a>. </p>
+      </div>
+<!-- right side, first row -->
+    <div class="grid-wrapper one-half">
+        <div class="half-block darkblock fitpie">
+            <div class="pie">99%</div>
+            <div class="pie-percentage">
+            <br>
+                <h3 class="block-text-med">PROTEST WIN RATE</h3>
+                <h3 class="block-num-med">99%</h3>
+            </div>
+        </div>
+
+        <div class="bio-spacer"></div>
+
+        <div class="half-block darkblock fitpie">
+            <h3 class="block-text-med">Average time from IA to award</h3>
+            <h3 class="block-num-big">7</h3>
+            <h3 class="block-text-big">MONTHS</h3>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- second row -->
+<div class="flex-wrapper-big">
+    <div class="flex-wrapper">
+<!-- left side, second row -->
+        <div class="grid-wrapper one-half">
+            <div class="half-block darkblock">
+                <h3 class="block-text-med">Total value of active contract awards</h3>
+                <h3 class="block-num-big">$55</h3>
+                <h3 class="block-text-big">BILLION</h3>
+            </div>
+            
+            <div class="bio-spacer"></div>
+            
+            <div class="half-block darkblock">
+                <h3 class="block-text-med">Annual contract obligations</h3>
+                <h3 class="block-num-big">$6</h3>
+                <h3 class="block-text-big">BILLION</h3>
+            </div>
+        </div>
+<!-- right side, second row -->
+        <div class="infoblock one-half">
+            <h4>OUR MISSION</h4>
+            <p>To build innovative acquisition solutions that empower federal agencies.</p>
+            <h4>OUR VISION</h4>
+            <p>To transform the federal acquisition process.</p>
+        </div>
+    </div>
+</div>
+
+<!-- third row -->
+<div class="flex-wrapper-big">
+        <div class="one-third no-mobile" style="text-align: left;">
+            <br>
+            <hr class="highlight-line">
+            <br>
+        </div>
+        <div class="infoblock one-third">
+            <h2>WHERE WE OPERATE</h2>
+        </div>
+        <div class="one-third no-mobile" style="text-align: right;">
+            <br>
+            <hr class="highlight-line">
+            <br>
+        </div>
+</div>
+
+<!-- fourth row -->
+<div class="flex-wrapper-big">
+        {% asset FEDSIM-map-big.png class="global-map" alt="Where We Operate" %}
+</div>
+
+<!-- fifth row-->
+<div class="flex-wrapper-big">
+    <div class="infoblock one-fourth no-mobile">
+        <br>
+        <hr class="highlight-line-sm">
+        <br>
+    </div>
+
+    <div class="fourth-block darkblock">
+        <h3 class="block-num-med">281</h3>
+        <h3 class="block-text-big">FEDSIM<br> EMPLOYEES</h3>
+    </div>
+
+    <div class="bio-spacer"></div>
+
+    <div class="fourth-block darkblock">
+        <h3 class="block-num-med">5</h3>
+        <h3 class="block-text-big">TIME<br> ZONES</h3>
+    </div>
+
+    <div class="infoblock one-fourth no-mobile">
+        <br>
+        <hr class="highlight-line-sm">
+        <br>
+    </div>
+
+</div>
+
+<div class="flex-wrapper-big">
+    <div class="infoblock">
+        <p>If you are experiencing issues with this site, please email <a href="mailto:contact.fedsim@gsa.gov?subject=FEDSIM Website">contact.fedsim@gsa.gov</a>.</p>
+    </div>
+</div>
+
+<script type="text/javascript">
+  function $$(selector, context) {
+    context = context || document;
+    var elements = context.querySelectorAll(selector);
+    return Array.prototype.slice.call(elements);
+    } 
+
+    function count(){
+        var isUsed = false;
+    $$('.pie').forEach(function(pie) {
+        var p = parseFloat(pie.textContent);
+
+        if(pie.maxValue == null){
+            pie.maxValue = p;
+            pie.incValue = p / 100.0;
+            pie.lastValue = 0;
+        }
+        else
+            pie.lastValue = pie.lastValue + pie.incValue;
+
+    if(pie.lastValue <= pie.maxValue){
+            var NS = "http://www.w3.org/2000/svg";
+            var svg = document.createElementNS(NS, "svg");
+            var circle = document.createElementNS(NS, "circle");
+            var title = document.createElementNS(NS, "title");
+
+            circle.setAttribute("r", 16);
+            circle.setAttribute("cx", 16);
+            circle.setAttribute("cy", 16);
+            circle.setAttribute("stroke-dasharray", pie.lastValue + " 100");
+
+            svg.setAttribute("viewBox", "0 0 32 32");
+            title.textContent = pie.textContent;
+            pie.textContent = '';
+            svg.appendChild(title);
+            svg.appendChild(circle);
+            pie.appendChild(svg);
+
+        isUsed = true;
+    }
+
+    });
+        if(isUsed)
+            window.setTimeout(function() {  count(); }, 30);
+    }
+
+    window.setTimeout(function() {  count(); }, 30);
+
+    count();
+
+</script>
+ 

@@ -1,0 +1,350 @@
+<div class="flex-wrapper-big">
+    <div class="infoblock with-side-buffer">
+        <h2>Federal Industry Acquisition Council</h2>
+        <p>FEDSIM created the Federal Industry Acquisition Council, commonly referred to as the &quot;FIAC&quot;, to ensure ongoing communication with industry leaders. The FIAC brings together members of the government contracting community and AAS leadership to provide an invaluable forum for open dialogue within the federal acquisition industry. </p>
+        <p style="font-weight: bold;">The FIAC has three active committees If you interested in joining, please complete the interest form online.</p>
+    </div>
+</div>
+
+<div class="flex-wrapper-big">
+    <div class="darkblock one-third sidepadded">
+<h4 class="whitetext">Streamlined Acquisition</h4>
+<p>Focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, or process change.</p>
+    </div>
+    <div class="bio-spacer"></div>
+    <div class="darkblock-alt one-third  sidepadded">
+<h4 class="whitetext">Small Business</h4>
+<p>Focuses on engaging the small business community, whether through GSA, AAS, FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community.</p>
+    </div>
+    <div class="bio-spacer"></div>
+    <div class="darkblock one-third  sidepadded">
+<h4 class="whitetext">Marketing / Outreach</h4>
+<p>Focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and fostering awareness of FEDSIM's capabilities.</p>
+    </div>
+</div>
+<br>
+<div class="flex-wrapper-big withborder">
+    <!-- left side -->
+    <div class="with-side-buffer" style="color: var(--fedsim-blue1);">
+        <h1><span style="font-size: 1.85em; margin-block-end: 4px;">EVENTS</span>
+            <br><span style="font-size: 1.3em;">CALENDAR</span></h1>
+            <div class="section-btn" onclick="javascript:showEvents('events-rec');"><p id="bullet-rec" class="post-text">Recurring <i class="arrow-bullet"></i></p></div>
+            <div class="section-btn" onclick="javascript:showEvents('events-cur');"><p id="bullet-cur" class="post-text">Upcoming <i class="arrow-bullet"></i></p></div>
+            <div class="section-btn" onclick="javascript:showEvents('events-past');"><p id="bullet-past" class="post-text">Past <i class="arrow-bullet"></i></p></div>
+        <br>
+    </div>
+    <div class="bio-spacer withborder-left"></div>
+    <!-- current events -->
+    <div id="events-rec" class="events-block">
+      <h4>Recurring Events</h4>
+        <ul class="eventlist">
+            <li>
+                <p class="eventtitle">Streamlined Committee</p>
+                <p class="eventdetails">Recurring Fridays 12:30 (Eastern Time)</p>
+            </li>
+            <li>
+                <p class="eventtitle">Small Business Committee</p>
+                <p class="eventdetails">Recurring 3rd Wednesday every other month
+                    2:00 (Eastern Time)</p>
+            </li>
+            <li>
+                <p class="eventtitle">Marketing Committee</p>
+                <p class="eventdetails">Recurring 2nd Wednesday every month 2:00
+                    (Eastern Time)</p>
+            </li>
+        </ul>
+
+    </div>
+    <!-- current events -->
+    <div id="events-cur" class="events-block">
+      <h4>Current Events</h4>
+      <ul class="eventlist">
+        <!-- current event item 
+        <li>
+            <p class="eventtitle">Test upcomiong meeting!</p>
+            <p class="eventdetails">Recurring Fridays 12:00 (Eastern Time)</p>
+        </li>
+      -->
+        
+    </ul>
+    </div>
+    <!-- past events -->
+    <div id="events-past" class="events-block">
+      <h4>Past Events</h4>
+      <ul class="eventlist">
+        <!-- past event item 
+        <li>
+            <p class="eventtitle">Old event</p>
+            <p class="eventdetails">Recurring Fridays 12:00 (Eastern Time)</p>
+        </li>
+        -->
+    </ul>
+    </div>
+</div>
+<br>
+
+
+<div class="flex-wrapper-big darkblock">
+    <div class="infoblock darkblock">
+        <h1>FIAC Registration</h1>
+    </div>
+</div> 
+<div id="form-message" class="infoblock hide">
+  <br>
+  <h4>Your information has been submitted successfully.</h4>
+</div>   
+<div id="form-wrapper" class="flex-wrapper-big">
+
+<form name="gform" id="gform" enctype="text/plain"
+action="https://docs.google.com/forms/d/e/1FAIpQLSd7PZV78YXQMdkQdX6LtU0i3QVdSKKbSBmj8AhL9mVuhYeDbg/formResponse?"
+target="hidden_iframe" onsubmit="return(runValidation())">
+
+<div class="infoblock">
+  <p>Please submit your registration below to be included in FIAC communications.</p>
+</div>
+
+<div class="flex-wrapper">
+    <div class="half left cf">
+
+    <label for="entry.474384306">Full Name <span class="req">*</span></label>
+    <input id="full name" type="text" aria-label="full name field" name="entry.474384306" maxlength="50" size="30" required>
+
+    <label for="entry.1846413580">Email <span class="req">*</span></label>
+    <input id="email" type="text" aria-label="email field" name="entry.1846413580" maxlength="50" size="30" required>
+
+    </div>
+    <div class="half left cf">
+
+    <label for="entry.1832181272">Job Title <span class="req">*</span></label>
+    <input id="jobtitle" type="text" aria-label="job title field" name="entry.1832181272" maxlength="50" size="30" required>
+
+    <label for="entry.136536718">Company <span class="req">*</span></label>
+    <input id="company" type="text" aria-label="company field" name="entry.136536718" maxlength="50" size="30" required>
+
+        </div>
+    </div>
+
+
+    <p class="input-text">Is your company a small business? <span class="req">*</span></p>
+
+    <label for="entry.942484799">
+        <input class="input-label"
+        id="sbyes" 
+        type="radio" 
+        aria-label="small business"
+        name="entry.942484799" 
+        value="Yes"
+        onclick="isSmallBusiness(this)"
+        required
+        > Yes
+    </label>
+    <br>
+    <label for="entry.942484799">
+        <input class="input-label"
+        id="sbno" 
+        type="radio" 
+        aria-label="not small business"
+        name="entry.942484799" 
+        value="No"
+        required
+        onclick="isSmallBusiness(this)"
+        >
+        No
+    </label>
+
+<br><br>
+
+    <div id="status" class="hide">
+        <p class="input-text">Indicate the company's socioeconomic status:</p>
+        <div id="firstCheck" class="hide error-msg">
+        <span class="exclamation-mark">!</span>
+        Choose one of the following.
+        </div>
+        <ul>
+          <li class="input-li">
+            <input class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="8A" 
+            data-value="8A" onchange="isCheck(this, 'first')"> 8A<br>
+          </li>
+          <li class="input-li">
+            <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="ANC"
+            data-value="ANC"> ANC<br>
+          </li>
+          <li class="input-li">
+            <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="SDVOSB"
+            data-value="SDVOSB"> SDVOSB<br>
+          </li>
+          <li class="input-li">
+            <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="Hub Zone"
+            data-value="Hub Zone"> Hub Zone<br>
+          </li>
+          <li class="input-li">
+            <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="VOSB"
+            data-value="VOSB"> VOSB<br>
+          </li>
+          <li class="input-li">
+            <input onchange="isCheck(this, 'first')" class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="WOSB"
+            data-value="WOSB"> WOSB<br>
+          </li>
+          <li class="input-li">
+            <input id="socioeconomics" hidden class="checkbox1" type="checkbox" role="option" name="entry.920024524" value="none"
+            data-value="none"><br>
+          </li>
+        </ul>
+    </div>
+
+    <br><br>
+
+
+    <div id="interests" class="columns medium-10 large-10 briefFormTop no-padding">
+        <p class="input-text">Please indicate committees you are interested in joining:</p>
+        <div id="secondCheck" class="hide error-msg"><span class="exclamation-mark">!</span>Choose one of the following.</div>
+        <ul>
+          <li class="input-li"><input 
+            onchange="isCheck(this, 'second')"
+            class="checkbox2"
+            name="entry.957511209" type="checkbox" role="option" value="Streamline Acquisition"
+            data-value="Streamline Acquisition"> Streamline Acquisition 
+            <i href="#" class="fas fa-info-circle js-simple-tooltip" data-simpletooltip-text="This committee focuses on improving the procurement process and overall FEDSIM experience, whether through policy, best practices, pilot programs, or process changes."></i><br>
+          </li>
+          <li class="input-li"><input 
+            onchange="isCheck(this, 'second')"
+            class="checkbox2"
+            name="entry.957511209" type="checkbox" role="option" value="Small Business" data-value="Small Business"> Small Business <i href="#" class="fas fa-info-circle js-simple-tooltip"
+            data-simpletooltip-text="This committee focuses on engaging the small business community, whether through GSA AAS FEDSIM opportunities, matchmaking with large businesses, or as outreach to the federal GOVCON small business community."></i><br>
+          </li>
+          <li class="input-li"><input 
+            onchange="isCheck(this, 'second')"
+            class="checkbox2"
+            name="entry.957511209" type="checkbox" role="option" value="Marketing and Business Development"
+            data-value="Marketing and Business Development"> Marketing and Business Development <i href="#"
+            class="fas fa-info-circle js-simple-tooltip"
+            data-simpletooltip-text="This committee focuses on educating the federal market on GSA AAS FEDSIM, sharing successes, promoting competition, and promoting awareness of FEDSIM’s capabilities."></i><br>
+          </li>
+        </ul>
+    </div>
+
+<div class="v-buffer"></div>
+
+    <div class='flex-wrapper-big'>
+        <input id="input-submit" type='submit' value='Submit'>
+    </div>
+    </form>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+</div>
+
+
+<script type="text/javascript">
+    var submitted = false;
+
+    function isSmallBusiness(elem) {
+      if(elem.value === "Yes"){
+        document.getElementById("status").classList.remove("hide");
+        document.getElementById("status").classList.add("show");
+      } else {
+        document.getElementById("status").classList.remove("show");
+        document.getElementById("status").classList.add("hide");
+        document.getElementById("socioeconomics").checked = true;
+      }
+    }
+    function isCheck(scope, which) {
+      var rs = "";
+      if(which=="first"){
+        rs = firstCheckboxes();
+        if(rs === ""){ 
+            document.getElementById("firstCheck").classList.add('hide');
+        }else{
+          if(document.getElementById("firstCheck").classList.contains('show')){
+            document.getElementById("firstCheck").classList.add('hide');
+            submitted = true;
+          }
+          
+        }
+      }else if(which=="second"){
+        rs = secondCheckboxes();
+        if(rs === ""){
+          document.getElementById("secondCheck").classList.add('hide');
+        }else{
+          if(document.getElementById("secondCheck").classList.contains('show')){
+            document.getElementById("secondCheck").classList.add('hide');
+            submitted = true;
+          }
+        }
+      }
+    }
+    function runValidation() {
+      var radioYes = document.getElementById("sbyes").checked;
+      var radioNo = document.getElementById("sbno").checked;
+      var firstErr = "";
+      var secondErr = "";
+      if(radioYes){
+        firstErr += firstCheckboxes();
+        if(firstErr !==""){
+          document.getElementById("firstCheck").classList.remove("hide");
+          document.getElementById("firstCheck").classList.add("show");
+        }
+      }
+
+      secondErr += secondCheckboxes();
+      if(secondErr !==""){
+        if(document.getElementById("secondCheck").classList){
+          document.getElementById("secondCheck").classList.remove("hide");
+          document.getElementById("secondCheck").classList.add("show");
+        }
+      }
+      if(secondErr !== "" || firstErr !== ""){
+        submitted = false;
+      } else {
+        submitted = true;
+      }
+      if(submitted){
+        document.getElementById("form-wrapper").classList.add('hide');
+        document.getElementById("form-message").classList.toggle('hide');
+      }
+      return submitted;
+    }
+    function firstCheckboxes(){
+      var checkbox1 = document.getElementsByClassName('checkbox1')
+      var rs = Object.entries(checkbox1).filter(function(item){
+        return item[1].checked;
+      }).length;
+      var strErr = "";
+      if(rs){
+        submitted = true;
+        str = "";
+      }else{
+        submitted = false;
+        str = "Choose one of the following."
+      }
+      return str;
+    }
+    function secondCheckboxes() {
+      var checkbox2 = document.getElementsByClassName('checkbox2')
+      var rs = Object.entries(checkbox2).filter(function(item){
+        return item[1].checked;
+      }).length;
+      var strErr = "";
+      if(rs){
+        submitted = true;
+        strErr = "";
+      }else{
+        submitted = false;
+        strErr = "Choose one of the following";
+      }
+      return strErr;
+    }
+
+    //Events script
+    function showEvents(selected) {
+      //hide all
+      document.getElementById("events-rec").classList.add('hide');
+      document.getElementById("events-cur").classList.add('hide');
+      document.getElementById("events-past").classList.add('hide');
+      document.getElementById("events-rec").classList.remove('show');
+      document.getElementById("events-cur").classList.remove('show');
+      document.getElementById("events-past").classList.remove('show');
+      //Show selected
+      document.getElementById(selected).classList.remove('hide');
+      document.getElementById(selected).classList.add('show');
+      
+    }
+  </script>
