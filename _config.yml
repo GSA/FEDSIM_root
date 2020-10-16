@@ -21,8 +21,7 @@
 title: FEDSIM
 email: chris.hamm@gsa.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+  FEDSIM - FEDSIM is a Client Support Center within the General Service Administration's Office of Assisted Acquisition Services (AAS). 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fedsim.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
