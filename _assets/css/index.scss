@@ -31,7 +31,7 @@ a:visited{
 }
 
 // Text Styles
-h2{
+h1, h2{
   color: var(--fedsim-blue1);
   font-size: 1.6em;
 }
@@ -56,14 +56,14 @@ p{
 }
 
 @media screen and (max-width: 414px){
-  h2{
+  h1, h2{
     font-size: 1.2em;
   }
   h3, h4, h5{
     font-size: 1em;
   }
 
-  h2, h3, h4, h5{
+  h1, h2, h3, h4, h5{
     margin-block-start: auto;
     margin-block-end: auto;
   }
@@ -353,7 +353,7 @@ hr.footer-border{
   color: var(--fedsim-blue1);
 }
 
-.usa-hero__callout h2{
+.usa-hero__callout h1{
   margin-block-start: 10px;
   font-size: 1.45rem;
 }
@@ -373,7 +373,7 @@ hr.footer-border{
     margin: auto;
   }
 
-  .usa-hero__callout, .usa-hero__callout h2{
+  .usa-hero__callout, .usa-hero__callout h1{
     color: white;
   }
 
