@@ -31,7 +31,7 @@ a:visited{
 }
 
 // Text Styles
-h1, h2{
+h1, h2, .h4_title{
   color: var(--fedsim-blue1);
   font-size: 1.6em;
 }
@@ -55,8 +55,12 @@ p{
   line-height: 1.5em;
 }
 
+.h4_title{
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 414px){
-  h1, h2{
+  h1, h2, .h4_title{
     font-size: 1.2em;
   }
   h3, h4, h5{
