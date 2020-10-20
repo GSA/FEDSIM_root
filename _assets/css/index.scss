@@ -81,6 +81,15 @@ img{
 
 //General stylings
 
+.back-grey{
+  background-color: var(--fedsim-litegrey) !important;
+  font-weight: 600;
+}
+
+.back-white{
+  background-color: white !important;
+}
+
 .big-titles{
   font-size: 4em;
   margin-block-start: auto;
@@ -102,16 +111,16 @@ img{
   height: 20px;
 }
 
-.v-buffer{
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .big-v-buffer{
   padding-top: 10px!important;
   padding-bottom: 10px!important;
   margin-top: 10px!important;
   margin-bottom: 10px!important;
+}
+
+.v-buffer{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hidden{
@@ -131,6 +140,11 @@ img{
 
 .show{
   display: block!important;
+}
+
+.small-italic{
+  font-style: italic; 
+  font-size: 14px;
 }
 
 hr.highlight-line, hr.highlight-line-sm, hr.media-line{
@@ -454,9 +468,12 @@ hr.footer-border{
 .infoblock, .infoblock-fixed, .modalblock{
   display: flow-root;
   color: var(--fedsim-blue1);
-  background-color: white;
   margin: auto;
   padding: 10px;
+}
+
+.infoblock, .infoblock-fixed{
+  background-color: white;
 }
 
 .block-header, .block-header-grey{
@@ -1096,7 +1113,7 @@ circle {
 .sectorbar{
   width: 282px;
   height: 40px;
-  margin: 10px;
+  margin: 0 auto 12px auto;
   color: white;
   background-color: var(--fedsim-blue1);
   padding: 10px;
@@ -1221,9 +1238,8 @@ hr.small-line{
 	background-color: rgba(0,0,0,0.7);
 }
 
-.dialog, .dialog-wide {
+.dialog, .dialog-wide, .dialog-grey {
 	z-index: 3;
-	background-color: #fff;
 	text-align: center;
   padding: 30px;
 	position: fixed;
@@ -1231,6 +1247,14 @@ hr.small-line{
   left: 50%;
   border-radius: 20px;
 	transform: translate(-50%,-50%);
+}
+
+.dialog, .dialog-wide{
+  background-color: #fff;
+}
+
+.dialog-grey, .modalblock-grey, .infoblock-grey{
+  background-color: var(--fedsim-litegrey)!important;
 }
 
 .dialog{

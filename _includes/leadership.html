@@ -6,7 +6,7 @@
         <h1>FEDSIM Leadership</h1>
         <p>FEDSIM is divided into seven sectors: Civilian, Air Force, Department of Defense, Army, Navy, GCC and Innovation. Each sector understands the specialized circumstances and regulations applicable to their sectors. This specialization helps deliver value to these clients agencies.
         <br>
-        Click on the images below to see their professional bios.</p>
+        Select each sector title to see additional sector group managers. Click on the images below to see their professional bios.</p>
     </div> 
 </div>
 
@@ -142,7 +142,7 @@
                     <p>Acquisition Director</p>
                 </div>
             </div>
-            <div class="sectorbar sector-1">
+            <div class="sectorbar sector-1" onclick="javascript:openBio('sectorPopup_CIV');">
                 <h3>CIVILIAN</h3>
             </div>
         </div>
@@ -164,7 +164,7 @@
                     <p>Acquisition Director</p>
                 </div>
             </div>
-            <div class="sectorbar sector-2">
+            <div class="sectorbar sector-2" onclick="javascript:openBio('sectorPopup_AIR');">
                 <h3>AIR FORCE</h3>
             </div>
         </div>
@@ -186,7 +186,7 @@
                     <p>Acquisition Director</p>
                 </div>
             </div>
-            <div class="sectorbar sector-3">
+            <div class="sectorbar sector-3" onclick="javascript:openBio('sectorPopup_DOD');">
                 <h3>DOD</h3>
             </div>
         </div>
@@ -213,7 +213,7 @@
                     <p>Acquisition Director</p>
                 </div>
             </div>
-            <div class="sectorbar sector-4">
+            <div class="sectorbar sector-4" onclick="javascript:openBio('sectorPopup_ARMY');">
                 <h3>ARMY</h3>
             </div>
         </div>
@@ -235,7 +235,7 @@
                     <p>Acquisition Director</p>
                 </div>
             </div>
-            <div class="sectorbar sector-5">
+            <div class="sectorbar sector-5" onclick="javascript:openBio('sectorPopup_NAVY');">
                 <h3>NAVY</h3>
             </div>
         </div>
@@ -257,7 +257,7 @@
                     <p>Acquisition Director</p>
                 </div>
             </div>
-            <div class="sectorbar sector-6">
+            <div class="sectorbar sector-6" onclick="javascript:openBio('sectorPopup_GCC');">
                 <h3>GCC</h3>
             </div>
         </div>
@@ -288,7 +288,7 @@
                     <p>Innovation Group Manager</p>
                 </div>
             </div>
-            <div class="sectorbar sector-7" style="border: solid 2px var(--fedsim-darkgrey); color: var(--fedsim-darkgrey);">
+            <div class="sectorbar sector-7"  style="border: solid 2px var(--fedsim-darkgrey); color: var(--fedsim-darkgrey);">
                 <h3>INNOVATION</h3>
             </div>
         </div>
@@ -795,6 +795,315 @@ Jim holds a Bachelor of Science degree in Naval Architecture and Marine Engineer
         </div>
     </div>
 </div>
+
+<!-- --- ---  SECTOR BIOS  --- --- -->
+
+<!-- CIV popup -->
+<div id="sectorPopup_CIV" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-1">
+                <h3>CIVILIAN</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset NinaRaheja.jpg class="member-pic" alt="Nina Raheja" %}
+                    <p class="allcaps">Nina Raheja</p>
+                    <p>USAID/State</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset LizHampton.jpg class="member-pic" alt="Liz Hampton" %}
+                    <p class="allcaps">Liz Hampton</p>
+                    <p>INTEL/ASPR</p>
+                </div>
+
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset SamClark.jpg class="member-pic" alt="Sam Clark" %}
+                    <p class="allcaps">Sam Clark</p>
+                    <p>USDA/EPA</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset KennyLawhorn.jpg class="member-pic" alt="Kenny Lawhorn" %}
+                    <p class="allcaps">Kenny Lawhorn</p>
+                    <p>Homeland</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- AIR popup -->
+<div id="sectorPopup_AIR" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-2">
+                <h3>AIR FORCE</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset IbrahiimKent.jpg class="member-pic" alt="Ibrahiim Kent" %}
+                    <p class="allcaps">Ibrahiim Kent</p>
+                    <p>IT/CYber</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset KeithParks.jpg class="member-pic" alt="Keith Parks" %}
+                    <p class="allcaps">Keith Parks</p>
+                    <p>Intel/ISR</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- DOD popup -->
+<div id="sectorPopup_DOD" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-3">
+                <h3>DOD</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset LateefHynson.jpg class="member-pic" alt="Lateef Hynson" %}
+                    <p class="allcaps">Lateef Hynson</p>
+                    <p>FCC</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset CarlJablonski.jpg class="member-pic" alt="Carl Jablonski" %}
+                    <p class="allcaps">Carl Jablonski</p>
+                    <p>DTRA</p>
+                </div>
+
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset BruceThibault.jpg class="member-pic" alt="Bruce Thibault" %}
+                    <p class="allcaps">Bruce Thibault</p>
+                    <p>DoD</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset ScottRobertson.jpg class="member-pic" alt="Scott Robertson" %}
+                    <p class="allcaps">Scott Robertson</p>
+                    <p>P&R</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ARMY popup -->
+<div id="sectorPopup_ARMY" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-4">
+                <h3>ARMY</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset KellySwain.jpg class="member-pic" alt="Kelly Swain" %}
+                    <p class="allcaps">Kelly Swain</p>
+                    <p>C6ISR</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset TamikaSpencer.jpg class="member-pic" alt="Tamika Spencer" %}
+                    <p class="allcaps">Tamika Spencer</p>
+                    <p>Technology Integrated</p>
+                </div>
+
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey" style="margin: auto;">
+                    {% asset JustinGrasso.jpg class="member-pic" alt="Justin Grasso" %}
+                    <p class="allcaps">Justin Grasso</p>
+                    <p>IT</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- NAVY popup -->
+<div id="sectorPopup_NAVY" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-5">
+                <h3>NAVY</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset SpencerBurns.jpg class="member-pic" alt="Spencer Burns" %}
+                    <p class="allcaps">Spencer Burns</p>
+                    <p>Naval Systems Program</p>
+                </div>
+                
+                <div class="infoblock back-grey">
+                    {% asset BrookeGill.jpg class="member-pic" alt="Brooke Gill" %}
+                    <p class="allcaps">Brooke Gill</p>
+                    <p>Sensing Technologies</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- GCC popup -->
+<div id="sectorPopup_GCC" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-6">
+                <h3>GCC</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset TilaKety.jpg class="member-pic" alt="Tila Kety" %}
+                    <p class="allcaps">Tila Kety</p>
+                    <p>Central & Southern</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset TonyJungers.jpg class="member-pic" alt="Tony Jungers" %}
+                    <p class="allcaps">Tony Jungers</p>
+                    <p>Eur & Africa</p>
+                </div>
+
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey" style="margin: auto;">
+                    {% asset WesDewalt.jpg class="member-pic" alt="Wes Dewalt" %}
+                    <p class="allcaps">Wes Dewalt</p>
+                    <p>Indo-Pacific</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- INN popup -->
+<div id="sectorPopup_INN" class="dialog-overlay" aria-hidden="true">
+    <div class="dialog back-grey" role="dialog" onclick="javascript:closeBio();">
+        <div class="modalblock back-grey"  tabindex="0">
+
+            <div class="sectorbar sector-7">
+                <h3>INNOVATION</h3>
+                <br>
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
+                    <p class="allcaps">Chris Bennethum</p>
+                    <p>Assistant Commissioner, AAS</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
+                    <p class="allcaps">Chris Bennethum</p>
+                    <p>Assistant Commissioner, AAS</p>
+                </div>
+
+            </div>
+
+            <div class="flex-wrapper">
+                
+                <div class="infoblock back-grey">
+                    {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
+                    <p class="allcaps">Chris Bennethum</p>
+                    <p>Assistant Commissioner, AAS</p>
+                </div>
+
+                <div class="infoblock back-grey">
+                    {% asset CB_pic.png class="member-pic" alt="Chris Bennethum" %}
+                    <p class="allcaps">Chris Bennethum</p>
+                    <p>Assistant Commissioner, AAS</p>
+                </div>
+
+            </div>
+            
+            <div class="infoblock back-grey">
+                <p class="small-italic">Click anywhere on this box to close.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script type="text/javascript">
 
