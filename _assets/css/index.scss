@@ -1110,7 +1110,7 @@ circle {
   line-height: 1.15em!important;
 }
 
-.memberblock:hover, .memberblock-head:hover{
+.memberblock:focused, .memberblock-head:focused{
 	border: 0px;
 }
 
