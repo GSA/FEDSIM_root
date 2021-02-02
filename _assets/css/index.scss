@@ -1110,6 +1110,10 @@ circle {
   line-height: 1.15em!important;
 }
 
+.memberblock:hover, .memberblock-head:hover{
+	border: 0px;
+}
+
 .member-pic{
   height: 140px;
   width: 140px;
