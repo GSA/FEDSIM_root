@@ -1273,7 +1273,13 @@ hr.small-line{
 }
 
 .dialog{
-  max-width: 700px;
+  width: 700px;
+}
+
+@media screen and (max-width: 414px){
+	 .dialog{
+	 max-width: 400px;
+	}
 }
 
 .dialog p{
