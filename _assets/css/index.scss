@@ -278,18 +278,19 @@ hr.media-line{
   }
 }
 
-//Video styles
-iframe.vidThumb{
+//Video styles  
+iframe.vidThumb, object.videoObj{
   width: 500px;
   height: 281px;
 }
 
 @media screen and (max-width: 414px){
-  iframe.vidThumb{
+  iframe.vidThumb, object.videoObj{
     width: 350px;
     height: 197px;
   }
 }
+	
 
 //Header styles
 .usa-banner__inner {
