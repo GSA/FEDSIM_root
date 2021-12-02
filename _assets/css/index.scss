@@ -8,11 +8,11 @@ html{
 
 a{
   text-decoration: none;
-  color: var(--fedsim-blue3);
+  color: #004bbd;
 }
 
 a:visited{
-  color: var(--fedsim-blue3);
+  color: #004bbd;
 }
 
 /* MENU BUTTONS */
@@ -478,7 +478,6 @@ hr.footer-border{
 
 .infoblock, .infoblock-fixed, .modalblock{
   display: flow-root;
-  color: var(--fedsim-blue1);
   margin: auto;
   padding: 10px;
 }
