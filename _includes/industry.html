@@ -3,21 +3,19 @@
 </div>
 
 <div class="flex-wrapper-big">
-    <div class="one-fourth">
-        <div class="bio-spacer"></div>
-    </div>
     
-    <div class="one-fourth section-btn">
-        <a href="#opportunities"><b>Opportunities</b></a>
+    <div class="one-third section-btn">
+        <a href="#opp"><b>Opportunities</b></a>
     </div>
 
-    <div class="one-fourth section-btn">
+    <div class="one-third section-btn">
         <a href="#toolkit"><b>Industry Toolkit</b></a>
     </div>
 
-    <div class="one-fourth"> 
-        <div class="bio-spacer"></div>
+    <div class="one-third section-btn">
+        <a href="#meetings"><b>First Fridays Sign-Up</b></a>
     </div>
+
 </div>
 
 <div class="v-buffer"><br></div>
@@ -52,5 +50,58 @@
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
+</div>
+
+<div class="v-buffer"><br></div>
+
+<div class="flex-wrapper-big">
+    <div id="meetings" class="infoblock-fixed"> 
+        <h2>First Fridays Sign-Up</h2>
+        <p>First Fridays is a monthly forum to discuss emerging assisted acquisition opportunities. For more information and to sign-up for the forum, please provide the following:</p>
+    </div>
+</div> 
+<div id="form-message" class="infoblock hide">
+  <br>
+  <h4>Your information has been submitted successfully.</h4>
+</div>   
+<div id="form-wrapper" class="flex-wrapper-big">
+
+<form name="gform" id="gform" enctype="text/plain"
+action="https://docs.google.com/forms/d/1wB9TcQOe8P3Ayaw3n6eN2X6tradmfODYizVfiTAl0xU/formResponse?"
+target="hidden_iframe2" onsubmit="return(runValidation())">
+
+<div class="infoblock">
+  <p>For more information on the "First Fridays" meetings, please provide the following:</p>
+</div>
+
+<div class="flex-wrapper">
+    <div class="half left cf">
+
+    <label for="entry.474384306">Full Name <span class="req">*</span></label>
+    <input id="full name" type="text" aria-label="full name field" name="entry.474384306" maxlength="50" size="30" required>
+
+    <label for="entry.1846413580">Email <span class="req">*</span></label>
+    <input id="email" type="text" aria-label="email field" name="entry.1846413580" maxlength="50" size="30" required>
+
+    </div>
+    <div class="half left cf">
+
+    <label for="entry.1832181272">Job Title <span class="req">*</span></label>
+    <input id="jobtitle" type="text" aria-label="job title field" name="entry.1832181272" maxlength="50" size="30" required>
+
+    <label for="entry.136536718">Company <span class="req">*</span></label>
+    <input id="company" type="text" aria-label="company field" name="entry.136536718" maxlength="50" size="30" required>
+
+        </div>
+    </div>
+
+
+<div class="v-buffer"></div>
+
+    <div class='flex-wrapper-big'>
+        <input id="input-submit" type='submit' value='Submit'>
+    </div>
+    </form>
+    <iframe name="hidden_iframe2" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 </div>
 
