@@ -100,24 +100,11 @@ target="hidden_iframe2" onsubmit="return(runValidation())">
 </div>
 
 <script type="text/javascript">
-    var submitted = false;
 
     function runValidation() {
-
-      var firstErr = "";
-
-      if(firstErr !== ""){
-        submitted = false;
-      } else {
-        submitted = true;
-      }
-      if(submitted){
         document.getElementById("form-wrapper").classList.add('hide');
         document.getElementById("form-message").classList.toggle('hide');
-      }
-      return submitted;
+        return true;
     }
-
-
 
   </script>
