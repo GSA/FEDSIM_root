@@ -99,3 +99,25 @@ target="hidden_iframe2" onsubmit="return(runValidation())">
     <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted) {}"></iframe>
 </div>
 
+<script type="text/javascript">
+    var submitted = false;
+
+    function runValidation() {
+
+      var firstErr = "";
+
+      if(firstErr !== ""){
+        submitted = false;
+      } else {
+        submitted = true;
+      }
+      if(submitted){
+        document.getElementById("form-wrapper").classList.add('hide');
+        document.getElementById("form-message").classList.toggle('hide');
+      }
+      return submitted;
+    }
+
+
+
+  </script>
