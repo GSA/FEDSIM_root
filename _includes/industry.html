@@ -75,25 +75,17 @@ target="hidden_iframe2" onsubmit="return(runValidation())">
 </div>
 
 <div class="flex-wrapper">
-    <div class="half left cf">
+    
+    <label for="entry.1">First Name <span class="req">*</span></label>
+    <input id="full name" type="text" aria-label="full name field" name="entry.1" maxlength="50" size="30" required>
+        
+    <label for="entry.2">Last Name <span class="req">*</span></label>
+    <input id="full name" type="text" aria-label="full name field" name="entry.2" maxlength="50" size="30" required>
 
-    <label for="entry.474384306">Full Name <span class="req">*</span></label>
-    <input id="full name" type="text" aria-label="full name field" name="entry.474384306" maxlength="50" size="30" required>
+    <label for="entry.3">Email <span class="req">*</span></label>
+    <input id="email" type="text" aria-label="email field" name="entry.3" maxlength="50" size="30" required>
 
-    <label for="entry.1846413580">Email <span class="req">*</span></label>
-    <input id="email" type="text" aria-label="email field" name="entry.1846413580" maxlength="50" size="30" required>
-
-    </div>
-    <div class="half left cf">
-
-    <label for="entry.1832181272">Job Title <span class="req">*</span></label>
-    <input id="jobtitle" type="text" aria-label="job title field" name="entry.1832181272" maxlength="50" size="30" required>
-
-    <label for="entry.136536718">Company <span class="req">*</span></label>
-    <input id="company" type="text" aria-label="company field" name="entry.136536718" maxlength="50" size="30" required>
-
-        </div>
-    </div>
+</div>
 
 
 <div class="v-buffer"></div>
@@ -102,6 +94,6 @@ target="hidden_iframe2" onsubmit="return(runValidation())">
         <input id="input-submit" type='submit' value='Submit'>
     </div>
     </form>
-    <iframe name="hidden_iframe2" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+    <iframe name="hidden_iframe2" id="hidden_iframe2" style="display:none;" onload="if(submitted) {}"></iframe>
 </div>
 
