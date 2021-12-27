@@ -440,12 +440,6 @@ hr.footer-border{
 }
 
 @media screen and (max-width: 414px){
-  .flex-wrapper-big{
-    width: 400px;
-  }
-}
-
-@media screen and (max-width: 414px){
   .grid-wrapper{
     display: grid;
     margin: auto;
@@ -459,7 +453,7 @@ hr.footer-border{
   .flex-wrapper{
     display: flex;
     flex-flow: wrap;
-    margin: auto;
+
   }
 
   .one-third, .one-half, .one-fourth{
