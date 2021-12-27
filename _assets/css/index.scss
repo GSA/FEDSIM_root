@@ -197,6 +197,14 @@ hr.media-line{
   cursor: pointer;
 }
 
+@media screen and (max-width: 414px){
+  .section-btn{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 320px;
+  }
+}
+
 .section-btn p{
   margin: auto;
 }
@@ -495,6 +503,12 @@ hr.footer-border{
 .block-header{
   background-color: var(--fedsim-blue1);
   font-size: 1.2em;
+}
+
+@media screen and (max-width: 411px){
+  .block-header{
+    max-width: 340px;
+  }
 }
 
 .block-header-grey{
