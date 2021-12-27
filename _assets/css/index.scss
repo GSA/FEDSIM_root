@@ -197,14 +197,6 @@ hr.media-line{
   cursor: pointer;
 }
 
-@media screen and (max-width: 414px){
-  .section-btn{
-    padding-top: 24px;
-    padding-bottom: 24px;
-    width: 320px;
-  }
-}
-
 .section-btn p{
   margin: auto;
 }
@@ -1083,8 +1075,9 @@ circle {
   }
 
   .section-btn{
-    font-size: 0.8rem;
-    padding: 10px;
+    font-size: 0.9rem;
+    padding: 24px, 10px, 24px, 10px;
+    width: 320px;
   }
 
   .submenubar{
