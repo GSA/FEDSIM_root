@@ -440,12 +440,6 @@ hr.footer-border{
 }
 
 @media screen and (max-width: 414px){
-  .flex-wrapper-big{
-    width: 400px;
-  }
-}
-
-@media screen and (max-width: 414px){
   .grid-wrapper{
     display: grid;
     margin: auto;
@@ -459,7 +453,7 @@ hr.footer-border{
   .flex-wrapper{
     display: flex;
     flex-flow: wrap;
-    margin: auto;
+
   }
 
   .one-third, .one-half, .one-fourth{
@@ -495,6 +489,12 @@ hr.footer-border{
 .block-header{
   background-color: var(--fedsim-blue1);
   font-size: 1.2em;
+}
+
+@media screen and (max-width: 411px){
+  .block-header{
+    max-width: 340px;
+  }
 }
 
 .block-header-grey{
@@ -1069,8 +1069,9 @@ circle {
   }
 
   .section-btn{
-    font-size: 0.8rem;
-    padding: 10px;
+    font-size: 0.9rem;
+    padding: 24px, 10px, 24px, 10px;
+    width: 320px;
   }
 
   .submenubar{
