@@ -43,6 +43,7 @@ h1, h2, .h4_title{
 }
 
 h3{
+  color: var(--fedsim-blue1);
   font-size: 1.4em;
 }
 
@@ -112,21 +113,8 @@ img{
   display: flex;
 }
 
-.h-spacer{
-  background-color: white;
-  height: 20px;
-}
-
-.big-v-buffer{
-  padding-top: 10px!important;
-  padding-bottom: 10px!important;
-  margin-top: 10px!important;
-  margin-bottom: 10px!important;
-}
-
-.v-buffer{
-  padding-top: 10px;
-  padding-bottom: 10px;
+.centered{
+text-align: center;
 }
 
 .hidden{
@@ -162,6 +150,22 @@ hr.media-line{
   width: 700px;
 }
 
+.h-spacer{
+  background-color: white;
+  height: 20px;
+}
+
+.big-v-buffer{
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+  margin-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+
+.v-buffer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 @media screen and (max-width: 414px){
   hr.media-line{
     width: 300px;
@@ -897,6 +901,8 @@ display: none;
 
 .fitpie{
   height: 275px;
+  text-align: center;
+  
 }
 
 @media screen and (max-width: 800px) {
