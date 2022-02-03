@@ -295,8 +295,7 @@ iframe.vidThumb, object.videoObj{
 //Header styles
 .usa-banner__inner {
   display: block;
-  align-items: center;
-  text-align: center;
+  padding-left: 20px;
 }
 
 .usa-navbar{
@@ -359,7 +358,6 @@ hr.footer-border{
 @media screen and (max-width: 414px){
   .footer_side_left,
   .footer_side_right{
-    text-align: center; 
   }
 }
 
@@ -459,11 +457,6 @@ hr.footer-border{
   .one-third, .one-half, .one-fourth{
     width: auto;
   }
-}
-
-
-.infoblock, .infoblock-fixed, .darkblock, .darkblock-alt{
-  text-align: center;
 }
 
 .modalblock{
@@ -595,14 +588,12 @@ hr.footer-border{
 
 .third-block{
   display: block;
-  text-align: center;
 }
 
 .fourth-block{
   display: block;
   width: 25%;
   margin: 0 4px;
-  text-align: center;
   padding-bottom: 16px;
 }
 
@@ -618,7 +609,6 @@ hr.footer-border{
   width: 440px;
   margin: 10px;
   display: block;
-  text-align: center;
 }
 
 .learnblock{
@@ -626,7 +616,6 @@ hr.footer-border{
   height: 190px;
   margin: 10px;
   display: block;
-  text-align: center;
 }
 
 @media screen and (max-width: 414px){
@@ -803,7 +792,6 @@ display: none;
 .problock, .problock-container, .problock-inner{
   width: 200px;
   display: block;
-  text-align: center;
 }
 
 .problock-container{
@@ -1102,7 +1090,6 @@ circle {
   font-size: 0.8em;
   font-weight: 600;
   padding: 8px;
-  text-align: center;
   vertical-align: top;
   display: inline-block;
   border: 0px;
@@ -1145,7 +1132,6 @@ circle {
 .sectorbar h3{
   font-size: 1.1em;
   text-transform: uppercase;
-  text-align: center;
   font-weight: 700;
   margin: 0;
 }
@@ -1171,7 +1157,6 @@ circle {
   display: grid;
   width: 110px;
   padding: 10px 2px;
-  text-align: center;
 }
 
 .linebox{
@@ -1263,7 +1248,6 @@ hr.small-line{
 
 .dialog, .dialog-wide, .dialog-grey {
 	z-index: 3;
-	text-align: center;
   padding: 30px;
 	position: fixed;
 	top: 50%;
