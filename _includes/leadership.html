@@ -120,6 +120,15 @@
         onclick="window.location='#sect-7-box';" taborder="13">
             INNOVATION
         </button>
+        <div class="infoblock linebox">
+            <hr class="small-line">
+        </div>
+        <button id="sect-8-btn"  class="darkblock wordbox" 
+        onmouseover="javascript:findBox('sect-8-box');"
+        onmouseout="javascript:loseBox('sect-8-box');"
+        onclick="window.location='#sect-8-box';" taborder="14">
+            AMP
+        </button>
     </div>
 </div>
 <div class="v-buffer no-mobile"></div>
@@ -151,10 +160,10 @@
         
         <div id="sect-2-box" class="sectorblock">   <!-- AIR FORCE block ---------------------------------->
             <div class="flex-wrapper">
-                <button class="memberblock" onclick="javascript:openBio('bioPopup_KE');" taborder="16">
-                    {% asset Ken-Evans.png class="member-pic" alt="Ken Evans" %}
+                <button class="memberblock" onclick="javascript:openBio('bioPopup_BG');" taborder="16">
+                    {% asset BrookeGill.png class="member-pic" alt="Brooke Gill" %}
                     <br>
-                    <p class="allcaps">Ken Evans</p>
+                    <p class="allcaps">Brooke Gill</p>
                     <p>Air Force/DOD Director</p>
                 </button>
                 <button class="memberblock"  onclick="javascript:openBio('bioPopup_GL');" taborder="17">
@@ -275,17 +284,11 @@
         
         <div id="sect-7-box" class="sectorblock">   <!-- INNOVATION block ---------------------------------->
             <div class="flex-wrapper">
-                <button class="memberblock" onclick="javascript:openBio('bioPopup_CH');" taborder="26">
-                    {% asset Chris-Hamm.png class="member-pic" alt="Chris Hamm" %}
-                   <br>
-                   <p class="allcaps">Chris Hamm</p>
-                   <p>Innovation Director</p>
-                </button>
-                <button class="memberblock" onclick="javascript:openBio('bioPopup_AD');" taborder="27">
+                <button class="memberblock" onclick="javascript:openBio('bioPopup_AD');" taborder="26">
                     {% asset AngieDonahoo.png class="member-pic" alt="Angie Donahoo" %}
-                    <br>
-                    <p class="allcaps">Angie Donahoo</p>
-                    <p>Innovation Group Manager</p>
+                   <br>
+                   <p class="allcaps">Angie Donahoo</p>
+                   <p>Innovation Director</p>
                 </button>
             </div>
             <div class="sectorbar sector-7"  style="border: solid 2px var(--fedsim-darkgrey); color: var(--fedsim-darkgrey);">
@@ -294,6 +297,36 @@
         </div>
         
         <div class="bio-spacer"></div>
+
+        <div id="sect-8-box" class="sectorblock">   <!-- INNO 1 block ---------------------------------->
+            <div class="flex-wrapper">
+                <button class="memberblock" onclick="javascript:openBio('bioPopup_GW');" taborder="26">
+                    {% asset AngieDonahoo.png class="member-pic" alt="Angie Donahoo" %}
+                   <br>
+                   <p class="allcaps">Gary White</p>
+                   <p>Director</p>
+                </button>
+            </div>
+            <div class="sectorbar sector-8"  style="border: solid 2px var(--fedsim-darkgrey); color: var(--fedsim-darkgrey);">
+                <h3>INNO 1</h3>
+            </div>
+        </div>
+
+        <div class="bio-spacer"></div>
+
+        <div id="sect-9-box" class="sectorblock">   <!-- IDIQ Labs block ---------------------------------->
+            <div class="flex-wrapper">
+                <button class="memberblock" onclick="javascript:openBio('bioPopup_JG');" taborder="26">
+                    {% asset AngieDonahoo.png class="member-pic" alt="Angie Donahoo" %}
+                   <br>
+                   <p class="allcaps">Jim Ghiloni</p>
+                   <p>Director</p>
+                </button>
+            </div>
+            <div class="sectorbar sector-9"  style="border: solid 2px var(--fedsim-darkgrey); color: var(--fedsim-darkgrey);">
+                <h3>INNO 1</h3>
+            </div>
+        </div>
         
         <div class="blankblock"></div>
     </div>
@@ -781,9 +814,9 @@ Dennis holds active FAC-C Level III, NCMA Certified Professional Contracts Manag
                 </div>
 
                 <div class="infoblock back-grey">
-                    {% asset LizHampton.jpg class="member-pic" alt="Liz Hampton" %}
-                    <p class="allcaps">Liz Hampton</p>
-                    <p>INTEL/ASPR</p>
+                    {% asset ShadowF_Icon.jpg class="member-pic" alt="Melissa Druxman" %}
+                    <p class="allcaps">Melissa Druxman</p>
+                    <p>INTEL</p>
                 </div>
 
             </div>
@@ -846,6 +879,12 @@ Dennis holds active FAC-C Level III, NCMA Certified Professional Contracts Manag
                     <p>Intel/ISR</p>
                 </div>
 
+                <div class="infoblock back-grey">
+                    {% asset ShadowM_Icon.jpg class="member-pic" alt="Lateef Hynson" %}
+                    <p class="allcaps">Lateef Hynson</p>
+                    <p>FCC</p>
+                </div>
+
             </div>
             
             <div class="infoblock back-grey">
@@ -869,9 +908,9 @@ Dennis holds active FAC-C Level III, NCMA Certified Professional Contracts Manag
             <div class="flex-wrapper">
                 
                 <div class="infoblock back-grey">
-                    {% asset LateefHynson.jpg class="member-pic" alt="Lateef Hynson" %}
-                    <p class="allcaps">Lateef Hynson</p>
-                    <p>FCC</p>
+                    {% asset LateefHynson.jpg class="member-pic" alt="Larry Blocker" %}
+                    <p class="allcaps">Larry Blocker</p>
+                    <p>Defense Intel</p>
                 </div>
 
                 <div class="infoblock back-grey">
@@ -969,8 +1008,8 @@ Dennis holds active FAC-C Level III, NCMA Certified Professional Contracts Manag
                 </div>
                 
                 <div class="infoblock back-grey">
-                    {% asset BrookeGill.jpg class="member-pic" alt="Brooke Gill" %}
-                    <p class="allcaps">Brooke Gill</p>
+                    {% asset ShadowM_Icon.jpg class="member-pic" alt="Dom Salli" %}
+                    <p class="allcaps">Dom Salli</p>
                     <p>Sensing Technologies</p>
                 </div>
 
@@ -997,8 +1036,8 @@ Dennis holds active FAC-C Level III, NCMA Certified Professional Contracts Manag
             <div class="flex-wrapper">
                 
                 <div class="infoblock back-grey">
-                    {% asset TilaKety.jpg class="member-pic" alt="Tila Kety" %}
-                    <p class="allcaps">Tila Kety</p>
+                    {% asset ShadowM_Icon.jpg class="member-pic" alt="Aaron Young" %}
+                    <p class="allcaps">Aaron Young</p>
                     <p>Central & Southern</p>
                 </div>
 
