@@ -43,7 +43,6 @@ h1, h2, .h4_title{
 }
 
 h3{
-  color: var(--fedsim-blue1);
   font-size: 1.4em;
 }
 
@@ -83,6 +82,10 @@ p{
 img{
 	-webkit-transform: translateZ(0); 
 	transform: translateZ(0);
+}
+
+.blueText{
+	color: var(--fedsim-blue1);
 }
 
 
@@ -477,6 +480,11 @@ hr.footer-border{
   background-color: white;
 }
 
+.infoblock_left{
+	  display: flow-root;
+  padding: 10px;
+}
+
 .block-header, .block-header-grey{
   padding: 10px;
   color: white;
@@ -613,6 +621,10 @@ hr.footer-border{
   width: 440px;
   margin: 10px;
   display: block;
+}
+
+.learnblock_cso p{
+	margin-left: 20px;
 }
 
 .learnblock{
@@ -1410,8 +1422,8 @@ hr.small-line{
 
 //Contact Us form
 #gform{
-  font-size: 1.2em;
   width: 1000px;
+	margin-left: 12px;
 }
 
 @media screen and (max-width: 414px){
