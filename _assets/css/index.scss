@@ -1119,7 +1119,7 @@ circle {
 }
 
 .memberblock-head{
-  width: 160px;
+  width: 194px;
   height: 220px;
 }
 
@@ -1161,25 +1161,33 @@ circle {
   background-color: var(--fedsim-fedsimgrey);
   border: 4px solid var(--fedsim-fedsimgrey);
   height: 280px;
+  min-width: 308px;
   display: inline-table;
   margin: auto;
 }
 
 .blankblock{
   background-color: white;
-  width: 312px;
+  width: 308px;
   margin: 1px;
+  border: none;
 }
 
 .wordbox{
   display: grid;
-  width: 110px;
+  width: 98px;
   padding: 10px 2px;
+}
+
+.wordbox h1{
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
 }
 
 .linebox{
   display: block;
-  width: 32px;
+  width: 24px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1252,6 +1260,7 @@ hr.small-line{
 .sector-5{  background-color: var(--fedsim-darkgrey);}
 .sector-6{  background-color: var(--fedsim-blue3);}
 .sector-7{  background-color: var(--fedsim-litegrey);}
+.sector-8{  background-color: var(--fedsim-blue4);}
 
 //Bio popout modals
 .dialog-overlay {
