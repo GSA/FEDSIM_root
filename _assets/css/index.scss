@@ -1138,13 +1138,15 @@ circle {
   width: 140px;
 }
 
-.sectorbar{
-  width: 282px;
-  height: 40px;
+.sectorbar, .sectorbar-wide{
   margin: 0 auto 12px auto;
   color: white;
   background-color: var(--fedsim-blue1);
   padding: 10px;
+}
+
+.sectorbar{
+  width: 282px;
 }
 
 .sectorbar h3{
