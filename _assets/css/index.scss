@@ -1150,11 +1150,12 @@ circle {
   padding: 10px;
 }
 
-.sectorbar h3{
+.sectorbar h3, .sectorbar-wide h3{
   font-size: 0.9em;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
+  padding: 0;
 }
 
 .sectorblock{
