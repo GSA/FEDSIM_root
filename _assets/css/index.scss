@@ -375,6 +375,13 @@ hr.footer-border{
   }
 }
 
+a.external_link::after{
+  background: 0 0;
+  background-color: white;
+  mask: url(launch.svg) no-repeat center/contain;
+  -webkit-mask: url(launch.svg) no-repeat center/contain;
+}
+
 //Callout styles
 .usa-hero{
   background-image: asset_url("home.jpg");
