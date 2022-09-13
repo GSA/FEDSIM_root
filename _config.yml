@@ -190,12 +190,22 @@ exclude:
 
 assets:
   sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+    - node_modules/@uswds/uswds/dist/css    
+    - node_modules/@uswds/uswds/dist/fonts  
+    - node_modules/@uswds/uswds/dist/img
+    - node_modules/@uswds/uswds/dist/img/usa-icons
+    - node_modules/@uswds/uswds/dist/img/usa-icons-bg
+    - node_modules/@uswds/uswds/dist/img/uswds-icons
+    - node_modules/@uswds/uswds/dist/js
+    - node_modules/@uswds/uswds/dist/scss
+    - node_modules/@uswds/uswds/dist/theme
     - node_modules/netlify-cms/dist
-    - _assets/images
-    - _assets/images/favicons
-    - _assets/images/members
-    - _assets/images/usa-icons-bg
+    - _assets/css
+    - _assets/img
+    - _assets/img/favicons
+    - _assets/img/members
+    - _assets/img/usa-icons
+    - _assets/img/uswds-icons
+    - _assets/img/material-icons
+    - _assets/img/material-icons-deprecated
     - _assets/fonts
