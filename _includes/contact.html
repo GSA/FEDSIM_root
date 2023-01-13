@@ -10,33 +10,12 @@
         <h2>Contact Us</h2>
         <p>We are ready to help you achieve your mission. Complete the form and a team member will contact you.</p>
     </div> 
+    <div>
+        <script src="https://touchpoints.app.cloud.gov/touchpoints/0a7ce0f9.js" async></script>
+    </div>
 </div>
 
-<div id="contactForm" class="flex-wrapper-big">
-    
-    <script src="https://touchpoints.app.cloud.gov/touchpoints/0a7ce0f9.js" async></script>
-    
-    
-    
-</div>
 
-<script type="text/javascript">
-    var submitted = false;
-
-    function submitForm(e) {
-        document.getElementById("formConfirmation").classList.remove('hide');
-        document.getElementById("contactForm").classList.add('hide');
-        document.getElementById("contactFormText").classList.add('hide');
-
-        submitted=true;
-    }
-
-    $('#gform').on('submit', function (e) {
-        $('#gform *').fadeOut(2000);
-        $('#gform').prepend('<h2>Thank you for your submission! We will be in touch shortly.</h2>');
-    });
-
-</script>
 <!--[if IE]>
 <style>
     #input-submit {
