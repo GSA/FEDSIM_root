@@ -1,6 +1,6 @@
 ---
 permalink: /search/
-layout: layouts/wide
+layout: layouts/page
 title: Search
 ---
 
@@ -8,7 +8,7 @@ title: Search
 <script>
 //<![CDATA[
 
-  var urlParams = new URLSearchParams(window.location.search);    
+var urlParams = new URLSearchParams(window.location.search);    
   var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
   params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
   
