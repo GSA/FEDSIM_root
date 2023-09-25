@@ -1,6 +1,7 @@
 ---
+---
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,13 +9,16 @@
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
-  {% asset netlify-cms.js %}
-  <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url">
+  <script async src="{{ assetPaths['admin.js'] }}"></script>
+  <link href="{{ '/admin/config.yml' | url }}" type="text/yaml" rel="cms-config-url">
   <style>
     img[alt="Logo"] {
       margin-left: 75px;
       width: 150px;
-    } 
+    }
+    button {
+      margin-top: 0px !important;
+    }
   </style>
 </body>
 </html>

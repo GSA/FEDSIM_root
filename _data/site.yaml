@@ -1,0 +1,113 @@
+title: FEDSIM
+email: chris.hamm@gsa.gov
+description: >- # this means to ignore newlines until "baseurl:"
+  FEDSIM - FEDSIM is a Client Support Center within the General Service Administration's Office of Assisted Acquisition Services (AAS). 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fedsim.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Twitter handle. Only the handle, not the URL.
+twitter: 18F
+
+# Configuration for Google Analytics, add your UA code here:
+google_analytics_ua: UA-87539202-2
+
+#################################################################
+#
+# Digital Analytics Program (DAP) configuration
+#
+# USAID   - Agency for International Development
+# USDA    - Department of Agriculture
+# DOC     - Department of Commerce
+# DOD     - Department of Defense
+# ED      - Department of Education
+# DOE     - Department of Energy
+# HHS     - Department of Health and Human Services
+# DHS     - Department of Homeland Security
+# HUD     - Department of Housing and Urban Development
+# DOJ     - Department of Justice
+# DOL     - Department of Labor
+# DOS     - Department of State
+# DOI     - Department of the Interior
+# TREAS   - Department of the Treasury
+# DOT     - Department of Transportation
+# VA      - Department of Veterans Affairs
+# EPA     - Environmental Protection Agency
+# EOP     - Executive Office of the President
+# GSA     - General Services Administration
+# NASA    - National Aeronautics and Space Administration
+# NARA    - National Archives and Records Administration
+# NSF     - National Science Foundation
+# NRC     - Nuclear Regulatory Commission
+# OPM     - Office of Personnel Management
+# USPS    - Postal Service
+# SBA     - Small Business Administration
+# SSA     - Social Security Administration
+ 
+#
+#################################################################
+dap:
+agency: GSA
+  # Optional
+  # subagency: your-subagency
+
+# Configuration for Google Analytics
+ga:
+  # ua: your-ua
+
+# Site Navigation
+primary_navigation:
+  - name: Home
+    url: /
+  - name: About Us
+    url: /aboutus/
+    children:
+      - name: About Us
+        url: /aboutus/
+      - name: Our Leadership
+        url: /leadership/
+  - name: Our Work
+    url: /ourwork/
+    children:
+      - name: Our Work
+        url: /ourwork/
+      - name: CSO
+        url: /cso/
+  - name: Careers
+    url: /joinus/
+  - name: Getting Started
+    url: /gettingstarted/
+  - name: Industry
+    url: /industry/
+    children:
+      - name: Industry
+        url: /industry/
+      - name: FIAC
+        url: /fiac/
+  - name: Contact Us
+    url: /contact/
+
+#secondary_navigation:
+#  - name: Secondary link
+#    url: "#main-content"
+#  - name: Another secondary link
+#    url: "#main-content"
+
+# Search.gov configuration
+#
+# 1. Create an account with Search.gov https://search.usa.gov/signup
+# 2. Add a new site.
+# 3. Add your site/affiliate name here.
+searchgov:
+  endpoint: https://search.usa.gov # You should not change this.
+  affiliate: fedsim.gsa.gov # replace this with your search.gov account
+  access_key: UbkGQ5GkC_5XvV3aPH8WD36v6WPHS9ByTiyrj4EzgKM=
+  inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+
+  # This allows Search.gov to present relevant type-ahead search suggestions in your website's search box.
+  # If you do not want to present search suggestions, set this value to false.
+  suggestions: true
+
+##########################################################################################
+# The values below here are more advanced and should only be
+# changed if you know what they do
+##########################################################################################

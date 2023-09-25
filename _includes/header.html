@@ -10,7 +10,7 @@ This appears at the top of the page letting the user know it's an official gover
         <div class="usa-banner__inner">
           <!-- added custom styles to ensure header is centered -->
           <div class="grid-col-auto" style="display: inline-flex;">
-            {% asset us_flag_small.png class="usa-banner__header-flag" alt="U.S. flag" %}
+            {% image_with_class "./node_modules/@uswds/uswds/dist/img/us_flag_small.png" "usa-banner__header-flag" "U.S. flag" %}
           </div>
           <div class="grid-col-fill tablet:grid-col-auto" style="display: inline-flex;">
             <p class="usa-banner__header-text">An official website of the United States government</p>
@@ -26,7 +26,7 @@ This appears at the top of the page letting the user know it's an official gover
       <div class="usa-banner__content usa-accordion__content" id="gov-banner">
         <div class="grid-row grid-gap-lg">
           <div class="usa-banner__guidance tablet:grid-col-6">
-            {% asset icon-dot-gov.svg class="usa-banner__icon usa-media-block__img" alt="Dot gov" %}
+            {% comment %} {% image_with_class "./node_modules/@uswds/uswds/dist/img/icon-dot-gov.svg" "usa-banner__icon usa-media-block__img" "Dot gov" %} {% endcomment %}
             <div class="usa-media-block__body">
               <p>
                 <strong>The .gov means it’s official.</strong>
@@ -36,7 +36,7 @@ This appears at the top of the page letting the user know it's an official gover
             </div>
           </div>
           <div class="usa-banner__guidance tablet:grid-col-6">
-            {% asset icon-https.svg class="usa-banner__icon usa-media-block__img" alt="Https" %}
+            {% comment %} {% image_with_class "./node_modules/@uswds/uswds/dist/img/icon-https.svg" "usa-banner__icon usa-media-block__img" "Https" %} {% endcomment %}
             <div class="usa-media-block__body">
               <p>
                  <strong>Secure .gov websites use HTTPS</strong>
