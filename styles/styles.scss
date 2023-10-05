@@ -320,9 +320,21 @@ iframe.vidThumb, object.videoObj{
 	
 
 //Header styles
+.usa-nav__link{
+  font-family: "proxima-nova", sans-serif !important;
+  color: var(--fedsim-grey) !important;
+}
+
+.usa-nav__link:hover{
+  color: #005ea2 !important;
+}
+
+.usa-nav__link[aria-expanded=true]{
+  color: white !important;
+}
 
 .usa-nav__primary button[aria-expanded=false] span::after {
-  background-color: --fedsim-darkgrey;
+  background-color: var(--fedsim-grey);
   -webkit-mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain !important;
   mask: url(../assets/img/usa-icons/expand_more.svg) no-repeat center/contain !important;
 }
@@ -351,10 +363,6 @@ iframe.vidThumb, object.videoObj{
   width: 15rem;
   position: absolute;
   z-index: 400;
-}
-
-.usa-nav__link{
-  font-family: "proxima-nova", sans-serif !important;
 }
 
 .usa-banner__lock-image{
