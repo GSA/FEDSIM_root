@@ -291,9 +291,17 @@ hr.media-line{
   background-color: var(--fedsim-darkgrey);
 }
 
+.mobile-only{
+  display: none;
+}
+
 @media screen and (max-width: 414px){
   .no-mobile{
-    display: none!important;
+    display: none !important;
+  }
+
+  .mobile-only{
+    display: block !important;
   }
 }
 
@@ -1333,7 +1341,7 @@ hr.small-line{
 
 .dialog, .dialog-wide, .dialog-grey {
 	z-index: 3;
-  padding: 30px;
+  padding: 20px;
 	position: fixed;
 	top: 50%;
   left: 50%;
