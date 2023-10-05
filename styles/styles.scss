@@ -39,6 +39,7 @@ button,a,div,h5{
   --fedsim-blue3: #4D7999;
   --fedsim-blue4: #90CBE4;
   --fedsim-darkgrey: #424143;
+  --fedsim-grey: #6d6d6d;
   --fedsim-litegrey: #B3B4B4;
   --fedsim-fedsimgrey: #f1f1f1;
   --fedsim-purple: #570A3B;
@@ -290,9 +291,17 @@ hr.media-line{
   background-color: var(--fedsim-darkgrey);
 }
 
+.mobile-only{
+  display: none;
+}
+
 @media screen and (max-width: 414px){
   .no-mobile{
-    display: none!important;
+    display: none !important;
+  }
+
+  .mobile-only{
+    display: block !important;
   }
 }
 
@@ -319,7 +328,7 @@ iframe.vidThumb, object.videoObj{
 }
 
 .usa-nav__primary button[aria-expanded=true] span::after {
-  background-color: white;
+  background-color: white ;
   -webkit-mask: url(../assets/img/usa-icons/expand_less.svg) no-repeat center/contain !important;
   mask: url(../assets/img/usa-icons/expand_less.svg) no-repeat center/contain !important;
 }
@@ -841,7 +850,7 @@ display: none;
 .proj-4{  background-image: url(../assets/img/proj-12.jpg); }
 .proj-5{  background-image: url(../assets/img/proj-5.jpg); }
 .proj-6{  background-image: url(../assets/img/proj-11.jpg); }
-.proj-7{  background-image: url(../assets/img/proj-9alt.jpg); }
+.proj-7{  background-image: url(../assets/img/proj-7.jpg); }
 .proj-8{  background-image: url(../assets/img/proj-8.jpg); }
 
 
@@ -1232,7 +1241,7 @@ circle {
 
 .wordbox{
   display: grid;
-  width: 98px;
+  width: 100px;
   padding: 10px 2px;
 }
 
@@ -1244,7 +1253,7 @@ circle {
 
 .linebox{
   display: block;
-  width: 24px;
+  width: 42px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1263,7 +1272,7 @@ circle {
 
   .memberblock-head{
     margin-bottom: 10px;
-    width: 167px;
+    width: 240px;
     height: 154px;
   }
   
@@ -1332,7 +1341,7 @@ hr.small-line{
 
 .dialog, .dialog-wide, .dialog-grey {
 	z-index: 3;
-  padding: 30px;
+  padding: 20px;
 	position: fixed;
 	top: 50%;
   left: 50%;

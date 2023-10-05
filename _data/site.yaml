@@ -67,13 +67,6 @@ primary_navigation:
         url: /leadership/
   - name: Our Work
     url: /ourwork/
-    children:
-      - name: Our Work
-        url: /ourwork/
-      - name: CSO
-        url: /cso/
-  - name: Careers
-    url: /joinus/
   - name: Getting Started
     url: /gettingstarted/
   - name: Industry
