@@ -365,6 +365,16 @@ iframe.vidThumb, object.videoObj{
   z-index: 400;
 }
 
+@media screen and (max-width: 63.99em){
+  .usa-nav__submenu-item a{
+    color: white !important;
+  }
+
+  .usa-nav__primary button[aria-expanded=true]{
+  color: var(--fedsim-blue1) !important;
+  }
+}
+
 .usa-banner__lock-image{
   background-color: #f0f0f0;
 }
