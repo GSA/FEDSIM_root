@@ -379,7 +379,10 @@ iframe.vidThumb, object.videoObj{
   background-color: #f0f0f0;
 }
 
-.usa-banner__button::after, .usa-banner__button:hover::after{
+.usa-banner__button::after, 
+.usa-banner__button:hover::after, 
+.usa-banner__button[aria-expanded=true]::after, 
+.usa-banner__button[aria-expanded=true]:hover::after{
   position: relative;
 }
 
