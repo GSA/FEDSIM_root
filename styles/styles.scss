@@ -1188,18 +1188,18 @@ circle {
   font-weight: 600;
   padding: 8px;
   vertical-align: top;
-  display: inline-block;
+  display: grid;
   border: 0px;
 }
 
 .memberblock{
   width: 150px;
-  height: 220px;
+  height: 240px;
 }
 
 .memberblock-head{
   width: 194px;
-  height: 220px;
+  height: 230px;
 }
 
 .memberblock p, .memberblock-head p{
@@ -1215,6 +1215,7 @@ circle {
 .member-pic{
   height: 140px;
   width: 140px;
+  margin: auto;
 }
 
 .sectorbar, .sectorbar-wide{
@@ -1227,10 +1228,11 @@ circle {
 .sectorbar{
   width: 282px;
   padding: 10px;
+  text-align: center;
 }
 
 .sectorbar h3, .sectorbar-wide h3{
-  font-size: 0.9em;
+  font-size: 0.75em;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
@@ -1278,7 +1280,7 @@ circle {
   width: 42px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .bio-spacer, .bio-spacer-big{
     width: 2px;
   }
@@ -1289,13 +1291,15 @@ circle {
 
   .memberblock{
     width: 160px;
-    height: 150px;
+    height: 170px;
   }
 
   .memberblock-head{
     margin-bottom: 10px;
-    width: 240px;
+    width: 370px;
     height: 154px;
+    text-align: center;
+    
   }
   
   .memberblock p, .memberblock-head p{
@@ -1313,7 +1317,7 @@ circle {
   }
   
   .sectorbar h3{
-    font-size: 1.1em;
+    font-size: .8em;
   }
   
   .sectorblock{
