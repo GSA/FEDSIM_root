@@ -52,7 +52,7 @@ agency: GSA
 
 # Configuration for Google Analytics
 ga:
-  # ua: your-ua
+ua: UA-87539202-2
 
 # Site Navigation
 primary_navigation:
