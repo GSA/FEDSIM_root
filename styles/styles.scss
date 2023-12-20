@@ -320,6 +320,11 @@ iframe.vidThumb, object.videoObj{
 	
 
 //Header styles
+
+.usa-logo{
+margin: 2rem 0 1rem 0 !important;
+}
+
 .usa-nav__link{
   font-family: "proxima-nova", sans-serif !important;
   color: var(--fedsim-grey) !important;
@@ -470,7 +475,6 @@ a.external_link::after{
   margin-block-start: 10px;
   font-size: 1.45rem;
 }
-
 
 @media screen and (max-width: 414px){
   .usa-hero{
