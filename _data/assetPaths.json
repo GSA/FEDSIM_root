@@ -4,6 +4,12 @@
   "AAS.png": "/assets/img/AAS-FEDSIM_Logo.png",
   "AI_Imag.png": "/assets/img/AI_Image.png",
   "AI_Image.png": "/assets/img/AI_Image7.png",
+  "BrandAssets_202311_APEX1_Army_Whit.png": "/assets/img/BrandAssets_202311_APEX1_Army_White.png",
+  "BrandAssets_202311_APEX3_Civilian_Whit.png": "/assets/img/BrandAssets_202311_APEX3_Civilian_White.png",
+  "BrandAssets_202311_APEX4_Innovation_Whit.png": "/assets/img/BrandAssets_202311_APEX4_Innovation_White.png",
+  "BrandAssets_202311_APEX5_Defense_Whit.png": "/assets/img/BrandAssets_202311_APEX5_Defense_White.png",
+  "BrandAssets_202311_Final_AAS_Whit.png": "/assets/img/BrandAssets_202311_Final_AAS_White.png",
+  "BrandAssets_20240131_APEX2_AirForceNavySpaceForce_Whit.png": "/assets/img/BrandAssets_20240131_APEX2_AirForceNavySpaceForce_White.png",
   "char.png": "/assets/img/chart.png",
   "chart_erro.png": "/assets/img/chart_error.png",
   "chart_mobil.png": "/assets/img/chart_mobile.png",
@@ -52,6 +58,6 @@
   "app.js": "/assets/js/app-KPZMTJZY.js",
   "app.map": "/assets/js/app-KPZMTJZY.js.map",
   "uswds.js": "/assets/js/uswds-init.js",
-  "styles.css": "/assets/styles/styles-I5PJDGJY.css",
-  "styles.map": "/assets/styles/styles-I5PJDGJY.css.map"
+  "styles.css": "/assets/styles/styles-R4FYZKBX.css",
+  "styles.map": "/assets/styles/styles-R4FYZKBX.css.map"
 }
