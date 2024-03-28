@@ -38,7 +38,39 @@ via the FEDSIM Contracting Officer. For updates, visit our Leadership page to id
               <br><br>
             For the latest updates, please register for the FEDSIM First Friday <a href="https://buy.gsa.gov/interact/community/204/activity-feed" taget="_new" class="external whitetext" onClick="return confirm('This link will take you to the GSA website which is managed by GSA.')"><u>GSA Interact Forum</u></a> by selecting the "Join" button.</p>
     </div>
-</div> 
+</div>   
+<!--- archived prototype for AAS Industry page  
+    <div class="flex-wrapper-big darkblock">
+    <div id="meetings" class="infoblock darkblock">
+        <div style="display: flex; align-items: flex-start;">
+            <div style="margin-left: 10px; margin-top: 10px;">
+                <h1 class="whitetext" style="margin: 0;">AAS First Friday Pipeline Review</h1>
+                <p style="margin-top: 8px;">Please select the appropriate AAS business unit logo to find specific First Friday Pipeline Review information.</p>
+            </div>
+            <div class="bio-spacer"></div>
+            <button class="icon-btn" onclick="javascript:revealBox('box_01');" style="border-color: white !important; border-radius: 12px; border-width: 2px;"><img src="../assets/img/BrandAssets_202311_APEX1_Army_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_02');"><img src="../assets/img/BrandAssets_20240131_APEX2_AirForceNavySpaceForce_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_03');"><img src="../assets/img/BrandAssets_202311_APEX3_Civilian_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_04');"><img src="../assets/img/BrandAssets_202311_APEX4_Innovation_White.png"></button>
+            <button class="icon-btn" onclick="javascript:revealBox('box_05');"><img src="../assets/img/BrandAssets_202311_APEX5_Defense_White.png"></button>
+        </div>
+        <div id="box_01" class="dash_box">
+         <p>This is the content for ARMY</p>
+        </div>
+        <div id="box_02" class="dash_box">
+        <p>This is the content for Air Force/Navy/Space Force</p>
+        </div>
+        <div id="box_03" class="dash_box">
+        <p>This is the content for Civilian</p>
+        </div>
+        <div id="box_04" class="dash_box">
+        <p>This is the content for Innovation</p>
+        </div>
+        <div id="box_05" class="dash_box">
+        <p>This is the content for Defense</p>
+        </div>
+    </div>
+</div> -->
 <div class="v-buffer"><br></div>
 <div class="flex-wrapper-big">
     <div id="toolkit" class="infoblock-fixed withborder">
@@ -60,6 +92,23 @@ via the FEDSIM Contracting Officer. For updates, visit our Leadership page to id
         document.getElementById("form-message").classList.toggle('hide');
         return true;
     }
-
+    function revealBox(boxnum){
+      //hide all
+      document.getElementById("box_01").classList.add('hide');
+      document.getElementById("box_02").classList.add('hide');
+      document.getElementById("box_03").classList.add('hide');
+      document.getElementById("box_04").classList.add('hide');
+      document.getElementById("box_05").classList.add('hide');
+      document.getElementById("box_01").classList.remove('show');
+      document.getElementById("box_02").classList.remove('show');
+      document.getElementById("box_03").classList.remove('show');
+      document.getElementById("box_04").classList.remove('show');
+      document.getElementById("box_05").classList.remove('show');
+      //Show selected
+      document.getElementById(boxnum).classList.remove('hide');
+      document.getElementById(boxnum).classList.add('show');
+      
+    }
+    
   </script>
 
